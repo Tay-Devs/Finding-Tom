@@ -27,13 +27,19 @@ EditorUserSettings:
       value: 515703565053580a58585c7145205e444e1649287f7873327b2d1961e0e2666e
       flags: 0
     RecentlyUsedSceneGuid-7:
+<<<<<<< HEAD
+=======
+      value: 56000357060d5f080c5a557a12220a4413164e2f7d7a276179704432b0e63660
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+>>>>>>> f13fa20 (Added all of the puzzles to the main scene and fixed some bugs)
       value: 0109565106565f5d555e0d2149770944474f4f2b7f2a70692b711966e0b7656e
       flags: 0
     RecentlyUsedSceneGuid-8:
       value: 5403045e5c075e0d5f0b5d7445205b444116197a7e2a7f607b784430e6e2616d
       flags: 0
     RecentlyUsedSceneGuid-9:
-      value: 56000357060d5f080c5a557a12220a4413164e2f7d7a276179704432b0e63660
+      value: 5403045e5c075e0d5f0b5d7445205b444116197a7e2a7f607b784430e6e2616d
       flags: 0
     lightmappingBakingProfile:
       value: 51

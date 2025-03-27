@@ -4535,7 +4535,7 @@ MonoBehaviour:
   actionMapName: Gameplay
   selectActionName: Select
   fallbackKey: 101
-  playerStateControl: {fileID: 652226480}
+  playerStateControl: {fileID: 0}
   puzzleCompleted:
     m_PersistentCalls:
       m_Calls:
@@ -7455,7 +7455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasInteracted: 0
-  playerStateControl: {fileID: 652226480}
+  playerStateControl: {fileID: 0}
   puzzleType: 3
 --- !u!114 &810582209
 MonoBehaviour:
@@ -12140,7 +12140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasInteracted: 0
-  playerStateControl: {fileID: 652226480}
+  playerStateControl: {fileID: 0}
   puzzleType: 1
 --- !u!1001 &1216931598
 PrefabInstance:
@@ -12412,7 +12412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasInteracted: 0
-  playerStateControl: {fileID: 652226480}
+  playerStateControl: {fileID: 0}
   puzzleType: 2
 --- !u!114 &1232901414
 MonoBehaviour:
@@ -16961,7 +16961,7 @@ PrefabInstance:
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: playerStateControl
       value: 
-      objectReference: {fileID: 330678487}
+      objectReference: {fileID: 652226480}
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: InteractionRequested.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -19545,7 +19545,7 @@ MonoBehaviour:
   colorfulRainbow: {fileID: 581370591}
   isPuzzleSolved: 0
   testAnimation: {fileID: 0}
-  playerStateControl: {fileID: 652226480}
+  playerStateControl: {fileID: 0}
   onPuzzleSolved:
     m_PersistentCalls:
       m_Calls:
@@ -22678,7 +22678,7 @@ MonoBehaviour:
   dampingFactor: 3
   creakSound: {fileID: 0}
   breakSound: {fileID: 0}
-  playerStateControl: {fileID: 652226480}
+  playerStateControl: {fileID: 0}
   mainCamera: {fileID: 1105245641}
   endCamera: {fileID: 656651145}
   puzzleCompleted:
