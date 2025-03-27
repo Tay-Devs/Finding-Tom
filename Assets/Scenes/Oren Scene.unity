@@ -3367,7 +3367,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 437207764}
-  - {fileID: 545763092}
   - {fileID: 133009924}
   - {fileID: 262799848}
   m_Father: {fileID: 0}
@@ -8000,57 +7999,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6cdaa572ceee1274b9220facb5bee9a5, type: 3}
   m_PrefabInstance: {fileID: 538922524}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &545763090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 545763092}
-  - component: {fileID: 545763091}
-  m_Layer: 0
-  m_Name: Player State Control
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &545763091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545763090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df5da10e98b7e394c9b5234229185dfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerGameObject: {fileID: 262799847}
-  playerCamera: {fileID: 1243086634}
-  fadeAnimator: {fileID: 1808621024}
-  fadeInDuration: 1
-  transitionDuration: 0.5
-  puzzles: []
-  currentState: 0
---- !u!4 &545763092
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545763090}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.851454, y: 9.961552, z: -8.103471}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 251527695}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &549144368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16704,7 +16652,7 @@ PrefabInstance:
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: playerStateControl
       value: 
-      objectReference: {fileID: 545763091}
+      objectReference: {fileID: 437207765}
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: InteractionRequested.m_PersistentCalls.m_Calls.Array.size
       value: 0

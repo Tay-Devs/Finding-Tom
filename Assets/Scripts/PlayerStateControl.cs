@@ -9,8 +9,8 @@ public class PlayerStateControl : MonoBehaviour
     public class PuzzleSetup
     {
         public string puzzleName;
-        public GameObject puzzleObject;
-        public GameObject puzzleCamera;
+        public GameObject actualPuzzleParentGameObject;
+        public GameObject puzzleCinemachineCamera;
         public PlayerState stateType;
     }
 
@@ -40,7 +40,7 @@ public class PlayerStateControl : MonoBehaviour
         foreach (var puzzle in puzzles)
         {
             puzzleDict[puzzle.stateType] = puzzle;
-            puzzle.puzzleObject.SetActive(false);
+            puzzle.actualPuzzleParentGameObject.SetActive(false);
         }
 
         // Initial state setup
@@ -61,8 +61,8 @@ public class PlayerStateControl : MonoBehaviour
             // Disable current puzzle if there is one
             if (currentActivePuzzle != null)
             {
-                currentActivePuzzle.puzzleCamera.SetActive(false);
-                currentActivePuzzle.puzzleObject.SetActive(false);
+                currentActivePuzzle.puzzleCinemachineCamera.SetActive(false);
+                currentActivePuzzle.actualPuzzleParentGameObject.SetActive(false);
                 currentActivePuzzle = null;
             }
             
@@ -80,14 +80,14 @@ public class PlayerStateControl : MonoBehaviour
             // Disable current puzzle if there is one
             if (currentActivePuzzle != null && currentActivePuzzle != targetPuzzle)
             {
-                currentActivePuzzle.puzzleCamera.SetActive(false);
-                currentActivePuzzle.puzzleObject.SetActive(false);
+                currentActivePuzzle.puzzleCinemachineCamera.SetActive(false);
+                currentActivePuzzle.actualPuzzleParentGameObject.SetActive(false);
             }
             
             // Enable target puzzle
             yield return new WaitForSeconds(transitionDuration);
-            targetPuzzle.puzzleCamera.SetActive(true);
-            targetPuzzle.puzzleObject.SetActive(true);
+            targetPuzzle.puzzleCinemachineCamera.SetActive(true);
+            targetPuzzle.actualPuzzleParentGameObject.SetActive(true);
             
             // Update current active puzzle
             currentActivePuzzle = targetPuzzle;
