@@ -16,6 +16,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 42.666668
     width: 1706.6667
@@ -31,11 +32,14 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
 =======
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     x: -1920
     y: 44
     width: 1920
     height: 989
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Scene
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
@@ -47,6 +51,9 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+  m_Title: Game
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -148,6 +155,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 27552
 =======
 <<<<<<< HEAD
@@ -159,6 +167,9 @@ MonoBehaviour:
 =======
   controlID: 32396
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+  controlID: 25674
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -186,6 +197,7 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 27380
 =======
 <<<<<<< HEAD
@@ -202,6 +214,9 @@ MonoBehaviour:
   vertical: 1
   controlID: 32397
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+  controlID: 25675
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -225,6 +240,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1272
     height: 472.66666
   m_MinSize: {x: 300, y: 50}
@@ -240,10 +256,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 20265
 =======
+=======
+    width: 1432
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     height: 540
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 32398
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
@@ -255,6 +275,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 32398
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+  controlID: 25676
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -275,6 +298,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 266
     height: 472.66666
 =======
@@ -290,6 +314,10 @@ MonoBehaviour:
     width: 302
     height: 540
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+    width: 302
+    height: 540
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 16}
@@ -314,6 +342,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 266
     y: 0
     width: 461.3333
@@ -325,10 +354,13 @@ MonoBehaviour:
     width: 502
     height: 542
 =======
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     x: 302
     y: 0
-    width: 671
+    width: 922
     height: 540
+<<<<<<< HEAD
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
@@ -337,6 +369,8 @@ MonoBehaviour:
     width: 671
     height: 540
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 17}
@@ -362,6 +396,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 727.3333
     y: 0
     width: 544.6667
@@ -369,14 +404,13 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
     x: 805
-    y: 0
-    width: 627
-    height: 542
 =======
-    x: 973
+    x: 1224
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     y: 0
-    width: 459
+    width: 208
     height: 540
+<<<<<<< HEAD
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
@@ -385,6 +419,8 @@ MonoBehaviour:
     width: 459
     height: 540
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -412,6 +448,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 472.66666
     width: 1272
     height: 340.66666
@@ -429,12 +466,15 @@ MonoBehaviour:
   vertical: 0
   controlID: 20344
 =======
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     y: 540
     width: 1432
     height: 393
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 32493
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
@@ -447,6 +487,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 32493
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+  controlID: 25754
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -467,6 +510,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 732
     height: 340.66666
 =======
@@ -481,6 +525,10 @@ MonoBehaviour:
     width: 824
     height: 393
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+    width: 824
+    height: 393
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 19}
@@ -504,6 +552,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 732
     y: 0
 <<<<<<< HEAD
@@ -523,6 +572,12 @@ MonoBehaviour:
     width: 608
     height: 393
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+    x: 824
+    y: 0
+    width: 608
+    height: 393
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 20}
@@ -588,6 +643,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 728.3333
     y: 24
     width: 542.6667
@@ -602,14 +658,20 @@ MonoBehaviour:
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
     x: -947
+=======
+    x: -696
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     y: 80
-    width: 457
+    width: 206
     height: 514
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -665,6 +727,7 @@ MonoBehaviour:
       y: 21
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 542.6667
       height: 425.66666
     m_Scale: {x: 0.42395836, y: 0.42395836}
@@ -687,12 +750,19 @@ MonoBehaviour:
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+      width: 206
+      height: 493
+    m_Scale: {x: 0.10729167, y: 0.107291676}
+    m_Translation: {x: 103, y: 246.5}
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -640
@@ -706,9 +776,14 @@ MonoBehaviour:
       x: -960
 <<<<<<< HEAD
       y: -760.31995
+=======
+      x: -960
+      y: -2297.4756
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
       width: 1920
-      height: 1520.6399
+      height: 4594.951
     m_MinimalGUI: 1
+<<<<<<< HEAD
   m_defaultScale: 0.32552084
   m_LastWindowPixelSize: {x: 625, y: 516}
 =======
@@ -729,6 +804,10 @@ MonoBehaviour:
   m_defaultScale: 0.23802084
   m_LastWindowPixelSize: {x: 457, y: 514}
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+  m_defaultScale: 0.10729167
+  m_LastWindowPixelSize: {x: 206, y: 514}
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -758,6 +837,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 24
     width: 265
@@ -771,15 +851,20 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     x: -1920
     y: 80
     width: 301
     height: 514
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -793,6 +878,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       scrollPos: {x: 0, y: 60}
@@ -817,6 +903,12 @@ MonoBehaviour:
       m_LastClickedID: -251184
       m_ExpandedIDs: 082bfcff209afcff329bfcff58acfcfffa44fdffbcf0fdff0ef1fdffc817feff6ed8feffaee0feff0827010056270100122801001e2801004c2901007c2a0100f62b0100fc2d01004e2f01008c2f0100962f010022300100
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+      scrollPos: {x: 0, y: 60}
+      m_SelectedIDs: ca7dfdff
+      m_LastClickedID: -164406
+      m_ExpandedIDs: 187efdffb824ffff3a35ffffbc5fffffd87fffffe0faffff74b3000048b60000d6b60000ca460200f446020010470200264702006c47020080470200ee470200fe470200ac480200fa490200684a0200884a0200ae4a0200ec4c0200a04e0200025002000a51020060510200
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -864,6 +956,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 267
     y: 24
     width: 459.3333
@@ -877,15 +970,20 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     x: -1618
     y: 80
-    width: 669
+    width: 920
     height: 514
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -984,12 +1082,12 @@ MonoBehaviour:
       displayed: 1
       id: Orientation
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-120.0,"y":248.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-120.0,"y":-266.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: -120, y: 248}
+      snapOffset: {x: -120, y: -266}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -1135,9 +1233,10 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 1
       containerId: overlay-toolbar__bottom
-      displayed: 0
+      displayed: 1
       id: Scene View/Particles
       index: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-231.99996948242188,"y":-224.00001525878907},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -1163,6 +1262,13 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
+=======
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-232.0,"y":-224.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 1
+      snapOffset: {x: -232, y: -224}
+      snapOffsetDelta: {x: 0, y: 0}
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
       snapCorner: 3
       layout: 4
       size: {x: 0, y: 0}
@@ -1490,6 +1596,7 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -33.2076, y: 2.8804827, z: 4.507699}
     speed: 2
     m_Value: {x: -33.2076, y: 2.8804827, z: 4.507699}
@@ -1509,6 +1616,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -26.780552, y: -19.488169, z: -5.169486}
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+    m_Target: {x: -30.718071, y: -0.88840497, z: -24.099562}
+    speed: 2
+    m_Value: {x: -30.718071, y: -0.88840497, z: -24.099562}
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1551,6 +1663,7 @@ MonoBehaviour:
       m_Pivot: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Size: {x: 0.05, y: 0.05}
 =======
       m_Size: {x: 1, y: 1}
@@ -1571,16 +1684,20 @@ MonoBehaviour:
 =======
     m_Value: 1.4387976
 =======
+=======
+      m_Size: {x: 1, y: 1}
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: 0.42638144, y: 0.5615692, z: -0.41802385, w: 0.5727979}
+    m_Target: {x: 0.0022713577, y: 0.99708205, z: -0.06921988, w: 0.034085553}
     speed: 2
-    m_Value: {x: 0.42552125, y: 0.56219494, z: -0.41718054, w: 0.57343614}
+    m_Value: {x: 0.0022713577, y: 0.99708205, z: -0.06921988, w: 0.034085553}
   m_Size:
-    m_Target: 14.319399
+    m_Target: 7.7802205
     speed: 2
+<<<<<<< HEAD
     m_Value: 14.994135
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
@@ -1598,6 +1715,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 14.994135
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+    m_Value: 8.146828
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1627,9 +1747,9 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_LastDebugDrawMode:
-    drawMode: 35
-    name: 
-    section: 
+    drawMode: 18
+    name: Baked Lightmap
+    section: Baked Global Illumination
   m_ViewIsLockedToObject: 0
 --- !u!114 &18
 MonoBehaviour:
@@ -1811,6 +1931,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 24
     width: 731
@@ -1824,15 +1945,20 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     x: -1920
     y: 620
     width: 823
     height: 367
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1857,6 +1983,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts/Interact Related
 =======
 <<<<<<< HEAD
@@ -1868,6 +1995,9 @@ MonoBehaviour:
 =======
     - Assets/ImportAssets/Sky
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+    - Assets/Particles Materials
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1877,6 +2007,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - Assets/Scripts/Interact Related
@@ -1901,6 +2032,9 @@ MonoBehaviour:
     m_ExpandedIDs: 000000000ec000009cc0000062aa010068aa010000ca9a3bffffff7f
 =======
   - Assets/ImportAssets/Sky
+=======
+  - Assets/Particles Materials
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
     \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
@@ -1908,6 +2042,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 =======
   - Assets/ImportAssets/Sky
   m_LastFoldersGridSize: 16
@@ -1927,6 +2062,12 @@ MonoBehaviour:
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: b8130600
+    m_LastClickedID: 398264
+    m_ExpandedIDs: 00000000a6d50000
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1957,6 +2098,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000020d80000
 =======
 <<<<<<< HEAD
@@ -1968,6 +2110,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000c2260100c8260100
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+    m_ExpandedIDs: 00000000a6d50000
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2056,6 +2201,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 733
     y: 24
     width: 538
@@ -2069,15 +2215,20 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     x: -1096
     y: 620
     width: 606
     height: 367
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 54d5148 (Box Vol Ari's Room)
 >>>>>>> 030db43 (Box Vol Ari's Room)
 =======
 >>>>>>> 54d5148 (Box Vol Ari's Room)
+=======
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2171,6 +2322,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1273
     y: 24
     width: 433.66663
@@ -2189,6 +2341,10 @@ MonoBehaviour:
 =======
     x: -488
     y: 80
+=======
+    x: -488
+    y: 80
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     width: 487
     height: 907
 >>>>>>> 54d5148 (Box Vol Ari's Room)
