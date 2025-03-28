@@ -6764,7 +6764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &350822375
 Transform:
   m_ObjectHideFlags: 0
@@ -46837,72 +46837,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109102359}
   m_Mesh: {fileID: -3329902420748629119, guid: 0f464dab4045e344db1e84a10bbbdf9c, type: 3}
---- !u!1 &2110255118
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2110255119}
-  - component: {fileID: 2110255120}
-  m_Layer: 0
-  m_Name: Power Cable
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2110255119
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110255118}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.06194037, y: 0.08935663, z: -0.9373705, w: 0.33093107}
-  m_LocalPosition: {x: -0.6202058, y: -0.48088074, z: -0.18355942}
-  m_LocalScale: {x: 1.47, y: 1.4700001, z: 1.4700001}
-  m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 929138346}
-  m_Father: {fileID: 2077918154}
-  m_LocalEulerAnglesHint: {x: 7.269, y: 10.177, z: -140.462}
---- !u!114 &2110255120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110255118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f12b7b90fbffe6142a54b0ba02100210, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnInteractEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  OnInteractExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &2115858181
 GameObject:
   m_ObjectHideFlags: 0

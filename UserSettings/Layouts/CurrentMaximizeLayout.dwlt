@@ -85,6 +85,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 1525
 >>>>>>> df3595e (Moved scripts around)
 =======
@@ -107,6 +108,9 @@ MonoBehaviour:
 =======
   controlID: 27016
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  controlID: 14012
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -156,6 +160,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 885.60004
     y: 79.200005
     width: 258
@@ -197,8 +202,11 @@ MonoBehaviour:
 =======
     x: 727.3334
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    x: 793.3334
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     y: 78.66667
-    width: 542.6667
+    width: 576.00006
     height: 446.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_SerializedDataModeController:
@@ -287,6 +295,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 258
       height: 368.2
     m_Scale: {x: 0.16796875, y: 0.16796875}
@@ -353,6 +362,12 @@ MonoBehaviour:
     m_Scale: {x: 0.42395836, y: 0.42395836}
     m_Translation: {x: 271.33334, y: 212.83333}
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+      width: 576.00006
+      height: 425.66666
+    m_Scale: {x: 0.45000005, y: 0.45000005}
+    m_Translation: {x: 288.00003, y: 212.83333}
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -421,10 +436,11 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
       x: -640
-      y: -502.0147
+      y: -472.9629
       width: 1280
-      height: 1004.0294
+      height: 945.9258
     m_MinimalGUI: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_defaultScale: 0.39427084
   m_LastWindowPixelSize: {x: 757, y: 670}
@@ -433,6 +449,10 @@ MonoBehaviour:
   m_defaultScale: 0.42395836
   m_LastWindowPixelSize: {x: 814, y: 670}
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  m_defaultScale: 0.45000005
+  m_LastWindowPixelSize: {x: 864.0001, y: 670}
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -463,6 +483,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1145.6
     height: 716.8
   m_MinSize: {x: 300, y: 100}
@@ -487,10 +508,14 @@ MonoBehaviour:
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
     width: 1272
+=======
+    width: 1371.3334
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     height: 813.3333
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,6 +556,9 @@ MonoBehaviour:
 =======
   controlID: 26979
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  controlID: 13975
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -552,6 +580,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -581,10 +610,14 @@ MonoBehaviour:
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
     width: 1272
+=======
+    width: 1371.3334
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     height: 472.66666
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -621,6 +654,9 @@ MonoBehaviour:
 =======
   controlID: 26896
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  controlID: 13895
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -644,6 +680,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 241.6
     height: 415.2
 =======
@@ -658,6 +695,9 @@ MonoBehaviour:
 =======
 >>>>>>> df3595e (Moved scripts around)
     width: 266
+=======
+    width: 286.66666
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     height: 472.66666
 <<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
@@ -732,7 +772,7 @@ MonoBehaviour:
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
     x: 0
     y: 78.66667
-    width: 265
+    width: 285.66666
     height: 446.66666
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -755,6 +795,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -803,10 +844,13 @@ MonoBehaviour:
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
 =======
 =======
+=======
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
       scrollPos: {x: 0, y: 300}
       m_SelectedIDs: 44b40000
       m_LastClickedID: 46148
       m_ExpandedIDs: 565effff1afbffff8cb2000076b300008cb30000a0b30000a8b30000b8b3000044b40000eab50000b4b6000082b70000a4b7000014b800004eb9000032ba00003cba0000a2bb0000e8bb000098bd0000
+<<<<<<< HEAD
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
 <<<<<<< HEAD
 >>>>>>> bbaba1d (Added highlight script, puzzle finish update)
@@ -828,6 +872,8 @@ MonoBehaviour:
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 =======
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -872,6 +918,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 241.6
     y: 0
     width: 644
@@ -900,8 +947,11 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
     x: 266
+=======
+    x: 286.66666
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     y: 0
-    width: 461.3333
+    width: 506.66666
     height: 472.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_MinSize: {x: 202, y: 226}
@@ -943,6 +993,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 241.6
     y: 79.200005
     width: 642
@@ -971,8 +1022,11 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
     x: 266
+=======
+    x: 286.6667
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     y: 78.66667
-    width: 459.3333
+    width: 504.66666
     height: 446.66666
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
   m_SerializedDataModeController:
@@ -1588,7 +1642,7 @@ MonoBehaviour:
       scrollOffset: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -1598,6 +1652,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1681,6 +1736,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -32.41649, y: 2.487481, z: 5.311984}
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_Target: {x: -26.185163, y: 1.4555776, z: -4.6728153}
+    speed: 2
+    m_Value: {x: -26.185163, y: 1.4555776, z: -4.6728153}
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1759,6 +1819,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
 =======
@@ -1790,11 +1851,15 @@ MonoBehaviour:
 =======
     m_Target: {x: 0.16856384, y: 0.41547585, z: -0.07858331, w: 0.8908119}
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_Target: {x: -0.29684868, y: 0.23304985, z: -0.07492423, w: -0.9235382}
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     speed: 2
-    m_Value: {x: 0.16856386, y: 0.41547585, z: -0.07858331, w: 0.8908119}
+    m_Value: {x: -0.29578197, y: 0.23301205, z: -0.074654594, w: -0.92338777}
   m_Size:
-    m_Target: 0.5001897
+    m_Target: 1.6007811
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 1.0175864
@@ -1805,6 +1870,9 @@ MonoBehaviour:
 =======
     m_Value: 0.5001897
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_Value: 1.6007811
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2053,6 +2121,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 885.6
     y: 0
     width: 260
@@ -2102,8 +2171,11 @@ MonoBehaviour:
 =======
     x: 727.3333
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    x: 793.3333
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     y: 0
-    width: 544.6667
+    width: 578.00006
     height: 472.66666
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
   m_MinSize: {x: 202, y: 226}
@@ -2142,11 +2214,12 @@ MonoBehaviour:
   controlID: 16849
 =======
     y: 472.66666
-    width: 1272
+    width: 1371.3334
     height: 340.66666
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2202,6 +2275,9 @@ MonoBehaviour:
 =======
   controlID: 26980
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  controlID: 13976
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -2220,6 +2296,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2260,6 +2337,9 @@ MonoBehaviour:
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
 =======
     width: 732
+=======
+    width: 789.3333
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     height: 340.66666
 >>>>>>> df3595e (Moved scripts around)
 =======
@@ -2315,6 +2395,7 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
     x: 0
     y: 551.3334
+<<<<<<< HEAD
     width: 731
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2324,6 +2405,9 @@ MonoBehaviour:
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
 =======
 =======
+=======
+    width: 788.3333
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
 =======
     width: 788.3333
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
@@ -2372,6 +2456,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2433,6 +2518,9 @@ MonoBehaviour:
 =======
     - Assets/Models/Puzzle Related/Maze/Power Cable
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    - Assets/Scripts/Puzzle/Dice
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2442,6 +2530,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2503,11 +2592,15 @@ MonoBehaviour:
 =======
   - Assets/Models/Puzzle Related/Maze/Power Cable
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  - Assets/Scripts/Puzzle/Dice
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2572,10 +2665,13 @@ MonoBehaviour:
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
 =======
 =======
+=======
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     scrollPos: {x: 0, y: 345.33334}
     m_SelectedIDs: fcd90000
     m_LastClickedID: 55804
     m_ExpandedIDs: 0000000020d80000a8d90000f4d9000000ca9a3bffffff7f
+<<<<<<< HEAD
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
 <<<<<<< HEAD
 >>>>>>> bbaba1d (Added highlight script, puzzle finish update)
@@ -2599,6 +2695,8 @@ MonoBehaviour:
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 =======
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2627,6 +2725,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2675,6 +2774,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000ecd7000000ca9a3bffffff7f
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    m_ExpandedIDs: 0000000020d8000000ca9a3bffffff7f
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2700,6 +2802,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2779,6 +2882,10 @@ MonoBehaviour:
 =======
     m_SelectedInstanceIDs: 72620100
     m_LastClickedInstanceID: 90738
+=======
+    m_SelectedInstanceIDs: 44b40000
+    m_LastClickedInstanceID: 46148
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
@@ -2829,6 +2936,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 659.2
     y: 0
     width: 486.39996
@@ -2875,6 +2983,11 @@ MonoBehaviour:
     height: 340.66672
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 =======
+=======
+    x: 789.3333
+    y: 0
+    width: 582.00006
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     height: 340.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_MinSize: {x: 102, y: 126}
@@ -2906,6 +3019,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2959,8 +3073,11 @@ MonoBehaviour:
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
 =======
     x: 732
+=======
+    x: 789.3334
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     y: 551.3334
-    width: 538
+    width: 580.00006
     height: 314.66666
 >>>>>>> df3595e (Moved scripts around)
 =======
@@ -3057,6 +3174,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1145.6
     y: 0
     width: 390.40002
@@ -3086,6 +3204,11 @@ MonoBehaviour:
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
 =======
     width: 434.66663
+=======
+    x: 1371.3334
+    y: 0
+    width: 335.33325
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     height: 813.3333
 >>>>>>> df3595e (Moved scripts around)
 =======
@@ -3132,6 +3255,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1145.6
     y: 79.200005
     width: 389.40002
@@ -3162,6 +3286,11 @@ MonoBehaviour:
     y: 78.66667
 >>>>>>> df3595e (Moved scripts around)
     width: 433.66663
+=======
+    x: 1371.3334
+    y: 78.66667
+    width: 334.33325
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     height: 787.3333
 <<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
