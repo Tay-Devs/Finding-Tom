@@ -35,11 +35,15 @@ MonoBehaviour:
     height: 869.3334
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Inspector
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 =======
   m_Title: Scene
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  m_Title: Project
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -179,6 +183,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 25674
 =======
   controlID: 2408
@@ -186,6 +191,9 @@ MonoBehaviour:
 =======
   controlID: 27552
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  controlID: 12588
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -222,6 +230,7 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 25675
 =======
   controlID: 2409
@@ -229,6 +238,9 @@ MonoBehaviour:
 =======
   controlID: 27380
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  controlID: 12474
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -269,11 +281,15 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 2410
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 =======
   controlID: 27381
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  controlID: 12475
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -446,11 +462,15 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 2441
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 =======
   controlID: 27516
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  controlID: 12500
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -826,10 +846,13 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
 =======
+=======
+>>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
       scrollPos: {x: 0, y: 60}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -840,11 +863,18 @@ MonoBehaviour:
 =======
       m_SelectedIDs: 66630000
 =======
+=======
+      scrollPos: {x: 0, y: 0}
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
       m_SelectedIDs: 
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 1aa8faff58c3fafff67dffff808dffffc6b9ffffc2d8ffff54e3ffff42f8ffff1afbffffa2b30000ccb500007eb6000064b7000012ba000062f7000032fa00003cfb000058fc000002fd00003a000100d65a0100f85a0100865c01002c5e0100f65e010056600100d66101007c620100a8630100e6630100dc650100e86601002c670100
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+      m_ExpandedIDs: 9477ffff66faffff68faffff1afbffff90b2000052b30000acb30000bcb3000048b40000fab500003ab6000074b60000c4b6000068b700001cb800009eb9000044ba0000aabb0000a0bd0000acbe000046bf0000
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1526,10 +1556,13 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -32.4926, y: 3.3882997, z: 2.60325}
 =======
 =======
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
 <<<<<<< HEAD
     m_Target: {x: -30.718071, y: -0.88840497, z: -24.099562}
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
@@ -1545,6 +1578,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -33.2076, y: 2.8804827, z: 4.507699}
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_Target: {x: -24.609537, y: -0.38866198, z: -3.758867}
+    speed: 2
+    m_Value: {x: -24.609537, y: -0.38866198, z: -3.758867}
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1607,12 +1645,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: 0.11963201, y: 0.30503425, z: -0.038638003, w: 0.9444361}
+    m_Target: {x: -0.19855435, y: -0.17655565, z: 0.03574816, w: -0.9641013}
     speed: 2
-    m_Value: {x: -0.11963201, y: -0.30503425, z: 0.038638, w: -0.9444361}
+    m_Value: {x: -0.19855435, y: -0.17655565, z: 0.035748158, w: -0.96410125}
   m_Size:
-    m_Target: 0.5001897
+    m_Target: 2.5237074
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 0.4849159
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
@@ -1622,7 +1661,13 @@ MonoBehaviour:
 =======
     m_Value: 0.5001897
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+<<<<<<< HEAD
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
+=======
+=======
+    m_Value: 2.5237074
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
+>>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1677,10 +1722,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Animator\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 292.6667
+    x: 266
     y: 78.66667
-    width: 444.66666
-    height: 447.33334
+    width: 459.3333
+    height: 446.66666
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1700,6 +1745,7 @@ MonoBehaviour:
     - {fileID: -2064750970351611381, guid: 0bd59cbb07972d34f9764c9bad9b2ee2, type: 2}
     - {fileID: -1192538139278337531, guid: 9a38c0333a32a71489dd005bc4d39ded, type: 2}
     - {fileID: 1602802837558879057, guid: e481336814108eb478284fc4a1e4b1ad, type: 2}
+    - {fileID: -2121524622092803697, guid: 901e03e7f3248644a9f7af9bbafbe6be, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.5220063
       e01: 0
@@ -1797,10 +1843,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.5142692
+      e01: 0
+      e02: 0
+      e03: -76.87572
+      e10: 0
+      e11: 0.5142692
+      e12: 0
+      e13: 156.00272
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 901e03e7f3248644a9f7af9bbafbe6be, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -5602963042399094863, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
+  - m_Target: {fileID: -2121524622092803697, guid: 901e03e7f3248644a9f7af9bbafbe6be, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1883,6 +1945,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Particles Materials
 =======
     - Assets/ImportAssets/Tablet
@@ -1890,6 +1953,9 @@ MonoBehaviour:
 =======
     - Assets/Scripts/Interact Related
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    - Assets
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1899,6 +1965,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - Assets/Particles Materials
@@ -1921,11 +1988,15 @@ MonoBehaviour:
 =======
   - Assets/Scripts/Interact Related
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  - Assets
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 361.33328}
     m_SelectedIDs: 943a0500
@@ -1955,7 +2026,16 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000020d80000
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+<<<<<<< HEAD
 >>>>>>> bbaba1d (Added highlight script, puzzle finish update)
+=======
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 40d80000
+    m_LastClickedID: 55360
+    m_ExpandedIDs: 000000005ad80000
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
+>>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1988,6 +2068,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000d6d50000
 =======
 =======
@@ -1996,6 +2077,8 @@ MonoBehaviour:
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
 =======
 >>>>>>> bbaba1d (Added highlight script, puzzle finish update)
+=======
+>>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
 <<<<<<< HEAD
     m_ExpandedIDs: 00000000a6d50000
 =======
@@ -2019,7 +2102,13 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000020d80000
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+<<<<<<< HEAD
 >>>>>>> bbaba1d (Added highlight script, puzzle finish update)
+=======
+=======
+    m_ExpandedIDs: 000000005ad80000
+>>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
+>>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -50263,6 +50263,7 @@ MonoBehaviour:
   hasInteracted: 0
   playerStateControl: {fileID: 437207765}
   puzzleType: 1
+  isPuzzleLocked: 0
 --- !u!114 &1674429257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56455,6 +56456,7 @@ MonoBehaviour:
   hasInteracted: 0
   playerStateControl: {fileID: 437207765}
   puzzleType: 2
+  isPuzzleLocked: 0
 --- !u!114 &2061769560
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,6 +15,8 @@ public class PuzzleInteraction : MonoBehaviour
     [SerializeField]
     private PlayerStateControl.PlayerState puzzleType;
     
+    
+    public bool isPuzzleLocked = false; 
    
     private void Awake()
     {
@@ -24,7 +26,7 @@ public class PuzzleInteraction : MonoBehaviour
 
     public void StartPuzzle()
     {
-        if (hasInteracted)
+        if (hasInteracted || isPuzzleLocked)
         {
             return;
         }
@@ -40,13 +42,16 @@ public class PuzzleInteraction : MonoBehaviour
     }
     public void DisplayUI()
     {
-        if (hasInteracted)
+        if (hasInteracted || isPuzzleLocked)
         {
             return;
         }
         interactCanvas.gameObject.SetActive(true);
     }
-
+    public void UnlockPuzzle()
+    {
+        isPuzzleLocked = false;
+    }
     public void HideUI()
     {
         interactCanvas.gameObject.SetActive(false);
