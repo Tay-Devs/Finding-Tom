@@ -101,8 +101,12 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 8421
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+  controlID: 27016
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -151,6 +155,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 885.60004
     y: 79.200005
     width: 258
@@ -189,8 +194,11 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
     x: 765.3334
+=======
+    x: 727.3334
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
     y: 78.66667
-    width: 504.6667
+    width: 542.6667
     height: 446.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_SerializedDataModeController:
@@ -263,7 +271,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -272,6 +280,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,6 +347,12 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+      width: 542.6667
+      height: 425.66666
+    m_Scale: {x: 0.42395836, y: 0.42395836}
+    m_Translation: {x: 271.33334, y: 212.83333}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -406,13 +421,18 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
       x: -640
-      y: -539.81506
+      y: -502.0147
       width: 1280
-      height: 1079.6301
+      height: 1004.0294
     m_MinimalGUI: 1
+<<<<<<< HEAD
   m_defaultScale: 0.39427084
   m_LastWindowPixelSize: {x: 757, y: 670}
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+  m_defaultScale: 0.42395836
+  m_LastWindowPixelSize: {x: 814, y: 670}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -475,6 +495,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 8422
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
@@ -507,6 +528,9 @@ MonoBehaviour:
 =======
   controlID: 8422
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+  controlID: 26979
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -566,6 +590,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 8423
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
@@ -593,6 +618,9 @@ MonoBehaviour:
 =======
   controlID: 8423
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+  controlID: 26896
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -733,6 +761,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 58e4fdff
       m_LastClickedID: -138152
@@ -762,10 +791,13 @@ MonoBehaviour:
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 =======
 =======
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 72620100
       m_LastClickedID: 90738
       m_ExpandedIDs: 1aa8faff58c3faffe46afffff67dffff808dffffc6b9ffffc2d8ffff54e3ffff42f8ffff1afbffffa2b30000ccb500007eb6000064b7000012ba000062f7000032fa00003cfb000058fc000002fd00003a000100d65a0100f85a0100025c01002c5e0100d6610100a8630100e66301002c640100dc650100
+<<<<<<< HEAD
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
 <<<<<<< HEAD
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
@@ -794,6 +826,8 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -867,7 +901,7 @@ MonoBehaviour:
 =======
     x: 266
     y: 0
-    width: 499.3333
+    width: 461.3333
     height: 472.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_MinSize: {x: 202, y: 226}
@@ -938,7 +972,7 @@ MonoBehaviour:
 =======
     x: 266
     y: 78.66667
-    width: 497.3333
+    width: 459.3333
     height: 446.66666
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
   m_SerializedDataModeController:
@@ -1572,6 +1606,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -39.023506, y: 10.632144, z: 8.167031}
     speed: 2
     m_Value: {x: -39.023506, y: 10.632144, z: 8.167031}
@@ -1641,6 +1676,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -53.52314, y: 10.253873, z: 74.161934}
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    m_Target: {x: -32.41649, y: 2.487481, z: 5.311984}
+    speed: 2
+    m_Value: {x: -32.41649, y: 2.487481, z: 5.311984}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1718,6 +1758,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
 =======
@@ -1746,17 +1787,24 @@ MonoBehaviour:
 =======
     m_Target: {x: 0.27426514, y: 0.29166782, z: -0.08766374, w: 0.912408}
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    m_Target: {x: 0.16856384, y: 0.41547585, z: -0.07858331, w: 0.8908119}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
     speed: 2
-    m_Value: {x: 0.27428895, y: 0.29068774, z: -0.08736913, w: 0.91248715}
+    m_Value: {x: 0.16856386, y: 0.41547585, z: -0.07858331, w: 0.8908119}
   m_Size:
-    m_Target: 1.3869506
+    m_Target: 0.5001897
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 1.0175864
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 =======
     m_Value: 1.3869506
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    m_Value: 0.5001897
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2004,6 +2052,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 885.6
     y: 0
     width: 260
@@ -2050,8 +2099,11 @@ MonoBehaviour:
 =======
     x: 765.3333
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 727.3333
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
     y: 0
-    width: 506.6667
+    width: 544.6667
     height: 472.66666
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
   m_MinSize: {x: 202, y: 226}
@@ -2095,6 +2147,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2146,6 +2199,9 @@ MonoBehaviour:
 =======
   controlID: 8448
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+  controlID: 26980
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -2324,6 +2380,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Materials
 =======
 =======
@@ -2373,6 +2430,9 @@ MonoBehaviour:
 =======
     - Assets/ImportAssets/Tablet
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    - Assets/Models/Puzzle Related/Maze/Power Cable
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2382,6 +2442,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2439,11 +2500,15 @@ MonoBehaviour:
 =======
   - Assets/ImportAssets/Tablet
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+  - Assets/Models/Puzzle Related/Maze/Power Cable
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2495,10 +2560,13 @@ MonoBehaviour:
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 =======
 =======
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
     scrollPos: {x: 0, y: 207}
     m_SelectedIDs: 56330300
     m_LastClickedID: 209750
     m_ExpandedIDs: 00000000ecd700006cd90000443303004a33030000ca9a3bffffff7f
+<<<<<<< HEAD
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
 <<<<<<< HEAD
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
@@ -2529,6 +2597,8 @@ MonoBehaviour:
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2638,6 +2708,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 58e4fdff
     m_LastClickedInstanceID: -138152
     m_HadKeyboardFocusLastEvent: 1
@@ -2705,6 +2776,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc0000
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    m_SelectedInstanceIDs: 72620100
+    m_LastClickedInstanceID: 90738
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
