@@ -22311,9 +22311,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+<<<<<<< HEAD
       - m_Target: {fileID: 425106563}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
+=======
+      - m_Target: {fileID: 1897998609}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_isTrigger
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22321,7 +22327,11 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+<<<<<<< HEAD
           m_BoolArgument: 0
+=======
+          m_BoolArgument: 1
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
         m_CallState: 2
 --- !u!23 &1124436236
 MeshRenderer:
