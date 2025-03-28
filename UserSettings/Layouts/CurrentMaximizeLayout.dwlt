@@ -20,6 +20,7 @@ MonoBehaviour:
     x: 0
     y: 36
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 716.8
   m_MinSize: {x: 400, y: 100}
@@ -29,15 +30,26 @@ MonoBehaviour:
 =======
     width: 1706.6667
     height: 813.3334
+=======
+    width: 1706.6666
+    height: 813.3333
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 24581
 =======
   controlID: 1735
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+  controlID: 8421
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -49,6 +61,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -56,15 +71,37 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< HEAD
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+=======
+<<<<<<< HEAD
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+=======
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 885.60004
     y: 79.200005
     width: 258
     height: 389.2
+=======
+<<<<<<< HEAD
+    x: -696
+    y: 80
+    width: 206
+    height: 514
+=======
+    x: 765.3334
+    y: 78.66667
+    width: 504.6667
+    height: 446.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -86,7 +123,11 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
+<<<<<<< HEAD
   m_EnterPlayModeBehavior: 0
+=======
+  m_EnterPlayModeBehavior: 1
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -97,10 +138,24 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -768
     m_HBaseRangeMax: 768
     m_VBaseRangeMin: -432
     m_VBaseRangeMax: 432
+=======
+<<<<<<< HEAD
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
+=======
+    m_HBaseRangeMin: -640
+    m_HBaseRangeMax: 640
+    m_VBaseRangeMin: -360
+    m_VBaseRangeMax: 360
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -118,16 +173,31 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 258
       height: 368.2
     m_Scale: {x: 0.16796875, y: 0.16796875}
     m_Translation: {x: 129, y: 184.1}
+=======
+<<<<<<< HEAD
+      width: 206
+      height: 493
+    m_Scale: {x: 0.10729167, y: 0.107291676}
+    m_Translation: {x: 103, y: 246.5}
+=======
+      width: 504.6667
+      height: 425.66666
+    m_Scale: {x: 0.39427084, y: 0.3942708}
+    m_Translation: {x: 252.33334, y: 212.83333}
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -768
       y: -1096.0372
       width: 1536
@@ -135,6 +205,25 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.16796875
   m_LastWindowPixelSize: {x: 322.5, y: 486.5}
+=======
+<<<<<<< HEAD
+      x: -960
+      y: -2297.4756
+      width: 1920
+      height: 4594.951
+    m_MinimalGUI: 1
+  m_defaultScale: 0.10729167
+  m_LastWindowPixelSize: {x: 206, y: 514}
+=======
+      x: -640
+      y: -539.81506
+      width: 1280
+      height: 1079.6301
+    m_MinimalGUI: 1
+  m_defaultScale: 0.39427084
+  m_LastWindowPixelSize: {x: 757, y: 670}
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -160,12 +249,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1145.6
     height: 716.8
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
   controlID: 16773
+=======
+<<<<<<< HEAD
+    width: 1432
+    height: 933
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 24582
+=======
+    width: 1272
+    height: 813.3333
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 8422
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -187,12 +294,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1145.6
     height: 415.2
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
   controlID: 16774
+=======
+<<<<<<< HEAD
+    width: 1432
+    height: 540
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 24583
+=======
+    width: 1272
+    height: 472.66666
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 8423
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -211,8 +336,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 241.6
     height: 415.2
+=======
+<<<<<<< HEAD
+    width: 302
+    height: 540
+=======
+    width: 266
+    height: 472.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 6}
@@ -236,15 +371,37 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
+<<<<<<< HEAD
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+=======
+<<<<<<< HEAD
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+=======
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     m_Tooltip: 
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 79.200005
     width: 240.6
     height: 389.2
+=======
+<<<<<<< HEAD
+    x: -1920
+    y: 80
+    width: 301
+    height: 514
+=======
+    x: 0
+    y: 78.66667
+    width: 265
+    height: 446.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -258,10 +415,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 58e4fdff
       m_LastClickedID: -138152
       m_ExpandedIDs: 78fcfdffb08ffeff4e56ffff487dffff12f1ffff0efbffff6eb300003eb4000086b60000c2b60000e2b600005ab7000088b700002ab800006ab90000c4b900000abb00000ebb00004e7a0300ca7b0300ea7b0300de7e03003c810300
+=======
+<<<<<<< HEAD
+      scrollPos: {x: 0, y: 60}
+      m_SelectedIDs: ca7dfdff
+      m_LastClickedID: -164406
+      m_ExpandedIDs: 187efdffb824ffff3a35ffffbc5fffffd87fffffe0faffff74b3000048b60000d6b60000ca460200f446020010470200264702006c47020080470200ee470200fe470200ac480200fa490200684a0200884a0200ae4a0200ec4c0200a04e0200025002000a51020060510200
+=======
+      scrollPos: {x: 0, y: 506.33337}
+      m_SelectedIDs: b05c0100
+      m_LastClickedID: 89264
+      m_ExpandedIDs: e46afffff67dffff808dffffc6b9ffffc2d8ffff54e3ffff42f8ffff1afbffffa2b30000ccb500007eb6000064b7000012ba000062f7000032fa00003cfb000058fc000002fd00003a000100d65a0100985b0100025c01002c5e0100605e0100f65e01009a5f0100d6610100726201007c620100a8630100e66301002c640100dc650100
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -301,10 +472,24 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 241.6
     y: 0
     width: 644
     height: 415.2
+=======
+<<<<<<< HEAD
+    x: 302
+    y: 0
+    width: 922
+    height: 540
+=======
+    x: 266
+    y: 0
+    width: 499.3333
+    height: 472.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 8}
@@ -322,8 +507,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -350,7 +538,7 @@ MonoBehaviour:
 =======
     x: 266
     y: 78.66667
-    width: 443.3333
+    width: 497.3333
     height: 446.66666
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
@@ -951,10 +1139,13 @@ MonoBehaviour:
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -39.023506, y: 10.632144, z: 8.167031}
     speed: 2
     m_Value: {x: -39.023506, y: 10.632144, z: 8.167031}
 =======
+=======
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
     m_Target: {x: -30.718071, y: -0.88840497, z: -24.099562}
     speed: 2
@@ -964,7 +1155,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -39.94101, y: 2.638, z: -8.382943}
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    m_Target: {x: -53.52314, y: 10.253873, z: 74.161934}
+    speed: 2
+    m_Value: {x: -53.52314, y: 10.253873, z: 74.161934}
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -984,15 +1183,15 @@ MonoBehaviour:
   m_Grid:
     xGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0.05, y: 0.05}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -1002,7 +1201,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0.9999999
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
@@ -1029,19 +1228,27 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+    m_Target: {x: 0.27426514, y: 0.29166782, z: -0.08766374, w: 0.912408}
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     speed: 2
-    m_Value: {x: 6.1267825e-17, y: 0.7071068, z: -6.239202e-17, w: 0.70710677}
+    m_Value: {x: 0.27428895, y: 0.29068774, z: -0.08736913, w: 0.91248715}
   m_Size:
-    m_Target: 0.97179496
+    m_Target: 1.3869506
     speed: 2
+<<<<<<< HEAD
     m_Value: 1.0175864
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    m_Value: 1.3869506
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 0.36082
     m_SpeedNormalized: 0.17999999
@@ -1058,7 +1265,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
-    m_SceneView: {fileID: 2}
+    m_SceneView: {fileID: 8}
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
@@ -1071,179 +1278,7 @@ MonoBehaviour:
     name: Baked Lightmap
     section: Baked Global Illumination
   m_ViewIsLockedToObject: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1272
-    height: 813.3334
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 1
-  controlID: 1736
-  draggingID: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 5}
-  - {fileID: 7}
-  - {fileID: 9}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1272
-    height: 472.66666
-  m_MinSize: {x: 300, y: 50}
-  m_MaxSize: {x: 24288, y: 8096}
-  vertical: 0
-  controlID: 1737
-  draggingID: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 266
-    height: 472.66666
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 6}
-  m_Panes:
-  - {fileID: 6}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Hierarchy\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 78.66667
-    width: 265
-    height: 446.66666
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 118.33334}
-      m_SelectedIDs: c8e40000
-      m_LastClickedID: 58568
-      m_ExpandedIDs: 7cb3ffff7eb3ffffcec6ffff56ceffff0cfbffff44b2000008b3000000b5000068b500009ab5000074b90000fcdf00001ee0000008e10000c4e3000014e400006ee4000038e6000096e7000046e90000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 5}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 266
-    y: 0
-    width: 445.3333
-    height: 472.66666
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 2}
-  m_Panes:
-  - {fileID: 2}
-  - {fileID: 8}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &8
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1400,7 +1435,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &9
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1416,11 +1451,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 885.6
     y: 0
     width: 260
     height: 415.2
 =======
+=======
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
     x: 1224
     y: 0
@@ -1428,119 +1466,21 @@ MonoBehaviour:
     height: 540
 =======
     x: 711.3333
+=======
+    x: 765.3333
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
     y: 0
-    width: 560.6667
+    width: 506.6667
     height: 472.66666
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 10}
+  m_ActualView: {fileID: 2}
   m_Panes:
-  - {fileID: 10}
+  - {fileID: 2}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Game\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 711.3334
-    y: 78.66667
-    width: 558.6667
-    height: 446.66666
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1920, y: 1080}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -640
-    m_HBaseRangeMax: 640
-    m_VBaseRangeMin: -360
-    m_VBaseRangeMax: 360
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 558.6667
-      height: 425.66666
-    m_Scale: {x: 0.43645835, y: 0.43645835}
-    m_Translation: {x: 279.33334, y: 212.83333}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -640
-      y: -487.6372
-      width: 1280
-      height: 975.2744
-    m_MinimalGUI: 1
-  m_defaultScale: 0.43645835
-  m_LastWindowPixelSize: {x: 838, y: 670}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
-  m_showToolbar: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1570,16 +1510,23 @@ MonoBehaviour:
 =======
     y: 472.66666
     width: 1272
-    height: 340.66672
+    height: 340.66666
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 24661
 =======
   controlID: 1860
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+  controlID: 8448
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1607,9 +1554,16 @@ MonoBehaviour:
     height: 393
 =======
     width: 732
+<<<<<<< HEAD
     height: 340.66672
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    height: 340.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 13}
@@ -1653,9 +1607,16 @@ MonoBehaviour:
     x: 0
     y: 551.3334
     width: 731
+<<<<<<< HEAD
     height: 314.66672
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    height: 314.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1679,14 +1640,23 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Materials
 =======
+=======
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
     - Assets/Particles Materials
 =======
     - Assets/Scenes
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    - Assets/ImportAssets/Tablet
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1697,25 +1667,37 @@ MonoBehaviour:
   m_StartGridSize: 16
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Materials
 =======
+=======
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
   - Assets/Particles Materials
 =======
   - Assets/Scenes
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+  - Assets/ImportAssets/Tablet
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 120}
     m_SelectedIDs: 1cd80000
     m_LastClickedID: 55324
     m_ExpandedIDs: 00000000d6d50000
 =======
+=======
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b8130600
@@ -1727,7 +1709,16 @@ MonoBehaviour:
     m_LastClickedID: 54850
     m_ExpandedIDs: 000000005cd4000000ca9a3bffffff7f
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    scrollPos: {x: 0, y: 361.33334}
+    m_SelectedIDs: bed90000
+    m_LastClickedID: 55742
+    m_ExpandedIDs: 00000000ecd7000062d9000000ca9a3bffffff7f
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1757,14 +1748,23 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000d6d50000
 =======
+=======
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
     m_ExpandedIDs: 00000000a6d50000
 =======
     m_ExpandedIDs: 000000005cd4000000ca9a3bffffff7f
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    m_ExpandedIDs: 00000000ecd7000000ca9a3bffffff7f
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1791,10 +1791,13 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 58e4fdff
     m_LastClickedInstanceID: -138152
     m_HadKeyboardFocusLastEvent: 1
 =======
+=======
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
     m_SelectedInstanceIDs: ca7dfdff
     m_LastClickedInstanceID: -164406
@@ -1802,9 +1805,17 @@ MonoBehaviour:
     m_SelectedInstanceIDs: c8e40000
     m_LastClickedInstanceID: 58568
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    m_SelectedInstanceIDs: b05c0100
+    m_LastClickedInstanceID: 89264
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
     m_HadKeyboardFocusLastEvent: 0
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000
+=======
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc0000
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1861,9 +1872,16 @@ MonoBehaviour:
     height: 393
 =======
     width: 540
+<<<<<<< HEAD
     height: 340.66672
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    height: 340.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -1908,9 +1926,16 @@ MonoBehaviour:
     x: 732
     y: 551.3334
     width: 538
+<<<<<<< HEAD
     height: 314.66672
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    height: 314.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2004,9 +2029,14 @@ MonoBehaviour:
 =======
     x: 1272
     y: 0
+<<<<<<< HEAD
     width: 434.66675
     height: 813.3334
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+    width: 434.66663
+    height: 813.3333
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
@@ -2049,10 +2079,18 @@ MonoBehaviour:
 =======
     x: 1272
     y: 78.66667
+<<<<<<< HEAD
     width: 433.66675
     height: 787.3334
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+=======
+    width: 433.66663
+    height: 787.3333
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+>>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
