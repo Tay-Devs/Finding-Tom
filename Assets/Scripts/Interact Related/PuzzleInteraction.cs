@@ -1,6 +1,8 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
+using VInspector.Libs;
 
 public class PuzzleInteraction : MonoBehaviour
 {
@@ -33,6 +35,8 @@ public class PuzzleInteraction : MonoBehaviour
     {
         HideUI();
         hasInteracted = true;
+        // Change this GameObject's layer
+        gameObject.layer = LayerMask.NameToLayer(default);
     }
     public void DisplayUI()
     {
