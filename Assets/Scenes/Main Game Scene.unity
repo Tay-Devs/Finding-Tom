@@ -5218,6 +5218,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 543450652131579645}
+  - {fileID: 1703727648}
   - {fileID: 1099904867}
   m_Father: {fileID: 601812305}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -6747,6 +6749,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c684395ee81e16469cf7c4c828cc08a, type: 3}
   m_PrefabInstance: {fileID: 349150965}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &350822374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 350822375}
+  m_Layer: 0
+  m_Name: Vent Opened
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &350822375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350822374}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.7053026e-13, y: -2.842171e-14, z: -0.93675077, w: -0.34999716}
+  m_LocalPosition: {x: 23.34, y: -0.479, z: 4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1114017754}
+  - {fileID: 1026729922}
+  m_Father: {fileID: 1357282808}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -360}
 --- !u!1 &351581047
 GameObject:
   m_ObjectHideFlags: 0
@@ -22311,9 +22346,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+<<<<<<< HEAD
       - m_Target: {fileID: 425106563}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
+=======
+      - m_Target: {fileID: 1897998609}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_isTrigger
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22321,7 +22362,23 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+<<<<<<< HEAD
           m_BoolArgument: 0
+=======
+          m_BoolArgument: 1
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+        m_CallState: 2
+      - m_Target: {fileID: 1125442782}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 71afb6bb48e438b4b8d2c17106894f5b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!23 &1124436236
 MeshRenderer:
@@ -22376,6 +22433,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124436231}
   m_Mesh: {fileID: 4300000, guid: e967815e27db69a4c887a7d2b68c80fa, type: 2}
+--- !u!23 &1125442782 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6059908185705879906, guid: 4f4f1fa673562ba40822bee494464618, type: 3}
+  m_PrefabInstance: {fileID: 1703727647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1129542834
 GameObject:
   m_ObjectHideFlags: 0
@@ -47490,6 +47552,24 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7258747876437177456}
+  - {fileID: 6578816564242062674}
+  - {fileID: 8378828736194724440}
+  m_Father: {fileID: 274314216}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &543450652131579645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148482542663}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.0000007599591, z: -0, w: -1}
+  m_LocalPosition: {x: -4.743, y: 0, z: 9.511}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
   - {fileID: 108688805}
   - {fileID: 7258747876437177456}
   - {fileID: 6578816564242062674}
@@ -47527,6 +47607,48 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &919132148482542663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543450652131579645}
+  - component: {fileID: 919132148482542664}
+  m_Layer: 0
+  m_Name: Power Cable Connected
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &919132148482542664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148482542663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fdd0d017e43baf4ca84565cf0546312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineRenderer: {fileID: 7243599545679271639}
+  anchorPoints:
+  - {fileID: 38176245}
+  - {fileID: 330985628}
+  - {fileID: 320333924}
+  pointsBetweenAnchors: 10
+  cableTightness: 0
+  bendAmount: 0.05
+  noiseAmount: 0
+  cableWidth: 0.3
+  applyDynamicMovement: 0
+  dynamicMovementSpeed: 1
+  dynamicMovementMagnitude: 0.05
 --- !u!1 &919132148482542663
 GameObject:
   m_ObjectHideFlags: 0
@@ -48794,6 +48916,23 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736785294627373026}
   serializedVersion: 2
+  m_LocalRotation: {x: 0.49999914, y: -0.4999986, z: -0.50000083, w: 0.5000015}
+  m_LocalPosition: {x: 7.0469866, y: -0.05799997, z: -9.4860115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 38176245}
+  - {fileID: 330985628}
+  m_Father: {fileID: 543450652131579645}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -90}
+--- !u!4 &6578816564242062674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736785294627373026}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.70710677, y: 0.00000009685917, z: -0.7071069, w: 0.000002130866}
   m_LocalPosition: {x: 6.456, y: 0.213, z: -9.486}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -49277,6 +49416,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6380702785494013616}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &8378828736194724440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305207568169130067}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071079, y: 0.70710576, z: -0.0000010663643, w: 0.0000020703317}
+  m_LocalPosition: {x: 5.246, y: 0, z: -9.516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 320333924}
+  m_Father: {fileID: 543450652131579645}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: -90}
+--- !u!23 &8500109384985021610
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736785294627373026}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: aa31710c52258ff4d84070f160a156df, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &8378828736194724440
 Transform:
   m_ObjectHideFlags: 0
