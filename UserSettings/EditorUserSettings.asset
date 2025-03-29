@@ -8,16 +8,41 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 56000357060d5f080c5a557a12220a4413164e2f7d7a276179704432b0e63660
 =======
       value: 0109565106565f5d555e0d2149770944474f4f2b7f2a70692b711966e0b7656e
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+      value: 0109565106565f5d555e0d2149770944474f4f2b7f2a70692b711966e0b7656e
+=======
+      value: 5403045e5c075e0d5f0b5d7445205b444116197a7e2a7f607b784430e6e2616d
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+      value: 5403045e5c075e0d5f0b5d7445205b444116197a7e2a7f607b784430e6e2616d
+>>>>>>> origin/OrenScene
+>>>>>>> OrenScene
       flags: 0
     RecentlyUsedSceneGuid-1:
       value: 56000357060d5f080c5a557a12220a4413164e2f7d7a276179704432b0e63660
       flags: 0
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-2:
       value: 5403045e5c075e0d5f0b5d7445205b444116197a7e2a7f607b784430e6e2616d
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    RecentlyUsedSceneGuid-2:
+      value: 5403045e5c075e0d5f0b5d7445205b444116197a7e2a7f607b784430e6e2616d
+=======
+    lightmappingBakingProfile:
+      value: 51
+>>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    lightmappingBakingProfile:
+      value: 51
+>>>>>>> origin/OrenScene
+>>>>>>> OrenScene
       flags: 0
 =======
       value: 0109565106565f5d555e0d2149770944474f4f2b7f2a70692b711966e0b7656e
