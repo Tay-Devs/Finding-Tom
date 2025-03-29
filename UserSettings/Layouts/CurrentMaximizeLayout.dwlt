@@ -19,6 +19,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 36
+<<<<<<< HEAD
     width: 1706.6666
     height: 813.3333
   m_MinSize: {x: 400, y: 100}
@@ -29,6 +30,14 @@ MonoBehaviour:
 =======
   controlID: 24581
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    width: 1536
+    height: 716.8
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 16772
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -46,11 +55,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 793.3334
     y: 78.66667
@@ -62,6 +72,12 @@ MonoBehaviour:
     width: 206
     height: 514
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 885.60004
+    y: 79.200005
+    width: 258
+    height: 389.2
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -94,10 +110,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -360
     m_VBaseRangeMax: 360
+=======
+    m_HBaseRangeMin: -768
+    m_HBaseRangeMax: 768
+    m_VBaseRangeMin: -432
+    m_VBaseRangeMax: 432
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -116,6 +139,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 576.00006
       height: 425.66666
     m_Scale: {x: 0.45000005, y: 0.45000005}
@@ -126,12 +150,19 @@ MonoBehaviour:
     m_Scale: {x: 0.10729167, y: 0.107291676}
     m_Translation: {x: 103, y: 246.5}
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+      width: 258
+      height: 368.2
+    m_Scale: {x: 0.16796875, y: 0.16796875}
+    m_Translation: {x: 129, y: 184.1}
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -640
       y: -472.9629
@@ -149,6 +180,15 @@ MonoBehaviour:
   m_defaultScale: 0.10729167
   m_LastWindowPixelSize: {x: 206, y: 514}
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+      x: -768
+      y: -1096.0372
+      width: 1536
+      height: 2192.0745
+    m_MinimalGUI: 1
+  m_defaultScale: 0.16796875
+  m_LastWindowPixelSize: {x: 322.5, y: 486.5}
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -174,6 +214,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1371.3334
     height: 813.3333
   m_MinSize: {x: 300, y: 100}
@@ -184,6 +225,14 @@ MonoBehaviour:
 =======
   controlID: 24582
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    width: 1145.6
+    height: 716.8
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 16773
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -205,6 +254,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1371.3334
     height: 472.66666
   m_MinSize: {x: 300, y: 50}
@@ -215,6 +265,14 @@ MonoBehaviour:
 =======
   controlID: 24583
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    width: 1145.6
+    height: 415.2
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 16774
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -234,12 +292,17 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 286.66666
     height: 472.66666
 =======
     width: 302
     height: 540
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    width: 241.6
+    height: 415.2
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 6}
@@ -269,6 +332,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 78.66667
     width: 285.66666
@@ -279,6 +343,12 @@ MonoBehaviour:
     width: 301
     height: 514
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 0
+    y: 79.200005
+    width: 240.6
+    height: 389.2
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -293,6 +363,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 300}
       m_SelectedIDs: 44b40000
       m_LastClickedID: 46148
@@ -303,6 +374,12 @@ MonoBehaviour:
       m_LastClickedID: -164406
       m_ExpandedIDs: 187efdffb824ffff3a35ffffbc5fffffd87fffffe0faffff74b3000048b60000d6b60000ca460200f446020010470200264702006c47020080470200ee470200fe470200ac480200fa490200684a0200884a0200ae4a0200ec4c0200a04e0200025002000a51020060510200
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 58e4fdff
+      m_LastClickedID: -138152
+      m_ExpandedIDs: 78fcfdffb08ffeff4e56ffff487dffff12f1ffff0efbffff6eb300003eb4000086b60000c2b60000e2b600005ab7000088b700002ab800006ab90000c4b900000abb00000ebb00004e7a0300ca7b0300ea7b0300de7e03003c810300
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -343,6 +420,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 286.66666
     y: 0
     width: 506.66666
@@ -353,6 +431,12 @@ MonoBehaviour:
     width: 922
     height: 540
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 241.6
+    y: 0
+    width: 644
+    height: 415.2
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 8}
@@ -383,6 +467,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 286.6667
     y: 78.66667
     width: 504.66666
@@ -393,6 +478,12 @@ MonoBehaviour:
     width: 920
     height: 514
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 241.6
+    y: 79.200005
+    width: 642
+    height: 389.2
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -642,9 +733,10 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 1
       containerId: overlay-toolbar__bottom
-      displayed: 1
+      displayed: 0
       id: Scene View/Particles
       index: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-231.99996948242188,"y":-224.00001525878907},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
@@ -656,8 +748,14 @@ MonoBehaviour:
       collapsed: 1
       snapOffset: {x: -232, y: -224}
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-232.0,"y":165.60000610351563},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -232, y: 165.6}
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 1
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -983,6 +1081,7 @@ MonoBehaviour:
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -26.185163, y: 1.4555776, z: -4.6728153}
     speed: 2
     m_Value: {x: -26.185163, y: 1.4555776, z: -4.6728153}
@@ -991,6 +1090,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -30.718071, y: -0.88840497, z: -24.099562}
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    m_Target: {x: -39.023506, y: 10.632144, z: 8.167031}
+    speed: 2
+    m_Value: {x: -39.023506, y: 10.632144, z: 8.167031}
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1050,14 +1154,18 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: 0.0022713577, y: 0.99708205, z: -0.06921988, w: 0.034085553}
+    m_Target: {x: 0.21489564, y: 0.08945073, z: 0.019789515, w: -0.9724454}
     speed: 2
-    m_Value: {x: 0.0038611195, y: 0.9958414, z: -0.07363993, w: 0.05350061}
+    m_Value: {x: 0.2160383, y: 0.089416936, z: 0.019894669, w: -0.9720784}
   m_Size:
-    m_Target: 9.353592
+    m_Target: 10.096795
     speed: 2
+<<<<<<< HEAD
     m_Value: 9.353592
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    m_Value: 10.096795
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1264,6 +1372,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 793.3333
     y: 0
     width: 578.00006
@@ -1274,6 +1383,12 @@ MonoBehaviour:
     width: 208
     height: 540
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 885.6
+    y: 0
+    width: 260
+    height: 415.2
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 2}
@@ -1299,6 +1414,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 472.66666
     width: 1371.3334
     height: 340.66666
@@ -1310,6 +1426,15 @@ MonoBehaviour:
 =======
   controlID: 24661
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    y: 415.2
+    width: 1145.6
+    height: 301.59998
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 16849
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1329,12 +1454,17 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 789.3333
     height: 340.66666
 =======
     width: 824
     height: 393
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    width: 659.2
+    height: 301.59998
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 13}
@@ -1364,6 +1494,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 551.3334
     width: 788.3333
@@ -1374,6 +1505,12 @@ MonoBehaviour:
     width: 823
     height: 367
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 0
+    y: 494.4
+    width: 658.2
+    height: 275.59998
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1397,10 +1534,14 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts/Puzzle/Dice
 =======
     - Assets/Particles Materials
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    - Assets/Materials
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1411,15 +1552,20 @@ MonoBehaviour:
   m_StartGridSize: 16
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scripts/Puzzle/Dice
 =======
   - Assets/Particles Materials
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+  - Assets/Materials
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 345.33334}
     m_SelectedIDs: fcd90000
@@ -1431,6 +1577,12 @@ MonoBehaviour:
     m_LastClickedID: 398264
     m_ExpandedIDs: 00000000a6d50000
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: 1cd80000
+    m_LastClickedID: 55324
+    m_ExpandedIDs: 00000000d6d50000
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1460,10 +1612,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000020d8000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 00000000a6d50000
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    m_ExpandedIDs: 00000000d6d50000
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1490,6 +1646,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 44b40000
     m_LastClickedInstanceID: 46148
 =======
@@ -1498,6 +1655,12 @@ MonoBehaviour:
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300
+=======
+    m_SelectedInstanceIDs: 58e4fdff
+    m_LastClickedInstanceID: -138152
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1541,6 +1704,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 789.3333
     y: 0
 <<<<<<< HEAD
@@ -1550,6 +1714,12 @@ MonoBehaviour:
     width: 608
     height: 393
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 659.2
+    y: 0
+    width: 486.39996
+    height: 301.59998
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -1580,6 +1750,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 789.3334
     y: 551.3334
     width: 580.00006
@@ -1590,6 +1761,12 @@ MonoBehaviour:
     width: 606
     height: 367
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 659.2
+    y: 494.4
+    width: 484.39996
+    height: 275.59998
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1622,10 +1799,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Input Debug\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 2746
-    y: 621
-    width: 604
-    height: 365
+    x: 659.2
+    y: 494.4
+    width: 484.39996
+    height: 275.59998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1675,10 +1852,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1371.3334
     y: 0
     width: 335.33325
     height: 813.3333
+=======
+    x: 1145.6
+    y: 0
+    width: 390.40002
+    height: 716.8
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
@@ -1708,6 +1892,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1371.3334
     y: 78.66667
     width: 334.33325
@@ -1718,6 +1903,12 @@ MonoBehaviour:
     width: 487
     height: 907
 >>>>>>> aacf285 (Ari's Room - Box VOL Baked Light, and particles)
+=======
+    x: 1145.6
+    y: 79.200005
+    width: 389.40002
+    height: 690.8
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1742,3 +1933,42 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: -1477008817101679558, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Lighting\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1145.6
+    y: 79.200005
+    width: 389.40002
+    height: 690.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+>>>>>>> 2b4e8c9 (Dream Room Baked Light)
