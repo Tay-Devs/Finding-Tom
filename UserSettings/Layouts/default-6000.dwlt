@@ -16,6 +16,8 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 43.2
     width: 1536
@@ -38,6 +40,26 @@ MonoBehaviour:
     height: 869.3334
   m_ShowMode: 4
   m_Title: Scene
+=======
+    x: 0
+    y: 42.666668
+    width: 1706.6667
+    height: 869.3334
+  m_ShowMode: 4
+<<<<<<< HEAD
+  m_Title: Inspector
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+  m_Title: Scene
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    x: 0
+    y: 42.666668
+    width: 1706.6667
+    height: 869.3334
+  m_ShowMode: 4
+  m_Title: Scene
+>>>>>>> origin/main
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -64,6 +86,9 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 772.8
 =======
@@ -74,6 +99,18 @@ MonoBehaviour:
     width: 1706.6666
     height: 869.3333
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+    width: 1706.6667
+    height: 869.3334
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    width: 1706.6666
+    height: 869.3333
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    width: 1706.6666
+    height: 869.3333
+>>>>>>> origin/main
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -99,6 +136,9 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
 =======
     width: 1706.6667
@@ -106,6 +146,15 @@ MonoBehaviour:
 =======
     width: 1706.6666
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+    width: 1706.6667
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    width: 1706.6666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    width: 1706.6666
+>>>>>>> origin/main
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -128,6 +177,9 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     y: 752.8
     width: 1536
 =======
@@ -138,6 +190,18 @@ MonoBehaviour:
     y: 849.3333
     width: 1706.6666
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+    y: 849.3334
+    width: 1706.6667
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    y: 849.3333
+    width: 1706.6666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    y: 849.3333
+    width: 1706.6666
+>>>>>>> origin/main
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -162,6 +226,9 @@ MonoBehaviour:
     y: 36
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 716.8
 =======
@@ -176,6 +243,30 @@ MonoBehaviour:
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
   controlID: 1928
+=======
+    width: 1706.6667
+    height: 813.3334
+=======
+    width: 1706.6666
+    height: 813.3333
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 2408
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+  controlID: 27552
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    width: 1706.6666
+    height: 813.3333
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 27552
+>>>>>>> origin/main
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -197,6 +288,8 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1145.6
     height: 716.8
 =======
@@ -211,6 +304,26 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
   controlID: 1929
+=======
+    width: 1272
+    height: 813.3333
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+<<<<<<< HEAD
+  controlID: 2409
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+  controlID: 27380
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    width: 1272
+    height: 813.3333
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 27380
+>>>>>>> origin/main
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -234,6 +347,8 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1145.6
     height: 415.2
 =======
@@ -254,6 +369,26 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
   controlID: 1930
+=======
+    width: 1272
+    height: 472.66666
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 2410
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+  controlID: 27381
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    width: 1272
+    height: 472.66666
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 27381
+>>>>>>> origin/main
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -274,6 +409,8 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 241.6
     height: 415.2
 =======
@@ -289,6 +426,14 @@ MonoBehaviour:
     width: 266
     height: 472.66666
 >>>>>>> df3595e (Moved scripts around)
+=======
+    width: 266
+    height: 472.66666
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    width: 266
+    height: 472.66666
+>>>>>>> origin/main
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 16}
@@ -313,6 +458,8 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 241.6
 =======
 <<<<<<< HEAD
@@ -321,6 +468,12 @@ MonoBehaviour:
     y: 0
     width: 737.6
     height: 415.2
+=======
+    x: 266
+    y: 0
+    width: 461.3333
+    height: 472.66666
+>>>>>>> origin/main
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 17}
@@ -334,6 +487,19 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 17}
+=======
+    x: 266
+    y: 0
+    width: 461.3333
+    height: 472.66666
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+<<<<<<< HEAD
+  m_ActualView: {fileID: 15}
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+  m_ActualView: {fileID: 17}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
@@ -357,6 +523,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 979.2
 =======
 =======
@@ -367,6 +536,12 @@ MonoBehaviour:
     y: 0
     width: 166.39996
     height: 415.2
+=======
+    x: 727.3333
+    y: 0
+    width: 544.6667
+    height: 472.66666
+>>>>>>> origin/main
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -386,6 +561,22 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
+=======
+    x: 765.3333
+=======
+    x: 727.3333
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+    y: 0
+    width: 544.6667
+    height: 472.66666
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+<<<<<<< HEAD
+  m_ActualView: {fileID: 18}
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+  m_ActualView: {fileID: 15}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -408,6 +599,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     y: 415.2
@@ -433,6 +626,28 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 1955
+=======
+    y: 472.66666
+    width: 1272
+    height: 340.66666
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 2441
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+  controlID: 27516
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    y: 472.66666
+    width: 1272
+    height: 340.66666
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 27516
+>>>>>>> origin/main
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -451,6 +666,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 659.2
@@ -475,6 +692,18 @@ MonoBehaviour:
     width: 732
     height: 340.66666
 >>>>>>> df3595e (Moved scripts around)
+=======
+    width: 732
+<<<<<<< HEAD
+    height: 340.66672
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    height: 340.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    width: 732
+    height: 340.66666
+>>>>>>> origin/main
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 19}
@@ -498,6 +727,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 659.2
     y: 0
     width: 486.39996
@@ -520,6 +751,22 @@ MonoBehaviour:
 =======
     height: 340.66666
 >>>>>>> df3595e (Moved scripts around)
+=======
+    x: 732
+    y: 0
+    width: 540
+<<<<<<< HEAD
+    height: 340.66672
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    height: 340.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 732
+    y: 0
+    width: 540
+    height: 340.66666
+>>>>>>> origin/main
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 20}
@@ -544,27 +791,48 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1145.6
     y: 0
     width: 390.40002
     height: 716.8
+=======
+    x: 1272
+    y: 0
+    width: 434.66663
+    height: 813.3333
+>>>>>>> origin/main
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
 =======
     x: 1272
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    x: 1272
+    y: 0
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
     width: 434.66675
     height: 813.3334
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
 =======
+=======
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
     width: 434.66663
     height: 813.3333
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
+<<<<<<< HEAD
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -579,6 +847,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -586,6 +858,8 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
@@ -599,10 +873,19 @@ MonoBehaviour:
 =======
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
 >>>>>>> df3595e (Moved scripts around)
+=======
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> origin/main
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -631,6 +914,22 @@ MonoBehaviour:
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
 =======
 >>>>>>> df3595e (Moved scripts around)
+=======
+    x: 727.3334
+    y: 78.66667
+=======
+    x: 728.3333
+    y: 24
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+    width: 542.6667
+    height: 446.66666
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    x: 728.3333
+    y: 24
+    width: 542.6667
+    height: 446.66666
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -652,7 +951,11 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
+<<<<<<< HEAD
   m_EnterPlayModeBehavior: 1
+=======
+  m_EnterPlayModeBehavior: 0
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -663,6 +966,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -768
@@ -678,15 +983,25 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> df3595e (Moved scripts around)
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> origin/main
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -360
     m_VBaseRangeMax: 360
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
 =======
 >>>>>>> df3595e (Moved scripts around)
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> origin/main
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -706,6 +1021,8 @@ MonoBehaviour:
       y: 21
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       width: 206
       height: 493
 <<<<<<< HEAD
@@ -715,10 +1032,16 @@ MonoBehaviour:
     m_Scale: {x: 0.10729167, y: 0.107291676}
     m_Translation: {x: 103, y: 246.5}
 =======
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> origin/main
       width: 542.6667
       height: 425.66666
     m_Scale: {x: 0.42395836, y: 0.42395836}
     m_Translation: {x: 271.33334, y: 212.83333}
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
 =======
@@ -727,12 +1050,18 @@ MonoBehaviour:
     m_Scale: {x: 0.42447916, y: 0.42447916}
     m_Translation: {x: 271.66666, y: 212.83333}
 >>>>>>> df3595e (Moved scripts around)
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> origin/main
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -768
@@ -759,6 +1088,28 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.42447916
   m_LastWindowPixelSize: {x: 815, y: 670}
+=======
+      x: -640
+      y: -502.0147
+      width: 1280
+      height: 1004.0294
+    m_MinimalGUI: 1
+  m_defaultScale: 0.42395836
+<<<<<<< HEAD
+  m_LastWindowPixelSize: {x: 814, y: 670}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+  m_LastWindowPixelSize: {x: 542.6667, y: 446.66666}
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+      x: -640
+      y: -502.0147
+      width: 1280
+      height: 1004.0294
+    m_MinimalGUI: 1
+  m_defaultScale: 0.42395836
+  m_LastWindowPixelSize: {x: 542.6667, y: 446.66666}
+>>>>>>> origin/main
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -783,6 +1134,8 @@ MonoBehaviour:
     m_Text: Hierarchy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
 =======
 <<<<<<< HEAD
@@ -794,10 +1147,18 @@ MonoBehaviour:
 =======
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
 >>>>>>> df3595e (Moved scripts around)
+=======
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> origin/main
     m_Tooltip: 
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 0
@@ -813,15 +1174,25 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> df3595e (Moved scripts around)
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> origin/main
     x: 0
-    y: 78.66667
+    y: 24
     width: 265
     height: 446.66666
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
 =======
 >>>>>>> df3595e (Moved scripts around)
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -835,6 +1206,8 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -872,6 +1245,17 @@ MonoBehaviour:
       m_LastClickedID: 56328
       m_ExpandedIDs: f2baffff98d7ffff1afbffffb6d70000d8d700006adb0000b0db000000dc00006cdc00000cdd000090df0000d0e00000fee0000044e10000
 >>>>>>> df3595e (Moved scripts around)
+=======
+=======
+>>>>>>> origin/main
+      scrollPos: {x: 0, y: 60}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1aa8faff58c3fafff67dffff808dffffc6b9ffffc2d8ffff54e3ffff42f8ffff1afbffffa2b30000ccb500007eb6000064b7000012ba000062f7000032fa00003cfb000058fc000002fd00003a000100d65a0100f85a0100865c01002c5e0100f65e010056600100d66101007c620100a8630100e6630100dc650100e86601002c670100
+<<<<<<< HEAD
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+>>>>>>> origin/main
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -905,6 +1289,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+=======
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -917,6 +1306,11 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -950,6 +1344,31 @@ MonoBehaviour:
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
 =======
 >>>>>>> df3595e (Moved scripts around)
+=======
+    x: 266
+    y: 78.66667
+=======
+    x: 267
+    y: 24
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+    width: 497.3333
+=======
+    x: 266
+    y: 78.66667
+=======
+    x: 267
+    y: 24
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+    width: 459.3333
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+    height: 446.66666
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    x: 267
+    y: 24
+    width: 459.3333
+    height: 446.66666
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1202,10 +1621,23 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Particles
       index: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-56.0,"y":-26.666656494140626},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: -56, y: -26.666656}
+=======
+=======
+>>>>>>> origin/main
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-231.99996948242188,"y":-224.00001525878907},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -231.99997, y: -224.00002}
+<<<<<<< HEAD
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+>>>>>>> origin/main
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       layout: 4
@@ -1536,6 +1968,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -32.4926, y: 3.3882997, z: 2.60325}
 =======
 =======
@@ -1550,6 +1985,21 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
     speed: 2
     m_Value: {x: -23.020327, y: -7.0162463, z: -19.776989}
+=======
+    m_Target: {x: -26.247107, y: 1.9083586, z: -3.1347625}
+    speed: 2
+    m_Value: {x: -26.247107, y: 1.9083586, z: -3.1347625}
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    m_Target: {x: -33.2076, y: 2.8804827, z: 4.507699}
+    speed: 2
+    m_Value: {x: -33.2076, y: 2.8804827, z: 4.507699}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_Target: {x: -33.2076, y: 2.8804827, z: 4.507699}
+    speed: 2
+    m_Value: {x: -33.2076, y: 2.8804827, z: 4.507699}
+>>>>>>> origin/main
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1592,6 +2042,8 @@ MonoBehaviour:
       m_Pivot: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       m_Size: {x: 1, y: 1}
     m_ShowGrid: 0
     m_GridAxis: 1
@@ -1610,11 +2062,18 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> df3595e (Moved scripts around)
+=======
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+>>>>>>> origin/main
       m_Size: {x: 0.05, y: 0.05}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.060121544, y: 0.9396679, z: -0.25078744, w: 0.22528163}
     speed: 2
     m_Value: {x: 0.060365155, y: 0.9393311, z: -0.25069755, w: 0.2261944}
@@ -1642,6 +2101,31 @@ MonoBehaviour:
 =======
     m_Value: 10
 >>>>>>> df3595e (Moved scripts around)
+=======
+    m_Target: {x: 0.16346134, y: 0.43252543, z: -0.0800237, w: 0.8831783}
+=======
+    m_Target: {x: 0.11963201, y: 0.30503425, z: -0.038638003, w: 0.9444361}
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+    speed: 2
+    m_Value: {x: -0.11963201, y: -0.30503425, z: 0.038638, w: -0.9444361}
+  m_Size:
+    m_Target: 0.5001897
+    speed: 2
+<<<<<<< HEAD
+    m_Value: 0.4849159
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    m_Value: 0.5001897
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_Target: {x: 0.11963201, y: 0.30503425, z: -0.038638003, w: 0.9444361}
+    speed: 2
+    m_Value: {x: -0.11963201, y: -0.30503425, z: 0.038638, w: -0.9444361}
+  m_Size:
+    m_Target: 0.5001897
+    speed: 2
+    m_Value: 0.5001897
+>>>>>>> origin/main
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1889,6 +2373,8 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 24
     width: 658.2
@@ -1903,7 +2389,7 @@ MonoBehaviour:
 =======
 >>>>>>> df3595e (Moved scripts around)
     x: 0
-    y: 551.3334
+    y: 24
     width: 731
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1919,6 +2405,22 @@ MonoBehaviour:
 =======
     height: 314.66666
 >>>>>>> df3595e (Moved scripts around)
+=======
+    x: 0
+    y: 551.3334
+    width: 731
+<<<<<<< HEAD
+    height: 314.66672
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    height: 314.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 0
+    y: 24
+    width: 731
+    height: 314.66666
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1941,7 +2443,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts
+=======
+    - Assets/ImportAssets/Tablet
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    - Assets/Scripts/Interact Related
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    - Assets/Scripts/Interact Related
+>>>>>>> origin/main
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1951,6 +2465,9 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2033,6 +2550,48 @@ MonoBehaviour:
     m_LastClickedID: 55046
     m_ExpandedIDs: 000000001cd500001ed5000000ca9a3bffffff7f
 >>>>>>> df3595e (Moved scripts around)
+=======
+  - Assets/ImportAssets/Tablet
+=======
+  - Assets/Scripts/Interact Related
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 361.33328}
+    m_SelectedIDs: 943a0500
+    m_LastClickedID: 342676
+<<<<<<< HEAD
+    m_ExpandedIDs: 000000005cd400002ed6000000ca9a3bffffff7f
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    m_ExpandedIDs: 00000000ecd70000
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    scrollPos: {x: 0, y: 233.33334}
+    m_SelectedIDs: 3a410300
+    m_LastClickedID: 213306
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000ecd700006cd9000078d90000443303004a33030000ca9a3bffffff7f
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_ExpandedIDs: 0000000020d80000
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+  - Assets/Scripts/Interact Related
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 233.33334}
+    m_SelectedIDs: 3a410300
+    m_LastClickedID: 213306
+    m_ExpandedIDs: 0000000020d80000
+>>>>>>> origin/main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2061,6 +2620,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2110,6 +2674,21 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 000000001cd500001ed5000000ca9a3bffffff7f
 >>>>>>> df3595e (Moved scripts around)
+=======
+    m_ExpandedIDs: 000000005cd4000000ca9a3bffffff7f
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    m_ExpandedIDs: 00000000ecd70000
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    m_ExpandedIDs: 00000000ecd7000000ca9a3bffffff7f
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_ExpandedIDs: 0000000020d80000
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    m_ExpandedIDs: 0000000020d80000
+>>>>>>> origin/main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2137,8 +2716,21 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc00008433030000000000
+=======
+    m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc0000
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300
+>>>>>>> origin/main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2193,6 +2785,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 660.2
     y: 24
     width: 484.39996
@@ -2236,9 +2833,35 @@ MonoBehaviour:
 =======
     x: 732
     y: 551.3334
+=======
+    x: 733
+    y: 24
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     width: 538
     height: 314.66666
 >>>>>>> df3595e (Moved scripts around)
+=======
+    x: 732
+    y: 551.3334
+    width: 538
+    height: 314.66672
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    x: 733
+    y: 24
+=======
+    x: 732
+    y: 551.3334
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+    width: 538
+    height: 314.66666
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 733
+    y: 24
+    width: 538
+    height: 314.66666
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2335,6 +2958,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1146.6
     y: 24
     width: 389.40002
@@ -2352,10 +2980,13 @@ MonoBehaviour:
     width: 487
     height: 907
 =======
+=======
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
     x: 1272
     y: 78.66667
     width: 433.66675
     height: 787.3334
+<<<<<<< HEAD
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 <<<<<<< HEAD
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
@@ -2378,9 +3009,31 @@ MonoBehaviour:
 =======
     x: 1272
     y: 78.66667
+=======
+    x: 1273
+    y: 24
+>>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     width: 433.66663
     height: 787.3333
 >>>>>>> df3595e (Moved scripts around)
+=======
+>>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    x: 1273
+    y: 24
+=======
+    x: 1272
+    y: 78.66667
+>>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+    width: 433.66663
+    height: 787.3333
+>>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 1273
+    y: 24
+    width: 433.66663
+    height: 787.3333
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
