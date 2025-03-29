@@ -25,6 +25,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 716.8
   m_MinSize: {x: 400, y: 100}
@@ -111,6 +112,14 @@ MonoBehaviour:
 =======
   controlID: 14012
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    width: 1706.6666
+    height: 813.3333
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 14012
+>>>>>>> origin/main
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -153,6 +162,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,6 +219,12 @@ MonoBehaviour:
     width: 576.00006
     height: 446.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 793.3334
+    y: 78.66667
+    width: 576.00006
+    height: 446.66666
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -244,6 +260,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -768
     m_HBaseRangeMax: 768
     m_VBaseRangeMin: -432
@@ -259,10 +276,13 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+>>>>>>> origin/main
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -360
     m_VBaseRangeMax: 360
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
@@ -271,6 +291,8 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+>>>>>>> origin/main
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -288,6 +310,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,10 +357,13 @@ MonoBehaviour:
 >>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
 =======
 =======
+=======
+>>>>>>> origin/main
       width: 576.00006
       height: 425.66666
     m_Scale: {x: 0.45000005, y: 0.45000005}
     m_Translation: {x: 288.00003, y: 212.83333}
+<<<<<<< HEAD
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
 <<<<<<< HEAD
 >>>>>>> bbaba1d (Added highlight script, puzzle finish update)
@@ -368,12 +394,15 @@ MonoBehaviour:
     m_Scale: {x: 0.45000005, y: 0.45000005}
     m_Translation: {x: 288.00003, y: 212.83333}
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+>>>>>>> origin/main
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,6 +482,15 @@ MonoBehaviour:
   m_defaultScale: 0.45000005
   m_LastWindowPixelSize: {x: 864.0001, y: 670}
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+      x: -640
+      y: -472.9629
+      width: 1280
+      height: 945.9258
+    m_MinimalGUI: 1
+  m_defaultScale: 0.45000005
+  m_LastWindowPixelSize: {x: 864.0001, y: 670}
+>>>>>>> origin/main
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -478,6 +516,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -559,6 +598,14 @@ MonoBehaviour:
 =======
   controlID: 13975
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    width: 1371.3334
+    height: 813.3333
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 13975
+>>>>>>> origin/main
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -580,6 +627,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,6 +705,14 @@ MonoBehaviour:
 =======
   controlID: 13895
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    width: 1371.3334
+    height: 472.66666
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 13895
+>>>>>>> origin/main
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -675,6 +731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -708,6 +765,10 @@ MonoBehaviour:
     width: 266
     height: 472.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    width: 286.66666
+    height: 472.66666
+>>>>>>> origin/main
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 6}
@@ -734,6 +795,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
 =======
 <<<<<<< HEAD
@@ -748,10 +810,14 @@ MonoBehaviour:
 =======
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> origin/main
     m_Tooltip: 
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,10 +836,13 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+>>>>>>> origin/main
     x: 0
     y: 78.66667
     width: 285.66666
     height: 446.66666
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
@@ -782,6 +851,8 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -795,6 +866,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -846,10 +918,13 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+>>>>>>> origin/main
       scrollPos: {x: 0, y: 300}
       m_SelectedIDs: 44b40000
       m_LastClickedID: 46148
       m_ExpandedIDs: 565effff1afbffff8cb2000076b300008cb30000a0b30000a8b30000b8b3000044b40000eab50000b4b6000082b70000a4b7000014b800004eb9000032ba00003cba0000a2bb0000e8bb000098bd0000
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
 <<<<<<< HEAD
@@ -874,6 +949,8 @@ MonoBehaviour:
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
 =======
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+>>>>>>> origin/main
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -919,6 +996,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 241.6
     y: 0
     width: 644
@@ -954,6 +1032,12 @@ MonoBehaviour:
     width: 506.66666
     height: 472.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 286.66666
+    y: 0
+    width: 506.66666
+    height: 472.66666
+>>>>>>> origin/main
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 8}
@@ -988,6 +1072,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1029,6 +1114,12 @@ MonoBehaviour:
     width: 504.66666
     height: 446.66666
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    x: 286.6667
+    y: 78.66667
+    width: 504.66666
+    height: 446.66666
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1271,6 +1362,7 @@ MonoBehaviour:
       index: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-232.0,"y":165.60000610351563},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1326,6 +1418,12 @@ MonoBehaviour:
       collapsed: 0
       snapOffset: {x: -231.99997, y: -224.00002}
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-231.99996948242188,"y":-224.00001525878907},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -231.99997, y: -224.00002}
+>>>>>>> origin/main
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
       layout: 4
@@ -1662,6 +1760,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -39.023506, y: 10.632144, z: 8.167031}
     speed: 2
     m_Value: {x: -39.023506, y: 10.632144, z: 8.167031}
@@ -1741,6 +1840,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -26.185163, y: 1.4555776, z: -4.6728153}
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    m_Target: {x: -26.185163, y: 1.4555776, z: -4.6728153}
+    speed: 2
+    m_Value: {x: -26.185163, y: 1.4555776, z: -4.6728153}
+>>>>>>> origin/main
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1784,6 +1888,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Size: {x: 1, y: 1}
     m_ShowGrid: 0
     m_GridAxis: 1
@@ -1806,11 +1911,14 @@ MonoBehaviour:
 >>>>>>> df3595e (Moved scripts around)
 =======
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+>>>>>>> origin/main
       m_Size: {x: 0.05, y: 0.05}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1854,11 +1962,15 @@ MonoBehaviour:
 =======
     m_Target: {x: -0.29684868, y: 0.23304985, z: -0.07492423, w: -0.9235382}
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    m_Target: {x: -0.29684868, y: 0.23304985, z: -0.07492423, w: -0.9235382}
+>>>>>>> origin/main
     speed: 2
     m_Value: {x: -0.29578197, y: 0.23301205, z: -0.074654594, w: -0.92338777}
   m_Size:
     m_Target: 1.6007811
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1873,6 +1985,9 @@ MonoBehaviour:
 =======
     m_Value: 1.6007811
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    m_Value: 1.6007811
+>>>>>>> origin/main
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2122,6 +2237,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 885.6
     y: 0
     width: 260
@@ -2178,6 +2294,12 @@ MonoBehaviour:
     width: 578.00006
     height: 472.66666
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+    x: 793.3333
+    y: 0
+    width: 578.00006
+    height: 472.66666
+>>>>>>> origin/main
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 2}
@@ -2205,6 +2327,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 415.2
     width: 1145.6
     height: 301.59998
@@ -2213,12 +2336,15 @@ MonoBehaviour:
   vertical: 0
   controlID: 16849
 =======
+=======
+>>>>>>> origin/main
     y: 472.66666
     width: 1371.3334
     height: 340.66666
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2278,6 +2404,9 @@ MonoBehaviour:
 =======
   controlID: 13976
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+  controlID: 13976
+>>>>>>> origin/main
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -2296,6 +2425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2349,6 +2479,10 @@ MonoBehaviour:
 =======
     height: 340.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    width: 789.3333
+    height: 340.66666
+>>>>>>> origin/main
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 13}
@@ -2377,6 +2511,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2434,6 +2569,12 @@ MonoBehaviour:
 =======
     height: 314.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 0
+    y: 551.3334
+    width: 788.3333
+    height: 314.66666
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2456,6 +2597,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2521,6 +2663,9 @@ MonoBehaviour:
 =======
     - Assets/Scripts/Puzzle/Dice
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    - Assets/Scripts/Puzzle/Dice
+>>>>>>> origin/main
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2530,6 +2675,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2595,11 +2741,15 @@ MonoBehaviour:
 =======
   - Assets/Scripts/Puzzle/Dice
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+  - Assets/Scripts/Puzzle/Dice
+>>>>>>> origin/main
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2667,10 +2817,13 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+>>>>>>> origin/main
     scrollPos: {x: 0, y: 345.33334}
     m_SelectedIDs: fcd90000
     m_LastClickedID: 55804
     m_ExpandedIDs: 0000000020d80000a8d90000f4d9000000ca9a3bffffff7f
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
 <<<<<<< HEAD
@@ -2697,6 +2850,8 @@ MonoBehaviour:
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
 =======
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+>>>>>>> origin/main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2725,6 +2880,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2777,6 +2933,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000020d8000000ca9a3bffffff7f
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+=======
+    m_ExpandedIDs: 0000000020d8000000ca9a3bffffff7f
+>>>>>>> origin/main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2802,6 +2961,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2889,6 +3049,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300
 >>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
+=======
+    m_SelectedInstanceIDs: 44b40000
+    m_LastClickedInstanceID: 46148
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300
+>>>>>>> origin/main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2932,6 +3098,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2990,6 +3157,12 @@ MonoBehaviour:
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
     height: 340.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 789.3333
+    y: 0
+    width: 582.00006
+    height: 340.66666
+>>>>>>> origin/main
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -3019,6 +3192,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3085,6 +3259,12 @@ MonoBehaviour:
 =======
     height: 314.66666
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 789.3334
+    y: 551.3334
+    width: 580.00006
+    height: 314.66666
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3175,6 +3355,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1145.6
     y: 0
     width: 390.40002
@@ -3222,6 +3403,12 @@ MonoBehaviour:
     width: 434.66663
     height: 813.3333
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 1371.3334
+    y: 0
+    width: 335.33325
+    height: 813.3333
+>>>>>>> origin/main
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
@@ -3250,6 +3437,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3316,6 +3504,12 @@ MonoBehaviour:
     width: 433.66663
     height: 787.3333
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
+=======
+    x: 1371.3334
+    y: 78.66667
+    width: 334.33325
+    height: 787.3333
+>>>>>>> origin/main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3340,6 +3534,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &19
@@ -3382,3 +3577,5 @@ MonoBehaviour:
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
 =======
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
+=======
+>>>>>>> origin/main
