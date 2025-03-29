@@ -22,6 +22,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 716.8
   m_MinSize: {x: 400, y: 100}
@@ -76,6 +77,14 @@ MonoBehaviour:
   controlID: 54569
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    width: 1706.6666
+    height: 813.3333
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 1525
+>>>>>>> df3595e (Moved scripts around)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -86,10 +95,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -97,6 +102,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
 =======
@@ -106,10 +112,14 @@ MonoBehaviour:
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> df3595e (Moved scripts around)
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,13 +149,17 @@ MonoBehaviour:
     x: 793.3334
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
     x: 726.6667
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
     y: 78.66667
     width: 543.3333
     height: 446.66666
+<<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+>>>>>>> df3595e (Moved scripts around)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -167,11 +181,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-<<<<<<< HEAD
-  m_EnterPlayModeBehavior: 0
-=======
   m_EnterPlayModeBehavior: 1
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -182,6 +192,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -768
     m_HBaseRangeMax: 768
@@ -194,12 +205,17 @@ MonoBehaviour:
     m_VBaseRangeMin: -540
     m_VBaseRangeMax: 540
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -360
     m_VBaseRangeMax: 360
+<<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+>>>>>>> df3595e (Moved scripts around)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -208,7 +224,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -217,6 +233,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265,18 +282,24 @@ MonoBehaviour:
 >>>>>>> bbaba1d (Added highlight script, puzzle finish update)
 =======
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
       width: 543.3333
       height: 425.66666
     m_Scale: {x: 0.42447916, y: 0.42447916}
     m_Translation: {x: 271.66666, y: 212.83333}
+<<<<<<< HEAD
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+>>>>>>> df3595e (Moved scripts around)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -768
       y: -1096.0372
@@ -295,11 +318,14 @@ MonoBehaviour:
   m_defaultScale: 0.10729167
   m_LastWindowPixelSize: {x: 206, y: 514}
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
       x: -640
       y: -501.39877
       width: 1280
       height: 1002.79755
     m_MinimalGUI: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +354,10 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 815, y: 670}
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+  m_defaultScale: 0.42447916
+  m_LastWindowPixelSize: {x: 815, y: 670}
+>>>>>>> df3595e (Moved scripts around)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -356,6 +386,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1145.6
     height: 716.8
   m_MinSize: {x: 300, y: 100}
@@ -375,14 +406,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 24582
 =======
-    width: 1272
 =======
-    width: 1371.3334
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+>>>>>>> df3595e (Moved scripts around)
+    width: 1272
     height: 813.3333
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 8422
@@ -411,6 +442,9 @@ MonoBehaviour:
   controlID: 54532
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+  controlID: 1526
+>>>>>>> df3595e (Moved scripts around)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -435,6 +469,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1145.6
     height: 415.2
   m_MinSize: {x: 300, y: 50}
@@ -454,17 +489,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 24583
 =======
-    width: 1272
 =======
-    width: 1371.3334
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-=======
+>>>>>>> df3595e (Moved scripts around)
     width: 1272
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
     height: 472.66666
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -489,6 +521,9 @@ MonoBehaviour:
   controlID: 54450
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+  controlID: 1527
+>>>>>>> df3595e (Moved scripts around)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -510,6 +545,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 241.6
     height: 415.2
 =======
@@ -521,16 +557,15 @@ MonoBehaviour:
     width: 302
     height: 540
 =======
-    width: 266
 =======
-    width: 286.66666
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-=======
+>>>>>>> df3595e (Moved scripts around)
     width: 266
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
     height: 472.66666
+<<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+>>>>>>> df3595e (Moved scripts around)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 6}
@@ -555,6 +590,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: Hierarchy
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
 =======
 <<<<<<< HEAD
@@ -563,10 +599,14 @@ MonoBehaviour:
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> df3595e (Moved scripts around)
     m_Tooltip: 
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 0
     y: 79.200005
@@ -579,12 +619,17 @@ MonoBehaviour:
     width: 301
     height: 514
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
     x: 0
     y: 78.66667
     width: 265
     height: 446.66666
+<<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+>>>>>>> df3595e (Moved scripts around)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -598,6 +643,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -652,6 +698,12 @@ MonoBehaviour:
       m_ExpandedIDs: da14fdff8ae1feff24e5ffff26e5ffff1afbffff42b20000bab200005ab30000c4b3000050b4000002b6000036b600007cb60000b4b60000ccb6000070b7000024b80000aeb80000e0b80000e4b80000b0b900004cba000056ba00007ebb0000bcbb0000bebe0000
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: f2bafffff4baffff98d7ffff1afbffff60d70000d8d700006adb0000b0db000000dc000090df0000d0e00000fee00000
+>>>>>>> df3595e (Moved scripts around)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -694,6 +746,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 241.6
     y: 0
     width: 644
@@ -709,18 +762,17 @@ MonoBehaviour:
     width: 922
     height: 540
 =======
-    x: 266
 =======
-    x: 286.66666
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-=======
+>>>>>>> df3595e (Moved scripts around)
     x: 266
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
     y: 0
     width: 460.6667
     height: 472.66666
+<<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
+=======
+>>>>>>> df3595e (Moved scripts around)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 8}
@@ -738,11 +790,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-=======
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-=======
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -755,6 +802,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -773,18 +821,17 @@ MonoBehaviour:
     width: 920
     height: 514
 =======
-    x: 266
 =======
-    x: 286.6667
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-=======
+>>>>>>> df3595e (Moved scripts around)
     x: 266
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
     y: 78.66667
     width: 458.6667
     height: 446.66666
+<<<<<<< HEAD
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+>>>>>>> df3595e (Moved scripts around)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1020,6 +1067,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       containerId: overlay-toolbar__bottom
       displayed: 0
       id: Scene View/Particles
@@ -1045,6 +1093,8 @@ MonoBehaviour:
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
 =======
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/Scene Visibility
@@ -1067,8 +1117,11 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       snapOffset: {x: -56, y: -26.666656}
+<<<<<<< HEAD
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+>>>>>>> df3595e (Moved scripts around)
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
       layout: 4
@@ -1400,6 +1453,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -39.023506, y: 10.632144, z: 8.167031}
     speed: 2
     m_Value: {x: -39.023506, y: 10.632144, z: 8.167031}
@@ -1454,6 +1508,11 @@ MonoBehaviour:
     m_Value: {x: -59.736515, y: 14.113792, z: 76.314896}
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    m_Target: {x: -21.495768, y: -3.5811357, z: 2.7497568}
+    speed: 2
+    m_Value: {x: -21.495768, y: -3.5811357, z: 2.7497568}
+>>>>>>> df3595e (Moved scripts around)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1495,6 +1554,7 @@ MonoBehaviour:
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Size: {x: 1, y: 1}
     m_ShowGrid: 0
     m_GridAxis: 1
@@ -1513,11 +1573,14 @@ MonoBehaviour:
 =======
     m_Value: 9.353592
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
       m_Size: {x: 0.05, y: 0.05}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1536,29 +1599,15 @@ MonoBehaviour:
 =======
     m_Target: {x: -0.017805535, y: -0.9802303, z: 0.0912748, w: -0.18212037}
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    m_Target: {x: 0.22927493, y: 0.51493996, z: -0.14518665, w: 0.81320155}
+>>>>>>> df3595e (Moved scripts around)
     speed: 2
-    m_Value: {x: -0.017600881, y: -0.97901624, z: 0.09017417, w: -0.18189557}
+    m_Value: {x: 0.22911747, y: 0.51572555, z: -0.14540812, w: 0.8126431}
   m_Size:
-    m_Target: 1.3869506
+    m_Target: 10
     speed: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Value: 1.0175864
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-=======
-    m_Value: 1.3869506
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
-=======
-    m_Value: 0.5001897
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-=======
-    m_Value: 1.6007811
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-=======
-    m_Value: 1.3869506
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1588,9 +1637,9 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_LastDebugDrawMode:
-    drawMode: 18
-    name: Baked Lightmap
-    section: Baked Global Illumination
+    drawMode: 35
+    name: 
+    section: 
   m_ViewIsLockedToObject: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -1803,6 +1852,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 885.6
     y: 0
     width: 260
@@ -1833,13 +1883,17 @@ MonoBehaviour:
     x: 793.3333
 >>>>>>> ffb5720 (Added highlight script, puzzle finish update)
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
     x: 726.6667
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
     y: 0
     width: 545.3333
     height: 472.66666
+<<<<<<< HEAD
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+=======
+>>>>>>> df3595e (Moved scripts around)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 2}
@@ -1876,10 +1930,11 @@ MonoBehaviour:
 =======
     y: 472.66666
     width: 1272
-    height: 340.66672
+    height: 340.66666
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1914,6 +1969,9 @@ MonoBehaviour:
   controlID: 54533
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+  controlID: 1552
+>>>>>>> df3595e (Moved scripts around)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1932,6 +1990,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1967,6 +2026,10 @@ MonoBehaviour:
     height: 340.66672
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    width: 732
+    height: 340.66666
+>>>>>>> df3595e (Moved scripts around)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 13}
@@ -1996,6 +2059,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 494.4
     width: 658.2
@@ -2007,11 +2071,12 @@ MonoBehaviour:
     width: 823
     height: 367
 =======
+=======
+>>>>>>> df3595e (Moved scripts around)
     x: 0
     y: 551.3334
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 731
+<<<<<<< HEAD
 <<<<<<< HEAD
     height: 314.66672
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
@@ -2032,6 +2097,9 @@ MonoBehaviour:
     height: 314.66672
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    height: 314.66666
+>>>>>>> df3595e (Moved scripts around)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2054,6 +2122,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2099,6 +2168,9 @@ MonoBehaviour:
     - Assets/Scenes
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    - Assets/Scripts
+>>>>>>> df3595e (Moved scripts around)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2108,6 +2180,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2153,11 +2226,15 @@ MonoBehaviour:
   - Assets/Scenes
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+  - Assets/Scripts
+>>>>>>> df3595e (Moved scripts around)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2224,6 +2301,12 @@ MonoBehaviour:
     m_ExpandedIDs: 000000005ad8000052c5010000ca9a3bffffff7f
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 06d70000
+    m_LastClickedID: 55046
+    m_ExpandedIDs: 000000001cd500001ed5000000ca9a3bffffff7f
+>>>>>>> df3595e (Moved scripts around)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2252,6 +2335,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2288,6 +2372,9 @@ MonoBehaviour:
     m_ExpandedIDs: 000000005ad8000000ca9a3bffffff7f
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    m_ExpandedIDs: 000000001cd500001ed5000000ca9a3bffffff7f
+>>>>>>> df3595e (Moved scripts around)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2313,6 +2400,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2369,6 +2457,12 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc00008433030000000000
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc00008433030000000000
+>>>>>>> df3595e (Moved scripts around)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2428,13 +2522,8 @@ MonoBehaviour:
     x: 732
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 608
-    height: 393
-=======
     width: 540
+<<<<<<< HEAD
 <<<<<<< HEAD
     height: 340.66672
 >>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
@@ -2455,6 +2544,9 @@ MonoBehaviour:
     height: 340.66672
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    height: 340.66666
+>>>>>>> df3595e (Moved scripts around)
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -2484,6 +2576,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2529,6 +2622,12 @@ MonoBehaviour:
     height: 314.66672
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    x: 732
+    y: 551.3334
+    width: 538
+    height: 314.66666
+>>>>>>> df3595e (Moved scripts around)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2640,9 +2739,14 @@ MonoBehaviour:
 =======
     x: 1272
     y: 0
+<<<<<<< HEAD
     width: 434.66675
     height: 813.3334
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+    width: 434.66663
+    height: 813.3333
+>>>>>>> df3595e (Moved scripts around)
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
@@ -2674,6 +2778,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1145.6
     y: 79.200005
     width: 389.40002
@@ -2699,13 +2804,13 @@ MonoBehaviour:
 >>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
 =======
 =======
-    width: 433.66663
 =======
-    x: 1371.3334
+    x: 1272
     y: 78.66667
-    width: 334.33325
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
+>>>>>>> df3595e (Moved scripts around)
+    width: 433.66663
     height: 787.3333
+<<<<<<< HEAD
 >>>>>>> 38dce98 (Added new shader for the tables to be on and off)
 <<<<<<< HEAD
 >>>>>>> 162bcaa (Added new shader for the tables to be on and off)
@@ -2717,6 +2822,8 @@ MonoBehaviour:
     height: 787.3334
 >>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
 >>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
+=======
+>>>>>>> df3595e (Moved scripts around)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2735,7 +2842,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 284.6667
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

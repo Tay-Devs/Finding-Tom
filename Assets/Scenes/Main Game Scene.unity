@@ -19869,7 +19869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineColor: {r: 0.7254902, g: 0.78039217, b: 0.7921569, a: 1}
-  outlineWidth: 15
+  outlineWidth: 12.5
   canHightlight: 1
 --- !u!135 &1026729926
 SphereCollider:
@@ -42570,7 +42570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1897998609
 BoxCollider:
   m_ObjectHideFlags: 0
