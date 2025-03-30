@@ -322,6 +322,7 @@ GameObject:
   - component: {fileID: 8866506015640390532}
   - component: {fileID: 3085101503958870837}
   - component: {fileID: 9055158010764002854}
+  - component: {fileID: 8217579659098619346}
   m_Layer: 6
   m_Name: Input Image
   m_TagString: Untagged
@@ -386,6 +387,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8217579659098619346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5836068967328511346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2121e9ee09f0c469da1ca5a4a8215e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputData: {fileID: 11400000, guid: 8dfadec6e4e991849bf7e8ace251125c, type: 2}
+  iconImage: {fileID: 9055158010764002854}
+  actionNameText: {fileID: 0}
+  bindingText: {fileID: 0}
+  autoUpdate: 1
 --- !u!1 &6246790251280451029
 GameObject:
   m_ObjectHideFlags: 0
