@@ -2,7 +2,7 @@
     "name": "DiceControls",
     "maps": [
         {
-            "name": "Gameplay",
+            "name": "Dice",
             "id": "beffc553-f8b6-4ca1-a7f3-78c51da5af23",
             "actions": [
                 {
