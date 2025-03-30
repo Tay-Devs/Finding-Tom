@@ -322,7 +322,6 @@ GameObject:
   - component: {fileID: 8866506015640390532}
   - component: {fileID: 3085101503958870837}
   - component: {fileID: 9055158010764002854}
-  - component: {fileID: 2431301641737196727}
   m_Layer: 6
   m_Name: Input Image
   m_TagString: Untagged
@@ -387,26 +386,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2431301641737196727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5836068967328511346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b32f00a877412854288cfcea60e55238, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputAction: {fileID: -8480536582647763785, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-  promptType: 1
-  promptText: {fileID: 0}
-  promptImage: {fileID: 9055158010764002854}
-  keyboardSprites: {fileID: 11400000, guid: 0bd01cf274668c843b7d138f47375cff, type: 2}
-  playstationSprites: {fileID: 11400000, guid: 8e7e6f55ad598b4499c4be5546e61886, type: 2}
-  xboxSprites: {fileID: 11400000, guid: b5465228d738d7a429a9d5f2a1a4fc75, type: 2}
-  proControllerSprites: {fileID: 11400000, guid: 154244fb9f8985748bc29f8beecbf918, type: 2}
 --- !u!1 &6246790251280451029
 GameObject:
   m_ObjectHideFlags: 0

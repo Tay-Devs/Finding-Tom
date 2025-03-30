@@ -14,37 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 0
-    y: 43.2
-    width: 1536
-    height: 772.8
-=======
-<<<<<<< HEAD
-    x: -1920
-    y: 44
-    width: 1920
-    height: 989
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-  m_ShowMode: 4
-  m_Title: Game
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
     x: 0
     y: 42.666668
     width: 1706.6667
     height: 869.3334
-=======
-    x: 1920
-    y: 43
-    width: 1920
-    height: 989
->>>>>>> origin/OrenScene
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -69,23 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1536
-    height: 772.8
-=======
-    width: 1706.6667
-    height: 869.3334
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
     width: 1706.6666
     height: 869.3333
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-    width: 1920
-    height: 989
->>>>>>> origin/OrenScene
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -109,19 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1536
-=======
-    width: 1706.6667
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
     width: 1706.6666
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-    width: 1920
->>>>>>> origin/OrenScene
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -142,23 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 752.8
-    width: 1536
-=======
-    y: 849.3334
-    width: 1706.6667
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
     y: 849.3333
     width: 1706.6666
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-    y: 969
-    width: 1920
->>>>>>> origin/OrenScene
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -181,31 +114,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 36
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1536
-    height: 716.8
-=======
-    width: 1706.6667
-    height: 813.3334
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
     width: 1706.6666
     height: 813.3333
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 1928
-=======
-    width: 1920
-    height: 933
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 32384, y: 16192}
-  vertical: 0
-  controlID: 9784
->>>>>>> origin/OrenScene
+  controlID: 172
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -226,30 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1145.6
-    height: 716.8
-=======
-    width: 1272
-<<<<<<< HEAD
-    height: 813.3334
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
+    width: 1268.6666
     height: 813.3333
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 1929
-=======
-    width: 1429
-    height: 933
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 1
-  controlID: 9785
->>>>>>> origin/OrenScene
+  controlID: 55
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -271,37 +167,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1145.6
-    height: 415.2
-=======
-<<<<<<< HEAD
-    width: 1432
-    height: 540
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+    width: 1268.6666
+    height: 507.33334
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 25676
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
-    width: 1272
-    height: 472.66666
-  m_MinSize: {x: 300, y: 50}
-  m_MaxSize: {x: 24288, y: 8096}
-  vertical: 0
-  controlID: 1930
-=======
-    width: 1429
-    height: 539
-  m_MinSize: {x: 300, y: 50}
-  m_MaxSize: {x: 24288, y: 8096}
-  vertical: 0
-  controlID: 9786
->>>>>>> origin/OrenScene
+  controlID: 56
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -320,28 +191,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 241.6
-    height: 415.2
-=======
-<<<<<<< HEAD
-    width: 302
-    height: 540
-=======
-    width: 266
-    height: 472.66666
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-    width: 266
-    height: 472.66666
->>>>>>> df3595e (Moved scripts around)
-=======
-    width: 297
-    height: 539
->>>>>>> origin/OrenScene
+    width: 248
+    height: 507.33334
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 16}
@@ -364,33 +215,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 241.6
-=======
-<<<<<<< HEAD
-    x: 302
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+    x: 248
     y: 0
-    width: 737.6
-    height: 415.2
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 17}
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
-    x: 266
-    y: 0
-    width: 460.6667
-    height: 472.66666
-=======
-    x: 297
-    y: 0
-    width: 670
-    height: 539
->>>>>>> origin/OrenScene
+    width: 466.6667
+    height: 507.33334
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 17}
@@ -414,42 +242,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 979.2
-=======
-=======
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-<<<<<<< HEAD
-    x: 1224
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+    x: 714.6667
     y: 0
-    width: 166.39996
-    height: 415.2
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 15}
-=======
-    x: 765.3333
-=======
-    x: 727.3333
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-    y: 0
-    width: 544.6667
-=======
-    x: 726.6667
-    y: 0
-    width: 545.3333
->>>>>>> df3595e (Moved scripts around)
-    height: 472.66666
-=======
-    x: 967
-    y: 0
-    width: 462
-    height: 539
->>>>>>> origin/OrenScene
+    width: 553.99994
+    height: 507.33334
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -475,41 +271,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 415.2
-    width: 1145.6
-    height: 301.59998
-=======
-<<<<<<< HEAD
-    y: 540
-    width: 1432
-    height: 393
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
+    y: 507.33334
+    width: 1268.6666
+    height: 305.99997
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 25754
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
-    y: 472.66666
-    width: 1272
-    height: 340.66666
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 1955
-=======
-    y: 539
-    width: 1429
-    height: 394
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 9887
->>>>>>> origin/OrenScene
+  controlID: 136
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -528,35 +296,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 659.2
-    height: 301.59998
-=======
-<<<<<<< HEAD
-    width: 824
-    height: 393
-=======
-    width: 732
-<<<<<<< HEAD
-    height: 340.66672
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-<<<<<<< HEAD
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-=======
-    height: 340.66666
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-    width: 732
-    height: 340.66666
->>>>>>> df3595e (Moved scripts around)
-=======
-    width: 822
-    height: 394
->>>>>>> origin/OrenScene
+    width: 674.6667
+    height: 305.99997
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 19}
@@ -579,42 +320,16 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 659.2
+    x: 674.6667
     y: 0
-    width: 486.39996
-    height: 301.59998
-=======
-    x: 732
-    y: 0
-    width: 540
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 340.66672
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-<<<<<<< HEAD
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-=======
-    height: 340.66666
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-    height: 340.66666
->>>>>>> df3595e (Moved scripts around)
-=======
-    x: 822
-    y: 0
-    width: 607
-    height: 394
->>>>>>> origin/OrenScene
+    width: 593.99994
+    height: 305.99997
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 20}
   - {fileID: 21}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &14
@@ -632,35 +347,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1145.6
+    x: 1268.6666
     y: 0
-    width: 390.40002
-    height: 716.8
-=======
-    x: 1429
-    y: 0
-    width: 491
-    height: 933
->>>>>>> origin/OrenScene
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
-=======
-    x: 1272
-    y: 0
-<<<<<<< HEAD
-    width: 434.66675
-    height: 813.3334
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-    width: 434.66663
+    width: 438
     height: 813.3333
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -682,58 +374,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
-=======
-<<<<<<< HEAD
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-=======
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> df3595e (Moved scripts around)
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 980.2
+    x: 715.6667
     y: 24
-    width: 164.39996
-    height: 389.2
-=======
-=======
->>>>>>> bbaba1d (Added highlight script, puzzle finish update)
-<<<<<<< HEAD
-    x: -696
-    y: 80
-    width: 206
-    height: 514
-=======
-    x: 727.3334
-=======
-    x: 726.6667
->>>>>>> df3595e (Moved scripts around)
-    y: 78.66667
-    width: 543.3333
-    height: 446.66666
-<<<<<<< HEAD
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
->>>>>>> df3595e (Moved scripts around)
-=======
-    x: 968
-    y: 24
-    width: 460
-    height: 513
->>>>>>> origin/OrenScene
+    width: 551.99994
+    height: 481.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -755,7 +404,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -766,30 +415,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_HBaseRangeMin: -768
-    m_HBaseRangeMax: 768
-    m_VBaseRangeMin: -432
-    m_VBaseRangeMax: 432
-=======
-<<<<<<< HEAD
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -360
     m_VBaseRangeMax: 360
-<<<<<<< HEAD
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
->>>>>>> df3595e (Moved scripts around)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -807,78 +436,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      width: 206
-      height: 493
-<<<<<<< HEAD
-    m_Scale: {x: 0.13411458, y: 0.13411458}
-    m_Translation: {x: 103, y: 246.49998}
-=======
-    m_Scale: {x: 0.10729167, y: 0.107291676}
-    m_Translation: {x: 103, y: 246.5}
-=======
-      width: 542.6667
-      height: 425.66666
-    m_Scale: {x: 0.42395836, y: 0.42395836}
-    m_Translation: {x: 271.33334, y: 212.83333}
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
-      width: 543.3333
-      height: 425.66666
-    m_Scale: {x: 0.42447916, y: 0.42447916}
-    m_Translation: {x: 271.66666, y: 212.83333}
->>>>>>> df3595e (Moved scripts around)
-=======
-      width: 459
-      height: 492
-    m_Scale: {x: 0.29882812, y: 0.29882812}
-    m_Translation: {x: 229.5, y: 246}
->>>>>>> origin/OrenScene
+      width: 551.99994
+      height: 460.33334
+    m_Scale: {x: 0.43124995, y: 0.43124995}
+    m_Translation: {x: 275.99997, y: 230.16667}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      x: -768
-      y: -1837.9806
-      width: 1536
-      height: 3675.9612
-=======
-<<<<<<< HEAD
-      x: -960
-      y: -2297.4756
-      width: 1920
-      height: 4594.951
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-    m_MinimalGUI: 1
-  m_defaultScale: 0.13411458
-  m_LastWindowPixelSize: {x: 206, y: 514}
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
       x: -640
-      y: -501.39877
+      y: -533.7199
       width: 1280
-      height: 1002.79755
+      height: 1067.4398
     m_MinimalGUI: 1
-  m_defaultScale: 0.42447916
-  m_LastWindowPixelSize: {x: 815, y: 670}
-=======
-      x: -768
-      y: -823.2157
-      width: 1536
-      height: 1646.4314
-    m_MinimalGUI: 1
-  m_defaultScale: 0.29882812
-  m_LastWindowPixelSize: {x: 459, y: 513}
->>>>>>> origin/OrenScene
+  m_defaultScale: 0.43124995
+  m_LastWindowPixelSize: {x: 551.99994, y: 481.33334}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -901,54 +475,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
-=======
-<<<<<<< HEAD
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-=======
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> df3595e (Moved scripts around)
     m_Tooltip: 
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 0
     y: 24
-    width: 240.6
-    height: 389.2
-=======
-<<<<<<< HEAD
-    x: -1920
-    y: 80
-    width: 301
-    height: 514
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
-    x: 0
-    y: 78.66667
-    width: 265
-    height: 446.66666
-<<<<<<< HEAD
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
->>>>>>> df3595e (Moved scripts around)
-=======
-    x: 0
-    y: 24
-    width: 296
-    height: 513
->>>>>>> origin/OrenScene
+    width: 247
+    height: 481.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -962,50 +497,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-=======
-=======
->>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
-      scrollPos: {x: 0, y: 60}
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_SelectedIDs: ca7dfdff
-      m_LastClickedID: -164406
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-      m_ExpandedIDs: 187efdffb824ffff3a35ffffbc5fffffd87fffffe0faffff74b3000048b60000d6b60000ca460200f446020010470200264702006c47020080470200ee470200fe470200ac480200fa490200684a0200884a0200ae4a0200ec4c0200a04e0200025002000a51020060510200
-=======
-      m_SelectedIDs: 66630000
-=======
-=======
-=======
->>>>>>> origin/OrenScene
-      scrollPos: {x: 0, y: 0}
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
-      m_SelectedIDs: 
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-      m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ExpandedIDs: 1aa8faff58c3fafff67dffff808dffffc6b9ffffc2d8ffff54e3ffff42f8ffff1afbffffa2b30000ccb500007eb6000064b7000012ba000062f7000032fa00003cfb000058fc000002fd00003a000100d65a0100f85a0100865c01002c5e0100f65e010056600100d66101007c620100a8630100e6630100dc650100e86601002c670100
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-=======
-      m_ExpandedIDs: 9477ffff66faffff68faffff1afbffff90b2000052b30000acb30000bcb3000048b40000fab500003ab6000074b60000c4b6000068b700001cb800009eb9000044ba0000aabb0000a0bd0000acbe000046bf0000
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
-=======
-      scrollPos: {x: 0, y: 192}
-      m_SelectedIDs: 08dc0000
-      m_LastClickedID: 56328
-      m_ExpandedIDs: f2baffff98d7ffff1afbffffb6d70000d8d700006adb0000b0db000000dc00006cdc00000cdd000090df0000d0e00000fee0000044e10000
->>>>>>> df3595e (Moved scripts around)
-=======
-      m_ExpandedIDs: 8aeaffff1afbffff94b300006eb4000032b50000a0b50000b6b600001ab700002cb7000048b700004cb7000072b7000090b9000092bb0000aebc000026be00007cbe0000
->>>>>>> origin/OrenScene
+      m_ExpandedIDs: 449ffeffb8adfeff86bdfeffc648ffff004affff2c4affff5e52ffffd264ffffac85ffff10acffff74d1ffff18fbfffff4ffffff10eb0000fa0201003404010066060100780601001e07010036070100040801008e08010018090100b80a0100c20a0100f20b0100200f0100faa904001cad04008eaf040018b00400c2b10400f2b2040018b4040020b60400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1051,46 +546,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 242.6
+    x: 249
     y: 24
-    width: 735.6
-    height: 389.2
-=======
-=======
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
->>>>>>> bbaba1d (Added highlight script, puzzle finish update)
-<<<<<<< HEAD
-    x: -1618
-    y: 80
-    width: 920
-    height: 514
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
-    x: 266
-    y: 78.66667
-    width: 458.6667
-    height: 446.66666
-<<<<<<< HEAD
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
->>>>>>> df3595e (Moved scripts around)
-=======
-    x: 298
-    y: 24
-    width: 668
-    height: 513
->>>>>>> origin/OrenScene
+    width: 464.6667
+    height: 481.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1133,10 +592,10 @@ MonoBehaviour:
       displayed: 1
       id: unity-scene-view-toolbar
       index: 0
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-282.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-256.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: -282, y: 25.333332}
+      snapOffset: {x: -256, y: 25.333332}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
       layout: 1
@@ -1325,7 +784,6 @@ MonoBehaviour:
       size: {x: 0, y: 0}
       sizeOverridden: 0
     - dockPosition: 1
-<<<<<<< HEAD
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/Scene Visibility
@@ -1350,18 +808,6 @@ MonoBehaviour:
       snapOffset: {x: -56, y: -26.666656}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
-=======
-      containerId: overlay-toolbar__bottom
-      displayed: 0
-      id: Scene View/Particles
-      index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-232.0,"y":165.60000610351563},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
-      floating: 0
-      collapsed: 0
-      snapOffset: {x: -232, y: 165.6}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
->>>>>>> origin/OrenScene
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -1676,7 +1122,7 @@ MonoBehaviour:
       scrollOffset: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -1686,30 +1132,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -32.4926, y: 3.3882997, z: 2.60325}
-=======
-=======
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
->>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
-<<<<<<< HEAD
-    m_Target: {x: -30.718071, y: -0.88840497, z: -24.099562}
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-    m_Target: {x: -23.020327, y: -7.0162463, z: -19.776989}
->>>>>>> df3595e (Moved scripts around)
+    m_Target: {x: -35.151566, y: -5.5738087, z: 1.4571791}
     speed: 2
-    m_Value: {x: -23.020327, y: -7.0162463, z: -19.776989}
-=======
-    m_Target: {x: -31.426533, y: 1.1551646, z: 0.19767661}
-    speed: 2
-    m_Value: {x: -31.426533, y: 1.1551646, z: 0.19767661}
->>>>>>> origin/OrenScene
+    m_Value: {x: -35.151566, y: -5.5738087, z: 1.4571791}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1750,78 +1175,25 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/OrenScene
-      m_Size: {x: 1, y: 1}
-    m_ShowGrid: 0
-    m_GridAxis: 1
-    m_gridOpacity: 1
-  m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: 0.037761554, y: 0.9509078, z: -0.27892715, w: 0.12915114}
-    speed: 2
-    m_Value: {x: 0.0022713577, y: 0.99708205, z: -0.06921988, w: 0.034085553}
-  m_Size:
-    m_Target: 0.6780017
-    speed: 2
-<<<<<<< HEAD
-    m_Value: 7.7802205
-=======
-    m_Value: 8.146828
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
       m_Size: {x: 0.05, y: 0.05}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: 0.060121544, y: 0.9396679, z: -0.25078744, w: 0.22528163}
+    m_Target: {x: -0.2743579, y: 0.43593505, z: -0.14147602, w: -0.84539324}
     speed: 2
-    m_Value: {x: 0.060365155, y: 0.9393311, z: -0.25069755, w: 0.2261944}
+    m_Value: {x: -0.2743579, y: 0.43593502, z: -0.14147602, w: -0.84539324}
   m_Size:
     m_Target: 10
     speed: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Value: 0.4849159
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-<<<<<<< HEAD
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-=======
-    m_Value: 0.5001897
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-<<<<<<< HEAD
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
-=======
-    m_Value: 2.5237074
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
->>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
-=======
     m_Value: 10
->>>>>>> df3595e (Moved scripts around)
-=======
-    m_Target: {x: 0.105230935, y: 0.14062184, z: -0.0150321545, w: 0.9843443}
-    speed: 2
-    m_Value: {x: -0.10523094, y: -0.14062186, z: 0.015032155, w: -0.9843443}
-  m_Size:
-    m_Target: 5.6669006
-    speed: 2
-    m_Value: 5.6669006
->>>>>>> origin/OrenScene
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.42079
-    m_SpeedNormalized: 0.21
+    m_Speed: 0.12094
+    m_SpeedNormalized: 0.06
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1892,7 +1264,6 @@ MonoBehaviour:
     - {fileID: -2064750970351611381, guid: 0bd59cbb07972d34f9764c9bad9b2ee2, type: 2}
     - {fileID: -1192538139278337531, guid: 9a38c0333a32a71489dd005bc4d39ded, type: 2}
     - {fileID: 1602802837558879057, guid: e481336814108eb478284fc4a1e4b1ad, type: 2}
-    - {fileID: -2121524622092803697, guid: 901e03e7f3248644a9f7af9bbafbe6be, type: 2}
     - {fileID: 2206185477919536935, guid: adc4f3baa91eed241939ecda9930f83a, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.5220063
@@ -1991,30 +1362,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.5142692
+    - e00: 1
       e01: 0
       e02: 0
-      e03: -76.87572
+      e03: 0
       e10: 0
-      e11: 0.5142692
+      e11: 1
       e12: 0
-      e13: 156.00272
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.5220063
-      e01: 0
-      e02: 0
-      e03: 111.193306
-      e10: 0
-      e11: 0.5220063
-      e12: 0
-      e13: 48.36204
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -2060,45 +1415,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 0
     y: 24
-    width: 658.2
-    height: 275.59998
-=======
-<<<<<<< HEAD
-    x: -1920
-    y: 620
-    width: 823
-    height: 367
-=======
-=======
->>>>>>> df3595e (Moved scripts around)
-    x: 0
-    y: 551.3334
-    width: 731
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 314.66672
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-<<<<<<< HEAD
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-=======
-    height: 314.66666
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-    height: 314.66666
->>>>>>> df3595e (Moved scripts around)
-=======
-    x: 0
-    y: 24
-    width: 821
-    height: 368
->>>>>>> origin/OrenScene
+    width: 673.6667
+    height: 279.99997
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2121,11 +1441,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-    - Assets/Scripts
-=======
-    - Assets/Scenes/Oren Scene
->>>>>>> origin/OrenScene
+    - Assets/Scripts/UI Input Switcher
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2135,99 +1451,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Assets/Particles Materials
-=======
-  - Assets/Scenes/Oren Scene
->>>>>>> origin/OrenScene
-  m_LastFoldersGridSize: 16
-  m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
-    \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
-    Person Clone\\Finding-Tom\\Finding-Tom"
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-<<<<<<< HEAD
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b8130600
-    m_LastClickedID: 398264
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000d6d50000
-=======
-    m_ExpandedIDs: 00000000a6d50000
-=======
-  - Assets/ImportAssets/Tablet
-=======
-  - Assets/Scripts/Interact Related
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-=======
-  - Assets
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
-=======
-  - Assets/Scripts
->>>>>>> df3595e (Moved scripts around)
+  - Assets/Scripts/UI Input Switcher
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    scrollPos: {x: 0, y: 361.33328}
-    m_SelectedIDs: 943a0500
-    m_LastClickedID: 342676
-<<<<<<< HEAD
-    m_ExpandedIDs: 000000005cd400002ed6000000ca9a3bffffff7f
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-<<<<<<< HEAD
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-=======
-    m_ExpandedIDs: 00000000ecd70000
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
-<<<<<<< HEAD
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-=======
-    scrollPos: {x: 0, y: 233.33334}
-    m_SelectedIDs: 3a410300
-    m_LastClickedID: 213306
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000ecd700006cd9000078d90000443303004a33030000ca9a3bffffff7f
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-<<<<<<< HEAD
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
-=======
-    m_ExpandedIDs: 0000000020d80000
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-<<<<<<< HEAD
->>>>>>> bbaba1d (Added highlight script, puzzle finish update)
-=======
-=======
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 40d80000
-    m_LastClickedID: 55360
-    m_ExpandedIDs: 000000005ad80000
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
->>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
-=======
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 06d70000
-    m_LastClickedID: 55046
-    m_ExpandedIDs: 000000001cd500001ed5000000ca9a3bffffff7f
->>>>>>> df3595e (Moved scripts around)
-=======
-    scrollPos: {x: 0, y: 72}
-    m_SelectedIDs: b6d80000
-    m_LastClickedID: 55478
-    m_ExpandedIDs: 000000009cd60000
->>>>>>> origin/OrenScene
+    scrollPos: {x: 0, y: 268.00003}
+    m_SelectedIDs: 8cdb0000
+    m_LastClickedID: 56204
+    m_ExpandedIDs: 0000000084d7000086d70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2256,59 +1489,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000d6d50000
-=======
-=======
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
->>>>>>> bbaba1d (Added highlight script, puzzle finish update)
-=======
->>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000a6d50000
-=======
-    m_ExpandedIDs: 000000005cd4000000ca9a3bffffff7f
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-<<<<<<< HEAD
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-=======
-    m_ExpandedIDs: 00000000ecd70000
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
-<<<<<<< HEAD
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-=======
-    m_ExpandedIDs: 00000000ecd7000000ca9a3bffffff7f
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-<<<<<<< HEAD
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
-=======
-    m_ExpandedIDs: 0000000020d80000
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-<<<<<<< HEAD
->>>>>>> bbaba1d (Added highlight script, puzzle finish update)
-=======
-=======
-    m_ExpandedIDs: 000000005ad80000
->>>>>>> 02a0c09 (Added most of the logic for the maze puzzle)
->>>>>>> 15d2dc2 (Added most of the logic for the maze puzzle)
-=======
-    m_ExpandedIDs: 000000001cd500001ed5000000ca9a3bffffff7f
->>>>>>> df3595e (Moved scripts around)
-=======
-    m_ExpandedIDs: 000000009cd60000
->>>>>>> origin/OrenScene
+    m_ExpandedIDs: 0000000084d7000086d70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2336,12 +1517,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-<<<<<<< HEAD
-    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc00008433030000000000
-=======
-    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc4000000000000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000
->>>>>>> origin/OrenScene
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000e6f80000cef80000daf80000d4f80000e0f80000eaf80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc00008433030000000000ca020000ecc30000eec30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2369,98 +1546,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 213.6667
+  m_DirectoriesAreaWidth: 214.33337
 --- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Console\u200B"
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 660.2
-    y: 24
-    width: 484.39996
-    height: 275.59998
-=======
-=======
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
->>>>>>> bbaba1d (Added highlight script, puzzle finish update)
-<<<<<<< HEAD
-    x: -1096
-    y: 620
-    width: 606
-    height: 367
-=======
-    x: 732
-    y: 551.3334
-=======
-    x: 733
-    y: 24
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-    width: 538
-    height: 314.66672
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-<<<<<<< HEAD
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-=======
-    x: 733
-    y: 24
-=======
-    x: 732
-    y: 551.3334
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-    width: 538
-    height: 314.66666
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-    x: 732
-    y: 551.3334
-    width: 538
-    height: 314.66666
->>>>>>> df3595e (Moved scripts around)
-=======
-    x: 823
-    y: 24
-    width: 605
-    height: 368
->>>>>>> origin/OrenScene
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
---- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2481,10 +1568,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Input Debug\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 659.2
-    y: 494.4
-    width: 484.39996
-    height: 275.59998
+    x: 674.6667
+    y: 586
+    width: 591.99994
+    height: 279.99997
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2498,8 +1585,8 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e190000
-    m_LastClickedID: 6526
+    m_SelectedIDs: 02000000
+    m_LastClickedID: 2
     m_ExpandedIDs: 01000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2519,6 +1606,42 @@ MonoBehaviour:
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Console\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 675.6667
+    y: 24
+    width: 591.99994
+    height: 279.99997
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2540,64 +1663,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1146.6
+    x: 1269.6666
     y: 24
-    width: 389.40002
-    height: 690.8
-=======
-=======
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
->>>>>>> d9b346b (Added Power Cable to the scene to power up the tablet)
-=======
->>>>>>> bbaba1d (Added highlight script, puzzle finish update)
-<<<<<<< HEAD
-    x: -488
-    y: 80
-    width: 487
-    height: 907
-=======
-    x: 1272
-    y: 78.66667
-    width: 433.66675
-    height: 787.3334
->>>>>>> 1ba7c3c (Added the option to block the player inside the dream room)
-<<<<<<< HEAD
->>>>>>> 80b59e9 (Added the option to block the player inside the dream room)
-=======
-=======
-    x: 1273
-    y: 24
-=======
-    x: 1272
-    y: 78.66667
->>>>>>> c5fa52d (Added Power Cable to the scene to power up the tablet)
-=======
-    x: 1273
-    y: 24
->>>>>>> ffb5720 (Added highlight script, puzzle finish update)
-    width: 433.66663
+    width: 437
     height: 787.3333
->>>>>>> 38dce98 (Added new shader for the tables to be on and off)
->>>>>>> 162bcaa (Added new shader for the tables to be on and off)
-=======
-    x: 1272
-    y: 78.66667
-    width: 433.66663
-    height: 787.3333
->>>>>>> df3595e (Moved scripts around)
-=======
-    x: 1430
-    y: 24
-    width: 490
-    height: 907
->>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2622,42 +1691,3 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
-<<<<<<< HEAD
---- !u!114 &23
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 390, y: 390}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Lighting
-    m_Image: {fileID: -1477008817101679558, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Lighting\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 3349
-    y: 79
-    width: 490
-    height: 907
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-=======
->>>>>>> df3595e (Moved scripts around)
