@@ -64,7 +64,7 @@ public class InputUIElement : MonoBehaviour
         }
         
         // Get the current input type
-        string currentInputType = InputTypeSelector.GetCurrentInputType();
+        string currentInputType = ChangePlayerControls.GetCurrentInputType();
         
         // Update the icon
         if (iconImage != null)

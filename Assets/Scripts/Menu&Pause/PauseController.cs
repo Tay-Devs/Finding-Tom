@@ -89,8 +89,6 @@ public class PauseController : MonoBehaviour
         if (isPaused)
         {
             ResumeGame();
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
         }
         else
         {
@@ -192,6 +190,8 @@ public class PauseController : MonoBehaviour
     // Resume the game
     public void ResumeGame()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         // Restore the previous time scale
         Time.timeScale = previousTimeScale;
         
