@@ -11,7 +11,7 @@
                     "id": "9b5b5b84-9307-4cf5-88b7-4a522420edb6",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Tap",
                     "initialStateCheck": true
                 },
                 {
@@ -20,7 +20,7 @@
                     "id": "a5bb6d3f-0d1d-4948-9852-c5baa12d1f78",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 },
                 {
@@ -29,7 +29,7 @@
                     "id": "448f44b4-a520-4af8-8257-ff363a95100c",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 }
             ],
@@ -212,39 +212,6 @@
                 },
                 {
                     "name": "",
-                    "id": "b0e26e03-d6e0-43b4-b109-efeb9ee4d537",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "UISubmit",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "75b5a20c-dc37-4417-ae54-0d4747d66928",
-                    "path": "<Keyboard>/enter",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "UISubmit",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ffe1fdb6-b4b7-46f4-9e5b-308fffc8387d",
-                    "path": "<Gamepad>/buttonWest",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "UISubmit",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "eccc8158-336f-4837-8ab4-ce79dbd87fca",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
@@ -289,12 +256,45 @@
                 },
                 {
                     "name": "",
-                    "id": "365b0205-56b3-4101-bb3e-13f2dbf46d0d",
-                    "path": "<Gamepad>/start",
+                    "id": "e7a55d8e-086c-4d5d-add0-cb5df5b7b41c",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "UICancel",
+                    "action": "UISubmit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5c052c0-d435-4e8c-a240-c2c1ae7a858e",
+                    "path": "<SwitchProControllerHID>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UISubmit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b2983b05-351d-490f-a4b0-e5528ed590ca",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UISubmit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9238081c-94b6-46a0-9fb2-a4d5e534eb67",
+                    "path": "<DualShockGamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UISubmit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

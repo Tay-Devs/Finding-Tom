@@ -56,11 +56,6 @@ public class ChangePlayerControls : MonoBehaviour
                 string inputType = option.inputTypeName; // Capture for lambda
                 option.button.onClick.AddListener(() => SelectInputType(inputType, option.button));
                 
-                // If this option is already selected, show it as such
-                if (inputType == currentInputType)
-                {
-                    HighlightSelectedButton(option.button);
-                }
             }
             else
             {
@@ -75,9 +70,6 @@ public class ChangePlayerControls : MonoBehaviour
         currentInputType = inputType;
         SaveInputType(inputType);
         
-        // Update visual selection if needed
-        HighlightSelectedButton(selectedButton);
-        
         Debug.Log($"Selected input type: {inputType} (saved to PlayerPrefs)");
         
         // Trigger event for any listeners
@@ -86,7 +78,6 @@ public class ChangePlayerControls : MonoBehaviour
         // Resume the game after selecting input type
         if (pauseController != null)
         {
-            pauseController.ResumeGame();
         }
         else
         {
@@ -94,31 +85,7 @@ public class ChangePlayerControls : MonoBehaviour
         }
     }
     
-    private void HighlightSelectedButton(Button selectedButton)
-    {
-        // Remove previous indicator if any
-        if (currentSelectionIndicator != null)
-        {
-            Destroy(currentSelectionIndicator);
-        }
-        
-        // Add visual indicator to selected button (if we have an indicator prefab)
-        if (selectionIndicatorPrefab != null)
-        {
-            currentSelectionIndicator = Instantiate(selectionIndicatorPrefab, selectedButton.transform);
-        }
-        
-        // Optional: You can also update button visuals directly
-        // For example, change colors of all buttons
-        foreach (var option in inputOptions)
-        {
-            ColorBlock colors = option.button.colors;
-            colors.normalColor = (option.button == selectedButton) ? 
-                new Color(0.8f, 0.8f, 1f) : // Light blue for selected
-                Color.white;                // White for others
-            option.button.colors = colors;
-        }
-    }
+    
 
     private void SaveInputType(string inputType)
     {
@@ -140,6 +107,7 @@ public class ChangePlayerControls : MonoBehaviour
     // Public method to get the current input type from other scripts
     public static string GetCurrentInputType()
     {
-        return currentInputType;
+        print( "Current Type is" + PlayerPrefs.GetString("SelectedInputType"));
+        return PlayerPrefs.GetString("SelectedInputType");
     }
 }
