@@ -32213,6 +32213,7 @@ GameObject:
   - component: {fileID: 1369857309}
   - component: {fileID: 1369857308}
   - component: {fileID: 1369857307}
+  - component: {fileID: 1369857311}
   m_Layer: 5
   m_Name: Input Canvas
   m_TagString: Untagged
@@ -32332,6 +32333,29 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1369857311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369857305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5fb638234a47640a891106793bd9fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputOptions:
+  - inputType: 0
+    button: {fileID: 144085766}
+  - inputType: 1
+    button: {fileID: 1150824379}
+  - inputType: 2
+    button: {fileID: 603654789}
+  - inputType: 3
+    button: {fileID: 1021104333}
+  selectionIndicatorPrefab: {fileID: 0}
+  pauseController: {fileID: 1679550551}
 --- !u!1001 &1373372927
 PrefabInstance:
   m_ObjectHideFlags: 0
