@@ -23,10 +23,6 @@ public class InputTypeSelector : MonoBehaviour
     [Header("Selected Indicator (Optional)")]
     [SerializeField] private GameObject selectionIndicatorPrefab;
     
-    [Header("Scene Settings")]
-    [SerializeField] private string mainGameSceneName = "Main Game Scene";
-    [SerializeField] private bool preloadMainScene = true;
-    
     private GameObject currentSelectionIndicator;
     private static string currentInputType;
     private AsyncOperation sceneLoadOperation;
@@ -55,36 +51,6 @@ public class InputTypeSelector : MonoBehaviour
         InitializeButtons();
     }
     
-    private void Start()
-    {
-        // Start preloading the main game scene if enabled
-        if (preloadMainScene)
-        {
-            StartCoroutine(PreloadMainScene());
-        }
-    }
-    
-    private IEnumerator PreloadMainScene()
-    {
-        // Begin loading the scene in the background
-        sceneLoadOperation = SceneManager.LoadSceneAsync(mainGameSceneName);
-        
-        // Don't allow the scene to activate yet
-        sceneLoadOperation.allowSceneActivation = false;
-        
-        Debug.Log($"Preloading scene: {mainGameSceneName}");
-        
-        // Wait until the load has finished
-        while (!sceneLoadOperation.isDone)
-        {
-            // You could update a loading progress bar here if desired:
-            // float progress = Mathf.Clamp01(sceneLoadOperation.progress / 0.9f);
-            // loadingBar.fillAmount = progress;
-            
-            yield return null;
-        }
-    }
-
     private void InitializeButtons()
     {
         foreach (var option in inputOptions)
@@ -120,26 +86,9 @@ public class InputTypeSelector : MonoBehaviour
         
         // Trigger event for any listeners
         OnInputTypeSelected?.Invoke(inputType);
-        
-        // Activate the main game scene
-        ActivateMainGameScene();
     }
     
-    private void ActivateMainGameScene()
-    {
-        // If we're preloading, just activate the scene that's already loaded
-        if (preloadMainScene && sceneLoadOperation != null)
-        {
-            Debug.Log($"Activating preloaded scene: {mainGameSceneName}");
-            sceneLoadOperation.allowSceneActivation = true;
-        }
-        // Otherwise load the scene directly
-        else
-        {
-            Debug.Log($"Loading scene: {mainGameSceneName}");
-            SceneManager.LoadScene(mainGameSceneName);
-        }
-    }
+   
     
     private void HighlightSelectedButton(Button selectedButton)
     {
@@ -167,8 +116,6 @@ public class InputTypeSelector : MonoBehaviour
 
     private void SaveInputType(string inputType)
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         PlayerPrefs.SetString("SelectedInputType", inputType);
         PlayerPrefs.Save();
     }
