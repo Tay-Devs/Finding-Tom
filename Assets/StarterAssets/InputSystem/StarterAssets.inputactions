@@ -49,15 +49,6 @@
                     "processors": "",
                     "interactions": "Press",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Pause",
-                    "type": "Button",
-                    "id": "5fda8a56-35bc-40ec-abc9-869111914a99",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -256,50 +247,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "0a58ac73-b782-4abf-b9d8-66f97c11660c",
-                    "path": "<Keyboard>/escape",
-                    "interactions": "Tap",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "9d7062c0-39fb-4ec9-9b25-c07bdd650300",
-                    "path": "<SwitchProControllerHID>/start",
-                    "interactions": "Tap",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d9a84340-6621-4e8e-bc31-7431d1e5695d",
-                    "path": "<DualShockGamepad>/start",
-                    "interactions": "Tap",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "061c8221-82b7-4e3b-ab14-4d6ce40c6485",
-                    "path": "<XInputController>/start",
-                    "interactions": "Tap",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

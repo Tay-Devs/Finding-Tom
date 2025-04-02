@@ -84,7 +84,6 @@ public class LaserReceiver : MonoBehaviour
                 colorfulRainbow.SetActive(true);
                 colorlessRainbow.SetActive(false);
                 isPuzzleSolved = true;
-                print("Solved");
             }
             else
             {
@@ -102,9 +101,7 @@ public class LaserReceiver : MonoBehaviour
         onPuzzleSolved.Invoke();
         isPuzzleSolved = true;
         laserEmitter.isContinuous = true;
-        print("Start Animation");
         yield return new WaitForSeconds(1f);
-        print("finish animation and move camera");
         playerStateControl.SetPlayerState(PlayerStateControl.PlayerState.Moving);
 
     }

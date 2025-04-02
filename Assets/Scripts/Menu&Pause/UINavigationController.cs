@@ -118,7 +118,7 @@ public class UINavigationController : MonoBehaviour
         GameObject currentSelected = eventSystem.currentSelectedGameObject;
         if (currentSelected != null)
         {
-            Debug.Log("Submit action performed on: " + currentSelected.name);
+
             
             // Manually trigger the button click
             Button button = currentSelected.GetComponent<Button>();
@@ -170,8 +170,7 @@ public class UINavigationController : MonoBehaviour
                     eventSystem.SetSelectedGameObject(selectables[0].gameObject);
                 }
             }
-            
-            Debug.Log("Opened menu: " + menuName);
+
         }
         else
         {
@@ -212,8 +211,6 @@ public class UINavigationController : MonoBehaviour
                     eventSystem.SetSelectedGameObject(selectables[0].gameObject);
                 }
             }
-            
-            Debug.Log("Went back to previous menu: " + currentMenu.menuName);
         }
         else if (currentMenu != null && currentMenu.parentMenu != null)
         {

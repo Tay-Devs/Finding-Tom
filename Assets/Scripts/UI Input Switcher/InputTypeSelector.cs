@@ -82,8 +82,6 @@ public class InputTypeSelector : MonoBehaviour
         // Update visual selection if needed
         HighlightSelectedButton(selectedButton);
         
-        Debug.Log($"Selected input type: {inputType} (saved to PlayerPrefs)");
-        
         // Trigger event for any listeners
         OnInputTypeSelected?.Invoke(inputType);
     }

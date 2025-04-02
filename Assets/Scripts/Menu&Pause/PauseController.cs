@@ -44,7 +44,7 @@ public class PauseController : MonoBehaviour
         // If player input is not assigned, try to find it
         if (playerInput == null)
         {
-            playerInput = FindObjectOfType<PlayerInput>();
+            playerInput = FindFirstObjectByType<PlayerInput>();
         }
     }
     
@@ -183,8 +183,7 @@ public class PauseController : MonoBehaviour
         
         // Invoke the pause event
         onPause?.Invoke();
-        
-        Debug.Log("Game Paused");
+
     }
     
     // Resume the game
@@ -209,8 +208,6 @@ public class PauseController : MonoBehaviour
         
         // Invoke the resume event
         onResume?.Invoke();
-        
-        Debug.Log("Game Resumed");
     }
     
     // Public method to check if the game is paused

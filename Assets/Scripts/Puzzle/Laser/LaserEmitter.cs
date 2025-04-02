@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -55,6 +56,7 @@ public class LaserEmitter : MonoBehaviour
     // Each segment needs its own material
     private List<Material> segmentMaterials = new List<Material>();
     
+    [Obsolete("Obsolete")]
     private void Awake()
     {
         // Create a parent object for all laser segments
