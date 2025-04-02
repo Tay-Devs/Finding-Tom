@@ -25,6 +25,15 @@ public class InputUIElement : MonoBehaviour
     [Tooltip("Should this update automatically when the input type changes?")]
     [SerializeField] private bool autoUpdate = true;
     
+    [Tooltip("Should the icon use native size?")]
+    [SerializeField] private bool useNativeSize = true;
+    
+    [Tooltip("Should the icon preserve aspect ratio when fitting?")]
+    [SerializeField] private bool preserveAspect = true;
+    
+    // Store the previous input type to check for changes
+    private string previousInputType;
+    
     private void Awake()
     {
         // If no icon image is assigned, try to get it from this GameObject
@@ -32,6 +41,9 @@ public class InputUIElement : MonoBehaviour
         {
             iconImage = GetComponent<Image>();
         }
+        
+        // Initialize the previous input type
+        previousInputType = PlayerPrefs.GetString("SelectedInputType", "keyboard");
     }
     
     private void OnEnable()
@@ -54,12 +66,24 @@ public class InputUIElement : MonoBehaviour
         }
     }
     
+    private void Update()
+    {
+        // Check if PlayerPrefs value has changed
+        string currentInputType = PlayerPrefs.GetString("SelectedInputType", "keyboard");
+        if (currentInputType != previousInputType)
+        {
+            previousInputType = currentInputType;
+            UpdateVisuals();
+        }
+    }
+    
     // Update the visual elements based on the current input type
     public void UpdateVisuals()
     {
         if (inputData == null)
         {
-            Debug.LogError("No InputActionData assigned to " + gameObject.name);
+            Debug.Log("No InputActionData assigned to " + gameObject.name);
+            iconImage.enabled = false;
             return;
         }
         
@@ -74,6 +98,15 @@ public class InputUIElement : MonoBehaviour
             {
                 iconImage.sprite = icon;
                 iconImage.enabled = true;
+                
+                // Apply native size if specified
+                if (useNativeSize)
+                {
+                    iconImage.SetNativeSize();
+                }
+                
+                // Preserve aspect ratio if specified
+                iconImage.preserveAspect = preserveAspect;
             }
             else
             {
