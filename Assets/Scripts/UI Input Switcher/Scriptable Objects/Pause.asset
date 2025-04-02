@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2007f03f603909418b6943fb30d011b, type: 3}
+  m_Name: Pause
+  m_EditorClassIdentifier: 
+  _actionReference: {fileID: 1127819164209363053, guid: 5d5796020a555344bbb4951f2d179d48, type: 3}
+  _actionName: UIPause
+  actionDescription: 
+  inputTypeIcons:
+  - inputType: 0
+    iconSprite: {fileID: 21300000, guid: ae86e16fa01997b4fad3c3cac3377b44, type: 3}
+  - inputType: 1
+    iconSprite: {fileID: 21300000, guid: 29947032512ff464bb02a1be83ec84dc, type: 3}
+  - inputType: 2
+    iconSprite: {fileID: 21300000, guid: 3847868e2f04af74882d230bdf32171d, type: 3}
+  - inputType: 3
+    iconSprite: {fileID: 21300000, guid: abaad80e11ec67242bd33816bf29f429, type: 3}

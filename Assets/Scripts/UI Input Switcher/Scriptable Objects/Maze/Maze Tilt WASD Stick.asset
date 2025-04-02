@@ -19,8 +19,8 @@ MonoBehaviour:
   - inputType: 0
     iconSprite: {fileID: 21300000, guid: 5347a24a911f31a4f9d452f882f4f68f, type: 3}
   - inputType: 1
-    iconSprite: {fileID: 21300000, guid: efd562134b313334cbae67a487e029b3, type: 3}
+    iconSprite: {fileID: 21300000, guid: 8f3ee73d308acea4aa726d3fe1099e01, type: 3}
   - inputType: 2
-    iconSprite: {fileID: 21300000, guid: 743b4f01f62141744ae9cf9184ed5052, type: 3}
+    iconSprite: {fileID: 21300000, guid: 8f3ee73d308acea4aa726d3fe1099e01, type: 3}
   - inputType: 3
-    iconSprite: {fileID: 21300000, guid: cf5a65a3b9ae0f34a81164959bde966d, type: 3}
+    iconSprite: {fileID: 21300000, guid: 8f3ee73d308acea4aa726d3fe1099e01, type: 3}
