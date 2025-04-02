@@ -17,10 +17,10 @@ MonoBehaviour:
   actionDescription: 
   inputTypeIcons:
   - inputType: 0
-    iconSprite: {fileID: 21300000, guid: 8bdaa0ca00cc5524dad9fbc56e6052fc, type: 3}
+    iconSprite: {fileID: 21300000, guid: 08c851c0e820253498d812e5b98634d1, type: 3}
   - inputType: 1
-    iconSprite: {fileID: 21300000, guid: 9665f4d380655fb4bb7b1b0ce7bf29cc, type: 3}
+    iconSprite: {fileID: 21300000, guid: 4222cda8b5ccca4479cd39afbdd7779a, type: 3}
   - inputType: 2
-    iconSprite: {fileID: 21300000, guid: 39c844dfa6cacfb499ec0be751a00846, type: 3}
+    iconSprite: {fileID: 21300000, guid: 1d732e44e3468b14d818a2ef93997be1, type: 3}
   - inputType: 3
-    iconSprite: {fileID: 21300000, guid: 90903fd979b6f7242ad60478bd6780d4, type: 3}
+    iconSprite: {fileID: 21300000, guid: e42e03051788d5544a4dffa43f9c823f, type: 3}
