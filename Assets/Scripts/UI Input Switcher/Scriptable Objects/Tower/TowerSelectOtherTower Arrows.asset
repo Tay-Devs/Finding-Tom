@@ -17,7 +17,7 @@ MonoBehaviour:
   actionDescription: 
   inputTypeIcons:
   - inputType: 0
-    iconSprite: {fileID: 21300000, guid: c692871ae0076554e81ce03f76e25a42, type: 3}
+    iconSprite: {fileID: 21300000, guid: 6b5687a5abc818f4bb9296c2c9aed417, type: 3}
   - inputType: 1
     iconSprite: {fileID: 21300000, guid: dfaddb9bffe5df2428b8527d6c89afb5, type: 3}
   - inputType: 2

@@ -25,8 +25,6 @@ public class InputUIElement : MonoBehaviour
     [Tooltip("Should this update automatically when the input type changes?")]
     [SerializeField] private bool autoUpdate = true;
     
-    [Tooltip("Should the icon use native size?")]
-    [SerializeField] private bool useNativeSize = true;
     
     [Tooltip("Should the icon preserve aspect ratio when fitting?")]
     [SerializeField] private bool preserveAspect = true;
@@ -98,12 +96,6 @@ public class InputUIElement : MonoBehaviour
             {
                 iconImage.sprite = icon;
                 iconImage.enabled = true;
-                
-                // Apply native size if specified
-                if (useNativeSize)
-                {
-                    iconImage.SetNativeSize();
-                }
                 
                 // Preserve aspect ratio if specified
                 iconImage.preserveAspect = preserveAspect;
