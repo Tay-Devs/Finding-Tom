@@ -107,7 +107,6 @@ public class ChangePlayerControls : MonoBehaviour
     // Public method to get the current input type from other scripts
     public static string GetCurrentInputType()
     {
-        print( "Current Type is" + PlayerPrefs.GetString("SelectedInputType"));
         return PlayerPrefs.GetString("SelectedInputType");
     }
 }

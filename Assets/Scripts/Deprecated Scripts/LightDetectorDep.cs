@@ -1,6 +1,6 @@
-using UnityEngine;
+/*using UnityEngine;
 
-public class LightDetector : MonoBehaviour
+public class LightDetectorDep : MonoBehaviour
 {
     public float timeThreshold = 1f; // Time before triggering an event
     private float outOfLightTime = 0f;
@@ -45,4 +45,4 @@ public class LightDetector : MonoBehaviour
         }
         return false;
     }
-}
+}*/

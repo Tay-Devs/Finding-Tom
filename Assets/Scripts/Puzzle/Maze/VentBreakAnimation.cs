@@ -41,10 +41,16 @@ public class VentBreakAnimation : MonoBehaviour
     
     [SerializeField]
     private GameObject endCamera;
+
+    [Header("Events")] 
     
-    [Header("Events")]
+    [SerializeField]
+    private UnityEvent onPuzzleFinished;
+    
     [SerializeField]
     private UnityEvent puzzleCompleted;
+
+ 
    
     
     
@@ -95,6 +101,7 @@ public class VentBreakAnimation : MonoBehaviour
 
     private IEnumerator AnimateVentBreak()
     {
+        onPuzzleFinished?.Invoke();
         // Initial delay - vent holding the weight
         yield return new WaitForSeconds(initialDelay);
         

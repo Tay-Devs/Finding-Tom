@@ -86,8 +86,7 @@ public class InputManager : MonoBehaviour
         {
             currentInputTypeEnum = defaultInputType;
         }
-        
-        Debug.Log($"Loaded input type: {currentInputTypeEnum}");
+
     }
     
     // Apply the input type to the game's systems
