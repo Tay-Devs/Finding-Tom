@@ -404,6 +404,8 @@ MonoBehaviour:
   actionNameText: {fileID: 0}
   bindingText: {fileID: 0}
   autoUpdate: 1
+  useNativeSize: 0
+  preserveAspect: 1
 --- !u!1 &6246790251280451029
 GameObject:
   m_ObjectHideFlags: 0
