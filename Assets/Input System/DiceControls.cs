@@ -97,7 +97,7 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                     ""id"": ""ca070242-2e2e-4000-a350-a7bdb8413312"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": true
                 },
                 {
@@ -106,7 +106,7 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                     ""id"": ""17f9cec9-e4ac-4164-ac6c-93d13c2d5829"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": true
                 },
                 {
