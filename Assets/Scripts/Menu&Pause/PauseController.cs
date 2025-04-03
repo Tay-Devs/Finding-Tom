@@ -30,7 +30,7 @@ public class PauseController : MonoBehaviour
     
     // Store disabled action maps to re-enable them later
     private List<InputActionMap> disabledActionMaps = new List<InputActionMap>();
-    private bool isPaused = false;
+    public bool isPaused = false;
     private float previousTimeScale = 1f;
     
     private void Awake()
