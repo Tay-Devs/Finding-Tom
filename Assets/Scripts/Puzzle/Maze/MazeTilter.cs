@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -16,6 +17,10 @@ public class MazeTilter : MonoBehaviour
     [Tooltip("Reference to Input Actions asset")]
     [SerializeField] private InputActionReference moveActionReference;
 
+    [Header("Delay Movement")]
+    [SerializeField]
+    private float delayTime = 0f;
+    
     // Input state
     private Vector2 inputVector;
     
@@ -39,11 +44,7 @@ public class MazeTilter : MonoBehaviour
     {
         if (moveActionReference != null && moveActionReference.action != null)
         {
-            moveActionReference.action.Enable();
-            
-            // Subscribe to performed and canceled to get input updates
-            moveActionReference.action.performed += OnMovePerformed;
-            moveActionReference.action.canceled += OnMoveCanceled;
+            StartCoroutine(DelayForStart());
         }
     }
 
@@ -71,6 +72,15 @@ public class MazeTilter : MonoBehaviour
         }
     }
 
+    IEnumerator DelayForStart()
+    {
+        yield return new WaitForSeconds(delayTime);
+        moveActionReference.action.Enable();
+            
+        // Subscribe to performed and canceled to get input updates
+        moveActionReference.action.performed += OnMovePerformed;
+        moveActionReference.action.canceled += OnMoveCanceled;
+    }
     private void OnMoveCanceled(InputAction.CallbackContext context)
     {
         // Clear input when released

@@ -128,11 +128,9 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             
             // Register callback and enable
             selectAction.performed += OnSelect;
-            Debug.Log("Successfully registered input action: " + selectActionName + " in map " + actionMap.name);
             
             // Enable the action map
             actionMap.Enable();
-            Debug.Log("Input action map enabled: " + actionMap.name);
             
             return true;
         }
@@ -158,7 +156,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         // Only respond if not already checking
         if (context.performed && !isCheckingCombination)
         {
-            Debug.Log("Select action triggered! Phase: " + context.phase);
             
             // Cancel any running check
             if (checkCoroutine != null)
@@ -198,7 +195,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     {
         if (dieController != null)
         {
-            Debug.Log("Disabling dice puzzle state");
             
             // Save the current selected die index to restore later if needed
             originalSelectedDieIndex = dieController.currentDieIndex;
@@ -272,7 +268,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             foreach (InputActionMap map in dieController.inputActions.actionMaps)
             {
                 map.Disable();
-                Debug.Log("Disabled action map: " + map.name);
             }
         }
     }
@@ -286,7 +281,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             foreach (InputActionMap map in dieController.inputActions.actionMaps)
             {
                 map.Enable();
-                Debug.Log("Enabled action map: " + map.name);
             }
         }
     }
@@ -303,7 +297,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     
     private IEnumerator CheckCombination()
     {
-        Debug.Log("Checking combination...");
         
         // Set state to checking
         isCheckingCombination = true;
@@ -316,13 +309,11 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         for (int i = 0; i < dieController.diceObjects.Count; i++)
         {
             currentValues[i] = dieController.GetDieValue(i);
-            Debug.Log("Die " + i + " value: " + currentValues[i]);
         }
         
         // Check if there are enough dice for the combination
         if (currentValues.Length < secretCombination.Length)
         {
-            Debug.LogError("Not enough dice to check against the secret combination!");
             
             // Return control
             isCheckingCombination = false;
@@ -339,8 +330,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         for (int i = 0; i < secretCombination.Length; i++)
         {
             bool isCorrect = currentValues[i] == secretCombination[i];
-            Debug.Log("Die " + i + ": Expected " + secretCombination[i] + ", Got " + currentValues[i] + " - " + (isCorrect ? "Correct" : "Wrong"));
-            
+           
             // Show the appropriate effect
             ShowEffect(dieController.diceObjects[i], isCorrect);
             
@@ -358,15 +348,11 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         if (allCorrect)
         {
             isPuzzleSolved = true;
-            Debug.Log("Puzzle Solved! All dice match the combination.");
             
             puzzleCompleted.Invoke();
             // Additional puzzle-solved effects could be triggered here
         }
-        else
-        {
-            Debug.Log("Wrong combination! Please try again.");
-        }
+
         
         // Wait a bit before returning control
         yield return new WaitForSeconds(returnControlDelay);
@@ -447,8 +433,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             
                 // Update the outline to make it visible
                 dieController.UpdateDieOutline();
-            
-                Debug.Log("Selected leftmost die on enable");
             }
         }
     }
@@ -479,10 +463,8 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     }
     IEnumerator AddCooldownForStartCheck()
     {
-        print("Adding cooldown for start check");
         isCheckOnCooldown = true;
         yield return new WaitForSeconds(2f);
-        print("Can start checking");
         isCheckOnCooldown = false;
     }
 }
