@@ -57346,6 +57346,7 @@ MonoBehaviour:
   outlineColor: {r: 0.21568628, g: 0.29803923, b: 0.3137255, a: 1}
   outlineWidth: 8
   inputActions: {fileID: -944628639613478452, guid: 163c3f7d4e88a534bbd38963b43a945d, type: 3}
+  pauseController: {fileID: 0}
   currentDieIndex: 0
 --- !u!1 &1813279868
 GameObject:
