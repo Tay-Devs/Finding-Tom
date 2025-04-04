@@ -25,4 +25,8 @@ public class OnTriggerEnterEvent : MonoBehaviour
     {
         canInvoke = true;
     }
+    public void SetInvokeOff()
+    {
+        canInvoke = false;
+    }
 }
