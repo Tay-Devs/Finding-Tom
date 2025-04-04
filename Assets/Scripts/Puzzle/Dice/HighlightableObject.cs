@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class SimpleHighlighter : MonoBehaviour
@@ -9,8 +10,10 @@ public class SimpleHighlighter : MonoBehaviour
     public Color outlineColor = Color.yellow;
     
     [Tooltip("Outline width for the highlighted object")]
-    [Range(0f, 10f)]
+    [Range(0f, 50f)]
     public float outlineWidth = 5f;
+    
+    public bool canHightlight = true;
 
     // Reference to the outline component
     private MonoBehaviour outlineComponent;
@@ -38,7 +41,7 @@ public class SimpleHighlighter : MonoBehaviour
     /// </summary>
     public void Highlight()
     {
-        if (outlineComponent != null)
+        if (outlineComponent != null && canHightlight)
         {
             // Update outline properties in case they were changed in the Inspector
             SetOutlineProperties(outlineComponent, outlineColor, outlineWidth);
@@ -53,7 +56,7 @@ public class SimpleHighlighter : MonoBehaviour
     /// </summary>
     public void Unhighlight()
     {
-        if (outlineComponent != null)
+        if (outlineComponent != null && canHightlight)
         {
             // Disable the outline
             EnableOutline(outlineComponent, false);
@@ -100,6 +103,11 @@ public class SimpleHighlighter : MonoBehaviour
         
         return null;
     }
+
+    public void EnableHighlight()
+    {
+        canHightlight = true;
+    }
     
     // Helper method to set outline properties using reflection
     private void SetOutlineProperties(MonoBehaviour outline, Color color, float width)
@@ -135,6 +143,10 @@ public class SimpleHighlighter : MonoBehaviour
         }
     }
 
+    public void DestroyObject()
+    {
+        Destroy(gameObject);
+    }
     private void OnDisable()
     {
         // Make sure to unhighlight when disabled
