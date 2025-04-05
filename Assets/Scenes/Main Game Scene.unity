@@ -979,7 +979,6 @@ GameObject:
   - component: {fileID: 44512665}
   - component: {fileID: 44512668}
   - component: {fileID: 44512667}
-  - component: {fileID: 44512666}
   m_Layer: 0
   m_Name: CatFootprint (1)
   m_TagString: Untagged
@@ -1002,28 +1001,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 295192763}
   m_LocalEulerAnglesHint: {x: 0, y: 37.097, z: 0}
---- !u!64 &44512666
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44512664}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &44512667
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2118,7 +2095,6 @@ GameObject:
   - component: {fileID: 68543173}
   - component: {fileID: 68543176}
   - component: {fileID: 68543175}
-  - component: {fileID: 68543174}
   m_Layer: 0
   m_Name: CatFootprint (9)
   m_TagString: Untagged
@@ -2141,28 +2117,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 24.044, z: 0}
---- !u!64 &68543174
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68543172}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &68543175
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2542,7 +2496,6 @@ GameObject:
   - component: {fileID: 79481347}
   - component: {fileID: 79481350}
   - component: {fileID: 79481349}
-  - component: {fileID: 79481348}
   m_Layer: 0
   m_Name: CatFootprint (7)
   m_TagString: Untagged
@@ -2565,28 +2518,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 295192763}
   m_LocalEulerAnglesHint: {x: 0, y: 72.701, z: 0}
---- !u!64 &79481348
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79481346}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &79481349
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5483,7 +5414,6 @@ GameObject:
   - component: {fileID: 201119186}
   - component: {fileID: 201119189}
   - component: {fileID: 201119188}
-  - component: {fileID: 201119187}
   m_Layer: 0
   m_Name: CatFootprint (13)
   m_TagString: Untagged
@@ -5506,28 +5436,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: -8.001, z: 0}
---- !u!64 &201119187
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201119185}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &201119188
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8309,7 +8217,6 @@ GameObject:
   - component: {fileID: 329210380}
   - component: {fileID: 329210383}
   - component: {fileID: 329210382}
-  - component: {fileID: 329210381}
   m_Layer: 0
   m_Name: CatFootprint (3)
   m_TagString: Untagged
@@ -8332,28 +8239,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 26.006, z: 0}
---- !u!64 &329210381
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 329210379}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &329210382
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8821,7 +8706,6 @@ GameObject:
   - component: {fileID: 338635689}
   - component: {fileID: 338635692}
   - component: {fileID: 338635691}
-  - component: {fileID: 338635690}
   m_Layer: 0
   m_Name: CatFootprint (4)
   m_TagString: Untagged
@@ -8844,28 +8728,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 295192763}
   m_LocalEulerAnglesHint: {x: 0, y: 56.611, z: 0}
---- !u!64 &338635690
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338635688}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &338635691
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9163,7 +9025,6 @@ GameObject:
   - component: {fileID: 351171422}
   - component: {fileID: 351171425}
   - component: {fileID: 351171424}
-  - component: {fileID: 351171423}
   m_Layer: 0
   m_Name: CatFootprint (6)
   m_TagString: Untagged
@@ -9186,28 +9047,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 27.797, z: 0}
---- !u!64 &351171423
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351171421}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &351171424
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14130,7 +13969,6 @@ GameObject:
   - component: {fileID: 523919652}
   - component: {fileID: 523919655}
   - component: {fileID: 523919654}
-  - component: {fileID: 523919653}
   m_Layer: 0
   m_Name: CatFootprint (8)
   m_TagString: Untagged
@@ -14153,28 +13991,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 33.703, z: 0}
---- !u!64 &523919653
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 523919651}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &523919654
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22690,7 +22506,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 2.8962915
       mode: 0
       spread: 0
       speed:
@@ -28422,7 +28238,6 @@ GameObject:
   - component: {fileID: 720984056}
   - component: {fileID: 720984059}
   - component: {fileID: 720984058}
-  - component: {fileID: 720984057}
   m_Layer: 0
   m_Name: CatFootprint (7)
   m_TagString: Untagged
@@ -28445,28 +28260,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 35.279, z: 0}
---- !u!64 &720984057
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720984055}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &720984058
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29264,7 +29057,6 @@ GameObject:
   - component: {fileID: 760664315}
   - component: {fileID: 760664318}
   - component: {fileID: 760664317}
-  - component: {fileID: 760664316}
   m_Layer: 0
   m_Name: CatFootprint (6)
   m_TagString: Untagged
@@ -29287,28 +29079,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 295192763}
   m_LocalEulerAnglesHint: {x: 0, y: 72.701, z: 0}
---- !u!64 &760664316
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760664314}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &760664317
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38627,6 +38397,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2057399780}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &887787296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46991,7 +46773,6 @@ GameObject:
   - component: {fileID: 1010459446}
   - component: {fileID: 1010459449}
   - component: {fileID: 1010459448}
-  - component: {fileID: 1010459447}
   m_Layer: 0
   m_Name: CatFootprint (5)
   m_TagString: Untagged
@@ -47014,28 +46795,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 295192763}
   m_LocalEulerAnglesHint: {x: 0, y: 63.532, z: 0}
---- !u!64 &1010459447
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010459445}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1010459448
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48514,7 +48273,6 @@ GameObject:
   - component: {fileID: 1069985991}
   - component: {fileID: 1069985994}
   - component: {fileID: 1069985993}
-  - component: {fileID: 1069985992}
   m_Layer: 0
   m_Name: CatFootprint (5)
   m_TagString: Untagged
@@ -48537,28 +48295,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 37.903, z: 0}
---- !u!64 &1069985992
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069985990}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1069985993
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50691,7 +50427,6 @@ GameObject:
   - component: {fileID: 1109981449}
   - component: {fileID: 1109981452}
   - component: {fileID: 1109981451}
-  - component: {fileID: 1109981450}
   m_Layer: 0
   m_Name: CatFootprint
   m_TagString: Untagged
@@ -50714,28 +50449,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 25.747, z: 0}
---- !u!64 &1109981450
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109981448}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1109981451
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57000,7 +56713,6 @@ GameObject:
   - component: {fileID: 1317713859}
   - component: {fileID: 1317713862}
   - component: {fileID: 1317713861}
-  - component: {fileID: 1317713860}
   m_Layer: 0
   m_Name: CatFootprint (12)
   m_TagString: Untagged
@@ -57023,28 +56735,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: -8.001, z: 0}
---- !u!64 &1317713860
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317713858}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1317713861
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -58148,7 +57838,6 @@ GameObject:
   - component: {fileID: 1376582473}
   - component: {fileID: 1376582476}
   - component: {fileID: 1376582475}
-  - component: {fileID: 1376582474}
   m_Layer: 0
   m_Name: CatFootprint (15)
   m_TagString: Untagged
@@ -58171,28 +57860,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: -40.779, z: 0}
---- !u!64 &1376582474
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376582472}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1376582475
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -62223,15 +61890,15 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
-    angle: 25
+    type: 0
+    angle: 58.59403
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: -90, y: 0, z: 0}
-    m_Scale: {x: 3.14, y: 6.55, z: 1}
+    m_Scale: {x: 1, y: 1, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -62310,7 +61977,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 4.2195535
       mode: 0
       spread: 0
       speed:
@@ -65196,7 +64863,7 @@ ParticleSystem:
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
     m_Planes:
-    - {fileID: 0}
+    - {fileID: 761719314}
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
@@ -66617,7 +66284,6 @@ GameObject:
   - component: {fileID: 1517884702}
   - component: {fileID: 1517884705}
   - component: {fileID: 1517884704}
-  - component: {fileID: 1517884703}
   m_Layer: 0
   m_Name: CatFootprint (14)
   m_TagString: Untagged
@@ -66640,28 +66306,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: -24.932, z: 0}
---- !u!64 &1517884703
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517884701}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1517884704
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -74241,7 +73885,6 @@ GameObject:
   - component: {fileID: 1764421742}
   - component: {fileID: 1764421745}
   - component: {fileID: 1764421744}
-  - component: {fileID: 1764421743}
   m_Layer: 0
   m_Name: CatFootprint (10)
   m_TagString: Untagged
@@ -74264,28 +73907,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 15.362, z: 0}
---- !u!64 &1764421743
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764421741}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1764421744
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76201,7 +75822,6 @@ GameObject:
   - component: {fileID: 1835782348}
   - component: {fileID: 1835782351}
   - component: {fileID: 1835782350}
-  - component: {fileID: 1835782349}
   m_Layer: 0
   m_Name: CatFootprint (2)
   m_TagString: Untagged
@@ -76224,28 +75844,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 295192763}
   m_LocalEulerAnglesHint: {x: 0, y: 37.097, z: 0}
---- !u!64 &1835782349
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835782347}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1835782350
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -77703,7 +77301,6 @@ GameObject:
   - component: {fileID: 1874344976}
   - component: {fileID: 1874344979}
   - component: {fileID: 1874344978}
-  - component: {fileID: 1874344977}
   m_Layer: 0
   m_Name: CatFootprint
   m_TagString: Untagged
@@ -77726,28 +77323,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 295192763}
   m_LocalEulerAnglesHint: {x: 0, y: 25.747, z: 0}
---- !u!64 &1874344977
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874344975}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1874344978
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -78327,7 +77902,6 @@ GameObject:
   - component: {fileID: 1891016877}
   - component: {fileID: 1891016880}
   - component: {fileID: 1891016879}
-  - component: {fileID: 1891016878}
   m_Layer: 0
   m_Name: CatFootprint (16)
   m_TagString: Untagged
@@ -78350,28 +77924,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: -98.304, z: 0}
---- !u!64 &1891016878
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891016876}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1891016879
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -79859,7 +79411,6 @@ GameObject:
   - component: {fileID: 1941568869}
   - component: {fileID: 1941568872}
   - component: {fileID: 1941568871}
-  - component: {fileID: 1941568870}
   m_Layer: 0
   m_Name: CatFootprint (4)
   m_TagString: Untagged
@@ -79882,28 +79433,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 34.07, z: 0}
---- !u!64 &1941568870
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941568868}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1941568871
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -80319,7 +79848,6 @@ GameObject:
   - component: {fileID: 1955379135}
   - component: {fileID: 1955379138}
   - component: {fileID: 1955379137}
-  - component: {fileID: 1955379136}
   m_Layer: 0
   m_Name: CatFootprint (2)
   m_TagString: Untagged
@@ -80342,28 +79870,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 32.87, z: 0}
---- !u!64 &1955379136
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955379134}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1955379137
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -80861,7 +80367,6 @@ GameObject:
   - component: {fileID: 1981882358}
   - component: {fileID: 1981882361}
   - component: {fileID: 1981882360}
-  - component: {fileID: 1981882359}
   m_Layer: 0
   m_Name: CatFootprint (3)
   m_TagString: Untagged
@@ -80884,28 +80389,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 295192763}
   m_LocalEulerAnglesHint: {x: 0, y: 43.159, z: 0}
---- !u!64 &1981882359
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981882357}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1981882360
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -83186,6 +82669,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0934029, y: 1.6153014, z: 0.40556216}
   m_Center: {x: 0.29719937, y: -0.3076508, z: -0.039330184}
+--- !u!1 &2057399780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 632b9c8668924f84a800d2841d446bcb, type: 3}
+  m_PrefabInstance: {fileID: 2116329191}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2061181767
 GameObject:
   m_ObjectHideFlags: 0
@@ -83583,7 +83071,6 @@ GameObject:
   - component: {fileID: 2070533089}
   - component: {fileID: 2070533092}
   - component: {fileID: 2070533091}
-  - component: {fileID: 2070533090}
   m_Layer: 0
   m_Name: CatFootprint (11)
   m_TagString: Untagged
@@ -83606,28 +83093,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 6.131, z: 0}
---- !u!64 &2070533090
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070533088}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2070533091
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -85100,7 +84565,6 @@ GameObject:
   - component: {fileID: 2126936426}
   - component: {fileID: 2126936429}
   - component: {fileID: 2126936428}
-  - component: {fileID: 2126936427}
   m_Layer: 0
   m_Name: CatFootprint (1)
   m_TagString: Untagged
@@ -85123,28 +84587,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 730770501}
   m_LocalEulerAnglesHint: {x: 0, y: 30.656, z: 0}
---- !u!64 &2126936427
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126936425}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2126936428
 MeshRenderer:
   m_ObjectHideFlags: 0
