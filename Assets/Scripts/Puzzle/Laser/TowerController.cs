@@ -110,7 +110,6 @@ public class TowerController : MonoBehaviour
             if (actionMap == null && inputActions.actionMaps.Count > 0)
             {
                 actionMap = inputActions.actionMaps[0];
-                Debug.Log("Using action map: " + actionMap.name);
             }
             
             if (actionMap != null)

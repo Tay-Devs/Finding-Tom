@@ -25,6 +25,8 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _Blink: 1
+    - _BlinkInterval: 6
     - _MoveAmount: -0.05
     - _MoveSpeed: -0.01
     - _UpdateInterval: 1

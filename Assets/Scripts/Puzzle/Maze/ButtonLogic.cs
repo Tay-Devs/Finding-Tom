@@ -30,7 +30,6 @@ public class ButtonLogic : MonoBehaviour
     public void BallOnButton()
     {
         animator.SetTrigger("ButtonPress");
-        print("onButtonPressed");
         if (hasButtonPressed && canBePressedOnce)
         {
             return;
@@ -42,7 +41,6 @@ public class ButtonLogic : MonoBehaviour
     public void OnButtonUnpressed()
     {
         animator.SetTrigger("Release");
-        print("OnButtonUnpressed");
         //Player animation of button unsmushed
         onButtonUnpressed?.Invoke();
     }

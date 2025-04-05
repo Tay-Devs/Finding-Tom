@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2007f03f603909418b6943fb30d011b, type: 3}
+  m_Name: Maze Tilt WASD Stick
+  m_EditorClassIdentifier: 
+  _actionReference: {fileID: -184101173557963106, guid: 4f511a092d4c18a46a929b5457e4874f, type: 3}
+  _actionName: Tilt
+  actionDescription: 
+  inputTypeIcons:
+  - inputType: 0
+    iconSprite: {fileID: 21300000, guid: 5347a24a911f31a4f9d452f882f4f68f, type: 3}
+  - inputType: 1
+    iconSprite: {fileID: 21300000, guid: 8f3ee73d308acea4aa726d3fe1099e01, type: 3}
+  - inputType: 2
+    iconSprite: {fileID: 21300000, guid: 8f3ee73d308acea4aa726d3fe1099e01, type: 3}
+  - inputType: 3
+    iconSprite: {fileID: 21300000, guid: 8f3ee73d308acea4aa726d3fe1099e01, type: 3}

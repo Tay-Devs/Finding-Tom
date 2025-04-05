@@ -2,7 +2,7 @@
     "name": "DiceControls",
     "maps": [
         {
-            "name": "Gameplay",
+            "name": "Dice",
             "id": "beffc553-f8b6-4ca1-a7f3-78c51da5af23",
             "actions": [
                 {
@@ -11,7 +11,7 @@
                     "id": "ca070242-2e2e-4000-a350-a7bdb8413312",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": true
                 },
                 {
@@ -20,7 +20,7 @@
                     "id": "17f9cec9-e4ac-4164-ac6c-93d13c2d5829",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": true
                 },
                 {
@@ -101,7 +101,40 @@
                 {
                     "name": "",
                     "id": "cbcd72d4-7a9c-4526-a568-b02d75c6a01f",
-                    "path": "<Gamepad>/dpad",
+                    "path": "<SwitchProControllerHID>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25974c0a-42f6-40ce-b32b-0db552631100",
+                    "path": "<XInputController>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11fff510-d714-414b-948b-f5db83727d68",
+                    "path": "<DualShockGamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e2264a4-bf77-4914-a49a-7dbb4b54f897",
+                    "path": "<DualSenseGamepadHID>/dpad",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -112,7 +145,40 @@
                 {
                     "name": "",
                     "id": "253be40b-fca9-4386-b02f-cd19a59f98e1",
-                    "path": "<Gamepad>/leftStick",
+                    "path": "<SwitchProControllerHID>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e80d189-bb92-4cb6-951d-1b31af472d0b",
+                    "path": "<DualShockGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d429b9a-d7a2-4618-bdfb-1460b9af71dd",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e5e94b0-bdfb-4fe0-bcd8-2cd12c4202bd",
+                    "path": "<DualSenseGamepadHID>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -177,8 +243,8 @@
                 },
                 {
                     "name": "",
-                    "id": "cf4f8b4d-cb5d-4494-8110-9bef7b73b611",
-                    "path": "<Gamepad>/dpad",
+                    "id": "10c9b4e9-e127-44f5-8379-04418aebe829",
+                    "path": "<DualSenseGamepadHID>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -188,8 +254,74 @@
                 },
                 {
                     "name": "",
-                    "id": "e428fbd7-ce3f-45cb-b2c1-a9707f8fe427",
-                    "path": "<Gamepad>/leftStick",
+                    "id": "85f0196d-27cb-40b8-b080-b023e9c8d95f",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc535bbd-0502-4795-8585-49bc9a4cb6a3",
+                    "path": "<DualShockGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4edd72b-e9df-40fc-8b2a-deeacd2e5e36",
+                    "path": "<SwitchProControllerHID>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "14b2b141-c96b-4d4d-95b2-31fe6492df88",
+                    "path": "<DualSenseGamepadHID>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6494d574-ff93-4d07-a8c1-7dba3435ec07",
+                    "path": "<DualShockGamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b47be0af-b2eb-4517-965f-20ef2eb8ad40",
+                    "path": "<XInputController>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1362a2ac-363d-4660-a004-3b35559b03a4",
+                    "path": "<SwitchProControllerHID>/dpad",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -222,7 +354,29 @@
                 {
                     "name": "",
                     "id": "5023dd45-b19e-40f6-8c97-aca66c0f1db4",
-                    "path": "<Gamepad>/buttonWest",
+                    "path": "<SwitchProControllerHID>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2768e49f-25c9-44e4-97d2-e80b9037fbab",
+                    "path": "<DualShockGamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "426972a3-0487-477b-8fac-97fd901356f9",
+                    "path": "<XInputController>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
