@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 869.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Lighting
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 3248
+  controlID: 1789
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 3132
+  controlID: 1790
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3133
+  controlID: 1791
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3156
+  controlID: 1808
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -473,9 +473,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0ef50100
+      m_SelectedIDs: fc2c0200
       m_LastClickedID: 0
-      m_ExpandedIDs: 647df4ff9aa2f4ffbec7f4ffececf4ff5a12f5ff5a38f5ff825df5ffae82f5ffd6a7f5ff64f5ffff1afbffffaeb4000006b50000c0b50000a4b60000beb600007ab8000046ba00007abe000088bf0000a0bf00001ac0000050c50000
+      m_ExpandedIDs: f487feff9aaefeff24defeff5203ffff7428ffff984dffffbc72ffff969dffff70c8ffff48f7ffff68c10100dac1010022c50100eac5010008cb010036cb0100700902002a0a02009c0a0200b40e020008140200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1107,9 +1107,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -28.429817, y: 1.3116233, z: 0.5893045}
+    m_Target: {x: -32.83502, y: 0.42617792, z: -1.5066271}
     speed: 2
-    m_Value: {x: -28.429817, y: 1.3116233, z: 0.5893045}
+    m_Value: {x: -32.83502, y: 0.42617792, z: -1.5066271}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1155,13 +1155,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: -0.07487679, y: -0.781958, z: 0.095734395, w: -0.611771}
+    m_Target: {x: -0.11278608, y: -0.7917621, z: 0.15376101, w: -0.5807967}
     speed: 2
-    m_Value: {x: -0.074762575, y: -0.7823763, z: 0.09578559, w: -0.610838}
+    m_Value: {x: -0.11259989, y: -0.79211473, z: 0.15382949, w: -0.579838}
   m_Size:
     m_Target: 1.962819
     speed: 2
-    m_Value: 1.8782957
+    m_Value: 1.962819
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1433,9 +1433,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: aae10000
-    m_LastClickedID: 57770
-    m_ExpandedIDs: 00000000a6df0000a8df0000aadf0000acdf000000ca9a3bffffff7f
+    m_SelectedIDs: bee20000
+    m_LastClickedID: 58046
+    m_ExpandedIDs: 00000000e4e00000e6e00000e8e00000eae0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1464,7 +1464,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a6df0000a8df0000aadf0000acdf000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000e4e00000e6e00000e8e00000eae0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1496,18 +1496,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc00008433030000000000ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Oren Scene
-      m_OriginalName: Oren Scene
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 128270
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 11}
