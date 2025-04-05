@@ -15,21 +15,7 @@ public class GameManager : MonoBehaviour
     
     private AsyncOperation asyncSceneLoad;
     private bool isPreloaded = false;
-
-    private void Awake()
-    {
-        // Implement singleton pattern
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-
+    
     private void Start()
     {
         // Start preloading the scene when the game starts
@@ -64,6 +50,11 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Starts the game by activating the preloaded scene
     /// </summary>
+
+    public void TestScene()
+    {
+        SceneManager.LoadScene(mainGameScene.name);
+    }
     public void StartGame()
     {
         Cursor.lockState = CursorLockMode.Locked;
