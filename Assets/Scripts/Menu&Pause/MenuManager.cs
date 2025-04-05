@@ -66,6 +66,8 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void StartGame()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         Debug.Log("StartGame method called - activating preloaded scene");
         
         if (isPreloaded && asyncSceneLoad != null)
