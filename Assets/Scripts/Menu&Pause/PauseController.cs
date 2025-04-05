@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -211,6 +212,7 @@ public class PauseController : MonoBehaviour
         onResume?.Invoke();
     }
 
+    [Obsolete("Obsolete")]
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("Menu Scene");

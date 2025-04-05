@@ -37,7 +37,6 @@ public class DieEffectController : MonoBehaviour
         // Get renderer if we want to use color pulse
         if (useColorPulse)
         {
-            
             renderer = GetComponentInChildren<Renderer>();
             if (renderer != null && renderer.material.HasProperty("_Color"))
             {

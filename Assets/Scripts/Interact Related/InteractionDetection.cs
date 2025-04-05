@@ -4,18 +4,14 @@ using UnityEngine;
 
 public class InteractionDetection : MonoBehaviour
 {
-    [SerializeField]
-    private LayerMask interactionLayer;
+    [SerializeField] private LayerMask interactionLayer;
 
-    [SerializeField]
-    private Transform raycastCubeTransform;
-    
-    [SerializeField]
-    private Mesh raycastCubeMesh;
+    [SerializeField] private Transform raycastCubeTransform;
 
-    [SerializeField]
-    private ThirdPersonController playerController;
-    
+    [SerializeField] private Mesh raycastCubeMesh;
+
+    [SerializeField] private ThirdPersonController playerController;
+
     private Interactable currentInteractable;
 
     private void Awake()
@@ -29,6 +25,7 @@ public class InteractionDetection : MonoBehaviour
         {
             return;
         }
+
         currentInteractable.Interact();
     }
 
@@ -37,10 +34,11 @@ public class InteractionDetection : MonoBehaviour
     {
         DetectInteraction();
     }
-    
+
     private void DetectInteraction()
     {
-        var overlaps = Physics.OverlapBox(raycastCubeTransform.position, raycastCubeTransform.localScale * 0.5f, raycastCubeTransform.rotation, interactionLayer);
+        var overlaps = Physics.OverlapBox(raycastCubeTransform.position, raycastCubeTransform.localScale * 0.5f,
+            raycastCubeTransform.rotation, interactionLayer);
         if (overlaps == null || overlaps.Length == 0)
         {
             ClearTouchingInteractableObject();
@@ -51,7 +49,7 @@ public class InteractionDetection : MonoBehaviour
             PlayerIsTouchingInteractableObject(firstOverlap);
         }
     }
-    
+
     private void PlayerIsTouchingInteractableObject(Collider collider)
     {
         currentInteractable = collider.GetComponent<Interactable>();
@@ -69,12 +67,14 @@ public class InteractionDetection : MonoBehaviour
             currentInteractable = null;
         }
     }
-#if UNITY_EDITOR
+/*#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireMesh(raycastCubeMesh, raycastCubeTransform.position, raycastCubeTransform.rotation, raycastCubeTransform.localScale);
+        Gizmos.DrawWireMesh(raycastCubeMesh, raycastCubeTransform.position, raycastCubeTransform.rotation,
+            raycastCubeTransform.localScale);
 #endif
-    }
+    }*/
+
 
 }
