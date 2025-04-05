@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PauseController : MonoBehaviour
 {
@@ -209,7 +210,11 @@ public class PauseController : MonoBehaviour
         // Invoke the resume event
         onResume?.Invoke();
     }
-    
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("Menu Scene");
+    }
     // Public method to check if the game is paused
     public bool IsPaused()
     {
