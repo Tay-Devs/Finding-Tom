@@ -28,7 +28,7 @@ public class DieEffectController : MonoBehaviour
     public float pulseSpeed = 3f;
     
     private AudioSource audioSource;
-    private Renderer renderer;
+    private new Renderer renderer;
     private Color originalColor;
     private bool isPlaying = false;
     
@@ -37,6 +37,7 @@ public class DieEffectController : MonoBehaviour
         // Get renderer if we want to use color pulse
         if (useColorPulse)
         {
+            
             renderer = GetComponentInChildren<Renderer>();
             if (renderer != null && renderer.material.HasProperty("_Color"))
             {

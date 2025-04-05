@@ -88,7 +88,7 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
     ""name"": ""DiceControls"",
     ""maps"": [
         {
-            ""name"": ""Gameplay"",
+            ""name"": ""Dice"",
             ""id"": ""beffc553-f8b6-4ca1-a7f3-78c51da5af23"",
             ""actions"": [
                 {
@@ -97,7 +97,7 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                     ""id"": ""ca070242-2e2e-4000-a350-a7bdb8413312"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": true
                 },
                 {
@@ -106,7 +106,7 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                     ""id"": ""17f9cec9-e4ac-4164-ac6c-93d13c2d5829"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": true
                 },
                 {
@@ -187,7 +187,40 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""cbcd72d4-7a9c-4526-a568-b02d75c6a01f"",
-                    ""path"": ""<Gamepad>/dpad"",
+                    ""path"": ""<SwitchProControllerHID>/dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ChangeValue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""25974c0a-42f6-40ce-b32b-0db552631100"",
+                    ""path"": ""<XInputController>/dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ChangeValue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""11fff510-d714-414b-948b-f5db83727d68"",
+                    ""path"": ""<DualShockGamepad>/dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ChangeValue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5e2264a4-bf77-4914-a49a-7dbb4b54f897"",
+                    ""path"": ""<DualSenseGamepadHID>/dpad"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -198,7 +231,40 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""253be40b-fca9-4386-b02f-cd19a59f98e1"",
-                    ""path"": ""<Gamepad>/leftStick"",
+                    ""path"": ""<SwitchProControllerHID>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ChangeValue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5e80d189-bb92-4cb6-951d-1b31af472d0b"",
+                    ""path"": ""<DualShockGamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ChangeValue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9d429b9a-d7a2-4618-bdfb-1460b9af71dd"",
+                    ""path"": ""<XInputController>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ChangeValue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3e5e94b0-bdfb-4fe0-bcd8-2cd12c4202bd"",
+                    ""path"": ""<DualSenseGamepadHID>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -263,8 +329,8 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""cf4f8b4d-cb5d-4494-8110-9bef7b73b611"",
-                    ""path"": ""<Gamepad>/dpad"",
+                    ""id"": ""10c9b4e9-e127-44f5-8379-04418aebe829"",
+                    ""path"": ""<DualSenseGamepadHID>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -274,8 +340,74 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""e428fbd7-ce3f-45cb-b2c1-a9707f8fe427"",
-                    ""path"": ""<Gamepad>/leftStick"",
+                    ""id"": ""85f0196d-27cb-40b8-b080-b023e9c8d95f"",
+                    ""path"": ""<XInputController>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dc535bbd-0502-4795-8585-49bc9a4cb6a3"",
+                    ""path"": ""<DualShockGamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e4edd72b-e9df-40fc-8b2a-deeacd2e5e36"",
+                    ""path"": ""<SwitchProControllerHID>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""14b2b141-c96b-4d4d-95b2-31fe6492df88"",
+                    ""path"": ""<DualSenseGamepadHID>/dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6494d574-ff93-4d07-a8c1-7dba3435ec07"",
+                    ""path"": ""<DualShockGamepad>/dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b47be0af-b2eb-4517-965f-20ef2eb8ad40"",
+                    ""path"": ""<XInputController>/dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1362a2ac-363d-4660-a004-3b35559b03a4"",
+                    ""path"": ""<SwitchProControllerHID>/dpad"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -308,7 +440,29 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""5023dd45-b19e-40f6-8c97-aca66c0f1db4"",
-                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""path"": ""<SwitchProControllerHID>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2768e49f-25c9-44e4-97d2-e80b9037fbab"",
+                    ""path"": ""<DualShockGamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""426972a3-0487-477b-8fac-97fd901356f9"",
+                    ""path"": ""<XInputController>/buttonWest"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -321,17 +475,17 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
     ],
     ""controlSchemes"": []
 }");
-        // Gameplay
-        m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
-        m_Gameplay_ChangeValue = m_Gameplay.FindAction("ChangeValue", throwIfNotFound: true);
-        m_Gameplay_Move = m_Gameplay.FindAction("Move", throwIfNotFound: true);
-        m_Gameplay_Print = m_Gameplay.FindAction("Print", throwIfNotFound: true);
-        m_Gameplay_Select = m_Gameplay.FindAction("Select", throwIfNotFound: true);
+        // Dice
+        m_Dice = asset.FindActionMap("Dice", throwIfNotFound: true);
+        m_Dice_ChangeValue = m_Dice.FindAction("ChangeValue", throwIfNotFound: true);
+        m_Dice_Move = m_Dice.FindAction("Move", throwIfNotFound: true);
+        m_Dice_Print = m_Dice.FindAction("Print", throwIfNotFound: true);
+        m_Dice_Select = m_Dice.FindAction("Select", throwIfNotFound: true);
     }
 
     ~@DiceControls()
     {
-        UnityEngine.Debug.Assert(!m_Gameplay.enabled, "This will cause a leak and performance issues, DiceControls.Gameplay.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_Dice.enabled, "This will cause a leak and performance issues, DiceControls.Dice.Disable() has not been called.");
     }
 
     /// <summary>
@@ -404,44 +558,44 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // Gameplay
-    private readonly InputActionMap m_Gameplay;
-    private List<IGameplayActions> m_GameplayActionsCallbackInterfaces = new List<IGameplayActions>();
-    private readonly InputAction m_Gameplay_ChangeValue;
-    private readonly InputAction m_Gameplay_Move;
-    private readonly InputAction m_Gameplay_Print;
-    private readonly InputAction m_Gameplay_Select;
+    // Dice
+    private readonly InputActionMap m_Dice;
+    private List<IDiceActions> m_DiceActionsCallbackInterfaces = new List<IDiceActions>();
+    private readonly InputAction m_Dice_ChangeValue;
+    private readonly InputAction m_Dice_Move;
+    private readonly InputAction m_Dice_Print;
+    private readonly InputAction m_Dice_Select;
     /// <summary>
-    /// Provides access to input actions defined in input action map "Gameplay".
+    /// Provides access to input actions defined in input action map "Dice".
     /// </summary>
-    public struct GameplayActions
+    public struct DiceActions
     {
         private @DiceControls m_Wrapper;
 
         /// <summary>
         /// Construct a new instance of the input action map wrapper class.
         /// </summary>
-        public GameplayActions(@DiceControls wrapper) { m_Wrapper = wrapper; }
+        public DiceActions(@DiceControls wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "Gameplay/ChangeValue".
+        /// Provides access to the underlying input action "Dice/ChangeValue".
         /// </summary>
-        public InputAction @ChangeValue => m_Wrapper.m_Gameplay_ChangeValue;
+        public InputAction @ChangeValue => m_Wrapper.m_Dice_ChangeValue;
         /// <summary>
-        /// Provides access to the underlying input action "Gameplay/Move".
+        /// Provides access to the underlying input action "Dice/Move".
         /// </summary>
-        public InputAction @Move => m_Wrapper.m_Gameplay_Move;
+        public InputAction @Move => m_Wrapper.m_Dice_Move;
         /// <summary>
-        /// Provides access to the underlying input action "Gameplay/Print".
+        /// Provides access to the underlying input action "Dice/Print".
         /// </summary>
-        public InputAction @Print => m_Wrapper.m_Gameplay_Print;
+        public InputAction @Print => m_Wrapper.m_Dice_Print;
         /// <summary>
-        /// Provides access to the underlying input action "Gameplay/Select".
+        /// Provides access to the underlying input action "Dice/Select".
         /// </summary>
-        public InputAction @Select => m_Wrapper.m_Gameplay_Select;
+        public InputAction @Select => m_Wrapper.m_Dice_Select;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
+        public InputActionMap Get() { return m_Wrapper.m_Dice; }
         /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
         public void Enable() { Get().Enable(); }
         /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
@@ -449,9 +603,9 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
         public bool enabled => Get().enabled;
         /// <summary>
-        /// Implicitly converts an <see ref="GameplayActions" /> to an <see ref="InputActionMap" /> instance.
+        /// Implicitly converts an <see ref="DiceActions" /> to an <see ref="InputActionMap" /> instance.
         /// </summary>
-        public static implicit operator InputActionMap(GameplayActions set) { return set.Get(); }
+        public static implicit operator InputActionMap(DiceActions set) { return set.Get(); }
         /// <summary>
         /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
         /// </summary>
@@ -459,11 +613,11 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         /// <remarks>
         /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
         /// </remarks>
-        /// <seealso cref="GameplayActions" />
-        public void AddCallbacks(IGameplayActions instance)
+        /// <seealso cref="DiceActions" />
+        public void AddCallbacks(IDiceActions instance)
         {
-            if (instance == null || m_Wrapper.m_GameplayActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_GameplayActionsCallbackInterfaces.Add(instance);
+            if (instance == null || m_Wrapper.m_DiceActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_DiceActionsCallbackInterfaces.Add(instance);
             @ChangeValue.started += instance.OnChangeValue;
             @ChangeValue.performed += instance.OnChangeValue;
             @ChangeValue.canceled += instance.OnChangeValue;
@@ -484,8 +638,8 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         /// <remarks>
         /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
         /// </remarks>
-        /// <seealso cref="GameplayActions" />
-        private void UnregisterCallbacks(IGameplayActions instance)
+        /// <seealso cref="DiceActions" />
+        private void UnregisterCallbacks(IDiceActions instance)
         {
             @ChangeValue.started -= instance.OnChangeValue;
             @ChangeValue.performed -= instance.OnChangeValue;
@@ -502,12 +656,12 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         }
 
         /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="GameplayActions.UnregisterCallbacks(IGameplayActions)" />.
+        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="DiceActions.UnregisterCallbacks(IDiceActions)" />.
         /// </summary>
-        /// <seealso cref="GameplayActions.UnregisterCallbacks(IGameplayActions)" />
-        public void RemoveCallbacks(IGameplayActions instance)
+        /// <seealso cref="DiceActions.UnregisterCallbacks(IDiceActions)" />
+        public void RemoveCallbacks(IDiceActions instance)
         {
-            if (m_Wrapper.m_GameplayActionsCallbackInterfaces.Remove(instance))
+            if (m_Wrapper.m_DiceActionsCallbackInterfaces.Remove(instance))
                 UnregisterCallbacks(instance);
         }
 
@@ -517,27 +671,27 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         /// <remarks>
         /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
         /// </remarks>
-        /// <seealso cref="GameplayActions.AddCallbacks(IGameplayActions)" />
-        /// <seealso cref="GameplayActions.RemoveCallbacks(IGameplayActions)" />
-        /// <seealso cref="GameplayActions.UnregisterCallbacks(IGameplayActions)" />
-        public void SetCallbacks(IGameplayActions instance)
+        /// <seealso cref="DiceActions.AddCallbacks(IDiceActions)" />
+        /// <seealso cref="DiceActions.RemoveCallbacks(IDiceActions)" />
+        /// <seealso cref="DiceActions.UnregisterCallbacks(IDiceActions)" />
+        public void SetCallbacks(IDiceActions instance)
         {
-            foreach (var item in m_Wrapper.m_GameplayActionsCallbackInterfaces)
+            foreach (var item in m_Wrapper.m_DiceActionsCallbackInterfaces)
                 UnregisterCallbacks(item);
-            m_Wrapper.m_GameplayActionsCallbackInterfaces.Clear();
+            m_Wrapper.m_DiceActionsCallbackInterfaces.Clear();
             AddCallbacks(instance);
         }
     }
     /// <summary>
-    /// Provides a new <see cref="GameplayActions" /> instance referencing this action map.
+    /// Provides a new <see cref="DiceActions" /> instance referencing this action map.
     /// </summary>
-    public GameplayActions @Gameplay => new GameplayActions(this);
+    public DiceActions @Dice => new DiceActions(this);
     /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Gameplay" which allows adding and removing callbacks.
+    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Dice" which allows adding and removing callbacks.
     /// </summary>
-    /// <seealso cref="GameplayActions.AddCallbacks(IGameplayActions)" />
-    /// <seealso cref="GameplayActions.RemoveCallbacks(IGameplayActions)" />
-    public interface IGameplayActions
+    /// <seealso cref="DiceActions.AddCallbacks(IDiceActions)" />
+    /// <seealso cref="DiceActions.RemoveCallbacks(IDiceActions)" />
+    public interface IDiceActions
     {
         /// <summary>
         /// Method invoked when associated input action "ChangeValue" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.

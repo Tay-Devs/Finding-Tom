@@ -33,6 +33,8 @@ public class DieController : MonoBehaviour
     [Tooltip("Reference to an Input Action asset with move and changeValue actions")]
     public InputActionAsset inputActions;
     
+    [SerializeField]
+    private PauseController pauseController;
     // Input action references
     private InputAction moveAction;
     private InputAction changeValueAction;
@@ -131,7 +133,6 @@ public class DieController : MonoBehaviour
             if (actionMap == null && inputActions.actionMaps.Count > 0)
             {
                 actionMap = inputActions.actionMaps[0];
-                Debug.Log("Using action map: " + actionMap.name);
             }
             
             if (actionMap != null)
@@ -250,6 +251,12 @@ public class DieController : MonoBehaviour
     
     private void OnMove(InputAction.CallbackContext context)
     {
+        //If the game is paused don't select a different dice
+        if (pauseController.isPaused)
+        {
+            return;
+        }
+        
         if (context.canceled)
         {
             moveInput = Vector2.zero;
@@ -262,6 +269,12 @@ public class DieController : MonoBehaviour
     
     private void OnChangeValue(InputAction.CallbackContext context)
     {
+        //If the game is paused don't change value
+        if (pauseController.isPaused)
+        {
+            return;
+        }
+       
         if (context.canceled)
         {
             changeValueInput = Vector2.zero;
@@ -282,7 +295,9 @@ public class DieController : MonoBehaviour
                     DecreaseDieValue();
                 }
             }
-        }
+        } 
+        
+        
     }
     
     private void OnPrint(InputAction.CallbackContext context)
@@ -381,7 +396,6 @@ public class DieController : MonoBehaviour
             }
             
             UpdateDieVisual(currentDieIndex);
-            Debug.Log("Die " + (currentDieIndex + 1) + " value changed to: " + diceValues[currentDieIndex]);
         }
     }
     
@@ -396,7 +410,6 @@ public class DieController : MonoBehaviour
             }
             
             UpdateDieVisual(currentDieIndex);
-            Debug.Log("Die " + (currentDieIndex + 1) + " value changed to: " + diceValues[currentDieIndex]);
         }
     }
     
