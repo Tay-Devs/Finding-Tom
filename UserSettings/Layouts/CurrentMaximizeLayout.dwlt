@@ -19,12 +19,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 36
+<<<<<<< HEAD
     width: 1920
     height: 933
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 21430
+=======
+    width: 1706.6666
+    height: 813.3333
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 2878
+>>>>>>> origin/OrenScene
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -47,10 +56,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -1474
     y: 589
     width: 816
     height: 398
+=======
+    x: 337.66666
+    y: 24
+    width: 784.66675
+    height: 418
+>>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -83,10 +99,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -960
     m_HBaseRangeMax: 960
     m_VBaseRangeMin: -540
     m_VBaseRangeMax: 540
+=======
+    m_HBaseRangeMin: -640
+    m_HBaseRangeMax: 640
+    m_VBaseRangeMin: -360
+    m_VBaseRangeMax: 360
+>>>>>>> origin/OrenScene
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -104,16 +127,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 816
       height: 377
     m_Scale: {x: 0.34907407, y: 0.34907407}
     m_Translation: {x: 408, y: 188.5}
+=======
+      width: 1706.6666
+      height: 768.3333
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 853.3333, y: 384.16666}
+>>>>>>> origin/OrenScene
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -1168.8064
       y: -540
       width: 2337.6128
@@ -121,6 +152,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.34907407
   m_LastWindowPixelSize: {x: 816, y: 398}
+=======
+      x: -853.3333
+      y: -384.16666
+      width: 1706.6666
+      height: 768.3333
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 2560, y: 1184}
+>>>>>>> origin/OrenScene
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -146,12 +186,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1264
     height: 933
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
   controlID: 21431
+=======
+    width: 1123.3334
+    height: 813.3333
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 2879
+>>>>>>> origin/OrenScene
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -172,12 +221,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1264
     height: 509
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 21432
+=======
+    width: 1123.3334
+    height: 444
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 2880
+>>>>>>> origin/OrenScene
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -196,8 +254,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 379
     height: 509
+=======
+    width: 336.66666
+    height: 444
+>>>>>>> origin/OrenScene
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 6}
@@ -226,10 +289,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -1920
     y: 80
     width: 378
     height: 483
+=======
+    x: 0
+    y: 78.66667
+    width: 335.66666
+    height: 418
+>>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -243,10 +313,17 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 1126}
       m_SelectedIDs: b0100700
       m_LastClickedID: 0
       m_ExpandedIDs: 18e8ffff38e8ffff68e8ffff6ce8ffff70e8ffff80e8ffff84e8ffff9ce8ffffa6e8ffffb0faffff1afbffff7ab4000026b5000064b6000074b60000c0b6000032b7000056b70000c0b70000deba000056bb0000f2bb000004be00005abe000090c00000a6c00000bec0000030c10000d0c10000
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 4abd000014c00000
+      m_LastClickedID: 49172
+      m_ExpandedIDs: 64f5ffff1afbffffaeb4000006b5000060b5000070b50000a6b8000080b9000046ba00004aba0000feba000072bf0000a0bf0000
+>>>>>>> origin/OrenScene
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -281,23 +358,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 379
     y: 0
     width: 885
     height: 509
+=======
+    x: 336.66666
+    y: 0
+    width: 786.66675
+    height: 444
+>>>>>>> origin/OrenScene
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 8}
+  m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
   - {fileID: 9}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 2}
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -319,10 +404,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -1541
     y: 80
     width: 883
     height: 483
+=======
+    x: 336.6667
+    y: 78.66667
+    width: 784.66675
+    height: 418
+>>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -880,7 +972,7 @@ MonoBehaviour:
       sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
-      scrollOffset: 0
+      scrollOffset: 1.333313
     - containerId: overlay-toolbar__left
       scrollOffset: 0
     - containerId: overlay-container--left
@@ -905,9 +997,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -30.797398, y: 0.39021888, z: -17.860191}
     speed: 2
     m_Value: {x: -30.797398, y: 0.39021888, z: -17.860191}
+=======
+    m_Target: {x: -34.44604, y: -0.27749985, z: 1.1934314}
+    speed: 2
+    m_Value: {x: -34.44604, y: -0.27749985, z: 1.1934314}
+>>>>>>> origin/OrenScene
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -916,7 +1014,7 @@ MonoBehaviour:
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
   m_SceneViewState:
-    m_AlwaysRefresh: 1
+    m_AlwaysRefresh: 0
     showFog: 1
     showSkybox: 1
     showFlares: 1
@@ -940,7 +1038,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.05, y: 0.05}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -948,11 +1046,16 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
       m_Size: {x: 1, y: 1}
+=======
+      m_Size: {x: 0.05, y: 0.05}
+>>>>>>> origin/OrenScene
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.0010515513, y: -0.99752283, z: 0.06953677, w: -0.014033053}
     speed: 2
     m_Value: {x: 0.0010515513, y: 0.9975229, z: -0.06953677, w: 0.014033053}
@@ -960,6 +1063,15 @@ MonoBehaviour:
     m_Target: 4.3110294
     speed: 2
     m_Value: 4.3110294
+=======
+    m_Target: {x: -0.12620331, y: -0.58185863, z: 0.09199258, w: -0.79819405}
+    speed: 2
+    m_Value: {x: 0.12620331, y: 0.58185863, z: -0.09199259, w: 0.79819405}
+  m_Size:
+    m_Target: 1.8782957
+    speed: 2
+    m_Value: 1.8782957
+>>>>>>> origin/OrenScene
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -977,7 +1089,11 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: -0.14368485, y: 0.42167595, z: -0.06791642, w: -0.892754}
+=======
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+>>>>>>> origin/OrenScene
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 8}
@@ -1014,10 +1130,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Animator\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -1541
     y: 80
     width: 883
     height: 483
+=======
+    x: 266
+    y: 78.66667
+    width: 458.6667
+    height: 446.66666
+>>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1185,6 +1308,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 509
     width: 1264
     height: 424
@@ -1192,6 +1316,15 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 21496
+=======
+    y: 444
+    width: 1123.3334
+    height: 369.3333
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 2959
+>>>>>>> origin/OrenScene
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -1210,8 +1343,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 446
     height: 424
+=======
+    width: 594.6667
+    height: 369.3333
+>>>>>>> origin/OrenScene
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 12}
@@ -1240,10 +1378,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -1920
     y: 589
     width: 445
     height: 398
+=======
+    x: 0
+    y: 522.6667
+    width: 593.6667
+    height: 343.3333
+>>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1266,7 +1411,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/UI
+=======
+    - Assets/Prefabs
+>>>>>>> origin/OrenScene
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1276,18 +1425,27 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/UI
+=======
+  - Assets/Prefabs
+>>>>>>> origin/OrenScene
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
-    \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
-    Person Clone\\Finding-Tom\\Finding-Tom"
+  m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 346}
     m_SelectedIDs: 4ce20000
     m_LastClickedID: 57932
     m_ExpandedIDs: 0000000094e0000096e0000098e000009ae000009ce000009ee000003ee20000
+=======
+    scrollPos: {x: 0, y: 255}
+    m_SelectedIDs: a4e10000
+    m_LastClickedID: 57764
+    m_ExpandedIDs: 00000000a6df0000a8df0000aadf0000acdf000000ca9a3bffffff7f
+>>>>>>> origin/OrenScene
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1316,7 +1474,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000094e0000096e0000098e000009ae000009ce000009ee000003ee20000
+=======
+    m_ExpandedIDs: 00000000a6df0000a8df0000aadf0000acdf000000ca9a3bffffff7f
+>>>>>>> origin/OrenScene
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1342,10 +1504,17 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: b0100700
     m_LastClickedInstanceID: 463024
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c3000072ff02000000000074100700
+=======
+    m_SelectedInstanceIDs: 4abd000014c00000
+    m_LastClickedInstanceID: 48458
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc00008433030000000000ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c30000
+>>>>>>> origin/OrenScene
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1389,6 +1558,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 446
     y: 0
     width: 818
@@ -1402,6 +1572,20 @@ MonoBehaviour:
   - {fileID: 15}
   m_Selected: 1
   m_LastSelected: 0
+=======
+    x: 594.6667
+    y: 0
+    width: 528.6667
+    height: 369.3333
+  m_MinSize: {x: 102, y: 126}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 1
+>>>>>>> origin/OrenScene
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1423,10 +1607,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -1474
     y: 589
     width: 816
     height: 398
+=======
+    x: 594.6667
+    y: 522.6667
+    width: 526.6667
+    height: 343.3333
+>>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1512,10 +1703,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1264
     y: 0
     width: 656
     height: 933
+=======
+    x: 1123.3334
+    y: 0
+    width: 583.33325
+    height: 813.3333
+>>>>>>> origin/OrenScene
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
@@ -1545,10 +1743,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -656
     y: 80
     width: 655
     height: 907
+=======
+    x: 1123.3334
+    y: 78.66667
+    width: 582.33325
+    height: 787.3333
+>>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1594,10 +1799,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Lighting\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -656
     y: 80
     width: 655
     height: 907
+=======
+    x: 1123.3334
+    y: 78.66667
+    width: 582.33325
+    height: 787.3333
+>>>>>>> origin/OrenScene
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
