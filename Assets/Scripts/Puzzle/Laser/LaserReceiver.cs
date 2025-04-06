@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -53,7 +54,6 @@ public class LaserReceiver : MonoBehaviour
         // If puzzle is already solved, no need to process again
         if (isPuzzleSolved)
         {
-            
             return;
         }
            
@@ -93,6 +93,16 @@ public class LaserReceiver : MonoBehaviour
         else
         {
            // Debug.Log("Receiver activated! Laser has reached the destination but didnt hit all the deflectors.");
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            print("Cheat");
+            StartCoroutine(FinishPuzzleAnimation());
+            isPuzzleSolved = true;
         }
     }
 

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
@@ -86,7 +87,18 @@ public class VentBreakAnimation : MonoBehaviour
             StartCoroutine(AnimateVentBreak());
         }
     }
-    
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            print("Cheat");
+            mainCamera.SetActive(false);
+            endCamera.SetActive(true);
+            TriggerVentBreak();
+        }
+    }
+
     // This can be called by a trigger or collision event
     private void OnTriggerEnter(Collider other)
     {

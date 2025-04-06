@@ -28,9 +28,12 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-7:
       value: 5403045e5c075e0d5f0b5d7445205b444116197a7e2a7f607b784430e6e2616d
+<<<<<<< HEAD
       flags: 0
     RecentlyUsedSceneGuid-8:
       value: 0703025354020b0859570a7344225c4440161c797e787f647c7c4e37b7b76269
+=======
+>>>>>>> main
       flags: 0
     lightmappingBakingProfile:
       value: 51
