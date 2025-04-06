@@ -215,7 +215,15 @@ public class PauseController : MonoBehaviour
     [Obsolete("Obsolete")]
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene("Menu Scene");
+        // Log the exit in the editor
+        Debug.Log("Exiting game");
+
+        // In editor, this doesn't actually quit
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
     }
     // Public method to check if the game is paused
     public bool IsPaused()
