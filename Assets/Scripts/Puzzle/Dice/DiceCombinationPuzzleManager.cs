@@ -18,10 +18,15 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     public float timeBetweenEffects = 0.5f;
     
     [Tooltip("GameObject that will show correct answer effects")]
-    public GameObject correctEffectPrefab;
+    public ParticleSystem correctEffectPrefab;
     
     [Tooltip("GameObject that will show incorrect answer effects")]
-    public GameObject incorrectEffectPrefab;
+    public ParticleSystem incorrectEffectPrefab;
+    
+    /*[SerializeField]
+    private ConfettiEffect confetti;
+    [SerializeField]
+    private ErrorEffect errorEffect;*/
     
     [Tooltip("Additional delay after checking before returning control")]
     public float returnControlDelay = 1.0f;
@@ -35,6 +40,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     
     [Tooltip("Name of the action to check combination")]
     public string selectActionName = "Select";
+
     
     [Tooltip("Fallback key in case input system fails")]
     public KeyCode fallbackKey = KeyCode.E;
@@ -378,29 +384,27 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     private void ShowEffect(Transform dieTransform, bool isCorrect)
     {
         // Create the appropriate effect at the die's position
-        GameObject effectPrefab = isCorrect ? correctEffectPrefab : incorrectEffectPrefab;
+        ParticleSystem effectPrefab = isCorrect ? correctEffectPrefab : incorrectEffectPrefab;
         
         if (effectPrefab != null)
         {
             // Instantiate the effect slightly above the die
             Vector3 effectPosition = dieTransform.position + Vector3.up * 0.5f;
-            GameObject effectInstance = Instantiate(effectPrefab, effectPosition, Quaternion.identity);
+            ParticleSystem effectInstance = Instantiate(effectPrefab, effectPosition, Quaternion.identity);
             
             // Parent to the die so it moves with it
             effectInstance.transform.SetParent(dieTransform);
-            
-            // Get the effect controller
-            DieEffectController effectController = effectInstance.GetComponent<DieEffectController>();
-            if (effectController != null)
+
+            if (isCorrect)
             {
-                effectController.PlayEffect();
+                correctEffectPrefab.Play();
             }
             else
             {
-                // If no controller, destroy after a few seconds
-                Debug.LogWarning("No DieEffectController component on effect prefab!");
-                Destroy(effectInstance, 2f);
+                
+                incorrectEffectPrefab.Play();
             }
+           
         }
         else
         {
