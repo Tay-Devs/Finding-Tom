@@ -75,7 +75,9 @@ public class MazeTilter : MonoBehaviour
 
     public void StopMoving()
     {
+        OnDisable();
         isPuzzleSolved = true;
+        //ResetRotationToZero();
     }
 
     // New method to reset rotation to 0,0,0
@@ -118,6 +120,7 @@ public class MazeTilter : MonoBehaviour
     
     private void UpdateTargetRotation()
     {
+      
         // Check if we have meaningful input
         bool hasInput = inputVector.magnitude > 0.1f;
         
@@ -164,6 +167,7 @@ public class MazeTilter : MonoBehaviour
     
     private void StartNewLerp(float duration)
     {
+       
         // Start a new lerp
         isLerping = true;
         lerpStartTime = Time.time;
