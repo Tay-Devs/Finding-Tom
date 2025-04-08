@@ -12,4 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36baaa8bdcb9d8b49b9199833965d2c3, type: 3}
   m_Name: Main Camera Custom Blends
   m_EditorClassIdentifier: 
-  CustomBlends: []
+  CustomBlends:
+  - From: CinemachineCamera Animation
+    To: CinemachineCamera Player
+    Blend:
+      Style: 1
+      Time: 4
+      CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - From: CM Maze Puzzle Main
+    To: CM Maze Puzzle End
+    Blend:
+      Style: 1
+      Time: 0.75
+      CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
