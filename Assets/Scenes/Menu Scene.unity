@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 167180509}
   - component: {fileID: 167180508}
   m_Layer: 5
-  m_Name: Exit
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 61.85
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1630,7 +1630,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 175, y: 120}
+  m_CellSize: {x: 2000, y: 120}
   m_Spacing: {x: 0, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 3
@@ -3436,6 +3436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 8891fe3b952cc48408f865d2a0851d1e, type: 2}
+  isTimeUnscaled: 1
 --- !u!1 &2128502765
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,9 +3495,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Exit
-
-'
+  m_text: Quit Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec0daf2180e40c249b62489eb3b6e731, type: 2}
   m_sharedMaterial: {fileID: 4460881228976749897, guid: ec0daf2180e40c249b62489eb3b6e731, type: 2}

@@ -4889,7 +4889,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: Quit Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec0daf2180e40c249b62489eb3b6e731, type: 2}
   m_sharedMaterial: {fileID: 4460881228976749897, guid: ec0daf2180e40c249b62489eb3b6e731, type: 2}
@@ -75449,7 +75449,7 @@ Transform:
   m_GameObject: {fileID: 1597098996}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70824313, y: 0.028603971, z: 0.02846554, w: 0.7048144}
-  m_LocalPosition: {x: -0.28284112, y: 0.035999965, z: 0.6999779}
+  m_LocalPosition: {x: -0.311, y: -0.142, z: 0.7}
   m_LocalScale: {x: 0.010179748, y: 0.64201474, z: 0.030629143}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -82733,7 +82733,7 @@ Transform:
   m_GameObject: {fileID: 1816993098}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.912, y: 71.645, z: 3.824}
+  m_LocalPosition: {x: -30.912, y: 70.919, z: 3.824}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
