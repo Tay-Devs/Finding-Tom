@@ -28,7 +28,7 @@ Material:
     m_Floats:
     - _CenterX: 0.243
     - _CenterY: 0.34
-    - _EmissionIntensity: 3
+    - _EmissionIntensity: 1.2
     - _Glossiness: 0.9727273
     - _GlowEdge: 1
     - _RippleStrength: 1

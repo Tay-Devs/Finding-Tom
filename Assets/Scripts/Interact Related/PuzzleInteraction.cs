@@ -1,8 +1,4 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Events;
-using VInspector.Libs;
 
 public class PuzzleInteraction : MonoBehaviour
 {

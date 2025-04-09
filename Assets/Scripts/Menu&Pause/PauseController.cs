@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PauseController : MonoBehaviour
 {
@@ -209,7 +211,20 @@ public class PauseController : MonoBehaviour
         // Invoke the resume event
         onResume?.Invoke();
     }
-    
+
+    [Obsolete("Obsolete")]
+    public void LoadMainMenu()
+    {
+        // Log the exit in the editor
+        Debug.Log("Exiting game");
+
+        // In editor, this doesn't actually quit
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+    }
     // Public method to check if the game is paused
     public bool IsPaused()
     {
