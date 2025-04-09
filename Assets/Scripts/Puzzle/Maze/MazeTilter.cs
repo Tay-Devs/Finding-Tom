@@ -20,7 +20,8 @@ public class MazeTilter : MonoBehaviour
     [Header("Delay Movement")]
     [SerializeField]
     private float delayTime = 0f;
-    
+
+    private bool isPuzzleSolved;
     // Input state
     private Vector2 inputVector;
     
@@ -72,6 +73,26 @@ public class MazeTilter : MonoBehaviour
         }
     }
 
+    public void StopMoving()
+    {
+        OnDisable();
+        isPuzzleSolved = true;
+        //ResetRotationToZero();
+    }
+
+    // New method to reset rotation to 0,0,0
+    public void ResetRotationToZero()
+    {
+        // Save current rotation as start
+        startRotation = transform.rotation;
+        
+        // Set target to zero rotation
+        targetRotation = Quaternion.Euler(Vector3.zero);
+        
+        // Start a new lerp with return duration
+        StartNewLerp(returnTime);
+    }
+    
     IEnumerator DelayForStart()
     {
         yield return new WaitForSeconds(delayTime);
@@ -91,7 +112,7 @@ public class MazeTilter : MonoBehaviour
     private void FixedUpdate()
     {
         // Update the platform rotation with proper timing
-        if (isLerping)
+        if (isLerping && !isPuzzleSolved)
         {
             UpdateRotation();
         }
@@ -99,6 +120,7 @@ public class MazeTilter : MonoBehaviour
     
     private void UpdateTargetRotation()
     {
+      
         // Check if we have meaningful input
         bool hasInput = inputVector.magnitude > 0.1f;
         
@@ -145,6 +167,7 @@ public class MazeTilter : MonoBehaviour
     
     private void StartNewLerp(float duration)
     {
+       
         // Start a new lerp
         isLerping = true;
         lerpStartTime = Time.time;
