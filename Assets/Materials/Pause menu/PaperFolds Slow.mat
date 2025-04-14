@@ -120,7 +120,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _UnscaledTime: 1.9091339
+    - _UnscaledTime: 10.119911
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -129,7 +129,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoldColor: {r: 0, g: 0, b: 0, a: 0.2}
     - _LineColors: {r: 1, g: 0, b: 0, a: 1}
-    - _PaperColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PaperColor: {r: 0.83137256, g: 0.83137256, b: 0.78431374, a: 1}
     - _RainbowColors0: {r: 1, g: 0, b: 0, a: 1}
     - _RainbowColors1: {r: 1, g: 0.5, b: 0, a: 1}
     - _RainbowColors2: {r: 1, g: 1, b: 0, a: 1}

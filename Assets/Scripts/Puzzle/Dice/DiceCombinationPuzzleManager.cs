@@ -324,9 +324,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             // Return control
             isCheckingCombination = false;
             
-            // We'll only re-enable dice in OnEnable now
-            // EnableDicePuzzleState(); 
-            
             yield break;
         }
         
@@ -343,6 +340,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             // Update the overall result
             if (!isCorrect)
             {
+                dieController.ResetDiceValue(dieController.diceObjects[i]);
                 allCorrect = false;
             }
             
@@ -371,14 +369,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         
         // Switch to player movement
         ReturnToPlayerFromPuzzle();
-        
-        // We won't restore dice puzzle state here anymore - it will be handled in OnEnable
-        // if (!isPuzzleSolved)
-        // {
-        //     EnableDicePuzzleState();
-        // }
-        
-       
     }
     
     private void ShowEffect(Transform dieTransform, bool isCorrect)
@@ -399,12 +389,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             {
                 correctEffectPrefab.Play();
             }
-            else
-            {
-                
-                incorrectEffectPrefab.Play();
-            }
-           
+
         }
         else
         {

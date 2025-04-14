@@ -413,6 +413,27 @@ public class DieController : MonoBehaviour
         }
     }
     
+    public void ResetDiceValue(Transform dieTransform)
+    {
+        // Check if the transform is in our dice collection
+        if (dieTransform != null && diceObjects.Contains(dieTransform))
+        {
+            int dieIndex = diceObjects.IndexOf(dieTransform);
+        
+            // Set the value to 1 (minimum value)
+            diceValues[dieIndex] = minValue;
+        
+            // Store the current rotation
+            startRotations[dieIndex] = dieTransform.rotation;
+        
+            // Set the target rotation to show value 1 (0,0,0)
+            targetRotations[dieIndex] = Quaternion.Euler(0, 0, 0);
+        
+            // Reset timer and mark the die as rotating
+            rotationTimers[dieIndex] = 0f;
+            isRotating[dieIndex] = true;
+        }
+    }
     private void PrintDiceValues()
     {
         string values = "Dice Values: ";
