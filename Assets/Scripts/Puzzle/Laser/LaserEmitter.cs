@@ -56,6 +56,11 @@ public class LaserEmitter : MonoBehaviour
     // Each segment needs its own material
     private List<Material> segmentMaterials = new List<Material>();
     
+    [Header("SFX")]
+    public bool isPlayingSFX;
+    public AudioClip laserSpawnAudioClip;
+    [Range(0, 1)] public float laserAudioVolume = 0.5f;
+    
     [Obsolete("Obsolete")]
     private void Awake()
     {
@@ -112,12 +117,13 @@ public class LaserEmitter : MonoBehaviour
         {
             if (!isLaserActive)
             {
-                
+              
                 isLaserActive = true;
                 UpdateLaserPath();
             }
             else
             {
+                
                 laserWidth = 0.03f;
                 // Keep updating the path (for moving objects)
                 UpdateLaserPath();
@@ -131,6 +137,7 @@ public class LaserEmitter : MonoBehaviour
         // Check if we need to toggle the laser state
         if (isLaserActive && timer >= activeTime)
         {
+            isPlayingSFX = false;
             // Turn off the laser
             DeactivateLaser();
             isLaserActive = false;
@@ -138,6 +145,20 @@ public class LaserEmitter : MonoBehaviour
         }
         else if (!isLaserActive && timer >= cycleTime)
         {
+            if (!isPlayingSFX)
+            {
+                print(isPlayingSFX);
+                if (laserSpawnAudioClip != null)
+                {
+                    print("Playing sfx");
+                    isPlayingSFX = true;
+                    AudioSource.PlayClipAtPoint(laserSpawnAudioClip, transform.position, laserAudioVolume);
+                }
+                else
+                {
+                    Debug.LogWarning("No audio clip assigned to Laser_" + gameObject.name);
+                }
+            }
             // Reset the timer and turn on the laser
             timer = 0f;
             activeTimer = 0f; // Reset the active timer when laser activates
@@ -170,6 +191,7 @@ public class LaserEmitter : MonoBehaviour
         hitPoints.Clear();
         hitDeflectors.Clear();
         segmentMaterials.Clear();
+        
     }
     
     /// <summary>
@@ -190,7 +212,7 @@ public class LaserEmitter : MonoBehaviour
     /// </summary>
     public void ForceDeactivateLaser()
     {
-        isLaserActive = false;
+        //isLaserActive = false;
         DeactivateLaser();
     }
     
@@ -204,7 +226,9 @@ public class LaserEmitter : MonoBehaviour
         
         // If the laser is not active, don't create new segments
         if (!isLaserActive) return;
-        
+
+      
+       
         // Start position is at the emitter's position
         Vector3 currentPosition = transform.position;
         Vector3 currentDirection = transform.forward;
@@ -346,6 +370,7 @@ public class LaserEmitter : MonoBehaviour
             // Store the material we used
             segmentMaterials.Add(currentMaterial);
         }
+
     }
     
     /// <summary>
@@ -438,10 +463,5 @@ public class LaserEmitter : MonoBehaviour
         
         // Linear interpolation from full width to 0
         return Mathf.Lerp(laserWidth, 0f, shrinkProgress);
-    }
-
-    private void ResetLaserWidth()
-    {
-        
     }
 }

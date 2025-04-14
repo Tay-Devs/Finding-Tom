@@ -7675,6 +7675,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  interactAudioClip: {fileID: 8300000, guid: 68532985e4bbfbd47a4a55c704d333c2, type: 3}
+  interactAudioVolume: 1
 --- !u!65 &274314213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14393,6 +14395,9 @@ MonoBehaviour:
   shrinkDelay: 0.25
   laserSegmentPrefab: {fileID: 5399254268076391443, guid: ec159ae5c7d09e14ab34f4736e25b727, type: 3}
   defaultLaserMaterial: {fileID: 2100000, guid: 89fa15de77d66c84dbb19a1ac83e9423, type: 2}
+  isPlayingSFX: 0
+  laserSpawnAudioClip: {fileID: 8300000, guid: 68532985e4bbfbd47a4a55c704d333c2, type: 3}
+  laserAudioVolume: 0.5
 --- !u!120 &483704180
 LineRenderer:
   serializedVersion: 2
@@ -16743,6 +16748,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  interactAudioClip: {fileID: 0}
+  interactAudioVolume: 0.5
 --- !u!114 &541177920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34206,6 +34213,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  interactAudioClip: {fileID: 8300000, guid: 68532985e4bbfbd47a4a55c704d333c2, type: 3}
+  interactAudioVolume: 1
 --- !u!65 &794321620
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43208,7 +43217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &930852223
 Transform:
   m_ObjectHideFlags: 0
@@ -60299,6 +60308,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  interactAudioClip: {fileID: 0}
+  interactAudioVolume: 0.5
 --- !u!1 &1265996265
 GameObject:
   m_ObjectHideFlags: 0
@@ -62765,6 +62776,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  interactAudioClip: {fileID: 8300000, guid: 68532985e4bbfbd47a4a55c704d333c2, type: 3}
+  interactAudioVolume: 1
 --- !u!65 &1354661914
 BoxCollider:
   m_ObjectHideFlags: 0

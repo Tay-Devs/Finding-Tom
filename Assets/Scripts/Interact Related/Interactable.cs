@@ -39,7 +39,8 @@ public class Interactable : MonoBehaviour
 
     private void InteractEnter()
     {
-        AudioSource.PlayClipAtPoint(interactAudioClip, transform.TransformPoint(gameObject.transform.position), interactAudioVolume);
+       
+        
         OnInteractEnter?.Invoke();
     }
     public void InteractExit()
@@ -53,7 +54,14 @@ public class Interactable : MonoBehaviour
         {
             return;
         }
-       
+        if (interactAudioClip != null)
+        {
+            AudioSource.PlayClipAtPoint(interactAudioClip, transform.position, interactAudioVolume);
+        }
+        else
+        {
+            Debug.LogWarning("Audio Clip Not Found");
+        }
         //the ? means a null check for onInteract, (if onInteract != null)
         onInteract?.Invoke();
         StartCoroutine(AddInteractionCooldown());
