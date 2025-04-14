@@ -28,12 +28,14 @@ public class UINavigationController : MonoBehaviour
 
     [Header("Text Effects")]
     [SerializeField] private TextEffectManager textEffectManager;
+    [SerializeField] private bool enableHoverEffects = true; // Toggle for hover effects
 
     private EventSystem eventSystem;
     private float lastInputTime = 0f;
     private MenuCanvas currentMenu;
     private Stack<MenuCanvas> menuHistory = new Stack<MenuCanvas>();
     private GameObject lastSelectedButton; // Track the previously selected button
+    private GameObject lastHoveredButton; // Track the previously hovered button
 
     private void Awake()
     {
@@ -51,6 +53,33 @@ public class UINavigationController : MonoBehaviour
         
         // Open initial menu
         OpenMenu(initialMenuName);
+        
+        // Set up hover handlers for all selectable UI elements
+        if (enableHoverEffects)
+        {
+            SetupHoverHandlers();
+        }
+    }
+
+    private void SetupHoverHandlers()
+    {
+        // Find all selectable UI elements and add hover handlers
+        foreach (MenuCanvas menu in menuCanvases)
+        {
+            if (menu.canvas != null)
+            {
+                Selectable[] selectables = menu.canvas.GetComponentsInChildren<Selectable>(true);
+                foreach (Selectable selectable in selectables)
+                {
+                    // Add hover handler component if it doesn't exist already
+                    if (selectable.gameObject.GetComponent<ButtonHoverHandler>() == null)
+                    {
+                        ButtonHoverHandler hoverHandler = selectable.gameObject.AddComponent<ButtonHoverHandler>();
+                        hoverHandler.Initialize(this);
+                    }
+                }
+            }
+        }
     }
 
     private void OnEnable()
@@ -111,6 +140,66 @@ public class UINavigationController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Handles when a button is hovered
+    /// </summary>
+    public void HandleButtonHoverEnter(GameObject hoveredButton)
+    {
+        // If the hovered button is not the same as the currently selected button
+        if (hoveredButton != lastSelectedButton && hoveredButton != lastHoveredButton)
+        {
+            // First, stop the effect on the currently selected button if there is one
+            if (lastSelectedButton != null)
+            {
+                TextEffect selectedTextEffect = GetTextEffectFromButton(lastSelectedButton);
+                if (selectedTextEffect != null && textEffectManager != null)
+                {
+                    textEffectManager.StopTextEffect(selectedTextEffect);
+                }
+            }
+            
+            // Start text effect on hovered button
+            TextEffect textEffect = GetTextEffectFromButton(hoveredButton);
+            if (textEffect != null && textEffectManager != null)
+            {
+                textEffectManager.StartTextEffect(textEffect);
+            }
+            
+            // Keep track of last hovered button
+            lastHoveredButton = hoveredButton;
+        }
+    }
+
+    /// <summary>
+    /// Handles when a button hover ends
+    /// </summary>
+    public void HandleButtonHoverExit(GameObject exitedButton)
+    {
+        // Stop the effect on the exited button if it was hovered
+        if (exitedButton == lastHoveredButton)
+        {
+            // Stop text effect on exited button
+            TextEffect textEffect = GetTextEffectFromButton(exitedButton);
+            if (textEffect != null && textEffectManager != null)
+            {
+                textEffectManager.StopTextEffect(textEffect);
+            }
+            
+            // Clear last hovered button reference
+            lastHoveredButton = null;
+            
+            // Restore the effect on the selected button if there is one
+            if (lastSelectedButton != null)
+            {
+                TextEffect selectedTextEffect = GetTextEffectFromButton(lastSelectedButton);
+                if (selectedTextEffect != null && textEffectManager != null)
+                {
+                    textEffectManager.StartTextEffect(selectedTextEffect);
+                }
+            }
+        }
+    }
+
     private TextEffect GetTextEffectFromButton(GameObject button)
     {
         // First try to find Text component with TextEffect attached in the direct children
@@ -157,6 +246,18 @@ public class UINavigationController : MonoBehaviour
                 
                 if (nextSelectable != null)
                 {
+                    // Clear the last hovered button if we're navigating with keyboard/gamepad
+                    if (lastHoveredButton != null)
+                    {
+                        // Stop text effect on previously hovered button
+                        TextEffect hoverTextEffect = GetTextEffectFromButton(lastHoveredButton);
+                        if (hoverTextEffect != null && textEffectManager != null)
+                        {
+                            textEffectManager.StopTextEffect(hoverTextEffect);
+                        }
+                        lastHoveredButton = null;
+                    }
+                    
                     // Store the current selected object before changing selection
                     GameObject oldSelection = currentSelected;
                     
@@ -232,9 +333,34 @@ public class UINavigationController : MonoBehaviour
                 lastSelectedButton = null;
             }
             
+            // Deactivate text effect on the last hovered button
+            if (lastHoveredButton != null)
+            {
+                TextEffect textEffect = GetTextEffectFromButton(lastHoveredButton);
+                if (textEffect != null && textEffectManager != null)
+                {
+                    textEffectManager.StopTextEffect(textEffect);
+                }
+                lastHoveredButton = null;
+            }
+            
             // Activate new menu
             targetMenu.canvas.gameObject.SetActive(true);
             currentMenu = targetMenu;
+            
+            // If hover effects are enabled, set up the hover handlers for the new menu
+            if (enableHoverEffects)
+            {
+                Selectable[] selectables = targetMenu.canvas.GetComponentsInChildren<Selectable>(true);
+                foreach (Selectable selectable in selectables)
+                {
+                    if (selectable.gameObject.GetComponent<ButtonHoverHandler>() == null)
+                    {
+                        ButtonHoverHandler hoverHandler = selectable.gameObject.AddComponent<ButtonHoverHandler>();
+                        hoverHandler.Initialize(this);
+                    }
+                }
+            }
             
             // Set initial selection
             if (targetMenu.firstSelectedButton != null)
@@ -291,6 +417,17 @@ public class UINavigationController : MonoBehaviour
                 lastSelectedButton = null;
             }
             
+            // Deactivate text effect on the last hovered button
+            if (lastHoveredButton != null)
+            {
+                TextEffect textEffect = GetTextEffectFromButton(lastHoveredButton);
+                if (textEffect != null && textEffectManager != null)
+                {
+                    textEffectManager.StopTextEffect(textEffect);
+                }
+                lastHoveredButton = null;
+            }
+            
             // Disable current menu
             if (currentMenu != null)
             {
@@ -345,6 +482,17 @@ public class UINavigationController : MonoBehaviour
                     textEffectManager.StopTextEffect(textEffect);
                 }
                 lastSelectedButton = null;
+            }
+            
+            // Deactivate text effect on the last hovered button
+            if (lastHoveredButton != null)
+            {
+                TextEffect textEffect = GetTextEffectFromButton(lastHoveredButton);
+                if (textEffect != null && textEffectManager != null)
+                {
+                    textEffectManager.StopTextEffect(textEffect);
+                }
+                lastHoveredButton = null;
             }
             
             // If we have a parent menu reference but it's not in history
@@ -420,6 +568,20 @@ public class UINavigationController : MonoBehaviour
         
         menuCanvases.Add(newMenu);
         canvas.gameObject.SetActive(false);
+        
+        // Set up hover handlers for the new menu if hover effects are enabled
+        if (enableHoverEffects)
+        {
+            Selectable[] selectables = canvas.GetComponentsInChildren<Selectable>(true);
+            foreach (Selectable selectable in selectables)
+            {
+                if (selectable.gameObject.GetComponent<ButtonHoverHandler>() == null)
+                {
+                    ButtonHoverHandler hoverHandler = selectable.gameObject.AddComponent<ButtonHoverHandler>();
+                    hoverHandler.Initialize(this);
+                }
+            }
+        }
     }
 
     /// <summary>
@@ -438,6 +600,17 @@ public class UINavigationController : MonoBehaviour
             lastSelectedButton = null;
         }
         
+        // Deactivate text effect on the last hovered button
+        if (lastHoveredButton != null)
+        {
+            TextEffect textEffect = GetTextEffectFromButton(lastHoveredButton);
+            if (textEffect != null && textEffectManager != null)
+            {
+                textEffectManager.StopTextEffect(textEffect);
+            }
+            lastHoveredButton = null;
+        }
+        
         // Disable current menu
         if (currentMenu != null)
         {
@@ -449,5 +622,34 @@ public class UINavigationController : MonoBehaviour
         
         // Open initial menu
         OpenMenu(initialMenuName);
+    }
+}
+
+/// <summary>
+/// Component to handle hover events for UI elements
+/// </summary>
+public class ButtonHoverHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+{
+    private UINavigationController navigationController;
+    
+    public void Initialize(UINavigationController controller)
+    {
+        navigationController = controller;
+    }
+    
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (navigationController != null)
+        {
+            navigationController.HandleButtonHoverEnter(gameObject);
+        }
+    }
+    
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (navigationController != null)
+        {
+            navigationController.HandleButtonHoverExit(gameObject);
+        }
     }
 }
