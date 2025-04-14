@@ -14,6 +14,9 @@ public class Interactable : MonoBehaviour
     [SerializeField]
     private UnityEvent OnInteractExit;
     
+    [Header("SFX")]
+    public AudioClip interactAudioClip;
+    [Range(0, 1)] public float interactAudioVolume = 0.5f;
     
     private bool isPlayerTouching = false;
     
@@ -36,6 +39,7 @@ public class Interactable : MonoBehaviour
 
     private void InteractEnter()
     {
+        AudioSource.PlayClipAtPoint(interactAudioClip, transform.TransformPoint(gameObject.transform.position), interactAudioVolume);
         OnInteractEnter?.Invoke();
     }
     public void InteractExit()
