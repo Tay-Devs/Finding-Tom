@@ -5774,7 +5774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &193036108
 Transform:
   m_ObjectHideFlags: 0
@@ -6826,6 +6826,8 @@ MonoBehaviour:
   inputActions: {fileID: -944628639613478452, guid: 163c3f7d4e88a534bbd38963b43a945d, type: 3}
   pauseController: {fileID: 1679550551}
   currentDieIndex: 0
+  rotationSFX: []
+  audioSource: {fileID: 0}
 --- !u!1001 &236221869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8140,6 +8142,10 @@ MonoBehaviour:
   selectActionName: Select
   fallbackKey: 101
   playerStateControl: {fileID: 437207765}
+  audioSource: {fileID: 0}
+  correctAudioClip: {fileID: 0}
+  incorrectAudioClip: {fileID: 0}
+  interactAudioVolume: 0.5
   puzzleCompleted:
     m_PersistentCalls:
       m_Calls:

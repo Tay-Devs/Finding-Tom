@@ -60,8 +60,12 @@ public class DieController : MonoBehaviour
     private Vector2 moveInputPrev = Vector2.zero;
     private Vector2 changeValueInput = Vector2.zero;
     
+    [Header("SFX")] 
+    [SerializeField] 
+    private AudioClip[] rotationSFX;
 
-    
+    [SerializeField] 
+    private AudioSource audioSource;
     private void Awake()
     {
         // Initialize dice values and rotations
@@ -394,7 +398,7 @@ public class DieController : MonoBehaviour
             {
                 diceValues[currentDieIndex] = minValue;
             }
-            
+            PlayRotationSFX();
             UpdateDieVisual(currentDieIndex);
         }
     }
@@ -408,7 +412,7 @@ public class DieController : MonoBehaviour
             {
                 diceValues[currentDieIndex] = maxValue;
             }
-            
+            PlayRotationSFX();
             UpdateDieVisual(currentDieIndex);
         }
     }
@@ -418,6 +422,7 @@ public class DieController : MonoBehaviour
         // Check if the transform is in our dice collection
         if (dieTransform != null && diceObjects.Contains(dieTransform))
         {
+            PlayRotationSFX();
             int dieIndex = diceObjects.IndexOf(dieTransform);
         
             // Set the value to 1 (minimum value)
@@ -433,6 +438,17 @@ public class DieController : MonoBehaviour
             rotationTimers[dieIndex] = 0f;
             isRotating[dieIndex] = true;
         }
+    }
+
+    public void PlayRotationSFX()
+    {
+        if (rotationSFX != null || rotationSFX.Length <= 0)
+        {
+            Debug.LogWarning("PlayRotationSFX called but no rotation sfx available");
+            return;
+        }
+        var index = Random.Range(0, rotationSFX.Length);
+        audioSource.PlayOneShot(rotationSFX[index]);
     }
     private void PrintDiceValues()
     {
