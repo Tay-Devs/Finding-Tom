@@ -25,10 +25,14 @@ MonoBehaviour:
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 5645
 =======
   controlID: 41580
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+  controlID: 7242
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -46,11 +50,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 956.6667
     y: 78.66667
@@ -60,6 +65,11 @@ MonoBehaviour:
     x: 2814
     y: 79
     width: 576
+=======
+    x: -928
+    y: 80
+    width: 478
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     height: 543
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_SerializedDataModeController:
@@ -116,6 +126,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 359.99994
       height: 422.33334
     m_Scale: {x: 0.28124994, y: 0.28124994}
@@ -126,12 +137,19 @@ MonoBehaviour:
     m_Scale: {x: 0.3, y: 0.3}
     m_Translation: {x: 287.99997, y: 261}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+      width: 478
+      height: 522
+    m_Scale: {x: 0.24895833, y: 0.24895835}
+    m_Translation: {x: 239, y: 261}
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -640
       y: -750.815
@@ -149,6 +167,15 @@ MonoBehaviour:
   m_defaultScale: 0.3
   m_LastWindowPixelSize: {x: 576, y: 543}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+      x: -960
+      y: -1048.3682
+      width: 1920
+      height: 2096.7363
+    m_MinimalGUI: 1
+  m_defaultScale: 0.24895833
+  m_LastWindowPixelSize: {x: 478, y: 543}
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -187,8 +214,12 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 41581
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+  controlID: 7243
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -223,8 +254,12 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 41582
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+  controlID: 7244
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -244,12 +279,16 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 336.66666
     height: 469.33334
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
     width: 365
+=======
+    width: 360
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     height: 569
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
@@ -281,6 +320,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 78.66667
     width: 335.66666
@@ -289,6 +329,11 @@ MonoBehaviour:
     x: 1920
     y: 79
     width: 364
+=======
+    x: -1920
+    y: 80
+    width: 359
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     height: 543
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_SerializedDataModeController:
@@ -305,6 +350,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: e095ffff
       m_LastClickedID: -27168
@@ -315,6 +361,12 @@ MonoBehaviour:
       m_LastClickedID: 49326
       m_ExpandedIDs: 14fcfeffa6e5ffffb0e5ffff1afbffffb4b70000c4b7000094b80000b4b8000014bb0000b6bc00003abd0000e2be0000aec0000070c300004ac90000
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: b4c00000
+      m_LastClickedID: 49332
+      m_ExpandedIDs: 78b8ffff1cf4ffff1ef4ffff6af5ffff1afbffffbcb70000ccb7000052bd0000d6c000001ac2000098c30000f6c3000080c40000
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -355,6 +407,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 336.66666
     y: 0
     width: 620
@@ -363,8 +416,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
 =======
     x: 365
+=======
+    x: 360
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     y: 0
-    width: 529
+    width: 632
     height: 569
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
@@ -397,6 +453,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 336.6667
     y: 78.66667
     width: 618
@@ -405,6 +462,11 @@ MonoBehaviour:
     x: 2285
     y: 79
     width: 527
+=======
+    x: -1560
+    y: 80
+    width: 630
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     height: 543
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_SerializedDataModeController:
@@ -990,6 +1052,7 @@ MonoBehaviour:
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -55.594185, y: 1.9527369, z: -7.159866}
     speed: 2
     m_Value: {x: -55.594185, y: 1.9527369, z: -7.159866}
@@ -998,6 +1061,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -37.65847, y: 1.2605325, z: -6.8799276}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    m_Target: {x: -37.339268, y: 1.8490549, z: -9.170407}
+    speed: 2
+    m_Value: {x: -37.339268, y: 1.8490549, z: -9.170407}
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 24
@@ -1044,6 +1112,7 @@ MonoBehaviour:
     m_gridOpacity: 1
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.1354487, y: 0.50845844, z: -0.08222002, w: 0.8472644}
     speed: 2
     m_Value: {x: 0.13534766, y: 0.5080792, z: -0.082158685, w: 0.8466324}
@@ -1053,13 +1122,20 @@ MonoBehaviour:
     m_Value: 0.6794595
 =======
     m_Target: {x: -0.2156625, y: -0.41532695, z: 0.10203114, w: -0.8778585}
+=======
+    m_Target: {x: 0.20872231, y: -0.47401464, z: 0.1167623, w: 0.8474311}
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     speed: 2
-    m_Value: {x: 0.21566248, y: 0.41532692, z: -0.10203114, w: 0.87785846}
+    m_Value: {x: -0.20872231, y: 0.4740146, z: -0.1167623, w: -0.8474311}
   m_Size:
-    m_Target: 0.6787971
+    m_Target: 1.2473081
     speed: 2
+<<<<<<< HEAD
     m_Value: 0.6787971
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    m_Value: 1.2473081
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1334,14 +1410,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 956.6667
     y: 0
     width: 361.99994
     height: 469.33334
 =======
     x: 894
+=======
+    x: 992
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     y: 0
-    width: 578
+    width: 480
     height: 569
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_MinSize: {x: 202, y: 226}
@@ -1384,8 +1464,12 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 41671
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+  controlID: 7269
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1441,6 +1525,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 548
     width: 735.6667
@@ -1448,6 +1533,10 @@ MonoBehaviour:
 =======
     x: 1920
     y: 648
+=======
+    x: -1920
+    y: 649
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     width: 826
     height: 338
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -1474,10 +1563,14 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts/Player Related
 =======
     - Assets/ImportAssets/Cloak/mat2
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    - Assets/ImportAssets/Cloak
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1487,6 +1580,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - Assets/Scripts/Player Related
   m_LastFoldersGridSize: 16
@@ -1500,6 +1594,9 @@ MonoBehaviour:
     m_ExpandedIDs: 0000000072e6000074e6000076e6000078e600007ae600007ce600007ee6000080e6000082e6000084e6000086e6000088e600008ae600008ce600008ee6000090e6000092e6000094e6000000ca9a3bffffff7f
 =======
   - Assets/ImportAssets/Cloak/mat2
+=======
+  - Assets/ImportAssets/Cloak
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
     \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
@@ -1507,11 +1604,18 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 38}
     m_SelectedIDs: 8c7c0600
     m_LastClickedID: 425100
     m_ExpandedIDs: 0000000016e7000018e700001ae700001ce700001ee70000d8e90000
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: 4ae90000
+    m_LastClickedID: 59722
+    m_ExpandedIDs: 0000000036e7000038e700003ae700003ce700003ee7000032e90000
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1541,10 +1645,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072e6000074e6000076e6000078e600007ae600007ce6000080e6000082e6000084e6000086e6000088e600008ae600008ce600008ee6000090e6000092e6000094e6000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 0000000016e7000018e700001ae700001ce700001ee70000
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    m_ExpandedIDs: 0000000036e7000038e700003ae700003ce700003ee70000
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1571,12 +1679,17 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: e095ffff
     m_LastClickedInstanceID: -27168
 =======
     m_SelectedInstanceIDs: aec00000
     m_LastClickedInstanceID: 49326
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    m_SelectedInstanceIDs: b4c00000
+    m_LastClickedInstanceID: 49332
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c3000006cf00000000000024d3000040b3000044fefdfff842fefffaa501005abf0300
     m_RenameOverlay:
@@ -1851,6 +1964,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 736.6667
     y: 548
     width: 579.99994
@@ -1858,6 +1972,10 @@ MonoBehaviour:
 =======
     x: 2747
     y: 648
+=======
+    x: -1093
+    y: 649
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     width: 643
     height: 338
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -1990,6 +2108,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1318.6667
     y: 78.66667
     width: 387
@@ -1997,6 +2116,10 @@ MonoBehaviour:
 =======
     x: 3392
     y: 79
+=======
+    x: -448
+    y: 80
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     width: 447
     height: 907
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
