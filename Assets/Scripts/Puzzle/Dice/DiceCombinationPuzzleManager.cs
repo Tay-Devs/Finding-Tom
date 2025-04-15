@@ -60,6 +60,11 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     
     // Track original selection to restore it
     private int originalSelectedDieIndex = -1;
+    [Header("SFX")]
+    public AudioSource audioSource;
+    public AudioClip correctAudioClip;
+    public AudioClip incorrectAudioClip;
+    [Range(0, 1)] public float interactAudioVolume = 0.5f;
     
     [SerializeField]
     private UnityEvent puzzleCompleted;
@@ -320,7 +325,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         // Check if there are enough dice for the combination
         if (currentValues.Length < secretCombination.Length)
         {
-            
             // Return control
             isCheckingCombination = false;
             
@@ -340,10 +344,18 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             // Update the overall result
             if (!isCorrect)
             {
+                if (correctAudioClip != null)
+                {
+                    audioSource.PlayOneShot(incorrectAudioClip);
+                }
+                else
+                {
+                    Debug.LogWarning("Audio Clip Not Found");
+                }
                 dieController.ResetDiceValue(dieController.diceObjects[i]);
                 allCorrect = false;
             }
-            
+
             // Wait before checking the next die
             yield return new WaitForSeconds(timeBetweenEffects);
         }
@@ -387,6 +399,14 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
 
             if (isCorrect)
             {
+                if (correctAudioClip != null)
+                {
+                    audioSource.PlayOneShot(correctAudioClip);
+                }
+                else
+                {
+                    Debug.LogWarning("Audio Clip Not Found");
+                }
                 correctEffectPrefab.Play();
             }
 

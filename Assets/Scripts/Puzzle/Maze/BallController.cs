@@ -25,9 +25,12 @@ public class BallController : MonoBehaviour
     private Vector3 previousPlatformPosition;
     private bool isInitialized = false;
 
-    [Header("SFX")] [SerializeField] private AudioClip[] CollisionSFX;
+    [Header("SFX")] 
+    [SerializeField] 
+    private AudioClip[] CollisionSFX;
 
-    [SerializeField] private AudioSource audioSource;
+    [SerializeField] 
+    private AudioSource audioSource;
 
     private void Awake()
     {
