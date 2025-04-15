@@ -147,10 +147,9 @@ public class LaserEmitter : MonoBehaviour
         {
             if (!isPlayingSFX)
             {
-                print(isPlayingSFX);
+              
                 if (laserSpawnAudioClip != null)
                 {
-                    print("Playing sfx");
                     isPlayingSFX = true;
                     AudioSource.PlayClipAtPoint(laserSpawnAudioClip, transform.position, laserAudioVolume);
                 }

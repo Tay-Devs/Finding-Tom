@@ -10,6 +10,8 @@ TagManager:
   - Laser Emitter
   - MazePlatform
   - MazeButton
+  - Audio Source Maze
+  - MazeWall
   layers:
   - Default
   - TransparentFX

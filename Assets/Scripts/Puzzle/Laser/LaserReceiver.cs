@@ -23,8 +23,13 @@ public class LaserReceiver : MonoBehaviour
     public bool isPuzzleSolved = false;
     private Renderer receiverRenderer;
     private Color originalColor;
-    public Animation testAnimation;
     [SerializeField] private PlayerStateControl playerStateControl;
+    
+    [Header("SFX")]
+    public bool isPlayingSFX;
+    public AudioClip endAudioClip;
+    [Range(0, 1)] public float endAudioVolume = 0.5f;
+    
 
     public UnityEvent onPuzzleSolved;
     private void Awake()
@@ -75,7 +80,23 @@ public class LaserReceiver : MonoBehaviour
             // Show activation effect if available
             if (activationEffect != null)
             {
+                
                 activationEffect.SetActive(true);
+                //Create a different IF for if the sfx is not null
+            }
+            if (!isPlayingSFX)
+            {
+              
+                if (endAudioClip != null)
+                {
+                    isPlayingSFX = true;
+                    print("Player SFX");
+                    AudioSource.PlayClipAtPoint(endAudioClip, transform.position, endAudioVolume);
+                }
+                else
+                {
+                    Debug.LogWarning("No audio clip assigned to Laser_" + gameObject.name);
+                }
             }
             
             // Debug message - this would be replaced with actual game events later
@@ -108,6 +129,7 @@ public class LaserReceiver : MonoBehaviour
 
     private IEnumerator FinishPuzzleAnimation()
     {
+        
         onPuzzleSolved.Invoke();
         isPuzzleSolved = true;
         laserEmitter.isContinuous = true;
