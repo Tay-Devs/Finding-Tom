@@ -28,6 +28,7 @@ public class LaserReceiver : MonoBehaviour
     [Header("SFX")]
     public bool isPlayingSFX;
     public AudioClip endAudioClip;
+    public AudioSource audioSource;
     [Range(0, 1)] public float endAudioVolume = 0.5f;
     
 
@@ -84,20 +85,7 @@ public class LaserReceiver : MonoBehaviour
                 activationEffect.SetActive(true);
                 //Create a different IF for if the sfx is not null
             }
-            if (!isPlayingSFX)
-            {
-              
-                if (endAudioClip != null)
-                {
-                    isPlayingSFX = true;
-                    print("Player SFX");
-                    AudioSource.PlayClipAtPoint(endAudioClip, transform.position, endAudioVolume);
-                }
-                else
-                {
-                    Debug.LogWarning("No audio clip assigned to Laser_" + gameObject.name);
-                }
-            }
+          
             
             // Debug message - this would be replaced with actual game events later
             if (allDeflectorsHit)
@@ -134,6 +122,19 @@ public class LaserReceiver : MonoBehaviour
         isPuzzleSolved = true;
         laserEmitter.isContinuous = true;
         yield return new WaitForSeconds(1f);
+        if (!isPlayingSFX && audioSource != null)
+        {
+            if (endAudioClip != null)
+            {
+                isPlayingSFX = true;
+                print("Player SFX");
+                audioSource.PlayOneShot(endAudioClip, endAudioVolume);
+            }
+            else
+            {
+                Debug.LogWarning("No audio clip assigned to Laser_" + gameObject.name);
+            }
+        }
         playerStateControl.SetPlayerState(PlayerStateControl.PlayerState.Moving);
 
     }

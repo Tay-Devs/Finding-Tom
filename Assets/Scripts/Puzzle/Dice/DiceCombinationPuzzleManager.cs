@@ -23,11 +23,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     [Tooltip("GameObject that will show incorrect answer effects")]
     public ParticleSystem incorrectEffectPrefab;
     
-    /*[SerializeField]
-    private ConfettiEffect confetti;
-    [SerializeField]
-    private ErrorEffect errorEffect;*/
-    
     [Tooltip("Additional delay after checking before returning control")]
     public float returnControlDelay = 1.0f;
     
@@ -41,9 +36,14 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     [Tooltip("Name of the action to check combination")]
     public string selectActionName = "Select";
 
+    [Tooltip("Name of the action to exit the puzzle")]
+    public string exitActionName = "Exit";
     
     [Tooltip("Fallback key in case input system fails")]
     public KeyCode fallbackKey = KeyCode.E;
+    
+    [Tooltip("Fallback key for exit in case input system fails")]
+    public KeyCode fallbackExitKey = KeyCode.Escape;
     
     [Header("State Management")]
     [Tooltip("Player GameObject to enable/disable during checking")]
@@ -51,6 +51,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     
     // Input action references
     private InputAction selectAction;
+    private InputAction exitAction;
     private InputActionMap actionMap;
     private bool inputSystemInitialized = false;
     
@@ -64,10 +65,14 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip correctAudioClip;
     public AudioClip incorrectAudioClip;
+    public AudioClip unloadPuzzleAudioClip;
     [Range(0, 1)] public float interactAudioVolume = 0.5f;
     
     [SerializeField]
     private UnityEvent puzzleCompleted;
+    
+    [SerializeField]
+    private UnityEvent onPuzzleExit;
 
     private bool isCheckOnCooldown;
     
@@ -86,7 +91,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         
         if (!inputSystemInitialized)
         {
-            Debug.LogWarning("Input system not initialized correctly. Using fallback key " + fallbackKey.ToString());
+            Debug.LogWarning("Input system not initialized correctly. Using fallback keys " + fallbackKey.ToString() + " and " + fallbackExitKey.ToString());
         }
     }
 
@@ -104,7 +109,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     {
         if (inputActions == null)
         {
-            Debug.LogError("Input Actions asset not assigned! Using fallback key instead.");
+            Debug.LogError("Input Actions asset not assigned! Using fallback keys instead.");
             return false;
         }
         
@@ -137,7 +142,20 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
                 return false;
             }
             
-            // Register callback and enable
+            // Find the Exit action
+            exitAction = actionMap.FindAction(exitActionName);
+            
+            if (exitAction == null)
+            {
+                Debug.LogWarning("Could not find '" + exitActionName + "' action in the action map! Exit functionality will use fallback key only.");
+            }
+            else
+            {
+                // Register callback for the exit action
+                exitAction.performed += OnExit;
+            }
+            
+            // Register callback for the select action and enable
             selectAction.performed += OnSelect;
             
             // Enable the action map
@@ -155,10 +173,22 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     private void Update()
     {
         // Fallback input detection if input system isn't working
-        if (!inputSystemInitialized && Input.GetKeyDown(fallbackKey) && !isCheckingCombination)
+        if (!inputSystemInitialized)
         {
-            Debug.Log("Fallback key detected: " + fallbackKey.ToString());
-            CheckCombinationManually();
+            // Check for select fallback key
+            if (Input.GetKeyDown(fallbackKey) && !isCheckingCombination)
+            {
+                Debug.Log("Fallback select key detected: " + fallbackKey.ToString());
+                CheckCombinationManually();
+            }
+            
+            // Check for exit fallback key
+            if (Input.GetKeyDown(fallbackExitKey))
+            {
+                Debug.Log("Fallback exit key detected: " + fallbackExitKey.ToString());
+                ReturnToPlayerFromPuzzle();
+                onPuzzleExit?.Invoke();
+            }
         }
     }
     
@@ -180,6 +210,17 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             }
             // Start a new check
             checkCoroutine = StartCoroutine(CheckCombination());
+        }
+    }
+    
+    private void OnExit(InputAction.CallbackContext context)
+    {
+        // Only respond if not already checking
+        if (context.performed)
+        {
+            Debug.Log("Exit action performed");
+            ReturnToPlayerFromPuzzle();
+            onPuzzleExit?.Invoke();
         }
     }
     
@@ -301,6 +342,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     {
         if (playerStateControl != null)
         {
+            audioSource.PlayOneShot(unloadPuzzleAudioClip);
             playerStateControl.SetPlayerState(PlayerStateControl.PlayerState.Moving);
             Debug.Log("Returned to player movement state");
         }
@@ -460,6 +502,11 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         if (inputSystemInitialized && selectAction != null)
         {
             selectAction.performed -= OnSelect;
+        }
+        
+        if (inputSystemInitialized && exitAction != null)
+        {
+            exitAction.performed -= OnExit;
         }
     }
     

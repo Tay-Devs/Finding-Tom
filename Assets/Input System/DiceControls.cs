@@ -126,6 +126,15 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Exit"",
+                    ""type"": ""Button"",
+                    ""id"": ""4bcd50d4-3ff3-4519-a38a-fd326e3ac701"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -469,6 +478,50 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
                     ""action"": ""Select"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""63706642-a5b8-40c2-9e45-670826a88a65"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Exit"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""46fa68df-b0cd-402b-9ea6-339652ae507f"",
+                    ""path"": ""<SwitchProControllerHID>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Exit"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cd59d2bd-4620-4043-aa39-99a9133255ed"",
+                    ""path"": ""<DualShockGamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Exit"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0789bfe3-a5cc-4324-a315-ce169512d560"",
+                    ""path"": ""<XInputController>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Exit"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -481,6 +534,7 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         m_Dice_Move = m_Dice.FindAction("Move", throwIfNotFound: true);
         m_Dice_Print = m_Dice.FindAction("Print", throwIfNotFound: true);
         m_Dice_Select = m_Dice.FindAction("Select", throwIfNotFound: true);
+        m_Dice_Exit = m_Dice.FindAction("Exit", throwIfNotFound: true);
     }
 
     ~@DiceControls()
@@ -565,6 +619,7 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Dice_Move;
     private readonly InputAction m_Dice_Print;
     private readonly InputAction m_Dice_Select;
+    private readonly InputAction m_Dice_Exit;
     /// <summary>
     /// Provides access to input actions defined in input action map "Dice".
     /// </summary>
@@ -592,6 +647,10 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Dice/Select".
         /// </summary>
         public InputAction @Select => m_Wrapper.m_Dice_Select;
+        /// <summary>
+        /// Provides access to the underlying input action "Dice/Exit".
+        /// </summary>
+        public InputAction @Exit => m_Wrapper.m_Dice_Exit;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -630,6 +689,9 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
             @Select.started += instance.OnSelect;
             @Select.performed += instance.OnSelect;
             @Select.canceled += instance.OnSelect;
+            @Exit.started += instance.OnExit;
+            @Exit.performed += instance.OnExit;
+            @Exit.canceled += instance.OnExit;
         }
 
         /// <summary>
@@ -653,6 +715,9 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
             @Select.started -= instance.OnSelect;
             @Select.performed -= instance.OnSelect;
             @Select.canceled -= instance.OnSelect;
+            @Exit.started -= instance.OnExit;
+            @Exit.performed -= instance.OnExit;
+            @Exit.canceled -= instance.OnExit;
         }
 
         /// <summary>
@@ -721,5 +786,12 @@ public partial class @DiceControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSelect(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Exit" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnExit(InputAction.CallbackContext context);
     }
 }

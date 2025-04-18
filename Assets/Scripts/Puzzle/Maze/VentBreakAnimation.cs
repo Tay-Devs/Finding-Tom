@@ -30,6 +30,9 @@ public class VentBreakAnimation : MonoBehaviour
     [Tooltip("Sound to play when the vent begins to break")]
     [SerializeField] private AudioClip creakSound;
     
+    [Tooltip("Sound to play when the puzzle is complete")]
+    [SerializeField] private AudioClip unloadPuzzle;
+    
     [SerializeField]
     private PlayerStateControl playerStateControl;
     
@@ -39,6 +42,8 @@ public class VentBreakAnimation : MonoBehaviour
     
     [SerializeField]
     private GameObject endCamera;
+      
+    public AudioSource audioSource;
 
     [Header("Events")] 
     
@@ -47,20 +52,13 @@ public class VentBreakAnimation : MonoBehaviour
     
     [SerializeField]
     private UnityEvent puzzleCompleted;
-
- 
-   
     
-    
-    private AudioSource audioSource;
     private Quaternion initialRotation;
     private Quaternion targetRotation;
     private bool animationTriggered = false;
 
     private void Awake()
     {
-        // Get or add AudioSource component
-        audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
             audioSource = gameObject.AddComponent<AudioSource>();
@@ -140,6 +138,7 @@ public class VentBreakAnimation : MonoBehaviour
         // Ensure we reach the exact target rotation
         transform.rotation = targetRotation;
         yield return new WaitForSeconds(0.60f);
+        audioSource.PlayOneShot(unloadPuzzle);
         puzzleCompleted?.Invoke();
         playerStateControl.SetPlayerState(PlayerStateControl.PlayerState.Moving);
         

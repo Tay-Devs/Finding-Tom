@@ -16,6 +16,7 @@ public class Interactable : MonoBehaviour
     
     [Header("SFX")]
     public AudioClip interactAudioClip;
+    public AudioSource AudioSource;
     [Range(0, 1)] public float interactAudioVolume = 0.5f;
     
     private bool isPlayerTouching = false;
@@ -56,7 +57,7 @@ public class Interactable : MonoBehaviour
         }
         if (interactAudioClip != null)
         {
-            AudioSource.PlayClipAtPoint(interactAudioClip, transform.position, interactAudioVolume);
+            AudioSource.PlayOneShot(interactAudioClip, interactAudioVolume);
         }
         else
         {
