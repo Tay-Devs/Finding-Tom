@@ -5774,7 +5774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &193036108
 Transform:
   m_ObjectHideFlags: 0
@@ -12707,8 +12707,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   canBePressedOnce: 0
-  pressAudioClip: {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
-  unpressAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
+  pressAudioClip: {fileID: 8300000, guid: ac3cb54c84c1f1141bf7f6e48f59eb7c, type: 3}
+  unpressAudioClip: {fileID: 8300000, guid: 66530dfc379e8204b9f3b450ad178296, type: 3}
   audioSource: {fileID: 0}
   endAudioVolume: 0.5
 --- !u!23 &437316352
@@ -55156,8 +55156,7 @@ MonoBehaviour:
   breakForce: 8
   springiness: 5
   dampingFactor: 3
-  creakSound: {fileID: 0}
-  breakSound: {fileID: 0}
+  creakSound: {fileID: 8300000, guid: 3a16b26cc035cca4c83623226f76c5c1, type: 3}
   playerStateControl: {fileID: 437207765}
   mainCamera: {fileID: 1422805745}
   endCamera: {fileID: 9227805}
@@ -57434,12 +57433,13 @@ MonoBehaviour:
   extraGravity: 20
   maxVelocity: 50
   CollisionSFX:
-  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
-  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
-  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
-  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
-  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
-  - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
+  - {fileID: 8300000, guid: 2b28c151897076e4a8c4ee6a4e37ee87, type: 3}
+  - {fileID: 8300000, guid: a6812b07e443a1342aa122006c2ced72, type: 3}
+  - {fileID: 8300000, guid: d2ad24b6666d74943919b91c20daedcc, type: 3}
+  - {fileID: 8300000, guid: 6475505acb21daa44a0033af581657e8, type: 3}
+  - {fileID: 8300000, guid: e725cf294f27dce46875abd079230770, type: 3}
+  - {fileID: 8300000, guid: ff8fa245191ab2c45ae6ba002bcd0a36, type: 3}
+  - {fileID: 8300000, guid: 951669c2fa0f15e4e9adaee4f83a31eb, type: 3}
   audioSource: {fileID: 1176713866}
 --- !u!54 &1176713863
 Rigidbody:

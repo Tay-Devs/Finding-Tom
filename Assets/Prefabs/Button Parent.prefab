@@ -249,8 +249,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   canBePressedOnce: 0
-  pressAudioClip: {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
-  unpressAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
+  pressAudioClip: {fileID: 8300000, guid: ac3cb54c84c1f1141bf7f6e48f59eb7c, type: 3}
+  unpressAudioClip: {fileID: 8300000, guid: 66530dfc379e8204b9f3b450ad178296, type: 3}
   audioSource: {fileID: 0}
   endAudioVolume: 0.5
 --- !u!95 &2397909109373834147

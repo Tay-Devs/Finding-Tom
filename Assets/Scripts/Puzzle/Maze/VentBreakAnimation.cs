@@ -30,9 +30,6 @@ public class VentBreakAnimation : MonoBehaviour
     [Tooltip("Sound to play when the vent begins to break")]
     [SerializeField] private AudioClip creakSound;
     
-    [Tooltip("Sound to play when the vent fully breaks")]
-    [SerializeField] private AudioClip breakSound;
-    
     [SerializeField]
     private PlayerStateControl playerStateControl;
     
@@ -136,13 +133,6 @@ public class VentBreakAnimation : MonoBehaviour
             
             // Interpolate between initial and target rotation
             transform.rotation = Quaternion.Slerp(initialRotation, targetRotation, t);
-            
-            // Play the break sound when the vent starts moving rapidly
-            if (!breakSoundPlayed && normalizedTime > initialResistance && breakSound != null)
-            {
-                audioSource.PlayOneShot(breakSound);
-                breakSoundPlayed = true;
-            }
             
             yield return null;
         }
