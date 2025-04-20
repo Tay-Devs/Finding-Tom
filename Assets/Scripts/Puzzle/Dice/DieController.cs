@@ -442,7 +442,7 @@ public class DieController : MonoBehaviour
 
     public void PlayRotationSFX()
     {
-        if (rotationSFX != null || rotationSFX.Length <= 0)
+        if (rotationSFX == null || rotationSFX.Length <= 0)
         {
             Debug.LogWarning("PlayRotationSFX called but no rotation sfx available");
             return;
