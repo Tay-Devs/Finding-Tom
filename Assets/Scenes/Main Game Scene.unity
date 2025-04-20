@@ -3984,8 +3984,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133009923}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.38268274, z: 0, w: 0.9238798}
-  m_LocalPosition: {x: -19.651007, y: 1.8468722, z: -19.814613}
+  m_LocalRotation: {x: 0.52519876, y: 0, z: 0, w: 0.8509796}
+  m_LocalPosition: {x: 21.6, y: 5.361, z: -13.783}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4108,7 +4108,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60.000004
+  field of view: 35
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -19835,13 +19835,13 @@ MonoBehaviour:
   maxDeflections: 10
   isEnabled: 1
   isContinuous: 0
-  cycleTime: 1.75
-  activeTime: 0.75
-  shrinkDelay: 0.25
+  cycleTime: 2
+  activeTime: 1
+  shrinkDelay: 0.5
   laserSegmentPrefab: {fileID: 5399254268076391443, guid: ec159ae5c7d09e14ab34f4736e25b727, type: 3}
   defaultLaserMaterial: {fileID: 2100000, guid: 89fa15de77d66c84dbb19a1ac83e9423, type: 2}
   isPlayingSFX: 0
-  laserSpawnAudioClip: {fileID: 8300000, guid: 68532985e4bbfbd47a4a55c704d333c2, type: 3}
+  laserSpawnAudioClip: {fileID: 8300000, guid: 305c34e3615abb94daf154b805548489, type: 3}
   laserAudioVolume: 0.5
 --- !u!120 &483704180
 LineRenderer:
@@ -20697,10 +20697,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502929541}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.61472785, y: -0.09742054, z: 0.3188094, w: 0.7148283}
-  m_LocalPosition: {x: -0.876, y: -0.016, z: 0.559}
-  m_LocalScale: {x: 128.92, y: 100, z: 99.999985}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: -0.6863194, y: 0.15002365, z: 0.092172384, w: 0.7056648}
+  m_LocalPosition: {x: -0.945, y: 0.065, z: 0.587}
+  m_LocalScale: {x: 160, y: 124.10798, z: 124.10798}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 605126008}
   m_Father: {fileID: 1048789948}
@@ -48665,7 +48665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &930852223
 Transform:
   m_ObjectHideFlags: 0
@@ -67609,7 +67609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundMusicSource: {fileID: 1293230472}
   puzzleMusicSource: {fileID: 293799223}
-  crossfadeDuration: 2.25
+  crossfadeDuration: 2.5
   crossfadeCurve:
     serializedVersion: 2
     m_Curve:
@@ -88904,9 +88904,9 @@ Transform:
   m_GameObject: {fileID: 1787304630}
   serializedVersion: 2
   m_LocalRotation: {x: -0.049986385, y: 0.7026381, z: 0.70972157, w: 0.009822725}
-  m_LocalPosition: {x: 0.96, y: -0.154, z: 0.357}
-  m_LocalScale: {x: 128.92, y: 100, z: 99.999985}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 1.01, y: -0.11, z: 0.36}
+  m_LocalScale: {x: 160, y: 124.10798, z: 124.10798}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1401821828}
   m_Father: {fileID: 1048789948}

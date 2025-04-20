@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -117,13 +118,11 @@ public class LaserEmitter : MonoBehaviour
         {
             if (!isLaserActive)
             {
-              
                 isLaserActive = true;
                 UpdateLaserPath();
             }
             else
             {
-                
                 laserWidth = 0.03f;
                 // Keep updating the path (for moving objects)
                 UpdateLaserPath();
@@ -133,7 +132,7 @@ public class LaserEmitter : MonoBehaviour
         
         // Pulsing mode: handle laser timing cycle
         timer += Time.deltaTime;
-        
+    
         // Check if we need to toggle the laser state
         if (isLaserActive && timer >= activeTime)
         {
@@ -142,6 +141,7 @@ public class LaserEmitter : MonoBehaviour
             DeactivateLaser();
             isLaserActive = false;
             activeTimer = 0f; // Reset the active timer
+          
         }
         else if (!isLaserActive && timer >= cycleTime)
         {
@@ -150,6 +150,7 @@ public class LaserEmitter : MonoBehaviour
               
                 if (laserSpawnAudioClip != null)
                 {
+
                     isPlayingSFX = true;
                     AudioSource.PlayClipAtPoint(laserSpawnAudioClip, transform.position, laserAudioVolume);
                 }
@@ -226,8 +227,6 @@ public class LaserEmitter : MonoBehaviour
         // If the laser is not active, don't create new segments
         if (!isLaserActive) return;
 
-      
-       
         // Start position is at the emitter's position
         Vector3 currentPosition = transform.position;
         Vector3 currentDirection = transform.forward;
