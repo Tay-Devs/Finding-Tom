@@ -119,7 +119,6 @@ public class VentBreakAnimation : MonoBehaviour
         }
         
         float elapsedTime = 0f;
-        bool breakSoundPlayed = false;
         
         while (elapsedTime < animationDuration)
         {

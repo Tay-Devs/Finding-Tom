@@ -187,7 +187,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             {
                 Debug.Log("Fallback exit key detected: " + fallbackExitKey.ToString());
                 ReturnToPlayerFromPuzzle();
-                onPuzzleExit?.Invoke();
             }
         }
     }
@@ -220,7 +219,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         {
             Debug.Log("Exit action performed");
             ReturnToPlayerFromPuzzle();
-            onPuzzleExit?.Invoke();
         }
     }
     
@@ -342,6 +340,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     {
         if (playerStateControl != null)
         {
+            onPuzzleExit?.Invoke();
             audioSource.PlayOneShot(unloadPuzzleAudioClip);
             playerStateControl.SetPlayerState(PlayerStateControl.PlayerState.Moving);
             Debug.Log("Returned to player movement state");
@@ -350,7 +349,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     
     private IEnumerator CheckCombination()
     {
-        
         // Set state to checking
         isCheckingCombination = true;
         
@@ -396,6 +394,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
                 }
                 dieController.ResetDiceValue(dieController.diceObjects[i]);
                 allCorrect = false;
+
             }
 
             // Wait before checking the next die
