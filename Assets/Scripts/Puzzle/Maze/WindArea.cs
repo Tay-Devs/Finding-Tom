@@ -7,6 +7,7 @@ public class WindArea : MonoBehaviour
     public float windCooldown = 3f;
     public Vector3 windDirection = Vector3.forward;
     public bool windActive = true; // Toggle wind effect
+    public WindParticleSystem windParticles;
 
     private void OnTriggerStay(Collider other)
     {
@@ -24,6 +25,7 @@ public class WindArea : MonoBehaviour
 
     public void SetWindOff()
     {
+        windParticles.DeactivateWind();
         windActive = false;
     }
     public void ToggleWindWithCooldown()
@@ -36,5 +38,6 @@ public class WindArea : MonoBehaviour
         windActive = false;
         yield return new WaitForSeconds(windCooldown);
         windActive = true;
+        windParticles.ActivateWind();
     } 
 }

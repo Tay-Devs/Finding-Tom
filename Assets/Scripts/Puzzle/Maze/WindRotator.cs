@@ -9,6 +9,10 @@ public class WindRotator : MonoBehaviour
     [SerializeField] private float startDelay = 3f;
 
     private WindArea windAreaScript;
+    
+    [SerializeField]
+    private WindParticleSystem windParticleSystem;
+    
     private float currentRotationSpeed = 0f;
     private bool wasWindActive = false;
     private float startTimer = 0f;
@@ -30,6 +34,11 @@ public class WindRotator : MonoBehaviour
         {
             wasWindActive = windAreaScript.windActive;
         }
+
+        if (windParticleSystem == null)
+        {
+            Debug.LogError("Make sure the WindParticleSystem script is attached to the game object.");
+        }
     }
 
     private void Update()
@@ -43,6 +52,7 @@ public class WindRotator : MonoBehaviour
             startTimer += Time.deltaTime;
             if (startTimer >= startDelay)
             {
+                windParticleSystem.ActivateWind();
                 startComplete = true;
             }
             else
