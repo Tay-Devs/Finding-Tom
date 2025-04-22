@@ -41,6 +41,9 @@ public class LaserEmitter : MonoBehaviour
     
     [Tooltip("Default material for the laser")]
     public Material defaultLaserMaterial;
+
+    [SerializeField] 
+    private Animator sunAnimator;
     
     // Runtime variables
     private List<Vector3> hitPoints = new List<Vector3>();
@@ -87,6 +90,8 @@ public class LaserEmitter : MonoBehaviour
     
     private void Start()
     {
+        //Set the animation to start as charging
+        sunAnimator.SetBool("Charge", true);
         // Initialize the laser state based on settings
         if (isEnabled && isContinuous)
         {
@@ -141,29 +146,15 @@ public class LaserEmitter : MonoBehaviour
             DeactivateLaser();
             isLaserActive = false;
             activeTimer = 0f; // Reset the active timer
-          
+            sunAnimator.SetBool("Charge", true);
         }
         else if (!isLaserActive && timer >= cycleTime)
         {
             if (!isPlayingSFX)
             {
-              
-                if (laserSpawnAudioClip != null)
-                {
-
-                    isPlayingSFX = true;
-                    AudioSource.PlayClipAtPoint(laserSpawnAudioClip, transform.position, laserAudioVolume);
-                }
-                else
-                {
-                    Debug.LogWarning("No audio clip assigned to Laser_" + gameObject.name);
-                }
+                StartCoroutine(PlaySFXAndAnimationDelay());
             }
-            // Reset the timer and turn on the laser
-            timer = 0f;
-            activeTimer = 0f; // Reset the active timer when laser activates
-            isLaserActive = true;
-            UpdateLaserPath();
+          
         }
         
         // If laser is active, update its state
@@ -193,7 +184,30 @@ public class LaserEmitter : MonoBehaviour
         segmentMaterials.Clear();
         
     }
-    
+
+    IEnumerator PlaySFXAndAnimationDelay()
+    {
+        if (laserSpawnAudioClip != null)
+        {
+          
+            AudioSource.PlayClipAtPoint(laserSpawnAudioClip, transform.position, laserAudioVolume);
+            sunAnimator.SetTrigger("Fire");
+            isPlayingSFX = true;
+   
+            // Reset the timer and turn on the laser
+            timer = 0f;
+            activeTimer = 0f; // Reset the active timer when laser activates
+            isLaserActive = true;
+            UpdateLaserPath();
+            yield return new WaitForSeconds(0.5f);
+            sunAnimator.SetBool("Charge", false);
+            sunAnimator.ResetTrigger("Fire");
+        }
+        else
+        {
+            Debug.LogWarning("No audio clip assigned to Laser_" + gameObject.name);
+        }
+    }
     /// <summary>
     /// Manually activate the laser (useful for triggering from other scripts)
     /// </summary>
