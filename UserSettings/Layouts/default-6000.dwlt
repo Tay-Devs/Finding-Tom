@@ -17,6 +17,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 42.666668
     width: 1706.6667
@@ -45,6 +46,14 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Inspector
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1920
+    y: 43
+    width: 1920
+    height: 989
+  m_ShowMode: 4
+  m_Title: Game
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -189,8 +198,12 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 57861
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  controlID: 42277
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -238,8 +251,12 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 57862
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  controlID: 42167
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -284,12 +301,16 @@ MonoBehaviour:
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
 =======
     width: 1484
-    height: 567
+    height: 636
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 57863
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  controlID: 42168
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -311,6 +332,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 342
     height: 469.33334
   m_MinSize: {x: 200, y: 200}
@@ -326,6 +348,10 @@ MonoBehaviour:
     width: 492
     height: 567
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    width: 422
+    height: 636
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -352,6 +378,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 342
     y: 0
     width: 602
@@ -366,9 +393,12 @@ MonoBehaviour:
 =======
     x: 492
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 422
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
     y: 0
-    width: 426
-    height: 567
+    width: 823
+    height: 636
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -396,6 +426,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 944
     y: 0
     width: 400
@@ -418,6 +449,12 @@ MonoBehaviour:
     width: 566
     height: 567
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1245
+    y: 0
+    width: 239
+    height: 636
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -446,6 +483,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 469.33334
     width: 1344
     height: 343.99997
@@ -469,13 +507,20 @@ MonoBehaviour:
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
 =======
     y: 567
+=======
+    y: 636
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
     width: 1484
-    height: 366
+    height: 297
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 57960
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  controlID: 42241
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -509,8 +554,12 @@ MonoBehaviour:
 >>>>>>> 341f5c2 (Added new Open Scene Animation)
 =======
     width: 832
+<<<<<<< HEAD
     height: 366
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    height: 297
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 19}
@@ -554,7 +603,7 @@ MonoBehaviour:
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     y: 0
     width: 652
-    height: 366
+    height: 297
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 20}
@@ -639,6 +688,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 944
     y: 78.66667
     width: 398
@@ -661,6 +711,12 @@ MonoBehaviour:
     width: 564
     height: 541
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 3165
+    y: 79
+    width: 237
+    height: 610
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -702,7 +758,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
+    m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -714,6 +770,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       width: 398
@@ -732,12 +789,19 @@ MonoBehaviour:
     m_Scale: {x: 0.4243385, y: 0.4243385}
     m_Translation: {x: 280.51498, y: 260}
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+      width: 237
+      height: 589
+    m_Scale: {x: 0.1234375, y: 0.1234375}
+    m_Translation: {x: 118.5, y: 294.5}
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -640
@@ -765,6 +829,15 @@ MonoBehaviour:
   m_defaultScale: 0.29375
   m_LastWindowPixelSize: {x: 564, y: 541}
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+      x: -960
+      y: -2385.8228
+      width: 1920
+      height: 4771.6455
+    m_MinimalGUI: 1
+  m_defaultScale: 0.1234375
+  m_LastWindowPixelSize: {x: 237, y: 610}
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -795,6 +868,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 78.66667
     width: 341
@@ -817,6 +891,12 @@ MonoBehaviour:
     width: 491
     height: 541
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1920
+    y: 79
+    width: 421
+    height: 610
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -830,6 +910,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
@@ -853,6 +934,12 @@ MonoBehaviour:
       m_LastClickedID: -223246
       m_ExpandedIDs: a68dfcffa88dfcffaa8dfcffd88dfcfff497fcff1cabfcffa857fdff2e6cfdff3eb3fdff58b3fdffd25dfeffa4d9ffff4ef1fffff6f9fffff8f9ffff1afbffffb0b70000c6b70000d6b70000aeb8000028b9000056ba00009eba000018be00001ac100005ac2000018c3000080c30000bec30000e0c3000048c40000cac40000dec400005ac5000086c50000
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+      scrollPos: {x: 0, y: 1680}
+      m_SelectedIDs: c044fcff
+      m_LastClickedID: -244544
+      m_ExpandedIDs: c044fcfff88bfcffe6c1feff1e1cffff88d0fffff8d7ffff60d9ffff64d9ffff88d9ffff8cd9ffff90d9ffffbcd9ffffc6d9ffff82f7ffffb0faffff1afbffff6ab7000036b8000038b9000058b900004abb0000eebd0000fcbd000008be000092be0000dcbe000050bf0000a6bf000062c00000c6c30000e8c300009ec4000012c5000044c500005ec5000076cb0000
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -901,6 +988,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 342
     y: 78.66667
     width: 600
@@ -923,6 +1011,12 @@ MonoBehaviour:
     width: 424
     height: 541
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 2342
+    y: 79
+    width: 821
+    height: 610
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1172,7 +1266,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 1
       containerId: overlay-container--right
-      displayed: 0
+      displayed: 1
       id: Scene View/Particles
       index: 0
 <<<<<<< HEAD
@@ -1350,12 +1444,12 @@ MonoBehaviour:
       displayed: 1
       id: Overlays/OverlayMenu
       index: 1
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-315.199951171875,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 25.333332}
+      snapOffset: {x: -315.19995, y: 25.333332}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       layout: 1
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -1528,6 +1622,7 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -13.8568125, y: -0.5904565, z: 10.932359}
     speed: 2
     m_Value: {x: -13.8568125, y: -0.5904565, z: 10.932359}
@@ -1541,6 +1636,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -32.7924, y: -7.4520407, z: -51.05652}
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_Target: {x: -32.093697, y: -22.92941, z: -22.433508}
+    speed: 2
+    m_Value: {x: -32.093697, y: -22.92941, z: -22.433508}
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 24
@@ -1588,6 +1688,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.06659503, y: 0.63506526, z: -0.055920593, w: 0.7685599}
     speed: 2
     m_Value: {x: 0.06577633, y: 0.63462806, z: -0.055241432, w: 0.7680295}
@@ -1600,17 +1701,24 @@ MonoBehaviour:
 =======
     m_Target: {x: 0.0021522644, y: -0.99887913, z: 0.051007774, w: -0.0082792705}
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_Target: {x: 0.005187679, y: -0.9991847, z: 0.023817226, w: 0.03932815}
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
     speed: 2
-    m_Value: {x: 0.0012729971, y: -0.99831206, z: 0.05252279, w: -0.024755461}
+    m_Value: {x: -0.005187679, y: 0.9991847, z: -0.023817226, w: -0.03932815}
   m_Size:
-    m_Target: 30.030806
+    m_Target: 9.018794
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 0.6787971
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
 =======
     m_Value: 28.737614
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_Value: 9.018794
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1916,6 +2024,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 548
     width: 750.3333
@@ -1938,6 +2047,12 @@ MonoBehaviour:
     width: 831
     height: 340
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1920
+    y: 715
+    width: 831
+    height: 271
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1950,7 +2065,7 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: milk
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -1962,6 +2077,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts/Player Related
 =======
     - Assets/ImportAssets/Cloak/mat2
@@ -1969,15 +2085,19 @@ MonoBehaviour:
 =======
     - Assets/Animation/Ground Floor
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    - Packages/com.unity.render-pipelines.universal/Runtime/Materials
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
-    m_OriginalText: 
+    m_OriginalText: milk
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - Assets/Scripts/Player Related
@@ -1995,6 +2115,9 @@ MonoBehaviour:
 =======
   - Assets/Animation/Ground Floor
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  - Packages/com.unity.render-pipelines.universal/Runtime/Materials
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
     \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
@@ -2002,6 +2125,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 38}
     m_SelectedIDs: 8c7c0600
@@ -2018,6 +2142,12 @@ MonoBehaviour:
     m_LastClickedID: 92240
     m_ExpandedIDs: 0000000062f2000064f2000066f2000068f200006af200006af40000c0f40000e2f40000e8f4000050680100
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    scrollPos: {x: 0, y: 1951}
+    m_SelectedIDs: d8f90000
+    m_LastClickedID: 63960
+    m_ExpandedIDs: 00000000f2f50000f4f50000f6f50000f8f50000faf50000fcf50000fef5000000f6000002f6000004f60000daf90000dcf90000ffffff7f
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2049,6 +2179,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072e6000074e6000076e6000078e600007ae600007ce6000080e6000082e6000084e6000086e6000088e600008ae600008ce600008ee6000090e6000092e6000094e6000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 0000000016e7000018e700001ae700001ce700001ee70000
@@ -2059,6 +2190,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000062f2000064f2000066f2000068f200006af200006af40000c0f40000e2f40000e8f4000050680100
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_ExpandedIDs: 00000000f2f50000f4f50000f6f50000f8f50000faf50000fcf50000fef5000000f6000002f6000004f60000
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2330,6 +2464,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 751.3334
     y: 548
     width: 590.6667
@@ -2352,6 +2487,12 @@ MonoBehaviour:
     width: 650
     height: 340
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 2752
+    y: 715
+    width: 650
+    height: 271
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2453,6 +2594,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1344
     y: 78.66667
     width: 361.66663
@@ -2472,6 +2614,10 @@ MonoBehaviour:
 =======
     x: -436
     y: 80
+=======
+    x: 3404
+    y: 79
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
     width: 435
     height: 907
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
