@@ -27,6 +27,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 5645
 =======
   controlID: 41580
@@ -37,6 +38,9 @@ MonoBehaviour:
 =======
   controlID: 43369
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  controlID: 57604
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -62,6 +66,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 956.6667
     y: 78.66667
     width: 359.99994
@@ -82,6 +87,12 @@ MonoBehaviour:
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     height: 543
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    x: -858
+    y: 80
+    width: 420
+    height: 541
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -138,6 +149,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 359.99994
       height: 422.33334
     m_Scale: {x: 0.28124994, y: 0.28124994}
@@ -160,6 +172,12 @@ MonoBehaviour:
     m_Scale: {x: 0.20989583, y: 0.20989582}
     m_Translation: {x: 201.5, y: 261}
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+      width: 420
+      height: 520
+    m_Scale: {x: 0.21875, y: 0.21875}
+    m_Translation: {x: 210, y: 260}
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -186,10 +204,11 @@ MonoBehaviour:
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
 =======
       x: -960
-      y: -1243.474
+      y: -1188.5714
       width: 1920
-      height: 2486.948
+      height: 2377.1428
     m_MinimalGUI: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_defaultScale: 0.24895833
   m_LastWindowPixelSize: {x: 478, y: 543}
@@ -198,6 +217,10 @@ MonoBehaviour:
   m_defaultScale: 0.20989583
   m_LastWindowPixelSize: {x: 403, y: 543}
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  m_defaultScale: 0.21875
+  m_LastWindowPixelSize: {x: 420, y: 541}
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -242,6 +265,7 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 41581
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
 =======
@@ -250,6 +274,9 @@ MonoBehaviour:
 =======
   controlID: 43370
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  controlID: 57605
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -283,6 +310,7 @@ MonoBehaviour:
     width: 1472
 =======
     width: 1484
+<<<<<<< HEAD
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     height: 569
   m_MinSize: {x: 300, y: 50}
@@ -298,6 +326,13 @@ MonoBehaviour:
 =======
   controlID: 43371
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    height: 567
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 57606
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -319,6 +354,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 336.66666
     height: 469.33334
   m_MinSize: {x: 200, y: 200}
@@ -332,6 +368,10 @@ MonoBehaviour:
     width: 358
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     height: 569
+=======
+    width: 492
+    height: 567
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -375,6 +415,7 @@ MonoBehaviour:
     x: -1920
     y: 80
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 359
 >>>>>>> 341f5c2 (Added new Open Scene Animation)
 =======
@@ -382,6 +423,10 @@ MonoBehaviour:
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     height: 543
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    width: 491
+    height: 541
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -395,6 +440,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,6 +466,12 @@ MonoBehaviour:
       m_LastClickedID: -1814
       m_ExpandedIDs: cadbfdff78b8ffff94ebffff98ebffffbcebffffc0ebffffc4ebfffff0ebfffffaebffff90f0ffff1cf4ffff1ef4ffff6af5ffff1afbffff82b70000a6b70000aeb70000bcb70000ccb70000dab70000a4b80000c4b8000034b9000062b9000090ba0000f4ba000016bb00001abb000034bc000058bc0000bcbc000040bd000052bd0000e8bd0000e8be0000f0be00006ac00000b4c00000d6c000001ac200001ec2000038c3000076c3000098c30000f6c3000080c400005ec5000072c6000038c7000054c7000064c70000cac700000ac80000e4c8000006c9000030c90000
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+      scrollPos: {x: 0, y: 120}
+      m_SelectedIDs: f297fcff
+      m_LastClickedID: -223246
+      m_ExpandedIDs: a68dfcffa88dfcffaa8dfcffd88dfcfff497fcff1cabfcffa857fdff2e6cfdff3eb3fdff58b3fdffd25dfeffa4d9ffff4ef1fffff6f9fffff8f9ffff1afbffffb0b70000c6b70000d6b70000aeb8000028b9000056ba00009eba000018be00001ac100005ac2000018c3000080c30000bec30000e0c3000048c40000cac40000dec400005ac5000086c50000
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -462,6 +514,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 336.66666
     y: 0
     width: 620
@@ -476,9 +529,12 @@ MonoBehaviour:
 =======
     x: 358
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    x: 492
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     y: 0
-    width: 721
-    height: 569
+    width: 570
+    height: 567
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -512,6 +568,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 336.6667
     y: 78.66667
     width: 618
@@ -532,6 +589,12 @@ MonoBehaviour:
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     height: 543
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    x: -1428
+    y: 80
+    width: 568
+    height: 541
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1094,6 +1157,20 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: UnityEditor.LightProbeGroupOverlay
+      index: 11
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
       scrollOffset: 0
@@ -1124,6 +1201,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -55.594185, y: 1.9527369, z: -7.159866}
     speed: 2
     m_Value: {x: -55.594185, y: 1.9527369, z: -7.159866}
@@ -1142,6 +1220,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -38.286877, y: 0.79632, z: -9.262303}
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    m_Target: {x: -33.16935, y: -4.066556, z: 12.211267}
+    speed: 2
+    m_Value: {x: -33.16935, y: -4.066556, z: 12.211267}
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 24
@@ -1190,6 +1273,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.1354487, y: 0.50845844, z: -0.08222002, w: 0.8472644}
     speed: 2
     m_Value: {x: 0.13534766, y: 0.5080792, z: -0.082158685, w: 0.8466324}
@@ -1205,11 +1289,15 @@ MonoBehaviour:
 =======
     m_Target: {x: 0.008108922, y: 0.99192196, z: -0.08951375, w: 0.08981257}
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    m_Target: {x: 0.055243745, y: -0.79406625, z: -0.0690555, w: -0.6017214}
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     speed: 2
-    m_Value: {x: 0.008108923, y: 0.991922, z: -0.08951376, w: 0.08981258}
+    m_Value: {x: -0.05524375, y: 0.79406625, z: 0.0690555, w: 0.60172147}
   m_Size:
-    m_Target: 0.93237436
+    m_Target: 12.71512
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 0.6787971
@@ -1220,13 +1308,21 @@ MonoBehaviour:
 =======
     m_Value: 0.93237436
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    m_Value: 12.71512
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
+<<<<<<< HEAD
     m_Speed: 0.36082
     m_SpeedNormalized: 0.17999999
+=======
+    m_Speed: 1.3203397
+    m_SpeedNormalized: 0.65999985
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1274,10 +1370,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Animator\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 336.6667
     y: 78.66667
     width: 618
     height: 443.33334
+=======
+    x: -1565
+    y: 80
+    width: 720
+    height: 543
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1302,6 +1405,7 @@ MonoBehaviour:
     - {fileID: 2206185477919536935, guid: adc4f3baa91eed241939ecda9930f83a, type: 2}
     - {fileID: -7791504554348528221, guid: e97db4b15713a35409345986269ec46b, type: 2}
     m_ValueSerializationHelper:
+<<<<<<< HEAD
     - e00: 0.34242424
       e01: 0
       e02: 0
@@ -1310,6 +1414,16 @@ MonoBehaviour:
       e11: 0.34242424
       e12: 0
       e13: 78.86366
+=======
+    - e00: 0.37836596
+      e01: 0
+      e02: 0
+      e03: 166.11905
+      e10: 0
+      e11: 0.37836596
+      e12: 0
+      e13: 73.32559
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
       e20: 0
       e21: 0
       e22: 1
@@ -1496,6 +1610,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 956.6667
     y: 0
     width: 361.99994
@@ -1512,6 +1627,12 @@ MonoBehaviour:
     width: 405
     height: 569
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    x: 1062
+    y: 0
+    width: 422
+    height: 567
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 2}
@@ -1538,6 +1659,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 469.33334
     width: 1318.6666
     height: 343.99997
@@ -1547,11 +1669,15 @@ MonoBehaviour:
   controlID: 5609
 =======
     y: 569
+=======
+    y: 567
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     width: 1484
-    height: 364
+    height: 366
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 41671
@@ -1562,6 +1688,9 @@ MonoBehaviour:
 =======
   controlID: 43449
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  controlID: 57687
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1588,9 +1717,13 @@ MonoBehaviour:
     width: 827
 =======
     width: 832
+<<<<<<< HEAD
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     height: 364
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    height: 366
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 13}
@@ -1631,6 +1764,7 @@ MonoBehaviour:
     y: 648
 =======
     x: -1920
+<<<<<<< HEAD
     y: 649
 <<<<<<< HEAD
 >>>>>>> 341f5c2 (Added new Open Scene Animation)
@@ -1640,6 +1774,11 @@ MonoBehaviour:
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     height: 338
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    y: 647
+    width: 831
+    height: 340
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1665,6 +1804,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts/Player Related
 =======
     - Assets/ImportAssets/Cloak/mat2
@@ -1675,6 +1815,9 @@ MonoBehaviour:
 =======
     - Assets
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    - Assets/Animation/Ground Floor
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1684,6 +1827,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1705,6 +1849,9 @@ MonoBehaviour:
 =======
   - Assets
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  - Assets/Animation/Ground Floor
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
     \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
@@ -1712,6 +1859,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 38}
@@ -1731,6 +1879,12 @@ MonoBehaviour:
     m_LastClickedID: 59190
     m_ExpandedIDs: 0000000036e7000038e700003ae700003ce700003ee70000
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    scrollPos: {x: 0, y: 47}
+    m_SelectedIDs: 50680100
+    m_LastClickedID: 92240
+    m_ExpandedIDs: 0000000062f2000064f2000066f2000068f200006af200006af40000c0f40000e2f40000e8f4000050680100
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1761,6 +1915,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072e6000074e6000076e6000078e600007ae600007ce6000080e6000082e6000084e6000086e6000088e600008ae600008ce600008ee6000090e6000092e6000094e6000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 0000000016e7000018e700001ae700001ce700001ee70000
@@ -1768,6 +1923,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000036e7000038e700003ae700003ce700003ee70000
 >>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    m_ExpandedIDs: 0000000062f2000064f2000066f2000068f200006af200006af40000c0f40000e2f40000e8f4000050680100
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1796,6 +1954,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: e095ffff
     m_LastClickedInstanceID: -27168
 =======
@@ -1811,6 +1970,10 @@ MonoBehaviour:
 =======
     m_SelectedInstanceIDs: eaf8ffff
     m_LastClickedInstanceID: -1814
+=======
+    m_SelectedInstanceIDs: f297fcff
+    m_LastClickedInstanceID: -223246
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c3000006cf000000000000
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
@@ -2058,7 +2221,7 @@ MonoBehaviour:
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     y: 0
     width: 652
-    height: 364
+    height: 366
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -2106,11 +2269,15 @@ MonoBehaviour:
     width: 643
 =======
     x: -1088
-    y: 649
+    y: 647
     width: 650
+<<<<<<< HEAD
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     height: 338
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    height: 340
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2143,10 +2310,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Input Debug\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 736
     y: 536
     width: 572.6666
     height: 330.00003
+=======
+    x: 2751
+    y: 648
+    width: 650
+    height: 338
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2312,6 +2486,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1310
     y: 78.66667
     width: 395.66663
@@ -2323,6 +2498,11 @@ MonoBehaviour:
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     y: 80
     width: 435
+=======
+    x: 3403
+    y: 79
+    width: 436
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     height: 907
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_SerializedDataModeController:
