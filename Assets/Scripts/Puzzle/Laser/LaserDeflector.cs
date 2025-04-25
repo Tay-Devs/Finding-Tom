@@ -16,6 +16,7 @@ public class LaserDeflector : MonoBehaviour
     // Store original colors for gizmos
     private Color gizmoIncomingColor = Color.yellow;
     private Color gizmoOutgoingColor = Color.green;
+    [SerializeField]
     private Renderer objectRenderer;
     private Material instancedMaterial;
 
@@ -35,7 +36,7 @@ public class LaserDeflector : MonoBehaviour
     private void Awake()
     {
         laserEmitter = GameObject.FindWithTag("Laser Emitter").GetComponent<LaserEmitter>();
-        objectRenderer = GetComponent<Renderer>();
+        //objectRenderer = GetComponent<Renderer>();
 
         // Create an instanced material from the default material
         // This way we can modify it without affecting the original asset
