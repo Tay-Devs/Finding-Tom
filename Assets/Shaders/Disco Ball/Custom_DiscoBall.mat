@@ -30,9 +30,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _BlendDuration: 0.1
-    - _GlintSpeed: 2
-    - _GlintStrength: 4
-    - _TileSize: 4
+    - _GlintSpeed: 0.003
+    - _GlintStrength: 2
+    - _NoiseSpeed: 0.004
+    - _TileSize: 8
     m_Colors:
     - _Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
     - _Color1: {r: 1, g: 0, b: 0, a: 1}

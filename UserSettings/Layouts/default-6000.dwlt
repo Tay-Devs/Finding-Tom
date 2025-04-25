@@ -18,6 +18,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 42.666668
     width: 1706.6667
@@ -30,10 +31,13 @@ MonoBehaviour:
     width: 1920
     height: 989
 =======
+=======
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     x: 0
     y: 43.2
     width: 1536
     height: 772.8
+<<<<<<< HEAD
 >>>>>>> 341f5c2 (Added new Open Scene Animation)
   m_ShowMode: 4
   m_Title: Game
@@ -54,6 +58,10 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Game
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+  m_ShowMode: 4
+  m_Title: Scene
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -80,6 +88,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1706.6666
     height: 869.3333
 =======
@@ -90,6 +99,10 @@ MonoBehaviour:
     width: 1920
     height: 989
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    width: 1536
+    height: 772.8
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -115,6 +128,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1706.6666
 =======
     width: 1536
@@ -122,6 +136,9 @@ MonoBehaviour:
 =======
     width: 1920
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    width: 1536
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -144,6 +161,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 849.3333
     width: 1706.6666
 =======
@@ -154,6 +172,10 @@ MonoBehaviour:
     y: 969
     width: 1920
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    y: 752.8
+    width: 1536
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -176,6 +198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 36
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1706.6666
@@ -204,6 +227,14 @@ MonoBehaviour:
 =======
   controlID: 42277
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 1536
+    height: 716.8
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 7683
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -224,6 +255,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +289,14 @@ MonoBehaviour:
 =======
   controlID: 42167
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 1186.4
+    height: 716.8
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 7684
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -278,6 +318,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,6 +352,14 @@ MonoBehaviour:
 =======
   controlID: 42168
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 1186.4
+    height: 487.2
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 7685
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -329,6 +378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +402,10 @@ MonoBehaviour:
     width: 422
     height: 636
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 336.8
+    height: 487.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -379,6 +433,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 342
     y: 0
     width: 602
@@ -396,9 +451,12 @@ MonoBehaviour:
 =======
     x: 422
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 336.8
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     y: 0
-    width: 823
-    height: 636
+    width: 619.2
+    height: 487.2
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -423,6 +481,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,6 +514,12 @@ MonoBehaviour:
     width: 239
     height: 636
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 956
+    y: 0
+    width: 230.40002
+    height: 487.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -480,6 +545,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -521,6 +587,15 @@ MonoBehaviour:
 =======
   controlID: 42241
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    y: 487.2
+    width: 1186.4
+    height: 229.59998
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 7766
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -542,6 +617,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 751.3333
     height: 343.99997
 =======
@@ -560,6 +636,10 @@ MonoBehaviour:
 =======
     height: 297
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 665.6
+    height: 229.59998
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 19}
@@ -586,6 +666,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 751.3333
     y: 0
     width: 592.6667
@@ -601,9 +682,12 @@ MonoBehaviour:
 =======
     x: 832
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 665.6
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     y: 0
-    width: 652
-    height: 297
+    width: 520.80005
+    height: 229.59998
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 20}
@@ -631,6 +715,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1344
     y: 0
     width: 362.66663
@@ -653,6 +738,12 @@ MonoBehaviour:
     width: 436
     height: 933
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1186.4
+    y: 0
+    width: 349.59998
+    height: 716.8
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 22}
@@ -690,6 +781,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 944
     y: 78.66667
     width: 398
@@ -722,6 +814,12 @@ MonoBehaviour:
     width: 237
     height: 610
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 957
+    y: 24
+    width: 228.40002
+    height: 461.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -770,7 +868,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -782,6 +880,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -807,6 +906,12 @@ MonoBehaviour:
     m_Scale: {x: 0.15429688, y: 0.15429688}
     m_Translation: {x: 118.5, y: 294.5}
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+      width: 286
+      height: 587
+    m_Scale: {x: 0.18619792, y: 0.18619792}
+    m_Translation: {x: 143, y: 293.5}
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -849,14 +954,21 @@ MonoBehaviour:
       height: 4771.6455
 =======
       x: -768
-      y: -1908.6582
+      y: -1576.2797
       width: 1536
+<<<<<<< HEAD
       height: 3817.3164
 >>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
     m_MinimalGUI: 1
   m_defaultScale: 0.15429688
   m_LastWindowPixelSize: {x: 237, y: 610}
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+      height: 3152.5593
+    m_MinimalGUI: 1
+  m_defaultScale: 0.18619792
+  m_LastWindowPixelSize: {x: 286, y: 608}
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -902,6 +1014,7 @@ MonoBehaviour:
 =======
     x: 0
     y: 24
+<<<<<<< HEAD
     width: 288.6
     height: 410.8
 >>>>>>> 341f5c2 (Added new Open Scene Animation)
@@ -921,6 +1034,10 @@ MonoBehaviour:
     width: 421
     height: 610
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 335.8
+    height: 461.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -934,6 +1051,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,6 +1088,12 @@ MonoBehaviour:
 >>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
       m_ExpandedIDs: c044fcfff88bfcffe6c1feff1e1cffff88d0fffff8d7ffff60d9ffff64d9ffff88d9ffff8cd9ffff90d9ffffbcd9ffffc6d9ffff82f7ffffb0faffff1afbffff6ab7000036b8000038b9000058b900004abb0000eebd0000fcbd000008be000092be0000dcbe000050bf0000a6bf000062c00000c6c30000e8c300009ec4000012c5000044c500005ec5000076cb0000
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+      scrollPos: {x: 0, y: 4161}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 92cdffffa4e4ffff1afbffff74b9000056be00007ebe000068c00000c6c40000e8c400009ac5000014c6000046c6000060c60000
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1020,6 +1144,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 342
     y: 78.66667
     width: 600
@@ -1052,6 +1177,12 @@ MonoBehaviour:
     width: 821
     height: 610
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 337.8
+    y: 24
+    width: 617.2
+    height: 461.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1658,6 +1789,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -13.8568125, y: -0.5904565, z: 10.932359}
     speed: 2
     m_Value: {x: -13.8568125, y: -0.5904565, z: 10.932359}
@@ -1676,6 +1808,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -32.093697, y: -22.92941, z: -22.433508}
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    m_Target: {x: -42.86943, y: -29.102684, z: -3.6520875}
+    speed: 2
+    m_Value: {x: -42.86943, y: -29.102684, z: -3.6520875}
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 24
@@ -1724,6 +1861,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.06659503, y: 0.63506526, z: -0.055920593, w: 0.7685599}
     speed: 2
     m_Value: {x: 0.06577633, y: 0.63462806, z: -0.055241432, w: 0.7680295}
@@ -1739,11 +1877,15 @@ MonoBehaviour:
 =======
     m_Target: {x: 0.005187679, y: -0.9991847, z: 0.023817226, w: 0.03932815}
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    m_Target: {x: 0.09282076, y: -0.8621616, z: 0.17109223, w: 0.46776965}
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     speed: 2
-    m_Value: {x: -0.005187679, y: 0.9991847, z: -0.023817226, w: -0.03932815}
+    m_Value: {x: -0.09281987, y: 0.86215323, z: -0.17109057, w: -0.46776512}
   m_Size:
-    m_Target: 9.018794
+    m_Target: 10.361374
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 0.6787971
@@ -1754,6 +1896,9 @@ MonoBehaviour:
 =======
     m_Value: 9.018794
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    m_Value: 10.361374
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2074,6 +2219,7 @@ MonoBehaviour:
 =======
     x: 0
     y: 24
+<<<<<<< HEAD
     width: 661.4
     height: 254
 >>>>>>> 341f5c2 (Added new Open Scene Animation)
@@ -2093,6 +2239,10 @@ MonoBehaviour:
     width: 831
     height: 271
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 664.6
+    height: 203.59998
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2105,7 +2255,7 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: milk
+    m_NameFilter: disco
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -2115,6 +2265,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2128,15 +2279,19 @@ MonoBehaviour:
 =======
     - Packages/com.unity.render-pipelines.universal/Runtime/Materials
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    - Assets/ImportAssets/Poster
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
-    m_OriginalText: milk
+    m_OriginalText: disco
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2158,6 +2313,9 @@ MonoBehaviour:
 =======
   - Packages/com.unity.render-pipelines.universal/Runtime/Materials
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+  - Assets/ImportAssets/Poster
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
     \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
@@ -2165,6 +2323,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 38}
@@ -2192,6 +2351,12 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000088f600008af600008cf600008ef6000090f6000092f6000094f6000096f6000098f600009af60000
 >>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    scrollPos: {x: 0, y: 473.2}
+    m_SelectedIDs: 8ef90000
+    m_LastClickedID: 63886
+    m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000030f7000032f7000034f7000036f7000038f70000
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2225,6 +2390,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072e6000074e6000076e6000078e600007ae600007ce6000080e6000082e6000084e6000086e6000088e600008ae600008ce600008ee6000090e6000092e6000094e6000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 0000000016e7000018e700001ae700001ce700001ee70000
@@ -2241,6 +2407,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000088f600008af600008cf600008ef6000090f6000092f6000094f6000096f6000098f600009af60000
 >>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000030f7000032f7000034f7000036f7000038f70000
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2514,6 +2683,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 751.3334
     y: 548
     width: 590.6667
@@ -2546,6 +2716,12 @@ MonoBehaviour:
     width: 650
     height: 271
 >>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 666.6
+    y: 24
+    width: 518.80005
+    height: 203.59998
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2649,6 +2825,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1344
     y: 78.66667
     width: 361.66663
@@ -2679,6 +2856,12 @@ MonoBehaviour:
     width: 435
     height: 907
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1187.4
+    y: 24
+    width: 348.59998
+    height: 690.8
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
