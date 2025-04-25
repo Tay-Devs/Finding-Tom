@@ -340,10 +340,14 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     {
         if (playerStateControl != null)
         {
-            onPuzzleExit?.Invoke();
             audioSource.PlayOneShot(unloadPuzzleAudioClip);
             playerStateControl.SetPlayerState(PlayerStateControl.PlayerState.Moving);
             Debug.Log("Returned to player movement state");
+            if (isPuzzleSolved)
+            {
+                return;
+            }
+            onPuzzleExit?.Invoke();
         }
     }
     
@@ -372,7 +376,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         }
         
         bool allCorrect = true;
-        
         // Check each die one by one with a delay between
         for (int i = 0; i < secretCombination.Length; i++)
         {
@@ -410,7 +413,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             // Additional puzzle-solved effects could be triggered here
         }
 
-        
         // Wait a bit before returning control
         yield return new WaitForSeconds(returnControlDelay);
         
