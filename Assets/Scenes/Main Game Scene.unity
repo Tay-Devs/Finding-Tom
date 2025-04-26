@@ -6094,7 +6094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &193036108
 Transform:
   m_ObjectHideFlags: 0
@@ -14637,7 +14637,7 @@ Transform:
   m_GameObject: {fileID: 466902455}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.23000145, y: 0.35000002, z: -0.020000458}
+  m_LocalPosition: {x: -0.23000145, y: -0.01, z: -0.020000458}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14658,7 +14658,7 @@ MonoBehaviour:
   windStrength: 15
   windDistance: 15.5
   particleCount: 35
-  boxDimensions: {x: 2.65, y: 2, z: 0.1}
+  boxDimensions: {x: 2.14, y: 1.57, z: 0.5}
   emitFromVolume: 0
   activationTime: 3
   deactivationTime: 2
@@ -15373,7 +15373,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 5
     angle: 3.4
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -15381,7 +15381,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 1}
+    m_Scale: {x: 2.1245558, y: 0.8724218, z: 0.71947765}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -16209,7 +16209,7 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -16266,7 +16266,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: -0.46
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -17460,7 +17460,7 @@ ParticleSystem:
     strengthY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.46
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -17513,7 +17513,7 @@ ParticleSystem:
     strengthZ:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.72
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -18337,9 +18337,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 4
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -18349,7 +18349,7 @@ ParticleSystem:
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -18658,7 +18658,7 @@ ParticleSystem:
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.19
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -64733,6 +64733,10 @@ PrefabInstance:
       propertyPath: playerStateControl
       value: 
       objectReference: {fileID: 437207765}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: FootstepAudioSource
+      value: 
+      objectReference: {fileID: 1293230472}
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: InteractionRequested.m_PersistentCalls.m_Calls.Array.size
       value: 0
