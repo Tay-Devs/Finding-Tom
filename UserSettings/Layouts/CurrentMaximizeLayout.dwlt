@@ -20,6 +20,7 @@ MonoBehaviour:
     x: 0
     y: 36
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1706.6666
     height: 813.3333
   m_MinSize: {x: 400, y: 100}
@@ -58,6 +59,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 2923
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 1920
+    height: 933
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 55321
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -75,11 +84,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +141,12 @@ MonoBehaviour:
     width: 359.60004
     height: 461.2
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -895
+    y: 80
+    width: 456
+    height: 608
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -164,6 +180,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -360
@@ -174,6 +191,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -432
     m_VBaseRangeMax: 432
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -182,7 +205,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -191,6 +214,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,12 +268,19 @@ MonoBehaviour:
     m_Scale: {x: 0.2341146, y: 0.2341146}
     m_Translation: {x: 179.80002, y: 220.1}
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+      width: 456
+      height: 587
+    m_Scale: {x: 0.2375, y: 0.23750001}
+    m_Translation: {x: 228, y: 293.5}
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,6 +338,15 @@ MonoBehaviour:
   m_defaultScale: 0.2341146
   m_LastWindowPixelSize: {x: 449.50006, y: 576.5}
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+      x: -960
+      y: -1235.7894
+      width: 1920
+      height: 2471.5789
+    m_MinimalGUI: 1
+  m_defaultScale: 0.2375
+  m_LastWindowPixelSize: {x: 456, y: 608}
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -332,6 +372,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +421,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 2924
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 1483
+    height: 933
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 55322
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -401,6 +450,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,6 +511,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 2925
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 1483
+    height: 634
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 55323
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -479,6 +537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,6 +574,10 @@ MonoBehaviour:
     width: 336.8
     height: 487.2
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 411
+    height: 634
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -539,11 +602,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,6 +653,12 @@ MonoBehaviour:
     width: 335.8
     height: 461.2
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -1920
+    y: 80
+    width: 410
+    height: 608
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -602,6 +672,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,6 +726,12 @@ MonoBehaviour:
       m_LastClickedID: 49956
       m_ExpandedIDs: a4e4ffff1afbffff60b8000076b8000074b9000056be00007ebe000068c00000c6c40000e8c400009ac5000014c6000046c6000060c60000
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 0e520200
+      m_LastClickedID: 152078
+      m_ExpandedIDs: a4adfcffc8adfcffccadfcffd0adfcfffcadfcff06aefcff10c5fcff08cffcff0acffcff84d3fcff6afcfcff9c59ffffa881ffffa4e4ffff1afbffff60b8000076b8000074b9000004bc000056be0000dabf000068c00000c6c40000e8c400009ac5000014c6000046c6000060c60000f6b70100563e0200743e02007a3e0200903e0200783f0200b03f020054400200984102000842020032420200bc4302008244020018450200de450200fa4602007e4a02009a4a0200ca4a0200ec4a02009e4b0200b44b0200184c02004a4c0200644c0200f24c0200465102005c5102008651020092520200
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -701,6 +778,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 336.66666
     y: 0
     width: 620
@@ -727,9 +805,12 @@ MonoBehaviour:
 =======
     x: 336.8
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: 411
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     y: 0
-    width: 488
-    height: 487.2
+    width: 614
+    height: 634
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -755,11 +836,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,6 +893,12 @@ MonoBehaviour:
     width: 486
     height: 461.2
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -1509
+    y: 80
+    width: 612
+    height: 608
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1421,6 +1509,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -55.594185, y: 1.9527369, z: -7.159866}
     speed: 2
     m_Value: {x: -55.594185, y: 1.9527369, z: -7.159866}
@@ -1459,6 +1548,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -29.869963, y: -7.353797, z: 14.687893}
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_Target: {x: -26.536867, y: -22.640232, z: -20.370346}
+    speed: 2
+    m_Value: {x: -26.536867, y: -22.640232, z: -20.370346}
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 24
@@ -1511,6 +1605,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.1354487, y: 0.50845844, z: -0.08222002, w: 0.8472644}
     speed: 2
     m_Value: {x: 0.13534766, y: 0.5080792, z: -0.082158685, w: 0.8466324}
@@ -1538,11 +1633,15 @@ MonoBehaviour:
 =======
     m_Target: {x: -0.37832963, y: -0.16281341, z: -0.06779752, w: 0.9087369}
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_Target: {x: 0.008721487, y: 0.9883738, z: -0.13877755, w: 0.062036213}
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     speed: 2
-    m_Value: {x: 0.37832963, y: 0.16281341, z: 0.06779752, w: -0.9087369}
+    m_Value: {x: 0.011217562, y: 0.9870643, z: -0.1385935, w: 0.07981328}
   m_Size:
-    m_Target: 8.2675495
+    m_Target: 9.867083
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1569,6 +1668,9 @@ MonoBehaviour:
 =======
     m_Value: 8.2675495
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_Value: 10.332024
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1623,7 +1725,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Animator\u200B"
   m_Pos:
@@ -1872,6 +1974,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 956.6667
     y: 0
     width: 361.99994
@@ -1912,6 +2015,12 @@ MonoBehaviour:
     width: 361.60004
     height: 487.2
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: 1025
+    y: 0
+    width: 458
+    height: 634
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 2}
@@ -1937,6 +2046,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1996,6 +2106,15 @@ MonoBehaviour:
   vertical: 0
   controlID: 2996
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    y: 634
+    width: 1483
+    height: 299
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 55362
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -2014,6 +2133,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2043,6 +2163,10 @@ MonoBehaviour:
     width: 665.6
     height: 229.59998
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 832
+    height: 299
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 13}
@@ -2067,11 +2191,12 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2118,6 +2243,12 @@ MonoBehaviour:
     width: 664.6
     height: 203.59998
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -1920
+    y: 714
+    width: 831
+    height: 273
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2130,7 +2261,7 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: disco
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -2140,6 +2271,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2165,15 +2297,19 @@ MonoBehaviour:
 =======
     - Assets/ImportAssets/Poster
 >>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    - Assets/Materials
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
-    m_OriginalText: disco
+    m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2207,6 +2343,9 @@ MonoBehaviour:
 =======
   - Assets/ImportAssets/Poster
 >>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+  - Assets/Materials
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
     \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
@@ -2214,6 +2353,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2261,6 +2401,12 @@ MonoBehaviour:
     m_LastClickedID: 63978
     m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000030f7000032f7000034f7000036f7000038f70000
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    scrollPos: {x: 0, y: 675}
+    m_SelectedIDs: 16fa0000
+    m_LastClickedID: 64022
+    m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000032f7000036f7000038f70000eaf90000
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2295,6 +2441,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072e6000074e6000076e6000078e600007ae600007ce6000080e6000082e6000084e6000086e6000088e600008ae600008ce600008ee6000090e6000092e6000094e6000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 0000000016e7000018e700001ae700001ce700001ee70000
@@ -2314,6 +2461,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000030f7000032f7000034f7000036f7000038f70000
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000032f7000036f7000038f70000eaf90000
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2339,6 +2489,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2377,6 +2528,10 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 24c30000
     m_LastClickedInstanceID: 49956
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_SelectedInstanceIDs: 0e520200
+    m_LastClickedInstanceID: 152078
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c3000006cf000000000000
 >>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
@@ -2404,7 +2559,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 15}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 215.6667
@@ -2612,6 +2767,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 736.6667
     y: 0
     width: 581.99994
@@ -2630,9 +2786,12 @@ MonoBehaviour:
 =======
     x: 665.6
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: 832
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     y: 0
-    width: 520.80005
-    height: 229.59998
+    width: 651
+    height: 299
   m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -2658,11 +2817,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2710,6 +2870,12 @@ MonoBehaviour:
     width: 518.80005
     height: 203.59998
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -1088
+    y: 714
+    width: 649
+    height: 273
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2805,6 +2971,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1318.6666
     y: 0
     width: 388
@@ -2820,9 +2987,12 @@ MonoBehaviour:
 =======
     x: 1186.4
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: 1483
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     y: 0
-    width: 349.59998
-    height: 716.8
+    width: 437
+    height: 933
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
@@ -2848,11 +3018,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2887,6 +3058,12 @@ MonoBehaviour:
     width: 348.59998
     height: 690.8
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -437
+    y: 80
+    width: 436
+    height: 907
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2927,7 +3104,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Lighting
-    m_Image: {fileID: -1477008817101679558, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Lighting\u200B"
   m_Pos:
