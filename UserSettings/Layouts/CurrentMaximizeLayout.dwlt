@@ -14,17 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
+<<<<<<< HEAD
   - {fileID: 18}
+=======
+  - {fileID: 16}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_Position:
     serializedVersion: 2
     x: 0
     y: 36
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1706.6666
     height: 813.3333
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 5645
+=======
+  controlID: 41580
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+  controlID: 7242
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+  controlID: 43369
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  controlID: 57604
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  controlID: 41632
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+  controlID: 18028
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    width: 1536
+    height: 716.8
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 2923
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 1920
+    height: 933
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 55321
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 1536
+    height: 716.8
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 5468
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -47,10 +102,71 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 956.6667
     y: 78.66667
     width: 359.99994
     height: 443.33334
+=======
+    x: 2814
+    y: 79
+    width: 576
+=======
+    x: -928
+    y: 80
+    width: 478
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    x: -841
+    y: 80
+    width: 403
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 543
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    x: -858
+    y: 80
+    width: 420
+    height: 541
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 3165
+    y: 79
+    width: 237
+    height: 610
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 2954
+    y: 79
+    width: 448
+    height: 609
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    x: 824.8
+    y: 79.200005
+    width: 359.60004
+    height: 461.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -895
+    y: 80
+    width: 456
+    height: 608
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 763.2
+    y: 79.200005
+    width: 418.8
+    height: 386
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -72,7 +188,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -83,10 +199,30 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -360
     m_VBaseRangeMax: 360
+=======
+=======
+>>>>>>> 764e1d4 (Added Final Scene Animation)
+    m_HBaseRangeMin: -768
+    m_HBaseRangeMax: 768
+    m_VBaseRangeMin: -432
+    m_VBaseRangeMax: 432
+<<<<<<< HEAD
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -104,16 +240,84 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       width: 359.99994
       height: 422.33334
     m_Scale: {x: 0.28124994, y: 0.28124994}
     m_Translation: {x: 179.99997, y: 211.16667}
+=======
+      width: 576
+      height: 522
+    m_Scale: {x: 0.3, y: 0.3}
+    m_Translation: {x: 287.99997, y: 261}
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+      width: 478
+      height: 522
+    m_Scale: {x: 0.24895833, y: 0.24895835}
+    m_Translation: {x: 239, y: 261}
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+      width: 403
+      height: 522
+    m_Scale: {x: 0.20989583, y: 0.20989582}
+    m_Translation: {x: 201.5, y: 261}
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+      width: 420
+      height: 520
+    m_Scale: {x: 0.21875, y: 0.21875}
+    m_Translation: {x: 210, y: 260}
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+      width: 237
+      height: 589
+    m_Scale: {x: 0.1234375, y: 0.1234375}
+    m_Translation: {x: 118.5, y: 294.5}
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+      width: 448
+      height: 588
+    m_Scale: {x: 0.23333333, y: 0.23333333}
+    m_Translation: {x: 224, y: 294}
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+      width: 359.60004
+      height: 440.2
+    m_Scale: {x: 0.2341146, y: 0.2341146}
+    m_Translation: {x: 179.80002, y: 220.1}
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+      width: 456
+      height: 587
+    m_Scale: {x: 0.2375, y: 0.23750001}
+    m_Translation: {x: 228, y: 293.5}
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+      width: 418.8
+      height: 365
+    m_Scale: {x: 0.27265623, y: 0.27265623}
+    m_Translation: {x: 209.4, y: 182.5}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       x: -640
       y: -750.815
       width: 1280
@@ -121,6 +325,71 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.28124994
   m_LastWindowPixelSize: {x: 539.9999, y: 665}
+=======
+      x: -959.9999
+      y: -869.99994
+      width: 1919.9999
+      height: 1739.9999
+    m_MinimalGUI: 1
+  m_defaultScale: 0.3
+  m_LastWindowPixelSize: {x: 576, y: 543}
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+      x: -960
+      y: -1260
+      width: 1920
+      height: 2520
+    m_MinimalGUI: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_defaultScale: 0.24895833
+  m_LastWindowPixelSize: {x: 478, y: 543}
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+  m_defaultScale: 0.20989583
+  m_LastWindowPixelSize: {x: 403, y: 543}
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  m_defaultScale: 0.21875
+  m_LastWindowPixelSize: {x: 420, y: 541}
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  m_defaultScale: 0.1234375
+  m_LastWindowPixelSize: {x: 237, y: 610}
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+  m_defaultScale: 0.23333333
+  m_LastWindowPixelSize: {x: 448, y: 609}
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+      x: -768
+      y: -940.1379
+      width: 1536
+      height: 1880.2758
+    m_MinimalGUI: 1
+  m_defaultScale: 0.2341146
+  m_LastWindowPixelSize: {x: 449.50006, y: 576.5}
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+      x: -960
+      y: -1235.7894
+      width: 1920
+      height: 2471.5789
+    m_MinimalGUI: 1
+  m_defaultScale: 0.2375
+  m_LastWindowPixelSize: {x: 456, y: 608}
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+      x: -768
+      y: -669.341
+      width: 1536
+      height: 1338.682
+    m_MinimalGUI: 1
+  m_defaultScale: 0.27265623
+  m_LastWindowPixelSize: {x: 523.5, y: 482.5}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -146,12 +415,72 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1318.6666
     height: 813.3333
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
   controlID: 5608
+=======
+    width: 1472
+=======
+    width: 1484
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 933
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  controlID: 41581
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+  controlID: 7243
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+  controlID: 43370
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  controlID: 57605
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  controlID: 41595
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+  controlID: 18029
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    width: 1186.4
+    height: 716.8
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 2924
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 1483
+    height: 933
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 55322
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 1184
+    height: 716.8
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 5392
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -173,12 +502,84 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1318.6666
     height: 469.33334
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
   controlID: 5536
+=======
+    width: 1472
+=======
+    width: 1484
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 569
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  controlID: 41582
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+  controlID: 7244
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+  controlID: 43371
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    height: 567
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 57606
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    height: 636
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 41523
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    height: 635
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 18030
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    width: 1186.4
+    height: 487.2
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 2925
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 1483
+    height: 634
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 55323
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 1184
+    height: 412
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 5368
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -197,10 +598,55 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 336.66666
     height: 469.33334
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 365
+=======
+    width: 360
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    width: 358
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 569
+=======
+    width: 492
+    height: 567
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    width: 422
+    height: 636
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 423
+    height: 635
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    width: 336.8
+    height: 487.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 411
+    height: 634
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 313.6
+    height: 412
+>>>>>>> 764e1d4 (Added Final Scene Animation)
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -227,10 +673,65 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 78.66667
     width: 335.66666
     height: 443.33334
+=======
+    x: 1920
+    y: 79
+    width: 364
+=======
+    x: -1920
+    y: 80
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 359
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    width: 357
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 543
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    width: 491
+    height: 541
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1920
+    y: 79
+<<<<<<< HEAD
+    width: 421
+    height: 610
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 422
+    height: 609
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    x: 0
+    y: 79.200005
+    width: 335.8
+    height: 461.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -1920
+    y: 80
+    width: 410
+    height: 608
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 0
+    y: 79.200005
+    width: 312.6
+    height: 386
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -244,10 +745,73 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: e095ffff
       m_LastClickedID: -27168
       m_ExpandedIDs: e095ffffc6aeffff5ec5ffff1afbffffe2c3000086ea00000cec00001eec00002eec000004ed00007aed000024ef000082ef000080f200002ef50000d2f600001ef8000000fe0000
+=======
+      scrollPos: {x: 0, y: 649}
+      m_SelectedIDs: aec00000
+      m_LastClickedID: 49326
+      m_ExpandedIDs: 14fcfeffa6e5ffffb0e5ffff1afbffffb4b70000c4b7000094b80000b4b8000014bb0000b6bc00003abd0000e2be0000aec0000070c300004ac90000
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: b4c00000
+      m_LastClickedID: 49332
+      m_ExpandedIDs: 78b8ffff1cf4ffff1ef4ffff6af5ffff1afbffffbcb70000ccb7000052bd0000d6c000001ac2000098c30000f6c3000080c40000
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+      scrollPos: {x: 0, y: 3062}
+      m_SelectedIDs: eaf8ffff
+      m_LastClickedID: -1814
+      m_ExpandedIDs: cadbfdff78b8ffff94ebffff98ebffffbcebffffc0ebffffc4ebfffff0ebfffffaebffff90f0ffff1cf4ffff1ef4ffff6af5ffff1afbffff82b70000a6b70000aeb70000bcb70000ccb70000dab70000a4b80000c4b8000034b9000062b9000090ba0000f4ba000016bb00001abb000034bc000058bc0000bcbc000040bd000052bd0000e8bd0000e8be0000f0be00006ac00000b4c00000d6c000001ac200001ec2000038c3000076c3000098c30000f6c3000080c400005ec5000072c6000038c7000054c7000064c70000cac700000ac80000e4c8000006c9000030c90000
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+      scrollPos: {x: 0, y: 120}
+      m_SelectedIDs: f297fcff
+      m_LastClickedID: -223246
+      m_ExpandedIDs: a68dfcffa88dfcffaa8dfcffd88dfcfff497fcff1cabfcffa857fdff2e6cfdff3eb3fdff58b3fdffd25dfeffa4d9ffff4ef1fffff6f9fffff8f9ffff1afbffffb0b70000c6b70000d6b70000aeb8000028b9000056ba00009eba000018be00001ac100005ac2000018c3000080c30000bec30000e0c3000048c40000cac40000dec400005ac5000086c50000
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+      scrollPos: {x: 0, y: 1680}
+      m_SelectedIDs: c044fcff
+      m_LastClickedID: -244544
+      m_ExpandedIDs: c044fcfff88bfcffe6c1feff1e1cffff88d0fffff8d7ffff60d9ffff64d9ffff88d9ffff8cd9ffff90d9ffffbcd9ffffc6d9ffff82f7ffffb0faffff1afbffff6ab7000036b8000038b9000058b900004abb0000eebd0000fcbd000008be000092be0000dcbe000050bf0000a6bf000062c00000c6c30000e8c300009ec4000012c5000044c500005ec5000076cb0000
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: debf0000
+      m_LastClickedID: 49118
+      m_ExpandedIDs: 94cfffffd2e5fffff6e7ffffd6f7fffff2faffff1afbffff74b7000044b8000054b8000056b90000fcb900006abb000014be00008abf00004ec4000070c4000022c500009cc50000cec50000e8c50000e2cc0000
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+      scrollPos: {x: 0, y: 935.8}
+      m_SelectedIDs: 24c30000
+      m_LastClickedID: 49956
+      m_ExpandedIDs: a4e4ffff1afbffff60b8000076b8000074b9000056be00007ebe000068c00000c6c40000e8c400009ac5000014c6000046c6000060c60000
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 0e520200
+      m_LastClickedID: 152078
+      m_ExpandedIDs: a4adfcffc8adfcffccadfcffd0adfcfffcadfcff06aefcff10c5fcff08cffcff0acffcff84d3fcff6afcfcff9c59ffffa881ffffa4e4ffff1afbffff60b8000076b8000074b9000004bc000056be0000dabf000068c00000c6c40000e8c400009ac5000014c6000046c6000060c60000f6b70100563e0200743e02007a3e0200903e0200783f0200b03f020054400200984102000842020032420200bc4302008244020018450200de450200fa4602007e4a02009a4a0200ca4a0200ec4a02009e4b0200b44b0200184c02004a4c0200644c0200f24c0200465102005c5102008651020092520200
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+      scrollPos: {x: 0, y: 412.42737}
+      m_SelectedIDs: 02ca0000
+      m_LastClickedID: 51714
+      m_ExpandedIDs: 56d1ffff58d1ffff5cd1ffff60d1ffff64d1ffff90d1ffff94d1ffff98d1ffffc4d1ffffced1ffff78dfffff1afbffffa4b90000a8b90000b0c5000020c600006cc70000
+>>>>>>> 764e1d4 (Added Final Scene Animation)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -287,12 +851,53 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 336.66666
     y: 0
     width: 620
     height: 469.33334
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    x: 365
+=======
+    x: 360
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    x: 358
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    x: 492
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 422
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 423
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    x: 336.8
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: 411
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 313.6
+>>>>>>> 764e1d4 (Added Final Scene Animation)
+    y: 0
+    width: 449.6
+    height: 412
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -320,10 +925,71 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 336.6667
     y: 78.66667
     width: 618
     height: 443.33334
+=======
+    x: 2285
+    y: 79
+    width: 527
+=======
+    x: -1560
+    y: 80
+    width: 630
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    x: -1562
+    y: 80
+    width: 719
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 543
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    x: -1428
+    y: 80
+    width: 568
+    height: 541
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 2342
+    y: 79
+    width: 821
+    height: 610
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 2343
+    y: 79
+    width: 609
+    height: 609
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    x: 336.80002
+    y: 79.200005
+    width: 486
+    height: 461.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -1509
+    y: 80
+    width: 612
+    height: 608
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 313.6
+    y: 79.200005
+    width: 447.6
+    height: 386
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -433,7 +1099,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 1
       containerId: overlay-container--right
-      displayed: 0
+      displayed: 1
       id: Scene View/Light Settings
       index: 1
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -576,10 +1242,17 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Particles
       index: 0
+<<<<<<< HEAD
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-56.0,"y":-26.666656494140626},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: -56, y: -26.666656}
+=======
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-56.0,"y":-26.6666259765625},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -56, y: -26.666626}
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       layout: 4
@@ -744,12 +1417,12 @@ MonoBehaviour:
       displayed: 1
       id: Overlays/OverlayMenu
       index: 1
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-315.199951171875,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 25.333332}
+      snapOffset: {x: -315.19995, y: 25.333332}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       layout: 1
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -879,6 +1552,20 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: UnityEditor.LightProbeGroupOverlay
+      index: 11
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
       scrollOffset: 0
@@ -906,21 +1593,75 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -55.594185, y: 1.9527369, z: -7.159866}
     speed: 2
     m_Value: {x: -55.594185, y: 1.9527369, z: -7.159866}
+=======
+    m_Target: {x: -37.65847, y: 1.2605325, z: -6.8799276}
+    speed: 2
+    m_Value: {x: -37.65847, y: 1.2605325, z: -6.8799276}
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    m_Target: {x: -37.339268, y: 1.8490549, z: -9.170407}
+    speed: 2
+    m_Value: {x: -37.339268, y: 1.8490549, z: -9.170407}
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    m_Target: {x: -38.286877, y: 0.79632, z: -9.262303}
+    speed: 2
+    m_Value: {x: -38.286877, y: 0.79632, z: -9.262303}
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    m_Target: {x: -33.16935, y: -4.066556, z: 12.211267}
+    speed: 2
+    m_Value: {x: -33.16935, y: -4.066556, z: 12.211267}
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_Target: {x: -32.093697, y: -22.92941, z: -22.433508}
+    speed: 2
+    m_Value: {x: -32.093697, y: -22.92941, z: -22.433508}
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    m_Target: {x: -29.123466, y: 2.6979694, z: 11.660751}
+    speed: 2
+    m_Value: {x: -29.123466, y: 2.6979694, z: 11.660751}
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    m_Target: {x: -29.869963, y: -7.353797, z: 14.687893}
+    speed: 2
+    m_Value: {x: -29.869963, y: -7.353797, z: 14.687893}
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_Target: {x: -26.536867, y: -22.640232, z: -20.370346}
+    speed: 2
+    m_Value: {x: -26.536867, y: -22.640232, z: -20.370346}
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    m_Target: {x: -54.112328, y: -32.019024, z: -20.512278}
+    speed: 2
+    m_Value: {x: -54.112328, y: -32.019024, z: -20.512278}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_RenderMode: 0
   m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
+    drawMode: 24
+    name: Light Overlap
+    section: Baked Global Illumination
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
   m_SceneViewState:
     m_AlwaysRefresh: 1
     showFog: 1
     showSkybox: 1
-    showFlares: 0
+    showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
@@ -954,6 +1695,15 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.1354487, y: 0.50845844, z: -0.08222002, w: 0.8472644}
     speed: 2
     m_Value: {x: 0.13534766, y: 0.5080792, z: -0.082158685, w: 0.8466324}
@@ -961,13 +1711,83 @@ MonoBehaviour:
     m_Target: 0.6794595
     speed: 2
     m_Value: 0.6794595
+=======
+    m_Target: {x: -0.2156625, y: -0.41532695, z: 0.10203114, w: -0.8778585}
+=======
+    m_Target: {x: 0.20872231, y: -0.47401464, z: 0.1167623, w: 0.8474311}
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    m_Target: {x: 0.008108922, y: 0.99192196, z: -0.08951375, w: 0.08981257}
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    m_Target: {x: 0.055243745, y: -0.79406625, z: -0.0690555, w: -0.6017214}
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_Target: {x: 0.005187679, y: -0.9991847, z: 0.023817226, w: 0.03932815}
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    m_Target: {x: 0.036909312, y: -0.6262901, z: 0.029708974, w: 0.77815545}
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    m_Target: {x: -0.37832963, y: -0.16281341, z: -0.06779752, w: 0.9087369}
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_Target: {x: 0.008721487, y: 0.9883738, z: -0.13877755, w: 0.062036213}
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    m_Target: {x: 0.09255336, y: -0.8504221, z: 0.15943715, w: 0.4929102}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
+    speed: 2
+    m_Value: {x: -0.09254575, y: 0.85035217, z: -0.15942404, w: -0.49286968}
+  m_Size:
+    m_Target: 14.686236
+    speed: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Value: 0.6787971
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    m_Value: 1.2473081
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    m_Value: 0.93237436
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    m_Value: 12.71512
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_Value: 9.443764
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    m_Value: 6.4597406
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    m_Value: 8.2675495
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_Value: 10.332024
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    m_Value: 14.686236
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
+<<<<<<< HEAD
     m_Speed: 0.36082
     m_SpeedNormalized: 0.17999999
+=======
+    m_Speed: 1.3203397
+    m_SpeedNormalized: 0.65999985
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -978,8 +1798,8 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
+  m_LastSceneViewRotation: {x: -0.039331466, y: 0.8243319, z: -0.05771302, w: -0.5617854}
+  m_LastSceneViewOrtho: 1
   m_Viewpoint:
     m_SceneView: {fileID: 8}
     m_CameraOverscanSettings:
@@ -990,9 +1810,9 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_LastDebugDrawMode:
-    drawMode: 35
-    name: 
-    section: 
+    drawMode: 24
+    name: Light Overlap
+    section: Baked Global Illumination
   m_ViewIsLockedToObject: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -1015,10 +1835,17 @@ MonoBehaviour:
     m_TextWithWhitespace: "Animator\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 336.6667
     y: 78.66667
     width: 618
     height: 443.33334
+=======
+    x: -1565
+    y: 80
+    width: 720
+    height: 543
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1043,6 +1870,7 @@ MonoBehaviour:
     - {fileID: 2206185477919536935, guid: adc4f3baa91eed241939ecda9930f83a, type: 2}
     - {fileID: -7791504554348528221, guid: e97db4b15713a35409345986269ec46b, type: 2}
     m_ValueSerializationHelper:
+<<<<<<< HEAD
     - e00: 0.34242424
       e01: 0
       e02: 0
@@ -1051,6 +1879,16 @@ MonoBehaviour:
       e11: 0.34242424
       e12: 0
       e13: 78.86366
+=======
+    - e00: 0.37836596
+      e01: 0
+      e02: 0
+      e03: 166.11905
+      e10: 0
+      e11: 0.37836596
+      e12: 0
+      e13: 73.32559
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
       e20: 0
       e21: 0
       e22: 1
@@ -1234,10 +2072,67 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 956.6667
     y: 0
     width: 361.99994
     height: 469.33334
+=======
+    x: 894
+=======
+    x: 992
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    x: 1079
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    y: 0
+    width: 405
+    height: 569
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    x: 1062
+    y: 0
+    width: 422
+    height: 567
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1245
+    y: 0
+    width: 239
+    height: 636
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 1034
+    y: 0
+    width: 450
+    height: 635
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    x: 824.8
+    y: 0
+    width: 361.60004
+    height: 487.2
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: 1025
+    y: 0
+    width: 458
+    height: 634
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 763.2
+    y: 0
+    width: 420.8
+    height: 412
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 2}
@@ -1253,6 +2148,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1263,6 +2159,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     y: 469.33334
     width: 1318.6666
     height: 343.99997
@@ -1270,6 +2172,62 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 5609
+=======
+    y: 569
+=======
+    y: 567
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    y: 636
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    y: 635
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+    width: 1484
+    height: 298
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  controlID: 41671
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+  controlID: 7269
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+  controlID: 43449
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  controlID: 57687
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  controlID: 41596
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+  controlID: 18124
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    y: 487.2
+    width: 1186.4
+    height: 229.59998
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 2996
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    y: 634
+    width: 1483
+    height: 299
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 55362
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1279,26 +2237,76 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+=======
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: AnimationWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 736.6667
     height: 343.99997
+=======
+    width: 827
+=======
+    width: 832
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 364
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    height: 366
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    height: 297
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    width: 833
+    height: 298
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    width: 665.6
+    height: 229.59998
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    width: 832
+    height: 299
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
+=======
+    y: 412
+    width: 1184
+    height: 304.8
+  m_MinSize: {x: 51, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_ActualView: {fileID: 13}
   m_Panes:
+  - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &13
+=======
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 3
+--- !u!114 &12
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1319,10 +2327,66 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 548
     width: 735.6667
     height: 317.99997
+=======
+    x: 1920
+    y: 648
+=======
+    x: -1920
+<<<<<<< HEAD
+    y: 649
+<<<<<<< HEAD
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+    width: 826
+=======
+    width: 831
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 338
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    y: 647
+    width: 831
+    height: 340
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 1920
+<<<<<<< HEAD
+    y: 715
+    width: 831
+    height: 271
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    y: 714
+    width: 832
+    height: 272
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    x: 0
+    y: 566.4
+    width: 664.6
+    height: 203.59998
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -1920
+    y: 714
+    width: 831
+    height: 273
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 0
+    y: 535.2
+    width: 663.8
+    height: 234.79999
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1345,7 +2409,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts/Player Related
+=======
+    - Assets/ImportAssets/Cloak/mat2
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    - Assets/ImportAssets/Cloak
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    - Assets
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    - Assets/Animation/Ground Floor
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    - Packages/com.unity.render-pipelines.universal/Runtime/Materials
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    - Assets/ImportAssets/Poster
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    - Assets/Materials
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1355,6 +2447,13 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scripts/Player Related
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
@@ -1365,6 +2464,94 @@ MonoBehaviour:
     m_SelectedIDs: 80e90000
     m_LastClickedID: 59776
     m_ExpandedIDs: 0000000072e6000074e6000076e6000078e600007ae600007ce600007ee6000080e6000082e6000084e6000086e6000088e600008ae600008ce600008ee6000090e6000092e6000094e6000000ca9a3bffffff7f
+=======
+  - Assets/ImportAssets/Cloak/mat2
+=======
+  - Assets/ImportAssets/Cloak
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+  - Assets
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+  - Assets/Animation/Ground Floor
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+  - Packages/com.unity.render-pipelines.universal/Runtime/Materials
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+  - Assets/ImportAssets/Poster
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+  - Assets/Materials
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: "C:\\Users\\OREN_\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF
+    \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Projects\\Unity\\3D Third Person\\3D Third
+    Person Clone\\Finding-Tom\\Finding-Tom"
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 38}
+    m_SelectedIDs: 8c7c0600
+    m_LastClickedID: 425100
+    m_ExpandedIDs: 0000000016e7000018e700001ae700001ce700001ee70000d8e90000
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: 4ae90000
+    m_LastClickedID: 59722
+    m_ExpandedIDs: 0000000036e7000038e700003ae700003ce700003ee7000032e90000
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 36e70000
+    m_LastClickedID: 59190
+    m_ExpandedIDs: 0000000036e7000038e700003ae700003ce700003ee70000
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    scrollPos: {x: 0, y: 47}
+    m_SelectedIDs: 50680100
+    m_LastClickedID: 92240
+    m_ExpandedIDs: 0000000062f2000064f2000066f2000068f200006af200006af40000c0f40000e2f40000e8f4000050680100
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    scrollPos: {x: 0, y: 1951}
+    m_SelectedIDs: d8f90000
+    m_LastClickedID: 63960
+    m_ExpandedIDs: 00000000f2f50000f4f50000f6f50000f8f50000faf50000fcf50000fef5000000f6000002f6000004f60000daf90000dcf90000ffffff7f
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    scrollPos: {x: 0, y: 405}
+    m_SelectedIDs: 2af80000
+    m_LastClickedID: 63530
+    m_ExpandedIDs: 0000000088f600008af600008cf600008ef6000090f6000092f6000094f6000096f6000098f600009af60000
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    scrollPos: {x: 0, y: 473.2}
+    m_SelectedIDs: eaf90000
+    m_LastClickedID: 63978
+    m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000030f7000032f7000034f7000036f7000038f70000
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    scrollPos: {x: 0, y: 675}
+    m_SelectedIDs: 16fa0000
+    m_LastClickedID: 64022
+    m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000032f7000036f7000038f70000eaf90000
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    scrollPos: {x: 0, y: 191}
+    m_SelectedIDs: c6fa0000
+    m_LastClickedID: 64198
+    m_ExpandedIDs: 0000000094f8000096f8000098f800009af800009cf800009ef80000a0f80000
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1381,7 +2568,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1393,7 +2580,39 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072e6000074e6000076e6000078e600007ae600007ce6000080e6000082e6000084e6000086e6000088e600008ae600008ce600008ee6000090e6000092e6000094e6000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 0000000016e7000018e700001ae700001ce700001ee70000
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    m_ExpandedIDs: 0000000036e7000038e700003ae700003ce700003ee70000
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+=======
+    m_ExpandedIDs: 0000000062f2000064f2000066f2000068f200006af200006af40000c0f40000e2f40000e8f4000050680100
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_ExpandedIDs: 00000000f2f50000f4f50000f6f50000f8f50000faf50000fcf50000fef5000000f6000002f6000004f60000
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    m_ExpandedIDs: 0000000088f600008af600008cf600008ef6000090f6000092f6000094f6000096f6000098f600009af60000
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000030f7000032f7000034f7000036f7000038f70000
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000032f7000036f7000038f70000eaf90000
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    m_ExpandedIDs: 0000000094f8000096f8000098f800009af800009cf800009ef80000a0f80000
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1419,10 +2638,58 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: e095ffff
     m_LastClickedInstanceID: -27168
+=======
+    m_SelectedInstanceIDs: aec00000
+    m_LastClickedInstanceID: 49326
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    m_SelectedInstanceIDs: b4c00000
+    m_LastClickedInstanceID: 49332
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c3000006cf00000000000024d3000040b3000044fefdfff842fefffaa501005abf0300
+=======
+    m_SelectedInstanceIDs: eaf8ffff
+    m_LastClickedInstanceID: -1814
+=======
+    m_SelectedInstanceIDs: f297fcff
+    m_LastClickedInstanceID: -223246
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    m_SelectedInstanceIDs: c044fcff
+    m_LastClickedInstanceID: -244544
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    m_SelectedInstanceIDs: debf0000
+    m_LastClickedInstanceID: 49118
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    m_SelectedInstanceIDs: 24c30000
+    m_LastClickedInstanceID: 49956
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    m_SelectedInstanceIDs: 0e520200
+    m_LastClickedInstanceID: 152078
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+    m_HadKeyboardFocusLastEvent: 0
+=======
+    m_SelectedInstanceIDs: f2fa0000
+    m_LastClickedInstanceID: 64242
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> 764e1d4 (Added Final Scene Animation)
+    m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000e6b40000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c3000006cf000000000000
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1439,7 +2706,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1450,8 +2717,13 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 215.6667
 --- !u!114 &14
+=======
+  m_DirectoriesAreaWidth: 214.33337
+--- !u!114 &13
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1460,6 +2732,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 12373, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1647,10 +2920,26 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ConsoleWindow
+=======
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Animation\u200B"
+  m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 736.6667
     y: 0
     width: 581.99994
@@ -1658,12 +2947,54 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
+=======
+    x: 827
+=======
+    x: 832
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    x: 833
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    x: 665.6
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: 832
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+    y: 0
+    width: 651
+    height: 299
+  m_MinSize: {x: 102, y: 126}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 15}
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &16
+=======
+    x: 0
+    y: 491.2
+    width: 1183
+    height: 278.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 51714
+--- !u!114 &14
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1684,10 +3015,67 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 736.6667
     y: 548
     width: 579.99994
     height: 317.99997
+=======
+    x: 2747
+    y: 648
+=======
+    x: -1093
+    y: 649
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+    width: 643
+=======
+    x: -1088
+    y: 647
+    width: 650
+<<<<<<< HEAD
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 338
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    height: 340
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 2752
+    y: 715
+    width: 650
+    height: 271
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+=======
+    x: 2753
+    y: 714
+    width: 649
+    height: 272
+>>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
+=======
+    x: 665.60004
+    y: 566.4
+    width: 518.80005
+    height: 203.59998
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -1088
+    y: 714
+    width: 649
+    height: 273
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 0
+    y: 480
+    width: 1184.6
+    height: 234.79999
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1699,7 +3087,11 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
+<<<<<<< HEAD
 --- !u!114 &17
+=======
+--- !u!114 &15
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1720,10 +3112,24 @@ MonoBehaviour:
     m_TextWithWhitespace: "Input Debug\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 736
     y: 536
     width: 572.6666
     height: 330.00003
+=======
+    x: 2751
+    y: 648
+    width: 650
+    height: 338
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 0
+    y: 535.2
+    width: 1184.6
+    height: 234.79999
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1758,7 +3164,11 @@ MonoBehaviour:
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
+<<<<<<< HEAD
 --- !u!114 &18
+=======
+--- !u!114 &16
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1773,6 +3183,11 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1318.6666
     y: 0
     width: 388
@@ -1780,12 +3195,43 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
+=======
+    x: 1472
+=======
+    x: 1484
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+=======
+    x: 1186.4
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: 1483
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 1184
+>>>>>>> 764e1d4 (Added Final Scene Animation)
+    y: 0
+    width: 352
+    height: 716.8
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+<<<<<<< HEAD
+  m_ActualView: {fileID: 18}
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &19
+=======
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &17
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1806,10 +3252,54 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1318.6667
     y: 78.66667
     width: 387
     height: 787.3333
+=======
+    x: 3392
+    y: 79
+=======
+    x: -448
+    y: 80
+>>>>>>> 341f5c2 (Added new Open Scene Animation)
+    width: 447
+=======
+    x: -436
+    y: 80
+=======
+    x: 3404
+    y: 79
+>>>>>>> 0d19a1d (Added few Animations and Particles to Tom's Party at ground floor)
+    width: 435
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    height: 907
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
+=======
+    x: 1186.4
+    y: 79.200005
+    width: 348.59998
+    height: 690.8
+>>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+    x: -437
+    y: 80
+    width: 436
+    height: 907
+>>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 1184
+    y: 79.200005
+    width: 351
+    height: 690.8
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1834,7 +3324,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &20
+=======
+--- !u!114 &18
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1855,10 +3349,27 @@ MonoBehaviour:
     m_TextWithWhitespace: "Lighting\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1310
     y: 78.66667
     width: 395.66663
     height: 787.3333
+=======
+    x: -448
+=======
+    x: -436
+>>>>>>> faaf197 (Fixed open scene Animation and Box Vol)
+    y: 80
+    width: 435
+=======
+    x: 3403
+    y: 79
+    width: 436
+>>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+    height: 907
+>>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
