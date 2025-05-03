@@ -20,6 +20,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 42.666668
     width: 1706.6667
@@ -34,10 +35,13 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> d509ad2 (Deleted Colliders in Ground Floor)
+=======
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     x: 0
     y: 43.2
     width: 1536
     height: 772.8
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 341f5c2 (Added new Open Scene Animation)
   m_ShowMode: 4
@@ -71,10 +75,68 @@ MonoBehaviour:
   m_Title: Hierarchy
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   m_RootView: {fileID: 2}
+=======
+  m_ShowMode: 4
+  m_Title: Scene
+  m_RootView: {fileID: 4}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InputDebuggerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 788.8
+    y: 0
+    width: 395.2
+    height: 304.8
+  m_MinSize: {x: 52, y: 76}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 21}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 412
+    width: 1184
+    height: 304.8
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 4831
+  draggingID: 0
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,13 +149,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
   - {fileID: 5}
-  - {fileID: 4}
+  - {fileID: 7}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,13 +179,17 @@ MonoBehaviour:
     width: 1920
     height: 989
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 1536
+    height: 772.8
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 36
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &3
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,6 +210,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1706.6666
 =======
     width: 1536
@@ -156,11 +224,14 @@ MonoBehaviour:
 =======
     width: 1920
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 1536
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &4
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,6 +247,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,6 +410,13 @@ MonoBehaviour:
   controlID: 55727
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   draggingID: 0
+=======
+    y: 752.8
+    width: 1536
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -352,12 +431,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 8}
+  - {fileID: 14}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 36
+    width: 1536
+    height: 716.8
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 46
+  draggingID: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
   - {fileID: 9}
-  - {fileID: 10}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,8 +514,43 @@ MonoBehaviour:
   vertical: 0
   controlID: 55728
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 1184
+    height: 716.8
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 47
   draggingID: 0
---- !u!114 &8
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 11}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1184
+    height: 412
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 48
+>>>>>>> 764e1d4 (Added Final Scene Animation)
+  draggingID: 0
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -427,6 +567,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -460,6 +601,10 @@ MonoBehaviour:
     width: 411
     height: 634
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 402.4
+    height: 412
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -468,7 +613,7 @@ MonoBehaviour:
   - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &9
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -483,6 +628,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,9 +658,12 @@ MonoBehaviour:
 =======
     x: 411
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 402.4
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     y: 0
-    width: 614
-    height: 634
+    width: 296.00003
+    height: 412
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
 >>>>>>> 55a5a1d (Added Cloak and Mask to the main character (Ari))
@@ -524,7 +673,7 @@ MonoBehaviour:
   - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &10
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -539,6 +688,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +735,12 @@ MonoBehaviour:
     width: 458
     height: 634
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 698.4
+    y: 0
+    width: 485.59998
+    height: 412
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -592,6 +748,7 @@ MonoBehaviour:
   - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< HEAD
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -673,6 +830,9 @@ MonoBehaviour:
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
   draggingID: 0
 --- !u!114 &12
+=======
+--- !u!114 &13
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -689,6 +849,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -720,6 +881,10 @@ MonoBehaviour:
     width: 832
     height: 299
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    width: 788.8
+    height: 304.8
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 19}
@@ -727,6 +892,7 @@ MonoBehaviour:
   - {fileID: 19}
   - {fileID: 20}
   m_Selected: 0
+<<<<<<< HEAD
   m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
@@ -781,6 +947,9 @@ MonoBehaviour:
   - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 1
+=======
+  m_LastSelected: 0
+>>>>>>> 764e1d4 (Added Final Scene Animation)
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -796,6 +965,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -835,6 +1005,12 @@ MonoBehaviour:
     width: 437
     height: 933
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 1184
+    y: 0
+    width: 352
+    height: 716.8
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 22}
@@ -862,11 +1038,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -918,6 +1095,12 @@ MonoBehaviour:
     width: 456
     height: 608
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 698.4
+    y: 79.200005
+    width: 483.59998
+    height: 386
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -952,15 +1135,19 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -360
     m_VBaseRangeMax: 360
 =======
+=======
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_HBaseRangeMin: -768
     m_HBaseRangeMax: 768
     m_VBaseRangeMin: -432
     m_VBaseRangeMax: 432
+<<<<<<< HEAD
 >>>>>>> 8538703 (Added More Toms Animations to Ground Floor, and fixed box Vol.)
 =======
     m_HBaseRangeMin: -960
@@ -968,12 +1155,14 @@ MonoBehaviour:
     m_VBaseRangeMin: -540
     m_VBaseRangeMax: 540
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -985,6 +1174,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1024,12 +1214,19 @@ MonoBehaviour:
     m_Scale: {x: 0.2375, y: 0.23750001}
     m_Translation: {x: 228, y: 293.5}
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+      width: 483.59998
+      height: 365
+    m_Scale: {x: 0.31484377, y: 0.31484377}
+    m_Translation: {x: 241.79997, y: 182.50002}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1091,6 +1288,15 @@ MonoBehaviour:
   m_defaultScale: 0.2375
   m_LastWindowPixelSize: {x: 456, y: 608}
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+      x: -767.9999
+      y: -579.6526
+      width: 1535.9998
+      height: 1159.3052
+    m_MinimalGUI: 1
+  m_defaultScale: 0.31484374
+  m_LastWindowPixelSize: {x: 604.5, y: 482.5}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1113,11 +1319,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1167,6 +1374,12 @@ MonoBehaviour:
     width: 410
     height: 608
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 0
+    y: 79.200005
+    width: 401.4
+    height: 386
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1180,6 +1393,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1230,6 +1444,12 @@ MonoBehaviour:
       m_LastClickedID: 150430
       m_ExpandedIDs: a4adfcffc8adfcffccadfcffd0adfcfffcadfcff06aefcff10c5fcff08cffcff0acffcff84d3fcff6afcfcff9c59ffffa881ffffa4e4ffff1afbffff60b8000076b8000074b9000004bc000056be0000dabf000068c00000c6c40000e8c400009ac5000014c6000046c6000060c60000f6b70100563e0200743e02007a3e0200903e0200b03f020054400200984102000842020032420200bc4302008244020018450200fa4602007e4a02009a4a0200ca4a02009e4b0200b44b0200184c02004a4c0200644c0200f24c0200465102005c5102008651020092520200
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+      scrollPos: {x: 0, y: 218.90344}
+      m_SelectedIDs: 20c60000
+      m_LastClickedID: 50720
+      m_ExpandedIDs: 9680ffff56d1ffff58d1ffff5cd1ffff60d1ffff64d1ffff90d1ffff94d1ffff98d1ffffc4d1ffffced1ffff1afbffffa4b90000a8b90000b0c5000020c600006cc7000092c70000aac80000
+>>>>>>> 764e1d4 (Added Final Scene Animation)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1246,7 +1466,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 10}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1270,11 +1490,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,6 +1547,12 @@ MonoBehaviour:
     width: 612
     height: 608
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 402.4
+    y: 79.200005
+    width: 294.00003
+    height: 386
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1424,26 +1651,26 @@ MonoBehaviour:
       displayed: 1
       id: Orientation
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":4.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-112.0,"y":26.400001525878908},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 4}
+      snapOffset: {x: -112, y: 26.400002}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
+    - dockPosition: 0
+      containerId: Floating
       displayed: 1
       id: Scene View/Light Settings
       index: 1
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
-      floating: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":true,"m_FloatingSnapOffset":{"x":-290.40106201171877,"y":-109.60000610351563},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 1
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: -290.40106, y: -109.600006}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -1465,7 +1692,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/Cloth Constraints
-      index: 2
+      index: 1
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1479,7 +1706,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/Cloth Collisions
-      index: 3
+      index: 2
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1535,7 +1762,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/Occlusion Culling
-      index: 4
+      index: 3
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1549,7 +1776,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/Physics Debugger
-      index: 5
+      index: 4
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1563,7 +1790,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/Scene Visibility
-      index: 6
+      index: 5
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1668,7 +1895,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/TrailRenderer
-      index: 7
+      index: 6
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1794,7 +2021,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: APV Overlay
-      index: 8
+      index: 7
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1822,7 +2049,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: SceneView/CamerasOverlay
-      index: 9
+      index: 8
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1836,7 +2063,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 0
       id: Scene View/PBR Validation Settings
-      index: 10
+      index: 9
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1904,7 +2131,7 @@ MonoBehaviour:
       sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
-      scrollOffset: 0
+      scrollOffset: 105.599976
     - containerId: overlay-toolbar__left
       scrollOffset: 0
     - containerId: overlay-container--left
@@ -1929,6 +2156,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1962,6 +2190,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -7.05818, y: -0.78056395, z: -5.82017}
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    m_Target: {x: -38.7793, y: 1.1450278, z: -8.016897}
+    speed: 2
+    m_Value: {x: -38.7793, y: 1.1450278, z: -8.016897}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 24
@@ -2012,6 +2245,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.06659503, y: 0.63506526, z: -0.055920593, w: 0.7685599}
     speed: 2
     m_Value: {x: 0.06577633, y: 0.63462806, z: -0.055241432, w: 0.7680295}
@@ -2033,11 +2267,15 @@ MonoBehaviour:
 =======
     m_Target: {x: 0.019107206, y: 0.66190505, z: -0.016882341, w: 0.7492047}
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    m_Target: {x: 0.32985377, y: -0.66493857, z: 0.52305436, w: 0.41911572}
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     speed: 2
-    m_Value: {x: 0.019081134, y: 0.6630029, z: -0.01691034, w: 0.7481826}
+    m_Value: {x: 0.32931936, y: -0.6655024, z: 0.52220625, w: 0.41947117}
   m_Size:
-    m_Target: 14.608362
+    m_Target: 0.46305633
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2056,6 +2294,9 @@ MonoBehaviour:
 =======
     m_Value: 15.296714
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    m_Value: 0.48487574
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2110,7 +2351,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Animator\u200B"
   m_Pos:
@@ -2353,11 +2594,12 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2407,6 +2649,12 @@ MonoBehaviour:
     width: 831
     height: 273
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 0
+    y: 491.2
+    width: 787.8
+    height: 278.8
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2499,6 +2747,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 38}
     m_SelectedIDs: 8c7c0600
     m_LastClickedID: 425100
@@ -2536,6 +2785,12 @@ MonoBehaviour:
     m_LastClickedID: 64022
     m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000032f7000036f7000038f70000eaf90000
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    scrollPos: {x: 0, y: 77.20001}
+    m_SelectedIDs: 44fb0000
+    m_LastClickedID: 64324
+    m_ExpandedIDs: 000000008af800008cf800008ef8000090f8000092f8000094f8000096f80000
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2552,7 +2807,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 13}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2564,6 +2819,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2593,6 +2849,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000026f7000028f700002af700002cf700002ef7000032f7000036f7000038f70000eaf90000
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    m_ExpandedIDs: 000000008af800008cf800008ef8000090f8000092f8000094f8000096f80000
+>>>>>>> 764e1d4 (Added Final Scene Animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2643,7 +2902,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2651,7 +2910,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 15}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 215.6667
@@ -2856,11 +3115,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2912,6 +3172,12 @@ MonoBehaviour:
     width: 649
     height: 273
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 788.8
+    y: 491.2
+    width: 393.2
+    height: 278.8
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2945,6 +3211,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 736
     y: 536
     width: 572.6666
@@ -2955,6 +3222,12 @@ MonoBehaviour:
     width: 650
     height: 338
 >>>>>>> 06d7e57 (Added Sliding Stairs Animation)
+=======
+    x: 788.8
+    y: 491.2
+    width: 393.2
+    height: 278.8
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3005,11 +3278,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3059,6 +3333,12 @@ MonoBehaviour:
     width: 436
     height: 907
 >>>>>>> 682705a (Added new Poster Mesh With Cloth Component and some more visual changes)
+=======
+    x: 1184
+    y: 79.200005
+    width: 351
+    height: 690.8
+>>>>>>> 764e1d4 (Added Final Scene Animation)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3099,7 +3379,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Lighting
-    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -1477008817101679558, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Lighting\u200B"
   m_Pos:
