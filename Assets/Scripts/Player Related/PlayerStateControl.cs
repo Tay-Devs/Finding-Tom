@@ -20,6 +20,7 @@ public class PlayerStateControl : MonoBehaviour
         LaserPuzzle,
         DicePuzzle,
         MazePuzzle,
+        Animation,
         // Add more puzzle states here
     }
 
@@ -33,7 +34,6 @@ public class PlayerStateControl : MonoBehaviour
     private Dictionary<PlayerState, PuzzleSetup> puzzleDict = new Dictionary<PlayerState, PuzzleSetup>();
     public PlayerState currentState = PlayerState.Moving;
     private PuzzleSetup currentActivePuzzle;
-
     private void Awake()
     {
         // Initialize dictionary for faster lookups
@@ -50,6 +50,7 @@ public class PlayerStateControl : MonoBehaviour
 
     private IEnumerator TransitionToState(PlayerState newState)
     {
+   
         // Start fade animation
         fadeAnimator.SetBool("isFinished", false);
         fadeAnimator.SetTrigger("StartFade");
@@ -92,7 +93,6 @@ public class PlayerStateControl : MonoBehaviour
             // Update current active puzzle
             currentActivePuzzle = targetPuzzle;
         }
-        
         // Complete the transition
         yield return new WaitForSeconds(transitionDuration);
         fadeAnimator.SetBool("isFinished", true);
@@ -101,6 +101,23 @@ public class PlayerStateControl : MonoBehaviour
         currentState = newState;
     }
 
+    public void ChangeStateAnimation(string newState)
+    {
+        if (newState == "Animation")
+        {
+            // Disable player
+            //playerCamera.SetActive(false);
+            playerGameObject.SetActive(false);
+            currentState = PlayerState.Animation;
+        }
+        else
+        {
+            // Disable player
+            //playerCamera.SetActive(true);
+            playerGameObject.SetActive(true);
+            currentState = PlayerState.Moving;
+        }
+    }
     public void SetPlayerState(PlayerState state)
     {
         if (currentState != state)

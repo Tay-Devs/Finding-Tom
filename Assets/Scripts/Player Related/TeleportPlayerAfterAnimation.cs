@@ -9,6 +9,12 @@ public class TeleportPlayerAfterAnimation : MonoBehaviour
     [SerializeField]
     private GameObject playerGameObject;
     
+    [SerializeField]
+    private GameObject surfboardGameobject;
+    
+    [SerializeField]
+    private PlayerStateControl playerStateControl;
+    
     private CharacterController characterController;
     
     private void Start()
@@ -46,7 +52,7 @@ public class TeleportPlayerAfterAnimation : MonoBehaviour
             Debug.LogError("Cannot teleport: Player or Character Controller is missing!");
             yield break;
         }
-
+        
         yield return new WaitForSeconds(0.1f);
         
         // Set position of the player GameObject, not this script's GameObject
@@ -56,7 +62,7 @@ public class TeleportPlayerAfterAnimation : MonoBehaviour
         playerGameObject.transform.rotation = spawnPoint.rotation;
         
         yield return new WaitForSeconds(0.1f);
-        EnablePlayer();
+        playerStateControl.ChangeStateAnimation("Move Player");
         Debug.Log("Player teleported to spawn point: " + spawnPoint.position); 
     }
     
@@ -65,18 +71,8 @@ public class TeleportPlayerAfterAnimation : MonoBehaviour
     {
         StartCoroutine(TeleportPlayer());
     }
-
-    public void DisablePlayer()
+    public void DisableSurfboardProp()
     {
-        // First disable the controller to prevent physics interference
-        characterController.enabled = false;
-        playerGameObject.SetActive(false);
-    }
-
-    private void EnablePlayer()
-    {
-        playerGameObject.SetActive(true);
-        // Re-enable the character controller
-        characterController.enabled = true;
+        surfboardGameobject.SetActive(false);
     }
 }

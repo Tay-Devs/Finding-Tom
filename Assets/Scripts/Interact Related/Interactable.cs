@@ -40,8 +40,6 @@ public class Interactable : MonoBehaviour
 
     private void InteractEnter()
     {
-       
-        
         OnInteractEnter?.Invoke();
     }
     public void InteractExit()

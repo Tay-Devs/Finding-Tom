@@ -1,11 +1,8 @@
-﻿ using UnityEngine;
- using UnityEngine.Events;
+﻿using UnityEngine;
+using UnityEngine.Events;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
-
-/* Note: animations are called via the controller for both the character and capsule using animator null checks
- */
 
 namespace StarterAssets
 {
@@ -157,6 +154,110 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+        }
+
+        // OnEnable method to subscribe to input events
+        private void OnEnable()
+        {
+#if ENABLE_INPUT_SYSTEM
+            if (_playerInput == null)
+                _playerInput = GetComponent<PlayerInput>();
+                
+            // Reset all input values to prevent persisting movement from previous enabled state
+            if (_input != null)
+            {
+                _input.move = Vector2.zero;
+                _input.look = Vector2.zero;
+                _input.jump = false;
+                _input.sprint = false;
+                _input.interactionRequested = false;
+            }
+            
+            // Enable the player input component
+            if (_playerInput != null)
+            {
+                _playerInput.enabled = true;
+                
+                // Subscribe to all input actions
+                if (_playerInput.actions != null)
+                {
+                    // Move (Vector2)
+                    _playerInput.actions["Move"].performed += OnMoveInput;
+                    _playerInput.actions["Move"].canceled += OnMoveInput;
+                    
+                    // Look (Vector2)
+                    _playerInput.actions["Look"].performed += OnLookInput;
+                    _playerInput.actions["Look"].canceled += OnLookInput;
+                    
+                    // Jump (Button)
+                    _playerInput.actions["Jump"].performed += OnJumpInput;
+                    _playerInput.actions["Jump"].canceled += OnJumpInput;
+                    
+                    // Sprint (Button)
+                    _playerInput.actions["Sprint"].performed += OnSprintInput;
+                    _playerInput.actions["Sprint"].canceled += OnSprintInput;
+                    
+                    // Interact (Button)
+                    _playerInput.actions["Interact"].performed += OnInteractInput;
+                }
+            }
+#endif
+        }
+
+        // OnDisable method to unsubscribe from input events
+        private void OnDisable()
+        {
+#if ENABLE_INPUT_SYSTEM
+            // Unsubscribe from all input actions
+            if (_playerInput != null && _playerInput.actions != null)
+            {
+                // Move (Vector2)
+                _playerInput.actions["Move"].performed -= OnMoveInput;
+                _playerInput.actions["Move"].canceled -= OnMoveInput;
+                
+                // Look (Vector2)
+                _playerInput.actions["Look"].performed -= OnLookInput;
+                _playerInput.actions["Look"].canceled -= OnLookInput;
+                
+                // Jump (Button)
+                _playerInput.actions["Jump"].performed -= OnJumpInput;
+                _playerInput.actions["Jump"].canceled -= OnJumpInput;
+                
+                // Sprint (Button)
+                _playerInput.actions["Sprint"].performed -= OnSprintInput;
+                _playerInput.actions["Sprint"].canceled -= OnSprintInput;
+                
+                // Interact (Button)
+                _playerInput.actions["Interact"].performed -= OnInteractInput;
+            }
+            
+            // Reset all input values to prevent persisting movement after re-enabling
+            if (_input != null)
+            {
+                _input.move = Vector2.zero;
+                _input.look = Vector2.zero;
+                _input.jump = false;
+                _input.sprint = false;
+                _input.interactionRequested = false;
+            }
+            
+            // Reset animation values
+            _speed = 0f;
+            _animationBlend = 0f;
+            
+            // Update animator if available
+            if (_hasAnimator)
+            {
+                _animator.SetFloat(_animIDSpeed, 0f);
+                _animator.SetFloat(_animIDMotionSpeed, 0f);
+            }
+            
+            // Disable the player input component
+            if (_playerInput != null)
+            {
+                _playerInput.enabled = false;
+            }
+#endif
         }
 
         private void Update()
@@ -313,12 +414,7 @@ namespace StarterAssets
                  {
                      _verticalVelocity = -2f;
                  }
-                 /*if (Input.GetKeyDown(KeyCode.E))
-                 {
-                     Debug.Log("E key was pressed");
-                     InteractionRequested.Invoke();
-                     _input.interactionRequested = false;
-                 }*/
+
                  // Interacted
                  if (_input.interactionRequested)
                  {
@@ -383,74 +479,69 @@ namespace StarterAssets
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
         }
+
+#if ENABLE_INPUT_SYSTEM
+        // Input callback handlers
+        private void OnMoveInput(InputAction.CallbackContext context)
+        {
+            if (playerStateControl.currentState != PlayerStateControl.PlayerState.Moving)
+                return;
+                
+            // Update the input system's move value
+            if (_input != null)
+            {
+                _input.move = context.ReadValue<Vector2>();
+                _input.analogMovement = true; // Use analog for gamepad input
+            }
+        }
+        
+        private void OnLookInput(InputAction.CallbackContext context)
+        {
+            if (playerStateControl.currentState != PlayerStateControl.PlayerState.Moving)
+                return;
+                
+            // Update the input system's look value
+            if (_input != null)
+            {
+                _input.look = context.ReadValue<Vector2>();
+            }
+        }
+        
+        private void OnJumpInput(InputAction.CallbackContext context)
+        {
+            if (playerStateControl.currentState != PlayerStateControl.PlayerState.Moving)
+                return;
+                
+            // Update the input system's jump value
+            if (_input != null)
+            {
+                _input.jump = context.performed;
+            }
+        }
+        
+        private void OnSprintInput(InputAction.CallbackContext context)
+        {
+            if (playerStateControl.currentState != PlayerStateControl.PlayerState.Moving)
+                return;
+                
+            // Update the input system's sprint value
+            if (_input != null)
+            {
+                _input.sprint = context.performed;
+            }
+        }
+        
+        private void OnInteractInput(InputAction.CallbackContext context)
+        {
+            if (playerStateControl.currentState != PlayerStateControl.PlayerState.Moving)
+                return;
+                
+            // Only trigger on button press (performed), not on release
+            if (_input != null && context.performed)
+            {
+                _input.interactionRequested = true;
+            }
+        }
+#endif
     }
 }
-
-/*private void JumpAndGravity()
-        {
-            if (Grounded)
-            {
-                // reset the fall timeout timer
-                _fallTimeoutDelta = FallTimeout;
-
-                // update animator if using character
-                if (_hasAnimator)
-                {
-                    _animator.SetBool(_animIDJump, false);
-                    _animator.SetBool(_animIDFreeFall, false);
-                }
-
-                // stop our velocity dropping infinitely when grounded
-                if (_verticalVelocity < 0.0f)
-                {
-                    _verticalVelocity = -2f;
-                }
-
-                // Jump
-                if (_input.jump && _jumpTimeoutDelta <= 0.0f)
-                {
-                    // the square root of H * -2 * G = how much velocity needed to reach desired height
-                    _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
-
-                    // update animator if using character
-                    if (_hasAnimator)
-                    {
-                        _animator.SetBool(_animIDJump, true);
-                    }
-                }
-
-                // jump timeout
-                if (_jumpTimeoutDelta >= 0.0f)
-                {
-                    _jumpTimeoutDelta -= Time.deltaTime;
-                }
-            }
-            else
-            {
-                // reset the jump timeout timer
-                _jumpTimeoutDelta = JumpTimeout;
-
-                // fall timeout
-                if (_fallTimeoutDelta >= 0.0f)
-                {
-                    _fallTimeoutDelta -= Time.deltaTime;
-                }
-                else
-                {
-                    // update animator if using character
-                    if (_hasAnimator)
-                    {
-                        _animator.SetBool(_animIDFreeFall, true);
-                    }
-                }
-
-                // if we are not grounded, do not jump
-                _input.jump = false;
-            }
-
-            // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
-            if (_verticalVelocity < _terminalVelocity)
-            {
-                _verticalVelocity += Gravity * Time.deltaTime;
-            }
-        }*/
