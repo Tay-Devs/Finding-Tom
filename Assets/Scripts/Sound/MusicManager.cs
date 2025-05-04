@@ -18,6 +18,8 @@ public class MusicManager : MonoBehaviour
     [Header("Audio Sources")]
     [SerializeField] private AudioSource backgroundMusicSource;
     [SerializeField] private AudioSource puzzleMusicSource;
+
+    public AudioMixerGroup partyMixerGroup;
     
     [Header("Crossfade Settings")]
     [SerializeField] private float crossfadeDuration = 1.5f;
@@ -25,6 +27,7 @@ public class MusicManager : MonoBehaviour
     
     [Header("Music Tracks")]
     [SerializeField] private MusicTrack backgroundMusic;
+    [SerializeField] private MusicTrack partyMusic;
     [SerializeField] private List<MusicTrack> puzzleMusicTracks = new List<MusicTrack>();
     
     [Header("Performance Settings")]
@@ -56,7 +59,11 @@ public class MusicManager : MonoBehaviour
         // Start with background music
         PlayBackgroundMusic();
     }
-    
+    public void PlayPartyMusic()
+    {
+        backgroundMusicSource.outputAudioMixerGroup = partyMixerGroup;
+        crossfadeCoroutine = StartCoroutine(CrossfadeAudio(puzzleMusicSource, backgroundMusicSource, partyMusic));
+    } 
     private void InitializeAudioSources()
     {
         if (backgroundMusicSource == null)
