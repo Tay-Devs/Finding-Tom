@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 869.3334
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -500,9 +500,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e8c1ffff
-      m_LastClickedID: -15896
-      m_ExpandedIDs: 1afbffffbeb8000090b9000004bd000038be00006cc8000074cb0000
+      m_SelectedIDs: 8862ffff
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1afbffff6cb60000fab900009abd0000f0cf0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1198,11 +1198,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.07169211, y: 0.8498236, z: -0.11975852, w: -0.5087354}
     speed: 2
-    m_Value: {x: -0.071554646, y: 0.85012203, z: -0.11980057, w: -0.50776}
+    m_Value: {x: -0.071674414, y: 0.84961385, z: -0.11972896, w: -0.50860983}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 9.999999
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1508,9 +1508,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 387.33337}
-    m_SelectedIDs: a6ff0000
-    m_LastClickedID: 65446
-    m_ExpandedIDs: 000000006cfd00006efd000070fd000072fd000074fd000076fd000078fd00007afd00007cfd00007efd000080fd000000ca9a3bffffff7f
+    m_SelectedIDs: 06000100
+    m_LastClickedID: 65542
+    m_ExpandedIDs: 0000000084fd000086fd000088fd00008afd00008cfd00008efd000090fd000092fd000094fd000096fd000098fd000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1539,7 +1539,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006cfd00006efd000070fd000072fd000074fd000076fd000078fd00007afd00007cfd00007efd000080fd0000
+    m_ExpandedIDs: 0000000084fd000086fd000088fd00008afd00008cfd00008efd000090fd000092fd000094fd000096fd000098fd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
