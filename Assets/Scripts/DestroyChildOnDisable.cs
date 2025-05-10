@@ -4,14 +4,12 @@ public class DestroyChildOnDisable : MonoBehaviour
 {
     private void OnDisable()
     {
-        // Check if there's at least one child
-        if (transform.childCount > 0)
+        foreach (Transform child in transform)
         {
-            // Get the first child
-            Transform child = transform.GetChild(0);
-            
-            // Destroy the child GameObject
-            Destroy(child.gameObject);
+            if (child.name != "Point Light")
+            {
+                child.gameObject.SetActive(false);
+            }
         }
     }
 }

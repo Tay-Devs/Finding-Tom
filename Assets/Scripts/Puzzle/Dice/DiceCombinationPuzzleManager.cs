@@ -17,11 +17,11 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     [Tooltip("Time between each die feedback effect (seconds)")]
     public float timeBetweenEffects = 0.5f;
     
-    [Tooltip("GameObject that will show correct answer effects")]
+    /*[Tooltip("GameObject that will show correct answer effects")]
     public ParticleSystem correctEffectPrefab;
     
     [Tooltip("GameObject that will show incorrect answer effects")]
-    public ParticleSystem incorrectEffectPrefab;
+    public ParticleSystem incorrectEffectPrefab;*/
     
     [Tooltip("Additional delay after checking before returning control")]
     public float returnControlDelay = 1.0f;
@@ -48,6 +48,12 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     [Header("State Management")]
     [Tooltip("Player GameObject to enable/disable during checking")]
     public PlayerStateControl playerStateControl;
+    
+    // Add this to the class properties
+    [Header("Child GameObject Settings")]
+    [Tooltip("Name of the child GameObject to activate when a die is correct")]
+    public string correctChildObjectName = "Point Light";
+
     
     // Input action references
     private InputAction selectAction;
@@ -351,144 +357,234 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         }
     }
     
-    private IEnumerator CheckCombination()
+ private IEnumerator CheckCombination()
+{
+    // Set state to checking
+    isCheckingCombination = true;
+    
+    // Disable dice puzzle state (hide outline, disable interaction)
+    DisableDicePuzzleState();
+
+    // Make sure all outlines are disabled during the check
+    foreach (Transform die in dieController.diceObjects)
     {
-        // Set state to checking
-        isCheckingCombination = true;
-        
-        // Disable dice puzzle state (hide outline, disable interaction)
-        DisableDicePuzzleState();
-        
-        // Get current dice values
-        int[] currentValues = new int[dieController.diceObjects.Count];
-        for (int i = 0; i < dieController.diceObjects.Count; i++)
-        {
-            currentValues[i] = dieController.GetDieValue(i);
-        }
-        
-        // Check if there are enough dice for the combination
-        if (currentValues.Length < secretCombination.Length)
-        {
-            // Return control
-            isCheckingCombination = false;
-            
-            yield break;
-        }
-        
-        bool allCorrect = true;
-        // Check each die one by one with a delay between
-        for (int i = 0; i < secretCombination.Length; i++)
-        {
-            bool isCorrect = currentValues[i] == secretCombination[i];
-           
-            // Show the appropriate effect
-            ShowEffect(dieController.diceObjects[i], isCorrect);
-            
-            // Update the overall result
-            if (!isCorrect)
-            {
-                if (correctAudioClip != null)
-                {
-                    audioSource.PlayOneShot(incorrectAudioClip);
-                }
-                else
-                {
-                    Debug.LogWarning("Audio Clip Not Found");
-                }
-                dieController.ResetDiceValue(dieController.diceObjects[i]);
-                allCorrect = false;
+        dieController.DisableDieOutline(die);
+    }
 
-            }
-
-            // Wait before checking the next die
-            yield return new WaitForSeconds(timeBetweenEffects);
-        }
-        
-        // If all correct, mark the puzzle as solved
-        if (allCorrect)
-        {
-            isPuzzleSolved = true;
-            
-            puzzleCompleted.Invoke();
-            // Additional puzzle-solved effects could be triggered here
-        }
-
-        // Wait a bit before returning control
-        yield return new WaitForSeconds(returnControlDelay);
-        
-        // Additional delay of 0.5 seconds before returning to player movement
-        yield return new WaitForSeconds(0.5f);
-        
-        // Return control based on puzzle state
-        isCheckingCombination = false;
-        
-        // Switch to player movement
-        ReturnToPlayerFromPuzzle();
+    // Get current dice values
+    int[] currentValues = new int[dieController.diceObjects.Count];
+    for (int i = 0; i < dieController.diceObjects.Count; i++)
+    {
+        currentValues[i] = dieController.GetDieValue(i);
     }
     
-    private void ShowEffect(Transform dieTransform, bool isCorrect)
+    // Check if there are enough dice for the combination
+    if (currentValues.Length < secretCombination.Length)
     {
-        // Create the appropriate effect at the die's position
-        ParticleSystem effectPrefab = isCorrect ? correctEffectPrefab : incorrectEffectPrefab;
-        
-        if (effectPrefab != null)
+        // Return control
+        isCheckingCombination = false;
+        yield break;
+    }
+    
+    bool allCorrect = true;
+    // Store which dice are newly correct in this check
+    bool[] newlyCorrectDice = new bool[dieController.diceObjects.Count];
+    
+    // Check each die one by one with a delay between
+    for (int i = 0; i < secretCombination.Length; i++)
+    {
+        // Skip already locked dice (they are already correct)
+        if (dieController.IsDieLocked(i))
         {
-            // Instantiate the effect slightly above the die
-            Vector3 effectPosition = dieTransform.position + Vector3.up * 0.5f;
-            ParticleSystem effectInstance = Instantiate(effectPrefab, effectPosition, Quaternion.identity);
-            
-            // Parent to the die so it moves with it
-            effectInstance.transform.SetParent(dieTransform);
-
-            if (isCorrect)
-            {
-                if (correctAudioClip != null)
-                {
-                    audioSource.PlayOneShot(correctAudioClip);
-                }
-                else
-                {
-                    Debug.LogWarning("Audio Clip Not Found");
-                }
-                correctEffectPrefab.Play();
-            }
-
+            continue;
+        }
+        
+        bool isCorrect = currentValues[i] == secretCombination[i];
+        
+        // Show the appropriate effect
+        ShowEffect(dieController.diceObjects[i], isCorrect);
+        
+        // Track if this die is newly correct
+        if (isCorrect)
+        {
+            newlyCorrectDice[i] = true;
         }
         else
         {
-            Debug.LogWarning("No effect prefab assigned for " + (isCorrect ? "correct" : "incorrect") + " answer!");
+            // Play incorrect sound for incorrect dice
+            if (incorrectAudioClip != null)
+            {
+                audioSource.PlayOneShot(incorrectAudioClip);
+            }
+            
+            // Reset the incorrect die value
+            dieController.ResetDiceValue(dieController.diceObjects[i]);
+            allCorrect = false;
+        }
+        
+        // Process all newly correct dice immediately
+        for (int j = 0; j < newlyCorrectDice.Length; j++)
+        {
+            if (newlyCorrectDice[j])
+            {
+                // Lock the die so it can't be changed
+                dieController.LockDie(j);
+                
+                // Ensure no outline is shown on this locked die
+                dieController.DisableDieOutline(dieController.diceObjects[j]);
+                
+                // Activate the first child GameObject if it exists
+                Transform dieTransform = dieController.diceObjects[j];
+                if (dieTransform.childCount > 0)
+                {
+                    // Activate the first child GameObject - no name needed
+                    Transform childObject = dieTransform.GetChild(0);
+                    childObject.gameObject.SetActive(true);
+                }
+            }
+        }
+        
+        // Clear the newly correct dice array for the next iteration
+        for (int j = 0; j < newlyCorrectDice.Length; j++)
+        {
+            newlyCorrectDice[j] = false;
+        }
+        
+        // Wait before checking the next die
+        yield return new WaitForSeconds(timeBetweenEffects);
+    }
+    
+    // If all correct, mark the puzzle as solved
+    if (allCorrect)
+    {
+        isPuzzleSolved = true;
+        puzzleCompleted.Invoke();
+    }
+
+    // Wait a bit before returning control
+    yield return new WaitForSeconds(returnControlDelay);
+    
+    // Additional delay of 0.5 seconds before returning to player movement
+    yield return new WaitForSeconds(0.5f);
+    
+    // Return control based on puzzle state
+    isCheckingCombination = false;
+    
+    // If not all correct, we need to properly set up the next available die
+    if (!isPuzzleSolved)
+    {
+        // Find the first unlocked die to select
+        int firstUnlockedDie = -1;
+        for (int i = 0; i < dieController.diceObjects.Count; i++)
+        {
+            if (!dieController.IsDieLocked(i))
+            {
+                firstUnlockedDie = i;
+                break;
+            }
+        }
+        
+        // If we found an unlocked die, select it
+        if (firstUnlockedDie >= 0)
+        {
+            dieController.currentDieIndex = firstUnlockedDie;
+            dieController.UpdateDieOutline();
         }
     }
     
-    private void OnEnable()
+    // Switch to player movement
+    ReturnToPlayerFromPuzzle();
+}
+private void ShowEffect(Transform dieTransform, bool isCorrect)
+{
+    // Create the appropriate effect at the die's position
+    /*ParticleSystem effectPrefab = isCorrect ? correctEffectPrefab : incorrectEffectPrefab;
+    
+    if (effectPrefab != null)
     {
-        StartCoroutine(AddCooldownForStartCheck());
-        if (inputSystemInitialized && actionMap != null)
-        {
-            actionMap.Enable();
-        }
-    
-        // Reset checking state
-        isCheckingCombination = false;
-    
-        // Only re-enable dice control if puzzle is not solved
-        if (!isPuzzleSolved)
-        {
-            // Re-enable dice input first
-            EnableDiceInput();
+        // Instantiate the effect slightly above the die
+        Vector3 effectPosition = dieTransform.position + Vector3.up * 0.5f;
+        ParticleSystem effectInstance = Instantiate(effectPrefab, effectPosition, Quaternion.identity);
         
-            // Always select the leftmost die (index 0) when the component is enabled
-            if (dieController != null && dieController.diceObjects.Count > 0)
+        // Parent to the die so it moves with it
+        effectInstance.transform.SetParent(dieTransform);
+
+        if (isCorrect)
+        {
+            // Play the correct audio
+            if (correctAudioClip != null)
             {
-                // Set the current die index to 0 (leftmost)
-                dieController.currentDieIndex = 0;
+                audioSource.PlayOneShot(correctAudioClip);
+            }
+            else
+            {
+                Debug.LogWarning("Audio Clip Not Found");
+            }
             
+            // Play particle effect
+            correctEffectPrefab.Play();
+        }
+    }
+    else
+    {
+        Debug.LogWarning("No effect prefab assigned for " + (isCorrect ? "correct" : "incorrect") + " answer!");
+    }*/
+}
+private void OnEnable()
+{
+    StartCoroutine(AddCooldownForStartCheck());
+    if (inputSystemInitialized && actionMap != null)
+    {
+        actionMap.Enable();
+    }
+
+    // Reset checking state
+    isCheckingCombination = false;
+
+    // Only re-enable dice control if puzzle is not solved
+    if (!isPuzzleSolved)
+    {
+        // Re-enable dice input first
+        EnableDiceInput();
+        
+        // Find the first unlocked die and select it
+        if (dieController != null && dieController.diceObjects.Count > 0)
+        {
+            // Find the first unlocked die
+            int firstUnlockedIndex = FindFirstUnlockedDieIndex();
+            
+            // If we found an unlocked die, select it
+            if (firstUnlockedIndex >= 0)
+            {
+                // First clear all outlines
+                foreach (Transform die in dieController.diceObjects)
+                {
+                    dieController.DisableDieOutline(die);
+                }
+                
+                // Set the current die index to the first unlocked die
+                dieController.currentDieIndex = firstUnlockedIndex;
+                
                 // Update the outline to make it visible
                 dieController.UpdateDieOutline();
             }
         }
     }
+}
+// Helper method to find the first unlocked die
+private int FindFirstUnlockedDieIndex()
+{
+    for (int i = 0; i < dieController.diceObjects.Count; i++)
+    {
+        if (!dieController.IsDieLocked(i))
+        {
+            return i;
+        }
+    }
     
+    // If all dice are locked (shouldn't happen in normal gameplay), return 0
+    return 0;
+}
     private void OnDisable()
        {
            if (inputSystemInitialized && actionMap != null)
@@ -510,12 +606,55 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             exitAction.performed -= OnExit;
         }
     }
-    
+    // Utility method to help reset the puzzle (pass this to DieController)
+    private void ResetDieLock(int dieIndex)
+    {
+        if (dieController != null)
+        {
+            // Get the private field through reflection (not ideal but works for this context)
+            System.Reflection.FieldInfo field = typeof(DieController).GetField("lockedDice", 
+                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+        
+            if (field != null)
+            {
+                bool[] lockedDice = field.GetValue(dieController) as bool[];
+                if (lockedDice != null && dieIndex >= 0 && dieIndex < lockedDice.Length)
+                {
+                    lockedDice[dieIndex] = false;
+                }
+            }
+        }
+    }
     // Public method to reset the puzzle if needed
+    // Modify the ResetPuzzle method to also reset the locked state and child objects
     public void ResetPuzzle()
     {
         isPuzzleSolved = false;
         isCheckingCombination = false;
+    
+        // Reset all dice
+        for (int i = 0; i < dieController.diceObjects.Count; i++)
+        {
+            Transform dieTransform = dieController.diceObjects[i];
+        
+            // Reset locked state
+            if (dieController.IsDieLocked(i))
+            {
+                // Reset the die lock
+                dieController.UnlockDie(i);
+            
+                // Find and deactivate the child object
+                Transform childObject = dieTransform.Find(correctChildObjectName);
+                if (childObject != null)
+                {
+                    childObject.gameObject.SetActive(false);
+                }
+            }
+        
+            // Reset to minimum value
+            dieController.ResetDiceValue(dieTransform);
+        }
+    
         EnableDicePuzzleState();
     }
     IEnumerator AddCooldownForStartCheck()

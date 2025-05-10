@@ -33,6 +33,10 @@ public class DieController : MonoBehaviour
     [Tooltip("Reference to an Input Action asset with move and changeValue actions")]
     public InputActionAsset inputActions;
     
+    [Header("Locked Dice")]
+// Track which dice are locked (correct and can't be changed)
+    public bool[] lockedDice;  // Changed from private to public for easier inspection
+    
     [SerializeField]
     private PauseController pauseController;
     // Input action references
@@ -68,20 +72,21 @@ public class DieController : MonoBehaviour
     private AudioSource audioSource;
     private void Awake()
     {
-        // Initialize dice values and rotations
         diceValues = new int[diceObjects.Count];
         targetRotations = new Quaternion[diceObjects.Count];
         startRotations = new Quaternion[diceObjects.Count];
         rotationTimers = new float[diceObjects.Count];
         isRotating = new bool[diceObjects.Count];
-        
+        lockedDice = new bool[diceObjects.Count];
+    
         for (int i = 0; i < diceValues.Length; i++)
         {
             diceValues[i] = minValue;
             targetRotations[i] = Quaternion.Euler(0, 0, 0); // Default to showing "1"
             rotationTimers[i] = 0f;
             isRotating[i] = false;
-            
+            lockedDice[i] = false; // All dice start unlocked
+        
             // Initialize the dice to show "1"
             if (diceObjects[i] != null)
             {
@@ -114,9 +119,8 @@ public class DieController : MonoBehaviour
      
         }
         
-        // Set up input actions from the asset
         SetupInputActions();
-        
+    
         // Select the first die by default if we have any
         if (diceObjects.Count > 0)
         {
@@ -124,6 +128,90 @@ public class DieController : MonoBehaviour
             UpdateDieOutline();
         }
     }
+    
+    //Method to lock a specific die
+    public void LockDie(int dieIndex)
+    {
+        if (dieIndex >= 0 && dieIndex < lockedDice.Length)
+        {
+            // Lock the die
+            lockedDice[dieIndex] = true;
+        
+            // If the currently selected die is being locked, find a new one to select
+            if (currentDieIndex == dieIndex)
+            {
+                // First try to find the next unlocked die to the right
+                int nextAvailable = -1;
+                for (int i = currentDieIndex + 1; i < diceObjects.Count; i++)
+                {
+                    if (!lockedDice[i])
+                    {
+                        nextAvailable = i;
+                        break;
+                    }
+                }
+            
+                // If we didn't find one to the right, try to the left
+                if (nextAvailable == -1)
+                {
+                    for (int i = currentDieIndex - 1; i >= 0; i--)
+                    {
+                        if (!lockedDice[i])
+                        {
+                            nextAvailable = i;
+                            break;
+                        }
+                    }
+                }
+            
+                // If we found an unlocked die, select it
+                if (nextAvailable != -1)
+                {
+                    // Remove outline from current die
+                    DisableDieOutline(diceObjects[currentDieIndex]);
+                
+                    // Update selection
+                    currentDieIndex = nextAvailable;
+                
+                    // Add outline to new die
+                    UpdateDieOutline();
+                }
+            }
+        }
+    }
+    
+    //method to find the next available die
+    private void FindNextUnlockedDie()
+    {
+        // First, try to find the next unlocked die
+        for (int i = 0; i < lockedDice.Length; i++)
+        {
+            int checkIndex = (currentDieIndex + i) % lockedDice.Length;
+            if (!lockedDice[checkIndex])
+            {
+                // Disable outline on current die
+                if (currentDieIndex >= 0 && currentDieIndex < diceObjects.Count)
+                {
+                    DisableDieOutline(diceObjects[currentDieIndex]);
+                }
+            
+                // Update to the new die
+                currentDieIndex = checkIndex;
+                UpdateDieOutline();
+                return;
+            }
+        }
+    }
+    // Add this method to check if a die is locked
+    public bool IsDieLocked(int dieIndex)
+    {
+        if (dieIndex >= 0 && dieIndex < lockedDice.Length)
+        {
+            return lockedDice[dieIndex];
+        }
+        return false;
+    }
+    
     
     // Set up input actions using the asset
     private void SetupInputActions()
@@ -350,56 +438,106 @@ public class DieController : MonoBehaviour
     
     // Handle die selection based on move input
     private void HandleDieSelection()
+{
+    // Process changes in horizontal movement for die selection
+    if (Mathf.Abs(moveInput.x - moveInputPrev.x) > 0.5f)
     {
-        // Process changes in horizontal movement for die selection
-        if (Mathf.Abs(moveInput.x - moveInputPrev.x) > 0.5f)
+        int previousIndex = currentDieIndex;
+        
+        // Detect direction change
+        bool moveLeft = moveInput.x < -0.5f && moveInputPrev.x >= -0.5f;
+        bool moveRight = moveInput.x > 0.5f && moveInputPrev.x <= 0.5f;
+        
+        // Track if we need to update
+        bool needToUpdate = false;
+        
+        // Change selected die based on direction
+        if (moveLeft && currentDieIndex > 0)
         {
-            int previousIndex = currentDieIndex;
-            
-            // Detect direction change
-            bool moveLeft = moveInput.x < -0.5f && moveInputPrev.x >= -0.5f;
-            bool moveRight = moveInput.x > 0.5f && moveInputPrev.x <= 0.5f;
-            
-            // Change selected die based on direction
-            if (moveLeft && currentDieIndex > 0)
+            // Find the next unlocked die to the left
+            int newIndex = currentDieIndex - 1;
+            while (newIndex >= 0 && lockedDice[newIndex])
             {
-                currentDieIndex--;
-            }
-            else if (moveRight && currentDieIndex < diceObjects.Count - 1)
-            {
-                currentDieIndex++;
+                newIndex--;
             }
             
-            // Update die outline if selection changed
-            if (previousIndex != currentDieIndex)
+            // If we found an unlocked die
+            if (newIndex >= 0)
             {
-                // Disable outline on the previously selected die
-                if (previousIndex >= 0 && previousIndex < diceObjects.Count)
-                {
-                    Transform previousDie = diceObjects[previousIndex];
-                    DisableDieOutline(previousDie);
-                }
-                
-                // Update the die outline
-                UpdateDieOutline();
+                currentDieIndex = newIndex;
+                needToUpdate = true;
+            }
+        }
+        else if (moveRight && currentDieIndex < diceObjects.Count - 1)
+        {
+            // Find the next unlocked die to the right
+            int newIndex = currentDieIndex + 1;
+            while (newIndex < diceObjects.Count && lockedDice[newIndex])
+            {
+                newIndex++;
+            }
+            
+            // If we found an unlocked die
+            if (newIndex < diceObjects.Count)
+            {
+                currentDieIndex = newIndex;
+                needToUpdate = true;
             }
         }
         
-        // Store current value for next frame comparison
-        moveInputPrev = moveInput;
+        // Update die outline if selection changed
+        if (needToUpdate && previousIndex != currentDieIndex)
+        {
+            // Disable outline on the previously selected die
+            if (previousIndex >= 0 && previousIndex < diceObjects.Count)
+            {
+                Transform previousDie = diceObjects[previousIndex];
+                DisableDieOutline(previousDie);
+            }
+            
+            // Update the die outline
+            UpdateDieOutline();
+        }
     }
     
+    // Store current value for next frame comparison
+    moveInputPrev = moveInput;
+}
+    
+    private int FindFirstUnlockedDieIndex()
+    {
+        for (int i = 0; i < lockedDice.Length; i++)
+        {
+            if (!lockedDice[i])
+                return i;
+        }
+        return -1; // All dice are locked
+    }
+    private int FindLastUnlockedDieIndex()
+    {
+        for (int i = lockedDice.Length - 1; i >= 0; i--)
+        {
+            if (!lockedDice[i])
+                return i;
+        }
+        return -1; // All dice are locked
+    }
+
     private void IncreaseDieValue()
     {
         if (diceObjects.Count > 0 && currentDieIndex >= 0 && currentDieIndex < diceObjects.Count)
         {
-            diceValues[currentDieIndex]++;
-            if (diceValues[currentDieIndex] > maxValue)
+            // Only change value if the die is not locked
+            if (!IsDieLocked(currentDieIndex))
             {
-                diceValues[currentDieIndex] = minValue;
+                diceValues[currentDieIndex]++;
+                if (diceValues[currentDieIndex] > maxValue)
+                {
+                    diceValues[currentDieIndex] = minValue;
+                }
+                PlayRotationSFX();
+                UpdateDieVisual(currentDieIndex);
             }
-            PlayRotationSFX();
-            UpdateDieVisual(currentDieIndex);
         }
     }
     
@@ -407,39 +545,59 @@ public class DieController : MonoBehaviour
     {
         if (diceObjects.Count > 0 && currentDieIndex >= 0 && currentDieIndex < diceObjects.Count)
         {
-            diceValues[currentDieIndex]--;
-            if (diceValues[currentDieIndex] < minValue)
+            // Only change value if the die is not locked
+            if (!IsDieLocked(currentDieIndex))
             {
-                diceValues[currentDieIndex] = maxValue;
+                diceValues[currentDieIndex]--;
+                if (diceValues[currentDieIndex] < minValue)
+                {
+                    diceValues[currentDieIndex] = maxValue;
+                }
+                PlayRotationSFX();
+                UpdateDieVisual(currentDieIndex);
             }
-            PlayRotationSFX();
-            UpdateDieVisual(currentDieIndex);
         }
     }
-    
+    public void UnlockDie(int dieIndex)
+    {
+        if (dieIndex >= 0 && dieIndex < lockedDice.Length)
+        {
+            lockedDice[dieIndex] = false;
+        }
+    }
+    public void ResetAllLocks()
+    {
+        for (int i = 0; i < lockedDice.Length; i++)
+        {
+            lockedDice[i] = false;
+        }
+    }
     public void ResetDiceValue(Transform dieTransform)
     {
         // Check if the transform is in our dice collection
         if (dieTransform != null && diceObjects.Contains(dieTransform))
         {
-            PlayRotationSFX();
             int dieIndex = diceObjects.IndexOf(dieTransform);
         
-            // Set the value to 1 (minimum value)
-            diceValues[dieIndex] = minValue;
-        
-            // Store the current rotation
-            startRotations[dieIndex] = dieTransform.rotation;
-        
-            // Set the target rotation to show value 1 (0,0,0)
-            targetRotations[dieIndex] = Quaternion.Euler(0, 0, 0);
-        
-            // Reset timer and mark the die as rotating
-            rotationTimers[dieIndex] = 0f;
-            isRotating[dieIndex] = true;
+            // Only reset if the die is not locked
+            if (!IsDieLocked(dieIndex))
+            {
+                PlayRotationSFX();
+                // Set the value to 1 (minimum value)
+                diceValues[dieIndex] = minValue;
+            
+                // Store the current rotation
+                startRotations[dieIndex] = dieTransform.rotation;
+            
+                // Set the target rotation to show value 1 (0,0,0)
+                targetRotations[dieIndex] = Quaternion.Euler(0, 0, 0);
+            
+                // Reset timer and mark the die as rotating
+                rotationTimers[dieIndex] = 0f;
+                isRotating[dieIndex] = true;
+            }
         }
     }
-
     public void PlayRotationSFX()
     {
         if (rotationSFX == null || rotationSFX.Length <= 0)
