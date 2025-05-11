@@ -7,8 +7,11 @@ public class GameManager : MonoBehaviour
     [Header("Scene References")]
     [SerializeField] private string mainGameSceneName = "Main Game Scene";
     [SerializeField] private Object mainGameScene; // For inspector reference
+    [SerializeField] private Object creditsScene; // For inspector reference
+    [SerializeField] private string creditGameSceneName = "Credits";
     [SerializeField] private GameObject loadingScreen;
     [SerializeField] private UnityEngine.UI.Slider progressBar;
+    [SerializeField] private SimpleFader fader;
 
     // Singleton pattern
     public static GameManager Instance { get; private set; }
@@ -18,6 +21,9 @@ public class GameManager : MonoBehaviour
     
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        fader.FadeOut();
         // Start preloading the scene when the game starts
         PreloadMainScene();
     }
@@ -42,7 +48,6 @@ public class GameManager : MonoBehaviour
             sceneToLoad = mainGameSceneName;
             Debug.Log("Preloading scene by name: " + sceneToLoad);
         }
-        
         // Start async loading operation
         StartCoroutine(PreloadSceneAsync(sceneToLoad));
     }
@@ -50,42 +55,72 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Starts the game by activating the preloaded scene
     /// </summary>
-
-    public void TestScene()
-    {
-        SceneManager.LoadScene(mainGameScene.name);
-    }
+    
     public void StartGame()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        Debug.Log("StartGame method called - activating preloaded scene");
+        Debug.Log("StartGame method called - initiating fade in");
+    
+        // Set alpha to 0 to ensure we're starting transparent
+        fader.SetAlpha(0f);
+    
+        // Start the fade in and wait for completion before loading
+        fader.FadeIn();
+    
+        // Use the new WaitForFade method to execute code after fade completes
+        fader.WaitForFade(() => {
+            Debug.Log("Fade in complete - activating preloaded scene");
         
-        if (isPreloaded && asyncSceneLoad != null)
-        {
-            // Show loading screen if assigned
-            if (loadingScreen != null)
+            // Now start loading the game
+            if (isPreloaded && asyncSceneLoad != null)
             {
-                loadingScreen.SetActive(true);
+                // Show loading screen if assigned
+                if (loadingScreen != null)
+                {
+                    loadingScreen.SetActive(true);
+                }
+            
+                // Allow scene activation (switches to the preloaded scene)
+                asyncSceneLoad.allowSceneActivation = true;
+            
+                // Start coroutine to hide loading screen after scene is fully loaded
+                StartCoroutine(HideLoadingScreenWhenLoaded());
             }
+            else
+            {
+                // If the scene isn't preloaded yet, load it directly
+                Debug.LogWarning("Scene wasn't preloaded. Loading scene now...");
             
-            // Allow scene activation (switches to the preloaded scene)
-            asyncSceneLoad.allowSceneActivation = true;
-            
-            // Start coroutine to hide loading screen after scene is fully loaded
-            StartCoroutine(HideLoadingScreenWhenLoaded());
-        }
-        else
-        {
-            // If the scene isn't preloaded yet, load it directly
-            Debug.LogWarning("Scene wasn't preloaded. Loading scene now...");
-            
-            // Determine which scene to load
-            string sceneToLoad = (mainGameScene != null) ? mainGameScene.name : mainGameSceneName;
-            StartCoroutine(LoadSceneAsync(sceneToLoad));
-        }
+                // Determine which scene to load
+                string sceneToLoad = (mainGameScene != null) ? mainGameScene.name : mainGameSceneName;
+                StartCoroutine(LoadSceneAsync(sceneToLoad));
+            }
+        });
     }
-
+    
+    public void LoadCredits()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Debug.Log("Load Credits method called - initiating fade in");
+    
+        // Set alpha to 0 to ensure we're starting transparent
+        fader.SetAlpha(0f);
+    
+        // Start the fade in and wait for completion before loading
+        fader.FadeIn();
+    
+        // Use the new WaitForFade method to execute code after fade completes
+        fader.WaitForFade(() => {
+            Debug.Log("Fade in complete - activating preloaded scene");
+        
+          
+            // Determine which scene to load
+            string sceneToLoad = (creditsScene != null) ? creditsScene.name : creditGameSceneName;
+            SceneManager.LoadScene(sceneToLoad);
+        });
+    }
     /// <summary>
     /// Exits the application
     /// </summary>
