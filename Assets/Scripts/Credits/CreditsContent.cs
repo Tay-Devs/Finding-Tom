@@ -34,8 +34,8 @@ public class CreditsContent : MonoBehaviour
     {
         if (creditsText != null)
         {
-            // Combine all sections with spacing
-            creditsText.text = $"{gameTitle}\n\n\n{teamMembers}\n\n\n{specialThanks}\n\n\n{thirdPartyAssets}\n\n\n{copyright}";
+            // Combine all sections with spacing Add \n\n\n{thirdPartyAssets} between special thanks to copyright if needed
+            creditsText.text = $"{gameTitle}\n\n\n{teamMembers}\n\n\n{specialThanks}\n\n\n{copyright}";
         }
     }
 }
