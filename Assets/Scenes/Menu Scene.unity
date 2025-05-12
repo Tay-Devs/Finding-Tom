@@ -539,6 +539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultDuration: 1
   defaultHoldTime: 0.5
+  image: {fileID: 0}
 --- !u!1 &167180506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,8 +1419,8 @@ GameObject:
   m_Component:
   - component: {fileID: 706381097}
   - component: {fileID: 706381100}
-  - component: {fileID: 706381098}
   - component: {fileID: 706381099}
+  - component: {fileID: 706381098}
   m_Layer: 5
   m_Name: Fader
   m_TagString: Untagged
@@ -1460,6 +1461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultDuration: 1.5
   defaultHoldTime: 0.5
+  image: {fileID: 706381099}
 --- !u!114 &706381099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1481,7 +1483,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
