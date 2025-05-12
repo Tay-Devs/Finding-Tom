@@ -407,6 +407,12 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         // Track if this die is newly correct
         if (isCorrect)
         {
+            // Play incorrect sound for incorrect dice
+            if (incorrectAudioClip != null)
+            {
+                audioSource.PlayOneShot(correctAudioClip);
+            }
+
             newlyCorrectDice[i] = true;
         }
         else

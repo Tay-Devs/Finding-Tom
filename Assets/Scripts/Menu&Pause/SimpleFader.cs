@@ -7,18 +7,14 @@ public class SimpleFader : MonoBehaviour
     [SerializeField] private float defaultDuration = 1.0f;
     [SerializeField] private float defaultHoldTime = 0.5f;
     
-    private Image image;
+    [SerializeField] private Image image;
     private Coroutine fadeCoroutine;
     private bool isFading = false;
     
     private void Awake()
     {
         // Get the image component
-        image = GetComponent<Image>();
-        if (image == null)
-        {
-            Debug.LogError("SimpleFader requires an Image component");
-        }
+        image = gameObject.GetComponent<Image>();
     }
 
     // Fade in (from transparent to opaque)

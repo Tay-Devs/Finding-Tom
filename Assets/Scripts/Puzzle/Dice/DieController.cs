@@ -582,7 +582,6 @@ public class DieController : MonoBehaviour
             // Only reset if the die is not locked
             if (!IsDieLocked(dieIndex))
             {
-                PlayRotationSFX();
                 // Set the value to 1 (minimum value)
                 diceValues[dieIndex] = minValue;
             

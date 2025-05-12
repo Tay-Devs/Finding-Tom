@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 6644
+  controlID: 2591
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 6645
+  controlID: 2592
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 6646
+  controlID: 2593
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -244,10 +244,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1383}
-      m_SelectedIDs: 44c10000
-      m_LastClickedID: 49476
-      m_ExpandedIDs: f683fffff883ffff24c2ffff08c5ffff0cc5ffff1afbffffc6b6000036b9000014ba00003ebc00008cc0000044c1000064c50000d6c6000078c90000d2c9000084ca000042cd0000dccd0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 02bb0000
+      m_LastClickedID: 47874
+      m_ExpandedIDs: 1afbffffc4c10000aec90000bed80000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -920,9 +920,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -48.414757, y: -2.2985148, z: -4.2899847}
+    m_Target: {x: -34.24397, y: 3.9462125, z: -5.7577205}
     speed: 2
-    m_Value: {x: -48.414757, y: -2.2985148, z: -4.2899847}
+    m_Value: {x: -34.24397, y: 3.9462125, z: -5.7577205}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -968,9 +968,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: 0.13018206, y: -0.51355577, z: 0.07938344, w: 0.8449647}
+    m_Target: {x: -0.3584871, y: -0.24890679, z: 0.09957351, w: -0.8948452}
     speed: 2
-    m_Value: {x: -0.13018207, y: 0.51355577, z: -0.07938344, w: -0.8449647}
+    m_Value: {x: -0.35838398, y: -0.24787182, z: 0.099158965, w: -0.8945881}
   m_Size:
     m_Target: 6.7552013
     speed: 2
@@ -1266,7 +1266,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 6725
+  controlID: 2673
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1342,7 +1342,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Sound
+    - Assets/Sound and SFX/SFX/Dice
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1352,16 +1352,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts/Sound
+  - Assets/Sound and SFX/SFX/Dice
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\IAC\Project_IAC\Big_Projects\Inprogress\Adventure Game\Finding-Tom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 991}
-    m_SelectedIDs: c40b0100
-    m_LastClickedID: 68548
-    m_ExpandedIDs: 00000000ca080100cc080100ce080100d0080100d2080100d4080100d6080100d8080100da080100dc080100de080100500b010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 847}
+    m_SelectedIDs: 748b0100
+    m_LastClickedID: 101236
+    m_ExpandedIDs: 00000000081701000a1701000c1701000e17010010170100121701001417010016170100181701001a1701001c1701008e190100561a010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1390,7 +1390,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca080100cc080100ce080100d0080100d2080100d4080100d6080100d8080100da080100dc080100de08010000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000081701000a1701000c1701000e17010010170100121701001417010016170100181701001a1701001c17010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1416,8 +1416,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 44c10000
-    m_LastClickedInstanceID: 49476
+    m_SelectedInstanceIDs: 02bb0000
+    m_LastClickedInstanceID: 47874
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8b90000dcb70000c8f80000cef80000daf80000d4f80000e0f80000f0f80000ec0f01000cc700003cc700002e1101006810010010b9000090b90000ceb90000a6bb00003eb90000e8ba000006be000002b80000fcb7000010b800005ec1000066c10000a85d01006ed701005cd701008eb800005e10feff7865010096c100005ec200004ec10000c8c200000cce0000dcc40000aabe00003ce405008ed4000040b500008eb60000aeaf0000f4d0000022b200003aad000052db0000f2d100004eb000001aed00003cd1000024f800006af8000094fe000070bf00009cbe00006cb2000072b10000e4ce0000a8be0000bebc000084330300ecc30000eec30000e2690300e4de00005cb50000ca020000a8c4000056100100fcc100005ecb000048c3000006cf00000000000040f50100e6b40000e0b50000e6e00000
     m_RenameOverlay:
@@ -1825,7 +1825,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 162
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
