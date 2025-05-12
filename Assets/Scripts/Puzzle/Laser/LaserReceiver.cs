@@ -127,7 +127,6 @@ public class LaserReceiver : MonoBehaviour
             if (endAudioClip != null)
             {
                 isPlayingSFX = true;
-                print("Player SFX");
                 audioSource.PlayOneShot(endAudioClip, endAudioVolume);
             }
             else

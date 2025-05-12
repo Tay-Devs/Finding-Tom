@@ -40,13 +40,11 @@ public class GameManager : MonoBehaviour
         {
             // Get the scene path from the Object reference
             sceneToLoad = mainGameScene.name;
-            Debug.Log("Preloading scene from inspector reference: " + sceneToLoad);
         }
         else
         {
             // Use the name if no reference was provided
             sceneToLoad = mainGameSceneName;
-            Debug.Log("Preloading scene by name: " + sceneToLoad);
         }
         // Start async loading operation
         StartCoroutine(PreloadSceneAsync(sceneToLoad));
@@ -60,7 +58,6 @@ public class GameManager : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        Debug.Log("StartGame method called - initiating fade in");
     
         // Set alpha to 0 to ensure we're starting transparent
         fader.SetAlpha(0f);
@@ -70,7 +67,6 @@ public class GameManager : MonoBehaviour
     
         // Use the new WaitForFade method to execute code after fade completes
         fader.WaitForFade(() => {
-            Debug.Log("Fade in complete - activating preloaded scene");
         
             // Now start loading the game
             if (isPreloaded && asyncSceneLoad != null)
@@ -103,7 +99,6 @@ public class GameManager : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        Debug.Log("Load Credits method called - initiating fade in");
     
         // Set alpha to 0 to ensure we're starting transparent
         fader.SetAlpha(0f);
@@ -113,7 +108,6 @@ public class GameManager : MonoBehaviour
     
         // Use the new WaitForFade method to execute code after fade completes
         fader.WaitForFade(() => {
-            Debug.Log("Fade in complete - activating preloaded scene");
         
           
             // Determine which scene to load
@@ -126,9 +120,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void ExitGame()
     {
-        // Log the exit in the editor
-        Debug.Log("Exiting game");
-
         // In editor, this doesn't actually quit
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
@@ -165,7 +156,6 @@ public class GameManager : MonoBehaviour
         
         // Mark as preloaded when it reaches 90%
         isPreloaded = true;
-        Debug.Log("Scene preloaded and ready to activate");
     }
 
     /// <summary>

@@ -17,7 +17,6 @@ public class MusicRoomSwitcher : MonoBehaviour
         {
             if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
             fadeCoroutine = StartCoroutine(SwitchGroupWithFade(dreamRoomGroup));
-            print("enter");
         }
     }
 
@@ -27,7 +26,6 @@ public class MusicRoomSwitcher : MonoBehaviour
         {
             if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
             fadeCoroutine = StartCoroutine(SwitchGroupWithFade(mainFloorGroup));
-            print("Exit");
         }
     }
 

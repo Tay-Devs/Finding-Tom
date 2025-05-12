@@ -184,14 +184,12 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
             // Check for select fallback key
             if (Input.GetKeyDown(fallbackKey) && !isCheckingCombination)
             {
-                Debug.Log("Fallback select key detected: " + fallbackKey.ToString());
                 CheckCombinationManually();
             }
             
             // Check for exit fallback key
             if (Input.GetKeyDown(fallbackExitKey))
             {
-                Debug.Log("Fallback exit key detected: " + fallbackExitKey.ToString());
                 ReturnToPlayerFromPuzzle();
             }
         }
@@ -223,7 +221,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         // Only respond if not already checking
         if (context.performed)
         {
-            Debug.Log("Exit action performed");
             ReturnToPlayerFromPuzzle();
         }
     }
@@ -268,7 +265,6 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
     {
         if (dieController != null && !isPuzzleSolved)
         {
-            Debug.Log("Enabling dice puzzle state");
             
             // Re-enable the die input
             EnableDiceInput();
@@ -348,7 +344,7 @@ public class DiceCombinationPuzzleManager : MonoBehaviour
         {
             audioSource.PlayOneShot(unloadPuzzleAudioClip);
             playerStateControl.SetPlayerState(PlayerStateControl.PlayerState.Moving);
-            Debug.Log("Returned to player movement state");
+
             if (isPuzzleSolved)
             {
                 return;

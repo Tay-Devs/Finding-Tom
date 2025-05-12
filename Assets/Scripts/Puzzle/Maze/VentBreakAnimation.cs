@@ -87,7 +87,6 @@ public class VentBreakAnimation : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F2))
         {
-            print("Cheat");
             mainCamera.SetActive(false);
             endCamera.SetActive(true);
             TriggerVentBreak();

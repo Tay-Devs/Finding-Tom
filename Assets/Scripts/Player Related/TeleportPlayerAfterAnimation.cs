@@ -63,7 +63,6 @@ public class TeleportPlayerAfterAnimation : MonoBehaviour
         
         yield return new WaitForSeconds(0.1f);
         playerStateControl.ChangeStateAnimation("Move Player");
-        Debug.Log("Player teleported to spawn point: " + spawnPoint.position); 
     }
     
     // Teleports the player to the assigned spawn point

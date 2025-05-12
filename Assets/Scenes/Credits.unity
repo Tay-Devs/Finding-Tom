@@ -251,14 +251,20 @@ MonoBehaviour:
 
 
     Finding Tom'
-  teamMembers: "Lead Developer: Tay Ahuva\n\nGame Designer: Oren Papismedov \n\nGame
-    Designer: Tay Ahuva\n\nModels: Oren Papismedov & SketchFab \nModels & Assets:
-    Unity Asset Store\n\nSound: Tay Ahuva & Oren Papismedov & Pixabay\n\nIcons: Kenney\n"
+  teamMembers: "Lead Developer: Tay Ahuva\n\nGame & level Design: Oren Papismedov
+    \n\nGame & level Designr: Tay Ahuva\n\nModels: SketchFab & MeshyAI\n\nModels
+    & Assets: Unity Asset Store\n\nSound Design: Tay Ahuva\n \nSound Design: Oren
+    Papismedov\n\nSounds: Pixabay\n\nIcons: Kenney\n"
   specialThanks: 'Special Thanks To:
 
-    You For playing the game'
+    Oren''s Son, Ari, for the game insperation!
+
+
+
+    And
+    YOU! For playing the game'
   thirdPartyAssets: 
-  copyright: "\xA9 2025 Tay-Dev & Drek's Studios\nAll Rights Reserved"
+  copyright: "\xA9 2025 Tay-Dev & Drec'k Studios\nAll Rights Reserved"
 --- !u!114 &592080211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,8 +378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   creditsText: {fileID: 592080211}
   scrollSpeed: 130
-  topOffset: 625
-  bottomOffset: 375
+  topOffset: 925
+  bottomOffset: 700
   nextSceneName: Menu Scene
   delayAfterCredits: 0
   useLoadSceneByName: 1

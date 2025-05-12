@@ -216,7 +216,6 @@ public class PauseController : MonoBehaviour
     public void LoadMainMenu()
     {
         // Log the exit in the editor
-        Debug.Log("Exiting game");
 
         // In editor, this doesn't actually quit
 #if UNITY_EDITOR
