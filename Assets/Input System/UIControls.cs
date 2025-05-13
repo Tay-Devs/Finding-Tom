@@ -387,7 +387,7 @@ public partial class @UIControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""9238081c-94b6-46a0-9fb2-a4d5e534eb67"",
-                    ""path"": ""<DualShockGamepad>/buttonWest"",
+                    ""path"": ""<DualShockGamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

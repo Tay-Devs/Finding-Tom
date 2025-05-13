@@ -230,6 +230,17 @@
                 },
                 {
                     "name": "",
+                    "id": "f8f9d0bc-cf7f-4dc5-85a5-880a79e0597c",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a193069f-d730-4706-adac-49ea080db16f",
                     "path": "<Keyboard>/e",
                     "interactions": "",
